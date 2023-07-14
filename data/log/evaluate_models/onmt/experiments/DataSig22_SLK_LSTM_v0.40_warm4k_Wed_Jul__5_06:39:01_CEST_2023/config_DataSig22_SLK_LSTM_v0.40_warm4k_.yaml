@@ -1,0 +1,84 @@
+batch_size: '256'
+config: data/log/evaluate_models/onmt/experiments/DataSig22_SLK_LSTM_v0.40_warm4k_Wed_Jul__5_06:39:01_CEST_2023/config.yaml
+copy_attn: 'False'
+data: '{''corpus_1'': {''path_src'': ''data/cleaned/neural/sig22/slk/train.src'',
+  ''path_tgt'': ''data/cleaned/neural/sig22/slk/train.tgt'', ''transforms'': [''filtertoolong'']},
+  ''valid'': {''path_src'': ''data/cleaned/neural/sig22/slk/dev.src'', ''path_tgt'':
+  ''data/cleaned/neural/sig22/slk/dev.tgt'', ''transforms'': [''filtertoolong'']}}'
+dec_layers: '2'
+decoder_type: rnn
+enc_layers: '2'
+encoder_type: brnn
+fuzzy_corpus_ratio: 0.1
+fuzzy_threshold: 70
+fuzzy_token: "\uFF5Ffuzzy\uFF60"
+fuzzymatch_max_length: 70
+fuzzymatch_min_length: 4
+gpu_ranks:
+- 0
+hidden_size: '200'
+insert_ratio: 0.0
+learning_rate: '0.001'
+mask_length: subword
+mask_ratio: 0.0
+n_sample: -1
+norm_numbers: true
+norm_quote_commas: true
+num_threads: 1
+optim: adam
+penn: true
+permute_sent_ratio: 0.0
+poisson_lambda: 3.0
+post_remove_control_chars: false
+pre_replace_unicode_punct: false
+random_ratio: 0.0
+replace_length: -1
+report_every: '100'
+reversible_tokenization: joiner
+rnn_type: LSTM
+rotate_ratio: 0.0
+save_checkpoint_steps: '2000'
+save_data: data/inner/onmt/example
+seed: '3435'
+share_embeddings: 'True'
+share_vocab: 'True'
+skip_empty_level: warning
+src_lang: ''
+src_onmttok_kwargs: '{''mode'': ''none''}'
+src_prefix: ''
+src_seq_length: '150'
+src_subword_alpha: 0
+src_subword_model: source.model
+src_subword_nbest: 1
+src_subword_type: none
+src_subword_vocab: ''
+src_suffix: ''
+src_vocab: data/log/evaluate_models/onmt/experiments/DataSig22_SLK_LSTM_v0.40_warm4k_Wed_Jul__5_06:39:01_CEST_2023/vocab.src
+src_vocab_size: '50000'
+src_vocab_threshold: 0
+switchout_temperature: 1.0
+tgt_lang: ''
+tgt_onmttok_kwargs: '{''mode'': ''none''}'
+tgt_prefix: ''
+tgt_seq_length: 192
+tgt_subword_alpha: 0
+tgt_subword_model: target.model
+tgt_subword_nbest: 1
+tgt_subword_type: none
+tgt_subword_vocab: ''
+tgt_suffix: ''
+tgt_vocab: data/log/evaluate_models/onmt/experiments/DataSig22_SLK_LSTM_v0.40_warm4k_Wed_Jul__5_06:39:01_CEST_2023/vocab.tgt
+tgt_vocab_size: '50000'
+tgt_vocab_threshold: 0
+tm_delimiter: "\t"
+tokendrop_temperature: 1.0
+tokenmask_temperature: 1.0
+train_steps: '260000'
+transforms: []
+upper_corpus_ratio: 0.01
+valid_batch_size: '16384'
+valid_steps: '2000'
+vocab_sample_queue_size: 20
+warmup_steps: '4000'
+word_vec_size: '64'
+world_size: '1'

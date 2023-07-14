@@ -1,0 +1,107 @@
+This is the content of the \verb|first chapter|, which I personally wrote.
+
+TODO: NAZALOMITELNA MEZERA: funguje ~? POKUD ANO, DAT JI VSUDE, KDE JE POTREBA
+TODO: v overleafu vytvorit 
+
+The documentation of the~Individual Software Project on the~topic of Automatic inflection of Czech OOV~nouns
+
+The goal of this work is to~implement a~library for automatic inflection of~Czech OOV nouns. The~inflection model should provide a~method \verb|inflect(lemma: str)|, which receives a~lemma of an~OOV~noun (the~noun in the~base form) and tries to UVOZOVKY ``guess'' and generate all the inflected forms of the lemma. In the Czech language, there are 7 possible cases and 2 numbers (singular, plural), therefore the number of returned forms is always 14 (and some of them can be unknown, i.e. for proper which have only singular or POMNOZNA nouns, which have only plural.
+
+In this project we have implemented several components for developlent of the~inflection models, and also one inflection model, the~simplest one: a~retrograde model based on a~dictionary (MorfFlex, which for known lemmata contains the~inflected forms), which for given lemma finds the~known lemma which is most similar to~it (where similarity is measured by the~length of the~longest common suffix) and inflects the~given lemma according to it.
+
+The main components depeloped in this project are (all source code can be found in directory src/czech_inflection/):
+
+1) inflection model interface NAVRH
+\verb|/models/model.py|
+
+
+2) MorfFlex processing
+\verb|/morfflex/|
+
+3) development data building and automation AUTOMATIZACE of this process
+\verb|/dev_testing/build_data/|
+
+
+4) inflection model evaluation
+
+5) retrograde iflection model
+
+6) rule-based baseline model ZPRISTUPNENI (sklonuj.cz)
+
+7) POROVNANI USPESNOSTI of implemented retrograde model with the rule-based baseline model
+
+
+
+
+
+
+
+
+
+\chapter{Implementation}
+Topic: Automatic inflection of Czech OOV~nouns
+
+\section{The documentation of the~Individual Software Project}
+
+The goal of this work is to~implement a~library for automatic inflection of~Czech OOV~nouns. The~inflection model should provide a~method \verb|inflect(lemma: str)|, which receives a~lemma of an~OOV~noun (the~noun in the~base form) and tries to~``guess'' and generate all the~inflected forms of~the~lemma. In~the~Czech language, there are 7~possible cases and 2~numbers (singular, plural), therefore the~number of~returned forms is always 14 (and some of~them can be unknown, i.e.~for~proper names which have only singular or proprietary nouns, which have only plural.
+
+In this project we have implemented several components for development of the~inflection models, and also one inflection model, the~simplest one: a~retrograde model based on a~dictionary (MorfFlex, which for known lemmas contains the~inflected forms).
+
+We provide a list of the main components developed in this project (all source code can be found in directory \verb|src/czech_inflection/|).
+
+\subsection{Inflection model interface proposal}
+\verb|/models/model.py|
+
+The inflection model is should be a class, which during initialization loads everything it needs during prediction (e.g. trained NN or filled trie etc.). When we have an instance of a particular model, we should be able to call its method \verb|inflect(lemma: str)|. It returns a list of inflected forms (strings).
+
+\subsection{MorfFlex processing}
+\verb|/morfflex/|
+
+Since we focus on inflection of OOV nouns, we need a vocabulary. And that is MorfFlex 2.0.
+
+We use its processed form (extracted proper lemmas only) during the building of development data to determine whether a given noun is OOV (\verb|lexicon.py|). We use the implementation of a Python set containing all the strings representing the lemmas (and we ask the set whether it contains a given lemma), which is fast even for the large size of MorfFlex.
+
+In the retrograde model we use the train data extracted from the raw MorfFlex file using \verb|Makefile| and \verb|transform_morfflex.py|. In the \verb|Makefile| we extract nouns only from the MorfFlex and shuffle the lemmas randomly (to be able to use a random part of the vocabulary). In the \verb|transform_morfflex.py| we extract only basic variants of inflected forms (according to variant, style, abbreviation and also negation) and then remove the lemmas we consider faulty (those whose number of inflected forms is not 0, 1, 2, 7 nor 14, which we consider standard in Czech - 0, 1 or 2 for indeclinable nouns, 7 for proper names or proprietary nouns and 14 for any standard noun with 7 cases in singular and 7 cases in plural).
+
+\subsection{Building of development data and automation of this process}
+\verb|/dev_testing/build_data/|
+
+As the source of the development data we use a part of the database of the web \verb|https://cestina20.cz/| (specifically words beginning with ``e'' and ``j''), which was provided to us by the authors of the web. It contains neologisms with explanations.
+
+In \verb|cestina20reader.py| we extract the relevant parts of the database (lemma and explanations) and in \verb|build_data.py| we process the data more. 
+
+The first part of the script (called by \verb|python3 build_data.py --inflect|) removes word phrases and selects OOV words only, shuffles the lemmas randomly and then uses the rule-based baseline model (based on \verb|sklonuj.cz|) to automatically inflect the lemmas. The inflected lemmas with explanations are pretty-printed to a text file to be checked manually.
+
+After the manual check (correction of the wrongly inflected forms, marking of faulty lemmas), the second part of the script can be called by \verb|python3| \verb|build_data.py| \verb|--load_checked|. It loads the data from the manually edited text file, removes the lemmas marked as faulty and remove the explanations to obtain the development data, which are then printed to a specified file. 
+
+\subsection{Model evaluation}
+\verb|/dev_testing/eval_models/main.py|
+
+Running \verb|python3 main.py| without any arguments runs the evaluation of all available models on the development data.
+
+We consider an inflected forms to be correct if it is one of the possible forms (if there are more of them) present in the development data.
+We use two different accuracies to evaluate the models. First, accuracy per inflected forms, is the percentage of correctly inflected forms in all the inflected forms.
+
+The second one, accuracy per lemma, is the percentage of lemmas with all correctly inflected forms.
+
+In both accuracies, we completely ignore the inflected forms which are marked as unknown in the development data.
+
+
+\subsection{Retrograde inflection model}
+\verb|/models/retrograde_model/retrograde_model.py|
+
+The Retrograde model uses a retrograde trie (\verb|retrograde_trie.py|), which is a wrapper over a standard trie (the keys are reversed). The trie is filled with a part of inflected lemmas from the train data (in one possible setting 100 000 lemmas). It supports iterating over all contained lemmas that are most similar to a given unknown lemma (where similarity is measured by the~length of the~longest common suffix).
+
+The model inflects the given lemma according to all the most similar lemmas from the trie and then combines the inflected forms (for every desired forms it lets the predicted forms to vote).
+
+The inflection according to a pattern is almost as simple as replacing the pattern stem with the lemma stem in all inflected forms of pattern.
+
+\subsection{Rule-based baseline model wrapper (\verb|sklonuj.cz|)}
+\verb|/models/hardcoded/sklonuj_cz.py|
+
+
+\subsection{Comparison of the accuracies of the retrograde model and the rule-based baseline}
+
+
+
+\section{Another subchapter, which is not used yet}

@@ -1,0 +1,23 @@
+Whole MorfFlex (entries):
+125348901  376046703 7011268420 data/raw/czech-morfflex-2.0.tsv
+
+Only nouns extracted (left only entries with tag beginning with N) (entries):
+10824179  32472537 560050640 data/processed/morfflex/morfflex-nouns.tsv
+
+Shit proces od nouns k nouns-shuffled je strasne slozity a porad nic neresi...
+Takze, tenhle shuffling probiha tak, ze se prida nulty sloupec v hodnote raw lemmatu.
+Pak se to sortuje podle prvniho sloupce (podle raw lemmatu) (sortovani pred tim byl problem kvuli sortu v bashi a unicode chars).
+Pak se zase odstrani to raw lemma.
+Pak se tam prida nulty sloupec obsahujici random number mezi 0 a 1, nicmene to neni uplne random. Lemmata, ktera maji shodne raw lemma, dostanou stejne cislo (a jsou porad hned za sebou).
+Pak se to nasorti podle prvniho sloupce a ten se pak odstrani.
+
+10824179  32472537 560050640 data/processed/morfflex/morfflex-nouns-shuffled.tsv
+
+Z tohohle se jde rovnou do train-dev-test splitu, coz vubec nedava smysl...
+
+Only lemmata of nouns, extracted raw lemmata, but uniqueness checked before that (therefore they are not all distinct).
+459555  459555 5845028 data/processed/morfflex/morfflex-lemmata-only.txt
+
+Distinct lemmata:
+cat morfflex-lemmata-only.txt | sort -u | wc
+455293  455293 5812516

@@ -1,0 +1,306 @@
+train_steps: 20000
+
+2023-04-23
+RNN default.
+LSTM_v0.3_default             0.94004589                    0.80279545
+
+
+2023-04-24
+-||- + BRNN in encoder
+LSTM_v0.4_default+brnn_encoder0.93963647                    0.80847727
+
+2023-04-24
+Default + copy_attn=true
+LSTM_v0.4_default+copy_attn   0.84200080                    0.30209091
+
+
+Model_name                               & Date                & Dev form-acc    & Dev lemma-acc
+
+LSTM_v0.3_default                        & 2023-04-23          & 0.94004589      & 0.80279545
+LSTM_v0.4_default+brnn_encoder           & 2023-04-24          & 0.93963647      & 0.80847727
+LSTM_v0.4_default+copy_attn              & 2023-04-24          & 0.84200080      & 0.30209091     
+LSTM_v0.6_def+3_enc_dec_layers           & 2023-04-24 19:22:54 & 0.94110711      & 0.80118182     
+LSTM_v0.7_def+4_enc_dec_layers           & 2023-04-25 02:08:51 & 0.94161316      & 0.82088636     
+LSTM_v0.8_def+5_enc_dec_layers           & 2023-04-25 14:02:38 & 0.90880699      & 0.77365909     
+LSTM_v0.9_def+3_enc+4_dec_layers         & 2023-04-25 15:05:39 & 0.00000000      & 0.00000000     
+LSTM_v0.10_def+4_layers_size_400         & 2023-04-25 19:36:50 & 0.91163037      & 0.77761364     
+LSTM_v0.11_def+4_layers_size_600         & 2023-04-26 03:22:56 & 0.94084508      & 0.80454545     
+LSTM_v0.11_def+4_layers_size_530         & 2023-04-26 13:47:41 & 0.94236485      & 0.81363636     
+LSTM_v0.12_def+4_layers_batchsize128     & 2023-04-26 20:50:39 & 0.94779379      & 0.84695455     
+LSTM_v0.13_def+4_layers_batchsize256     & 2023-04-27 01:39:05 & 0.95127224      & 0.85620455     
+LSTM_v0.14_def+4_layers_batchsize512     & 2023-04-27 15:43:07 & 0.94915635      & 0.84981818     
+Transformer_v0.1_def                     & 2023-04-27 19:20:05 & 0.00000000      & 0.00000000     
+Transformer_v0.1_def                     & 2023-04-29 09:41:02 & 0.00000000      & 0.00000000     
+LSTM_v0.15_def+4_layers_batchsize256+wordEmb256 		  & 20k	    & 2023-04-29 16:54:58 & 0.95130050      & 0.85550000
+Transformer_v0.1_def                     			  & 100k    & 2023-04-29 18:36:40 & 0.00000000      & 0.00000000 
+LSTM_v0.16_def+4_layers_batchsize256+wordEmb128 		  & 20k	    & 2023-04-30 05:13:31 & 0.94776383      & 0.85900000
+LSTM_v0.17_def+4_layers_batchsize256+wordEmb128+40k_steps 	  & 40000   & 2023-04-30 20:18:00 & 0.95160141      & 0.86577273
+Transformer_v0.1_def						  & 100000  & 2023-04-30 22:32:13 & 0.00000000      & 0.00000000
+LSTM_v0.18_def+4_layers_batchsize256+wordEmb256+40k_steps	  & 40000   & 2023-05-01 05:27:17 & 0.95042064      & 0.85315909
+LSTM_v0.18_def+4_layers_batchsize256+wordEmb256+32k_steps         & 32000   & 2023-05-01 09:51:42 & 0.00000000      & 0.00000000
+LSTM_v0.18_def+4_layers_batchsize256+wordEmb256+32k_steps         & 32000   & 2023-05-01 10:23:03 & 0.95401700      & 0.87020455
+LSTM_v0.17_def+4_layers_batchsize256+wordEmb128+38k_steps         & 38000   & 2023-05-01 12:02:40 & 0.95055657      & 0.87043182
+LSTM_v0.19_def+4_layers+batchsize256+wordEmb64+40k_steps          & 40000   & 2023-05-01 17:26:31 & 0.95260040      & 0.86543182
+LSTM_v0.20_def+4_layers+batchsize256+wordEmb128+60k_steps         & 60000   & 2023-05-01 23:13:45 & 0.95622133      & 0.88711364
+LSTM_v0.21_def+4_layers+batchsize256+wordEmb128+shared_embs       & 60000   & 2023-05-02 03:33:49 & 0.00000000      & 0.00000000
+LSTM_v0.21_def+4_layers+batchsize256+wordEmb128+shared_embs       & 60000   & 2023-05-02 20:26:09 & 0.95673884      & 0.88627273
+LSTM_v0.21_def+4_layers+batchsize256+wordEmb128+shared_embs       & 53k     & 2023-05-03 13:04:00 & 0.95431179      & 0.88195455     
+LSTM_v0.22_def+4_layers+batchsize256+wordEmb96+shared_embs        & 60k     & 2023-05-04 00:40:42 & 0.95680762      & 0.88700000     
+LSTM_v0.23_def+4_layers+batchsize256+wordEmb128                   & 120k    & 2023-05-04 02:11:45 & 0.95936242      & 0.89659091     
+Transformer_v0.2_tutorial                                         & 100k    & 2023-05-05 01:38:28 & 0.94799432      & 0.85670000     
+LSTM_v0.23_def+4_layers+batchsize256+wordEmb128                   & 240k    & 2023-05-05 08:53:58 & 0.95945085      & 0.89700000     
+LSTM_v0.24_def+4_layers+batchsize20+wordEmb96+shared_embs         & 200k    & 2023-05-09 12:22:24 & 0.00000000      & 0.00000000     
+LSTM_v0.24_def+4_layers+batchsize20+wordEmb96+shared_embs         & 200k    & 2023-05-11 00:31:23 & 0.92301721      & 0.82461364     
+Transformer_v0.3_batchTypeSents_batch64_droupouts0.2_hidden256_wordvec256 & 100k    & 2023-05-13 06:40:05 & 0.95547824      & 0.88410000     
+LSTM_v0.27_def+1_layers+batchsize20+wordEmb64+shared_embs+brnn_enc+hidden_100+adam+0.001_learnRate+2048_validBatch & 260k    & 2023-05-13 09:56:01 & 0.94822286      & 0.85636364     
+LSTM_v0.27_def+1_layers+batchsize20+wordEmb64+shared_embs+brnn_enc+hidden_100+adam+0.001_learnRate+2048_validBatch & 1040k   & 2023-05-13 19:55:09 & 0.94822286      & 0.85636364     
+Transformer_v0.4_warpup4k_batch32_droupouts0.2_hid64_wordvec64_1head_1layer_ff128 & 100k    & 2023-05-13 22:36:42 & 0.00000000      & 0.00000000     
+LSTM_v0.25_def+1_layers+batchsize20+wordEmb64+shared_embs+brnn_enc+hidden_100 & 1040k   & 2023-05-14 01:44:36 & 0.00000000      & 0.00000000     
+LSTM_v0.26_def+1_layers+batchsize20+wordEmb64+shared_embs+brnn_enc+hidden_100+adam+0.001_learnRate & 1040k   & 2023-05-14 02:23:11 & 0.00000000      & 0.00000000     
+Transformer_v0.4_batch32_droupouts0.2_hidden256_wordvec256        & 200k    & 2023-05-14 03:59:46 & 0.95394167      & 0.88054545     
+LSTM_v0.26_def+1_layers+batchsize20+wordEmb64+shared_embs+brnn_enc+hidden_100+adam+0.001_learnRate & 260k    & 2023-05-14 14:56:35 & 0.94822286      & 0.85636364     
+LSTM_v0.26_def+1_layers+batchsize20+wordEmb64+shared_embs+brnn_enc+hidden_100+adam+0.001_learnRate & 260k    & 2023-05-14 15:47:21 & 0.94822286      & 0.85636364     
+LSTM_v0.27_def+1_layers+batchsize20+wordEmb64+shared_embs+brnn_enc+hidden_100+adam+0.001_learnRate+2048_validBatch & 260k    & 2023-05-14 16:16:20 & 0.94822286      & 0.85636364     
+LSTM_v0.25_def+1_layers+batchsize20+wordEmb64+shared_embs+brnn_enc+hidden_100 & 260k    & 2023-05-14 17:08:07 & 0.57923870      & 0.38197727     
+Transformer_v0.4_warpup4k_batch32_droupouts0.2_hid64_wordvec64_1head_1layer_ff128 & 2000k   & 2023-05-15 00:22:44 & 0.31133536      & 0.00280000     
+LSTM_v0.28_1_lay+batch20+emb64+brnn_enc+hid_150                   & 260k    & 2023-05-15 03:24:08 & 0.94936106      & 0.86050000     
+LSTM_v0.29_1_lay+batch20+emb64+brnn_enc+hid_150+mlp_attn          & 260k    & 2023-05-15 19:27:45 & 0.94930210      & 0.85950000     
+LSTM_v0.30_1_lay+batch20+emb64+brnn_enc+hid_200                   & 260k    & 2023-05-16 03:59:02 & 0.95141144      & 0.86761364     
+Transformer_v0.5_batch32_drops0.2_hid64_wv64_1he_1lay_ff128       & 4000k   & 2023-05-16 09:39:52 & 0.50523651      & 0.00695455     
+LSTM_v0.31_1_lay+batch20+emb64+brnn_enc+hid_250                   & 260k    & 2023-05-18 03:31:41 & 0.95134593      & 0.86727273     
+LSTM_v0.32_1_lay+batch10+emb64+brnn_enc+hid_250                   & 520k    & 2023-05-18 08:10:09 & 0.00000000      & 0.00000000     
+Check_0.1                                                         & 4080k   & 2023-05-18 18:48:20 & 0.00000000      & 0.00000000     
+Check_0.1                                                         & 4080k   & 2023-05-18 21:40:04 & 0.51071949      & 0.01236364     
+LSTM_v0.32_1_lay+batch10+emb64+brnn_enc+hid_250                   & 520k    & 2023-05-18 23:07:16 & 0.94978849      & 0.86261364     
+Check_0.1                                                         & 4080k   & 2023-05-19 01:14:47 & 0.51073259      & 0.01240909     
+LSTM_v0.33_2_lay+batch20+emb64+brnn_enc+hid_100                   & 260k    & 2023-05-19 03:02:47 & 0.94833914      & 0.85961364     
+Transformer_v0.7_batch32_drops0.2_hid64_wv64_2he_1lay_ff128       & 2000k   & 2023-05-20 00:20:09 & 0.00000000      & 0.00000000     
+LSTM_v0.34_2_lay+batch20+emb64+brnn_enc+hid_100                   & 1080k   & 2023-05-20 00:30:20 & 0.94834078      & 0.85961364     
+Transformer_v0.7_batch32_drops0.2_hid64_wv64_2he_1lay_ff128       & 2000k   & 2023-05-20 21:01:15 & 0.27974819      & 0.00250000     
+Transformer_v0.7_batch32_drops0.2_hid64_wv64_2he_1lay_ff128       & 2000k   & 2023-05-20 21:49:49 & 0.27974819      & 0.00250000     
+Transformer_v0.7_batch32_drops0.2_hid64_wv64_2he_1lay_ff128       & 4000k   & 2023-05-20 22:35:59 & 0.00000000      & 0.00000000     
+LSTM_v0.35_2_lay+batch20+emb64+brnn_enc+hid_150                   & 260k    & 2023-05-20 22:43:08 & 0.95124767      & 0.86820455     
+LSTM_v0.36_2_lay+batch128+emb64+brnn_enc+hid_150                  & 260k    & 2023-05-22 02:11:46 & 0.95670609      & 0.88406818     
+Transformer_v0.7_batch32_drops0.2_hid64_wv64_2he_1lay_ff128       & 4000k   & 2023-05-22 18:38:32 & 0.45317277      & 0.00393182     
+LSTM_v0.37_2_lay+batch256+emb64+brnn_enc+hid_150                  & 260k    & 2023-05-22 20:39:36 & 0.95825534      & 0.89109091     
+LSTM_v0.39_2_lay+batch400+emb64+brnn_enc+hid_150                  & 260k    & 2023-05-23 05:44:11 & 0.95869260      & 0.89043182     
+Transformer_v0.6_batch32_drops0.2_hid64_wv64_1he_1lay_ff128       & 12000k  & 2023-05-23 08:15:44 & 0.67944882      & 0.35804545     
+LSTM_v0.40_2_lay+batch256+emb64+brnn_enc+hid_200                  & 260k    & 2023-05-23 10:48:19 & 0.95972107      & 0.89438636     
+Transformer_v0.8_batch512_drops0.2_hid64_wv64_1he_1lay_ff128      & 2000k   & 2023-05-24 11:39:44 & 0.00000000      & 0.00000000     
+Transformer_v0.6_batch32_drops0.2_hid64_wv64_1he_1lay_ff128       & 12080k  & 2023-05-24 13:02:06 & 0.68014811      & 0.35972727     
+LSTM_v0.38_2_lay+batch32+emb64+brnn_enc+hid_150                   & 2000k   & 2023-05-24 15:46:20 & 0.95310481      & 0.87388636     
+#LSTM_v0.42_3_lay+batch256+emb64+brnn_enc+hid_100                  & 260k    & 2023-05-24 21:45:12 & 0.96020188      & 0.89796616     
+#LSTM_v0.41_2_lay+batch256+emb64+brnn_enc+hid_250                  & 260k    & 2023-05-24 21:49:15 & 0.96020188      & 0.89796616     
+LSTM_v0.43_2_lay+batch256+emb16+brnn_enc+hid_100                  & 260k    & 2023-05-24 22:20:47 & 0.95962445      & 0.89259091     
+LSTM_v0.41_2_lay+batch256+emb64+brnn_enc+hid_250_wrong_negations  & 260k    & 2023-06-08 12:03:15 & 0.95028571      & 0.88047727     
+LSTM_v0.41_2_lay+batch256+emb64+brnn_enc+hid_250_data+negations   & 260k    & 2023-06-08 13:04:01 & 0.95866312      & 0.89313636     
+LSTM_v0.41_2_lay+batch256+emb64+brnn_enc+hid_250                  & 260k    & 2023-06-08 14:20:10 & 0.95937388      & 0.89459091     
+LSTM_v0.42_3_lay+batch256+emb64+brnn_enc+hid_100                  & 260k    & 2023-06-08 16:28:02 & 0.95937388      & 0.89459091     
+SIG-nonneural-baseline-trainsize=1k_lemmata_small_dev             & x       & 2023-06-08 17:13:10 & 0.89776335      & 0.78500000     
+Transformer_v0.8_batch512_drops0.2_hid64_wv64_1he_1lay_ff128      & 2000k   & 2023-06-09 19:34:06 & 0.59707312      & 0.19763636     
+Transformer_v0.9_Wu&Cotterell                                     & 20k     & 2023-06-11 02:20:14 & 0.88963458      & 0.65254545     
+Transformer_v0.10_Wu&Cotterell+batch_4096                         & 100k    & 2023-06-11 15:21:45 & 0.93480365      & 0.80543182     
+Transformer_v0.9_Wu&Cotterell                                     & 200k    & 2023-06-11 21:07:57 & 0.94102195      & 0.83220455     
+Transformer_v0.10_Wu&Cotterell+batch_4096                         & 300k    & 2023-06-12 02:05:18 & 0.94327377      & 0.84413636     
+Transformer_v0.9_Wu&Cotterell                                     & 400k    & 2023-06-12 10:42:59 & 0.94527339      & 0.85172727     
+Transformer_v0.10_Wu&Cotterell+batch_4096                         & 500k    & 2023-06-12 17:12:56 & 0.94604474      & 0.85538636     
+NonneuralBaseline_14k_trainsize                                   & x       & 2023-06-13 09:19:16 & 0.91000251      & 0.80468182     
+NonneuralBaseline_full_trainset                                   & x       & 2023-06-13 09:20:11 & 0.94602509      & 0.87945455     
+MORFFLEX_transformer_small_ts2000_bs400_small_traindata           & 2k      & 2023-06-16 17:30:12 & 0.32361516      & 0.26000000     
+SIG_morfflex_transformer_small_ts20000_bs400                      & 20k     & 2023-06-16 17:48:53 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts20000_bs400                      & 20k     & 2023-06-18 22:39:15 & 0.95321126      & 0.87777273     
+SIG_morfflex_transformer_large_ts20000_bs400_ds_dev               & 20k     & 2023-06-19 11:52:36 & 0.95309335      & 0.87750000     
+SIG_morfflex_transformer_large_ts20000_bs400_ds_test              & 20k     & 2023-06-19 11:52:40 & 0.00000000      & 0.00000000     
+SIG_morfflex_tagtransformer_large_ts20000_bs400_ds_dev            & 20k     & 2023-06-19 13:36:36 & 0.95325875      & 0.87711364     
+SIG_morfflex_tagtransformer_large_ts20000_bs400_ds_test           & 20k     & 2023-06-19 13:36:40 & 0.00000000      & 0.00000000     
+#SIG_morfflex_transformer_large_ts20000_bs4000_ds_dev              & 20k     & 2023-06-20 01:53:24 & 0.95309335      & 0.87750000     
+#SIG_morfflex_transformer_large_ts20000_bs4000_ds_test             & 20k     & 2023-06-20 01:53:27 & 0.00000000      & 0.00000000     
+#SIG_morfflex_tagtransformer_large_ts20000_bs4000_ds_dev           & 20k     & 2023-06-20 03:36:58 & 0.95325875      & 0.87711364     
+#SIG_morfflex_tagtransformer_large_ts20000_bs4000_ds_test          & 20k     & 2023-06-20 03:37:02 & 0.00000000      & 0.00000000     
+#SIG_morfflex_transformer_large_ts100000_bs400_ds_dev              & 100k    & 2023-06-20 05:19:06 & 0.95725799      & 0.89245455     
+#SIG_morfflex_transformer_large_ts100000_bs400_ds_test             & 100k    & 2023-06-20 05:19:10 & 0.00000000      & 0.00000000     
+#SIG_morfflex_transformer_large_ts20000_bs4000_ds_dev              & 20k     & 2023-06-20 10:42:38 & 0.95725799      & 0.89245455     
+#SIG_morfflex_transformer_large_ts20000_bs4000_ds_test             & 20k     & 2023-06-20 10:42:42 & 0.00000000      & 0.00000000     
+#SIG_morfflex_tagtransformer_large_ts20000_bs4000_ds_dev           & 20k     & 2023-06-20 10:45:48 & 0.95325875      & 0.87711364     
+#SIG_morfflex_tagtransformer_large_ts20000_bs4000_ds_test          & 20k     & 2023-06-20 10:45:51 & 0.00000000      & 0.00000000     
+#SIG_morfflex_tagtransformer_large_ts100000_bs400_ds_dev           & 100k    & 2023-06-20 12:07:56 & 0.95720067      & 0.89170455     
+#SIG_morfflex_tagtransformer_large_ts100000_bs400_ds_test          & 100k    & 2023-06-20 12:07:59 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts20000_bs4000_ds_dev              & 20k     & 2023-06-20 19:05:04 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts20000_bs4000_ds_test             & 20k     & 2023-06-20 19:05:08 & 0.00000000      & 0.00000000     
+SIG_morfflex_tagtransformer_large_ts20000_bs4000_ds_dev           & 20k     & 2023-06-20 19:08:10 & 0.00000000      & 0.00000000     
+SIG_morfflex_tagtransformer_large_ts20000_bs4000_ds_test          & 20k     & 2023-06-20 19:08:14 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts100000_bs400_ds_dev              & 100k    & 2023-06-21 06:09:29 & 0.95725799      & 0.89245455     
+SIG_morfflex_transformer_large_ts100000_bs400_ds_test             & 100k    & 2023-06-21 06:09:33 & 0.00000000      & 0.00000000     
+SIG_morfflex_tagtransformer_large_ts100000_bs400_ds_dev           & 100k    & 2023-06-21 12:53:48 & 0.95720067      & 0.89170455     
+SIG_morfflex_tagtransformer_large_ts100000_bs400_ds_test          & 100k    & 2023-06-21 12:53:52 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts20000_bs800_ds_dev               & 20k     & 2023-06-21 17:48:53 & 0.95535336      & 0.88222727     
+SIG_morfflex_transformer_large_ts20000_bs800_ds_test              & 20k     & 2023-06-21 17:48:56 & 0.00000000      & 0.00000000     
+SIG_morfflex_tagtransformer_large_ts20000_bs800_ds_dev            & 20k     & 2023-06-21 22:29:25 & 0.95540740      & 0.88470455     
+SIG_morfflex_tagtransformer_large_ts20000_bs800_ds_test           & 20k     & 2023-06-21 22:29:27 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts20000_bs1200_ds_dev              & 20k     & 2023-06-22 13:46:10 & 0.95626555      & 0.88336364     
+SIG_morfflex_transformer_large_ts20000_bs1200_ds_test             & 20k     & 2023-06-22 13:46:13 & 0.00000000      & 0.00000000     
+SIG_morfflex_tagtransformer_large_ts20000_bs1200_ds_dev           & 20k     & 2023-06-22 15:36:21 & 0.95599042      & 0.88225000     
+SIG_morfflex_tagtransformer_large_ts20000_bs1200_ds_test          & 20k     & 2023-06-22 15:36:24 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts20000_bs2000_ds_dev              & 20k     & 2023-06-23 14:54:18 & 0.95739064      & 0.88929545     
+SIG_morfflex_transformer_large_ts20000_bs2000_ds_test             & 20k     & 2023-06-23 14:54:22 & 0.00000000      & 0.00000000     
+SIG_morfflex_tagtransformer_large_ts20000_bs2000_ds_dev           & 20k     & 2023-06-23 17:48:02 & 0.95706638      & 0.89020455     
+SIG_morfflex_tagtransformer_large_ts20000_bs2000_ds_test          & 20k     & 2023-06-23 17:48:06 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts20000_bs4000_ds_dev              & 20k     & 2023-06-23 20:29:48 & 0.95739064      & 0.88929545     
+SIG_morfflex_transformer_large_ts20000_bs4000_ds_test             & 20k     & 2023-06-23 20:29:54 & 0.00000000      & 0.00000000     
+SIG_morfflex_tagtransformer_large_ts20000_bs4000_ds_dev           & 20k     & 2023-06-23 20:32:19 & 0.95706638      & 0.89020455     
+SIG_morfflex_tagtransformer_large_ts20000_bs4000_ds_test          & 20k     & 2023-06-23 20:32:25 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts150000_bs400_ds_dev              & 150k    & 2023-06-24 05:32:54 & 0.95837161      & 0.89463636     
+SIG_morfflex_transformer_large_ts150000_bs400_ds_test             & 150k    & 2023-06-24 05:33:00 & 0.00000000      & 0.00000000     
+SIG_morfflex_tagtransformer_large_ts150000_bs400_ds_dev           & 150k    & 2023-06-24 12:22:22 & 0.95823569      & 0.89615909     
+SIG_morfflex_tagtransformer_large_ts150000_bs400_ds_test          & 150k    & 2023-06-24 12:22:29 & 0.00000000      & 0.00000000     
+Data_01_Default_LSTM_v0.40                                        & 260k    & 2023-06-26 08:13:08 & 0.00000000      & 0.00000000     
+Data_01_Default_LSTM_v0.40                                        & 260k    & 2023-06-26 09:19:36 & 0.00000000      & 0.00000000     
+Data_01_Default_LSTM_v0.40                                        & 260k    & 2023-06-27 23:56:18 & 0.95972107      & 0.89438636     
+SIG_morfflex_transformer_large_ts150000_bs800_ds_dev              & 150k    & 2023-06-28 02:59:56 & 0.95964082      & 0.89981818     
+SIG_morfflex_transformer_large_ts150000_bs800_ds_test             & 150k    & 2023-06-28 03:00:01 & 0.00000000      & 0.00000000     
+SIG_morfflex_tagtransformer_large_ts150000_bs800_ds_dev           & 150k    & 2023-06-28 09:53:55 & 0.95934440      & 0.89888636     
+SIG_morfflex_tagtransformer_large_ts150000_bs800_ds_test          & 150k    & 2023-06-28 09:53:59 & 0.00000000      & 0.00000000     
+DataSig22_SLK_LSTM_v0.40                                          & 26k     & 2023-06-28 20:41:21 & 0.85311871      & 0.16901408     
+Data_02_tag_at_beginning_LSTM_v0.40                               & 260k    & 2023-06-29 01:22:24 & 0.95844367      & 0.88793182     
+DataKeep_01_removed_nonexistent_from_trainset_LSTM_v0.40          & 260k    & 2023-06-29 02:34:42 & 0.96012722      & 0.89390909     
+DataSig22_SLK_LSTM_v0.40                                          & 260k    & 2023-06-29 03:19:46 & 0.88732394      & 0.23943662     
+DataSig22_SLK_LSTM_v0.40                                          & 10k     & 2023-06-29 13:44:14 & 0.85814889      & 0.15492958     
+Data_02_tag_joined_LSTM_v0.40                                     & 260k    & 2023-06-29 14:15:04 & 0.95971452      & 0.89363636     
+DataKeep_02_removed_duplicates_from_trainset_LSTM_v0.40           & 260k    & 2023-06-29 14:43:26 & 0.95992250      & 0.89286364     
+Data_03_no_sep_LSTM_v0.40                                         & 260k    & 2023-06-30 03:48:31 & 0.95896609      & 0.89254545     
+Data_04_reverse_word_LSTM_v0.40                                   & 260k    & 2023-07-01 01:21:20 & 0.95854030      & 0.89213636     
+DataSig22_SLK_<SPACE>_LSTM_v0.40_warmup_400                       & 260k    & 2023-07-01 02:24:08 & 0.88329980      & 0.21126761     
+DataSig22_SLK_\<SPACE\>_LSTM_v0.40_test                           & 78k     & 2023-07-01 20:02:17 & 0.00000000      & 0.00000000     
+DataSig22_SLK_<SPACE>_LSTM_v0.40_test                             & 78k     & 2023-07-01 20:05:47 & 0.86116700      & 0.25352113     
+Data_06_complex_LSTM_v0.40                                        & 260k    & 2023-07-02 02:07:55 & 0.95960316      & 0.89211364     
+DataSig22_SLK_<SPACE>_LSTM_v0.40_warmup_4k                        & 260k    & 2023-07-02 03:24:15 & 0.87022133      & 0.22535211     
+DataSig22_SLK_<SPACE>_LSTM_v0.40_test                             & 68k     & 2023-07-02 05:14:04 & 0.82494970      & 0.27464789     
+DataSig22_SLK_LSTM_v0.40_warmup4k                                 & 260k    & 2023-07-02 22:43:48 & 0.68500000      & 0.00000000     
+DataSig22_SLK_LSTM_v0.40_warmup4k_dev                             & 74k     & 2023-07-02 23:41:08 & 0.69100000      & 0.00000000     
+DataSig22_SLK_LSTM_v0.40_warmup4k_test                            & 74k     & 2023-07-02 23:41:18 & 0.77300000      & 0.03496503     
+DataSig22_SLK_LSTM_v0.40_warmup400                                & 260k    & 2023-07-03 05:57:57 & 0.88300000      & 0.20833333     
+DataSig22_SLK_LSTM_v0.40_warmup400_dev                            & 78k     & 2023-07-03 07:29:00 & 0.88700000      & 0.20833333     
+DataSig22_SLK_LSTM_v0.40_warmup400_test                           & 78k     & 2023-07-03 07:29:15 & 0.86050000      & 0.25174825     
+DataSig22_SLK_LSTM_v0.40_warmup4k                                 & 260k    & 2023-07-03 15:21:57 & 0.87600000      & 0.23611111     
+DataSig22_SLK_LSTM_v0.40_warmup4k_dev                             & 64k     & 2023-07-03 16:33:44 & 0.88600000      & 0.23611111     
+DataSig22_SLK_LSTM_v0.40_warmup4k_test                            & 64k     & 2023-07-03 16:33:57 & 0.87250000      & 0.23776224     
+DataSig22_ANG_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-03 22:01:04 & 0.60623557      & 0.00000000     
+DataSig22_ASM_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-03 22:45:31 & 0.63654618      & 0.00000000     
+DataSig22_ANG_LSTM_v0.40_warm4k_dev                               & 40k     & 2023-07-03 23:08:27 & 0.62009238      & 0.00000000     
+DataSig22_ANG_LSTM_v0.40_warm4k_test                              & 40k     & 2023-07-03 23:08:39 & 0.60284408      & 0.02127660     
+DataSig22_EVN_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-03 23:11:07 & 0.41814390      & 0.00000000     
+DataSig22_ARA_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-03 23:23:04 & 0.69129555      & 0.00000000     
+DataSig22_ASM_LSTM_v0.40_warm4k_dev                               & 46k     & 2023-07-03 23:55:11 & 0.68373494      & 0.01388889     
+DataSig22_ASM_LSTM_v0.40_warm4k_test                              & 46k     & 2023-07-03 23:55:23 & 0.66783920      & 0.06993007     
+DataSig22_EVN_LSTM_v0.40_warm4k_dev                               & 78k     & 2023-07-04 00:20:08 & 0.42440042      & 0.00000000     
+DataSig22_EVN_LSTM_v0.40_warm4k_test                              & 78k     & 2023-07-04 00:20:20 & 0.47676420      & 0.00000000     
+DataSig22_ARA_LSTM_v0.40_warm4k_dev                               & 78k     & 2023-07-04 00:36:03 & 0.70242915      & 0.00000000     
+DataSig22_ARA_LSTM_v0.40_warm4k_test                              & 78k     & 2023-07-04 00:36:17 & 0.74285714      & 0.02797203     
+DataSig22_GOT_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-04 11:15:07 & 0.75251509      & 0.04225352     
+DataSig22_KAT_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-04 11:17:16 & 0.80800000      & 0.05555556     
+DataSig22_HEB_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-04 11:55:55 & 0.25200000      & 0.00000000     
+DataSig22_KAT_LSTM_v0.40_warm4k_dev                               & 64k     & 2023-07-04 12:22:02 & 0.81400000      & 0.06944444     
+DataSig22_KAT_LSTM_v0.40_warm4k_test                              & 64k     & 2023-07-04 12:22:15 & 0.80150000      & 0.29370629     
+DataSig22_HUN_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-04 12:28:37 & 0.63300000      & 0.00000000     
+DataSig22_GOT_LSTM_v0.40_warm4k_dev                               & 74k     & 2023-07-04 12:38:32 & 0.75855131      & 0.05633803     
+DataSig22_GOT_LSTM_v0.40_warm4k_test                              & 74k     & 2023-07-04 12:38:47 & 0.66800401      & 0.22377622     
+DataSig22_HEB_LSTM_v0.40_warm4k_dev                               & 30k     & 2023-07-04 13:14:44 & 0.25500000      & 0.00000000     
+DataSig22_HEB_LSTM_v0.40_warm4k_test                              & 30k     & 2023-07-04 13:14:59 & 0.47900000      & 0.23776224     
+DataSig22_HUN_LSTM_v0.40_warm4k_dev                               & 90k     & 2023-07-04 13:47:49 & 0.63800000      & 0.00000000     
+DataSig22_HUN_LSTM_v0.40_warm4k_test                              & 90k     & 2023-07-04 13:48:03 & 0.67450000      & 0.24475524     
+DataSig22_LUD_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-04 18:08:53 & 0.63370333      & 0.00000000     
+DataSig22_KHK_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-04 18:32:08 & 0.39156627      & 0.00000000     
+DataSig22_KOR_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-04 18:48:03 & 0.47315096      & 0.00000000     
+DataSig22_LUD_LSTM_v0.40_warm4k_dev                               & 2k      & 2023-07-04 19:11:07 & 0.81231080      & 0.07042254     
+DataSig22_LUD_LSTM_v0.40_warm4k_test                              & 2k      & 2023-07-04 19:11:19 & 0.83805668      & 0.16197183     
+DataSig22_KRL_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-04 19:48:58 & 0.58717435      & 0.00000000     
+DataSig22_KHK_LSTM_v0.40_warm4k_dev                               & 38k     & 2023-07-04 19:54:55 & 0.39558233      & 0.00000000     
+DataSig22_KHK_LSTM_v0.40_warm4k_test                              & 38k     & 2023-07-04 19:55:18 & 0.48939394      & 0.33802817     
+DataSig22_KOR_LSTM_v0.40_warm4k_dev                               & 46k     & 2023-07-04 19:59:34 & 0.48024316      & 0.00000000     
+DataSig22_KOR_LSTM_v0.40_warm4k_test                              & 46k     & 2023-07-04 19:59:46 & 0.47403259      & 0.00000000     
+DataSig22_KRL_LSTM_v0.40_warm4k_dev                               & 160k    & 2023-07-04 20:56:36 & 0.58817635      & 0.00000000     
+DataSig22_KRL_LSTM_v0.40_warm4k_test                              & 160k    & 2023-07-04 20:56:51 & 0.61022044      & 0.07692308     
+DataSig22_NON_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-05 01:58:28 & 0.75000000      & 0.04225352     
+DataSig22_POL_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-05 03:02:29 & 0.88900000      & 0.19444444     
+DataSig22_NON_LSTM_v0.40_warm4k_dev                               & 82k     & 2023-07-05 03:17:41 & 0.75504032      & 0.04225352     
+DataSig22_NON_LSTM_v0.40_warm4k_test                              & 82k     & 2023-07-05 03:17:56 & 0.77096936      & 0.11188811     
+DataSig22_POMA_LSTM_v0.40_warm4k                                  & 260k    & 2023-07-05 03:57:36 & 0.45928339      & 0.00000000     
+DataSig22_POL_LSTM_v0.40_warm4k_dev                               & 120k    & 2023-07-05 04:28:22 & 0.89100000      & 0.20833333     
+DataSig22_POL_LSTM_v0.40_warm4k_test                              & 120k    & 2023-07-05 04:28:38 & 0.87250000      & 0.32167832     
+DataSig22_POMA_LSTM_v0.40_warm4k_dev                              & 42k     & 2023-07-05 05:33:46 & 0.47991314      & 0.00000000     
+DataSig22_POMA_LSTM_v0.40_warm4k_test                             & 42k     & 2023-07-05 05:34:08 & 0.64732366      & 0.01398601     
+DataSig22_SLK_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-05 12:30:59 & 0.88300000      & 0.20833333     
+DataSig22_VEP_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-05 12:38:54 & 0.56080402      & 0.00000000     
+DataSig22_SLK_LSTM_v0.40_warm4k_dev                               & 78k     & 2023-07-05 14:02:40 & 0.88700000      & 0.20833333     
+DataSig22_SLK_LSTM_v0.40_warm4k_test                              & 78k     & 2023-07-05 14:02:56 & 0.86050000      & 0.25174825     
+DataSig22_VEP_LSTM_v0.40_warm4k_dev                               & 122k    & 2023-07-05 14:11:38 & 0.56582915      & 0.00000000     
+DataSig22_VEP_LSTM_v0.40_warm4k_test                              & 122k    & 2023-07-05 14:11:56 & 0.58554942      & 0.00699301     
+DataSig22_TUR_LSTM_v0.40_warm4k                                   & 260k    & 2023-07-05 14:40:25 & 0.94400000      & 0.45833333     
+DataSig22_TUR_LSTM_v0.40_warm4k_dev                               & 46k     & 2023-07-05 16:21:06 & 0.94900000      & 0.52777778     
+DataSig22_TUR_LSTM_v0.40_warm4k_test                              & 46k     & 2023-07-05 16:21:26 & 0.92600000      & 0.49650350     
+LSTM_v0.44_2_lay+batch256+emb128+brnn_enc+hid_200                 & 260k    & 2023-07-08 11:23:27 & 0.95978494      & 0.89456818     
+LSTM_v0.45_3_lay+batch256+emb128+brnn_enc+hid_200                 & 260k    & 2023-07-10 00:40:26 & 0.95962445      & 0.89259091     
+LSTM_v0.46_3_lay+batch256+emb64+brnn_enc+hid_100                  & 260k    & 2023-07-10 01:42:28 & 0.95624590      & 0.88188636     
+LSTM_v0.47_2_lay+batch256+emb16+brnn+hid_100                      & 260k    & 2023-07-10 01:57:42 & 0.95157030      & 0.86695455     
+Transformer_v0.12_Wu&Cotterell_bs400_accum1                       & 20k     & 2023-07-10 15:35:19 & 0.87580758      & 0.62875000     
+Transformer_v0.13_Wu&Cotterell_bs800_accum1                       & 10k     & 2023-07-10 15:42:37 & 0.86522648      & 0.61813636     
+Transformer_v0.13_Wu&Cotterell_bs400_accum1                       & 200k    & 2023-07-10 18:15:50 & 0.94015889      & 0.82661364     
+Transformer_v0.12_tutorial_batch1024_accumcount4_LR001            & 40k     & 2023-07-10 21:34:16 & 0.70599901      & 0.44525000     
+Transformer_v0.15_Wu&Cotterell_bs400_accum1                       & 300k    & 2023-07-11 01:30:01 & 0.94311983      & 0.83734091     
+Transformer_v0.11_tutorial_batch1024_accumcount4_LR2              & 40k     & 2023-07-11 03:28:55 & 0.96080522      & 0.90200000     
+SIG_morfflex_transformer_large_ts20000_bs400_ds_dev               & 20k     & 2023-07-12 20:40:09 & 0.95228211      & 0.86843541     
+SIG_morfflex_transformer_large_ts20000_bs400_ds_test              & 20k     & 2023-07-12 20:40:11 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts20000_bs400_ds_test-oov          & 20k     & 2023-07-12 20:40:12 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts20000_bs400_ds_dev               & 20k     & 2023-07-12 20:44:13 & 0.95228211      & 0.86843541     
+SIG_morfflex_transformer_large_ts20000_bs400_ds_test              & 20k     & 2023-07-12 20:44:19 & 0.95467822      & 0.87286825     
+SIG_morfflex_transformer_large_ts20000_bs400_ds_test-oov          & 20k     & 2023-07-12 20:44:21 & 0.87527194      & 0.63366337     
+SIG_morfflex_transformer_large_ts150000_bs800_ds_dev              & 150k    & 2023-07-13 15:47:06 & 0.95997025      & 0.89946801     
+SIG_morfflex_transformer_large_ts150000_bs800_ds_test             & 150k    & 2023-07-13 15:47:16 & 0.96166832      & 0.90147346     
+SIG_morfflex_transformer_large_ts150000_bs800_ds_test-oov         & 150k    & 2023-07-13 15:47:18 & 0.86511965      & 0.55445545     
+SIG_morfflex_tagtransformer_large_ts150000_bs800_ds_dev           & 150k    & 2023-07-13 16:05:52 & 0.95982117      & 0.89846769     
+SIG_morfflex_tagtransformer_large_ts150000_bs800_ds_test          & 150k    & 2023-07-13 16:06:02 & 0.96170600      & 0.90147346     
+SIG_morfflex_tagtransformer_large_ts150000_bs800_ds_test-oov      & 150k    & 2023-07-13 16:06:04 & 0.87599710      & 0.61386139     
+SIG_morfflex_tagtransformer_large_ts20000_bs400_ds_dev            & 20k     & 2023-07-13 18:22:56 & 0.95253440      & 0.86868549     
+SIG_morfflex_tagtransformer_large_ts20000_bs400_ds_test           & 20k     & 2023-07-13 18:23:06 & 0.95480272      & 0.87243622     
+SIG_morfflex_tagtransformer_large_ts20000_bs400_ds_test-oov       & 20k     & 2023-07-13 18:23:08 & 0.87382161      & 0.57425743     
+GenScriptTrialTransformer_v0.13_Wu&Cotterell_bs800_accum1_dev     & 10k     & 2023-07-12 07:24:49 & 0.86511185      & 0.61288636     
+FinalTrialTransformer_v0.13_Wu&Cotterell_bs800_accum1_dev         & 10k     & 2023-07-12 07:37:19 & 0.86511185      & 0.61288636     
+FinalTrialTransformer_v0.13_Wu&Cotterell_bs800_accum1_test        & 10k     & 2023-07-12 07:45:54 & 0.86539205      & 0.61363989     
+FinalTrialTransformer_v0.13_Wu&Cotterell_bs800_accum1_test-oov    & 10k     & 2023-07-12 07:46:23 & 0.73168963      & 0.09900990     
+OriginalGenScriptTrialTransformer_v0.13_Wu&Cotterell_bs800_accum1 & 10k     & 2023-07-12 09:15:32 & 0.86511348      & 0.61638636     
+CheckingThatEvalOnmtModelSetsAccTo0WhenNumberOfPredAndGoldDiffers & x       & 2023-07-12 10:06:14 & 0.00000000      & 0.00000000     
+CheckingThatEvalOnmtModelSetsAccTo0WhenNumberOfPredAndGoldDiffers & x       & 2023-07-12 10:06:45 & 0.86511185      & 0.61288636     
+CheckingThatEvalOnmtModelSetsAccTo0WhenNumberOfPredAndGoldDiffers & x       & 2023-07-12 10:11:49 & 0.00000000      & 0.00000000     
+CheckingThatEvalOnmtModelSetsAccTo0WhenNumberOfPredAndGoldDiffers & x       & 2023-07-12 10:12:02 & 0.86511185      & 0.61288636     
+SIG_morfflex_transformer_large_ts4000_bs400_ds_dev                & 4k      & 2023-07-12 13:09:43 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts4000_bs400_ds_test               & 4k      & 2023-07-12 13:09:44 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts4000_bs400_ds_test-oov           & 4k      & 2023-07-12 13:09:45 & 0.00000000      & 0.00000000     
+FinalTrialTransformer_v0.13_Wu&Cotterell_bs800_accum1_dev         & 10k     & 2023-07-12 13:36:32 & 0.86565720      & 0.61943182     
+FinalTrialTransformer_v0.13_Wu&Cotterell_bs800_accum1_test        & 10k     & 2023-07-12 13:54:11 & 0.86717163      & 0.62334091     
+FinalTrialTransformer_v0.13_Wu&Cotterell_bs800_accum1_test-oov    & 10k     & 2023-07-12 13:54:33 & 0.73386512      & 0.09900990     
+Transformer_best_v0.11_tutorial_batch1024_accumcount4_LR2_dev     & 40k     & 2023-07-12 21:14:56 & 0.00000000      & 0.00000000     
+LSTM_best_v0.44_2_lay+batch256+emb128+brnn_enc+hid_200_dev        & 260k    & 2023-07-12 21:14:57 & 0.00000000      & 0.00000000     
+Transformer_best_v0.11_tutorial_batch1024_accumcount4_LR2_test    & 40k     & 2023-07-12 21:15:10 & 0.00000000      & 0.00000000     
+LSTM_best_v0.44_2_lay+batch256+emb128+brnn_enc+hid_200_test       & 260k    & 2023-07-12 21:15:11 & 0.00000000      & 0.00000000     
+Transformer_best_v0.11_tutorial_batch1024_accumcount4_LR2_test-oov & 40k     & 2023-07-12 21:15:25 & 0.00000000      & 0.00000000     
+LSTM_best_v0.44_2_lay+batch256+emb128+brnn_enc+hid_200_test-oov   & 260k    & 2023-07-12 21:15:27 & 0.00000000      & 0.00000000     
+Transformer_best_v0.11_tutorial_batch1024_accumcount4_LR2_dev     & 40k     & 2023-07-12 21:23:15 & 0.00000000      & 0.00000000     
+Transformer_best_v0.11_tutorial_batch1024_accumcount4_LR2_test    & 40k     & 2023-07-12 21:23:29 & 0.00000000      & 0.00000000     
+Transformer_best_v0.11_tutorial_batch1024_accumcount4_LR2_test-oov & 40k     & 2023-07-12 21:23:40 & 0.00000000      & 0.00000000     
+LSTM_best_v0.44_2_lay+batch256+emb128+brnn_enc+hid_200_dev        & 260k    & 2023-07-13 00:44:03 & 0.95981790      & 0.89417087     
+LSTM_best_v0.44_2_lay+batch256+emb128+brnn_enc+hid_200_test       & 260k    & 2023-07-13 00:58:23 & 0.96163228      & 0.89801719     
+LSTM_best_v0.44_2_lay+batch256+emb128+brnn_enc+hid_200_test-oov   & 260k    & 2023-07-13 00:58:43 & 0.86947063      & 0.58415842     
+Transformer_best_v0.11_tutorial_batch1024_accumcount4_LR2_dev     & 40k     & 2023-07-13 04:43:50 & 0.95998663      & 0.90115037     
+Transformer_best_v0.11_tutorial_batch1024_accumcount4_LR2_test    & 40k     & 2023-07-13 05:04:00 & 0.96182722      & 0.90442949     
+Transformer_best_v0.11_tutorial_batch1024_accumcount4_LR2_test-oov & 40k     & 2023-07-13 05:04:21 & 0.87237128      & 0.61386139     
+FinalTrialTransformer_v0.13_Wu&Cotterell_bs800_accum1_dev         & 10k     & 2023-07-12 14:53:43 & 0.86565720      & 0.61943182     
+FinalTrialTransformer_v0.13_Wu&Cotterell_bs800_accum1_test        & 10k     & 2023-07-12 15:10:40 & 0.86717163      & 0.62334091     
+FinalTrialTransformer_v0.13_Wu&Cotterell_bs800_accum1_test-oov    & 10k     & 2023-07-12 15:11:03 & 0.73386512      & 0.09900990     
+SIG_morfflex_transformer_large_ts20000_bs400_ds_dev               & 20k     & 2023-07-12 16:46:43 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts20000_bs400_ds_test              & 20k     & 2023-07-12 16:46:46 & 0.00000000      & 0.00000000     
+SIG_morfflex_transformer_large_ts20000_bs400_ds_test-oov          & 20k     & 2023-07-12 16:46:46 & 0.00000000      & 0.00000000     
+NonneuralBaseline_dev                                             & x       & 2023-07-14 13:58:36 & 0.00000000      & 0.00000000     
+NonneuralBaseline_dev                                             & x       & 2023-07-14 14:00:34 & 0.94605526      & 0.87946165     
+NonneuralBaseline_test                                            & x       & 2023-07-14 14:00:57 & 0.94782573      & 0.88150894     
+NonneuralBaseline_test-oov                                        & x       & 2023-07-14 14:01:15 & 0.89485134      & 0.71287129     
+

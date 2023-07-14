@@ -1,0 +1,33 @@
+DEV SET FULL:
+
+Baselines:
+Copy-baseline	                                                                                    0.22530490	      0.01529545
+Sklonuj.cz	                                                                                        0.88715349	      0.74190909
+NonneuralBaseline_full_trainset                                   & x       & 2023-06-13 09:20:11 & 0.94602509      & 0.87945455
+SIG_morfflex_tagtransformer_large_ts20000_bs400_ds_dev            & 20k     & 2023-06-19 13:36:36 & 0.95325875      & 0.87711364
+SIG_morfflex_transformer_large_ts20000_bs400_ds_dev               & 20k     & 2023-06-19 11:52:36 & 0.95309335      & 0.87750000
+
+Tuned baselines:
+SIG_morfflex_transformer_large_ts150000_bs800_ds_dev              & 150k    & 2023-06-28 02:59:56 & 0.95964082      & 0.89981818      
+SIG_morfflex_tagtransformer_large_ts150000_bs800_ds_dev           & 150k    & 2023-06-28 09:53:55 & 0.95934440      & 0.89888636
+
+### cat docs/hyperparams.txt | egrep "morfflex_tagtransformer" | egrep "^S" | egrep "dev" 
+
+
+Our models:
+Retrograde[size=360K][comb=131072]	                                                          & 0.94672438	    & 0.88427273
+LSTM_v0.44_2_lay+batch256+emb128+brnn_enc+hid_200             & 260k    & 2023-07-08 11:23:27 & 0.95978494      & 0.89456818
+Transformer_v0.11_tutorial_batch1024_accumcount4_LR2          & 40k     & 2023-07-11 03:28:55 & 0.96080522      & 0.90200000
+
+
+#Transformer_v0.3_batch64_drops0.2_hid256_wv256         		100k    2023-05-1306:40:05      0.95547824      0.88410000
+#LSTM_v0.40_2_lay+batch256+emb64+brnn_enc+hid_200        	260k    2023-05-2310:48:19      0.95972107      0.89438636
+
+
+
+
+
+BAAAD:
+#Retrograde[size=360K][comb=131072]      							0.94710835      0.88530000
+#Simple baseline 										    0.22494976      0.01540000
+#Sklonuj.cz (rule-based baseline)           							    0.8970	    0.7547

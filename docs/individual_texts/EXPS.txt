@@ -1,0 +1,241 @@
+====== LSTMs ======
+
+We investigate using SGD and Adam optimizers for training. For both of them we use the learning rate recommended by \ontm{}: 1.0 for SGD and 0.001 for Adam.
+We always use the whole sequences (not individual characters) for batching. \question{Rict, ze jako training loss je pouzito token-wise cross-entropy loss? I kdyz jsem to nikde oficialne nenasel, ze je to default?}
+Unless we specifically state, we use the default setting from \onmt{}\todo{rict, jakou verzi pouzivame, aby bylo jasne, co je default?}.
+In all experiments we use LSTM as the RNN type both in the encoder and the decoder, and we use 1000 warmup steps in training.
+
+We limit the vocabulary size for the embeddings to 50k distinct ``words'' (characters and tags in our task), which has no effect since the number of distinct characters and tags in our dataset is less than 200.
+
+We limit the length of the source and the target sequences to 150 characters. Nor this has any effect because the sequences in our dataset are short.
+
+When using shared embeddings for the encoder and decoder, we use also shared vocabulary.
+
+
+
+
+Training for high number of epochs with small batch size takes too much time. Due to limited amount of computational resources we decide to increase the number of epochs by using larger batch sizes (up to 512).
+
+It is important to note that we did not perform exhaustive parameter tuning. Therefore all conclusions about how the hyperparameters affect the model performance are rather guesses than definite claims.
+
+% Due to long training time when using small batch size (caused by the size of our training set) we r
+
+=== SGD ===
+
+With SGD, we checked\todo{nebo radsi verified?} that training for less than 1 epoch (omitting a random part of the training set) leads to performance drop in both accuracies, more significantly in the \fullpar{} accuracy.
+
+MODEL_NAME                                             & TRAIN-steps & EPOCHS & DATE       & form-acc   & full-par acc
+LSTM_v0.2_bs20+emb32+hid500+2lay                       & 20k & 0.08 &                      & 0.74399828 & 0.48340909
+LSTM_v0.3_default+warmup1k_(bs_64,lay2,hid500,emb500)  & 20k & 0.25 &                      & 0.94004589 & 0.80279545
+LSTM_v0.13_def+4_lay_batch256_hid_500_warmup_1k_emb500 & 20k & 1.02 &  2023-04-27 01:39:05 & 0.95127224 & 0.85620455
+
+It seems that the longer we train the models, the better, at least up to the extent we were able to test. Yet some experiments indicate that this should not be led by unlimitedly increasing the batch size, but rather by incresing the number of training steps.
+
+Increasing the batch size too much can lead to performance drop.
+LSTM_v0.13_def+4_lay_batch256      		               & 20k & 1.02 &  2023-04-27 01:39:05 & 0.95127224      & 0.85620455     
+LSTM_v0.14_def+4_lay_batch512      		               & 20k & 2.03 &  2023-04-27 15:43:07 & 0.94915635      & 0.84981818
+
+Increasing the number of epochs by increasing the number of steps leads to an improvement.
+LSTM_v0.22_def+4_lay+batch256+emb96+shared_embs        & 60k & 3.05 & 2023-05-04 00:40:42 & 0.95680762      & 0.88700000     
+LSTM_v0.23_def+4_lay+batch256+emb128+shared_embs       & 120k & 6.06 & 2023-05-04 02:11:45 & 0.95936242      & 0.89659091     
+LSTM_v0.23_def+4_lay+batch256+emb128+shared_embs       & 240k & 12.19 & 2023-05-05 08:53:58 & 0.95945085      & 0.89700000
+
+
+In all relevant experiments we run with SGD (those that were trained for at least one epoch), the capacity of the model remained almost the same, with minor changes in the setting of embeddings (embedding size, shared embedding between encoder and decoder). The number of layers both in the encoder and the decoder is set to 4 and their size is 500. We use the standard one-directional RNN both in the encoder and in the decoder. We use Luong attention \citep{luong-attn-2015effective} (named ``general'' in \onmt{}).
+
+Embeddings
+% Unlike in machine translation system, we do not limit the vocabulary size for the embeddings, because it is not necessary, the number of different characters and tags is less than 200. (To be exact, in all experiments we limit the vocabulary size to the maximum of 50k distinct words, which has no effect.)\question{Nechat tu tuhle zavorku? Neni to jedno?}
+
+We tried several different embedding sizes (64, 96, 128, 256).
+
+It seems that embedding size 256 is too large - a model with embedding size 256 performed worse than the same model with embedding size 128, which performed comparably to the same model with embedding size 64. %Yet this could be caused by relavively short training (2 epochs). 
+LSTM_v0.17_def+4_lay_batch256+emb128     	           & 40k & 2.03 & 2023-04-30 20:18:00 & 0.95160141      & 0.86577273
+LSTM_v0.18_def+4_lay_batch256+emb256	               & 40k & 2.03 & 2023-05-01 05:27:17 & 0.95042064      & 0.85315909
+LSTM_v0.19_def+4_lay+batch256+emb64                    & 40k & 2.03 & 2023-05-01 17:26:31 & 0.95260040      & 0.86543182
+
+Sharing the embeddings between encoder and decoder seems to have only minor effect on the model's performance. The experiment we executed showed a slight improvement in the form accuracy and a slight drop in the \fullpar{} accuracy when using shared embeddings.
+
+LSTM_v0.20_def+4_lay+batch256+emb128                   & 60k & 3.05 & 2023-05-01 23:13:45 & 0.95622133      & 0.88711364
+LSTM_v0.21_def+4_lay+batch256+emb128+shared_embs       & 60k & 3.05 & 2023-05-02 20:26:09 & 0.95673884      & 0.88627273
+
+The best performing LSTM model trained with SGD has shared embeddings of size 128, 4 encoder and 4 decoder layers of size 500 and was trained for 240k steps with batch size 256 (approx. 12 epochs). On the development set it achieved form accuracy 95.95\% and \fullpar{} accuracy 89.7\%.
+
+LSTM_v0.23_def+4_lay+batch256+emb128+shared_embs       & 240k & 12.19 & 2023-05-05 08:53:58 & 0.95945085      & 0.89700000
+
+\question{report results of all experiments?} 
+\question{Is the description of used hyperparameters sufficient?}
+
+=== Adam ===
+
+We try extensively reducing the capacity to 1 layer of size 100, embedding size 64 with shared embeddings and with bi-directional RNN in the encoder, and we compare the training with SGD (with learning rate 1.0) and with Adam (learning rate 0.001), both with batch size 20 and 260k train steps (approx. 1 epoch). Except for one experiment performed to compare different attention types, we use Luong attention \citep{luong-attn-2015effective}. We show that with such reduced capacity SGD training leads to significantly worse performance than training with Adam.
+
+LSTM_v0.25_def+1_lay+batch20+emb64+shared_embs+brnn+hid_100+sgd  & 260k    & 1.03   & 2023-05-14 17:08:07 & 0.57923870      & 0.38197727
+LSTM_v0.26_def+1_lay+batch20+emb64+shared_embs+brnn+hid_100+adam & 260k    & 1.03   & 2023-05-14 14:56:35 & 0.94822286      & 0.85636364
+
+Therefore we continue training models with Adam only. In all experiments we use shared embeddings, bi-directional RNN in the encoder, and we train with 4k warmup steps.
+
+In the same setting we try training the model for 4 times more train steps (1.04M \~ 4 epochs), without any improvement.
+
+LSTM_v0.27_def+1_lay+batch20+emb64+shared_embs+brnn+hid_100+adam & 1040k   & 4.13   & 2023-05-13 19:55:09 & 0.94822286      & 0.85636364 
+
+Increasing the capacity by setting the hidden layer size to 150 units we obtain an improvement in both accuracies.
+
+LSTM_v0.28_1_lay+batch20+emb64+brnn+hid_150                      & 260k    & 1.03   & 2023-05-15 03:24:08 & 0.94936106      & 0.86050000
+
+We compare utilizing Luong attention \citep{luong-attn-2015effective} (``general'' in \onmt{}, default in \onmt{}) and Bahdanau attention \citep{bahdanau-attn-2016neural} (``mlp'' in \onmt{}, used by \citet{st16-LMU-kann-schutze-2016-med}) and we see that a model with Bahdanau attention performs slightly worse than a model with Luong attention.
+
+LSTM_v0.28_1_lay+batch20+emb64+brnn+hid_150+general_attn         & 260k    & 1.03   & 2023-05-15 03:24:08 & 0.94936106      & 0.86050000     
+LSTM_v0.29_1_lay+batch20+emb64+brnn+hid_150+mlp_attn             & 260k    & 1.03   & 2023-05-15 19:27:45 & 0.94930210      & 0.85950000
+
+We try four different values for the hidden layer size (100, 150, 200, 250), obtaining the best results with the value 200.
+
+LSTM_v0.26_def+1_lay+batch20+emb64+shared_embs+brnn+hid_100+adam & 260k    & 1.03   & 2023-05-14 14:56:35 & 0.94822286      & 0.85636364
+LSTM_v0.28_1_lay+batch20+emb64+brnn+hid_150                      & 260k    & 1.03   & 2023-05-15 03:24:08 & 0.94936106      & 0.86050000      
+LSTM_v0.30_1_lay+batch20+emb64+brnn+hid_200                      & 260k    & 1.03   & 2023-05-16 03:59:02 & 0.95141144      & 0.86761364     
+LSTM_v0.31_1_lay+batch20+emb64+brnn+hid_250                      & 260k    & 1.03   & 2023-05-18 03:31:41 & 0.95134593      & 0.86727273     
+
+With hidden size 250 we compare training the model with two different (batch size, train steps) pairs, both corresponding to one epoch, obtaining\todo{jak jinak rict obtaining?} better results with batch size 20 and 260k train steps than with batch size 10 and 520k train steps.
+
+LSTM_v0.31_1_lay+batch20+emb64+brnn+hid_250                      & 260k    & 1.03   & 2023-05-18 03:31:41 & 0.95134593      & 0.86727273     
+LSTM_v0.32_1_lay+batch10+emb64+brnn+hid_250                      & 520k    & 1.03   & 2023-05-18 23:07:16 & 0.94978849      & 0.86261364 
+
+
+Using two layers of size 100 instead of one layer of the same size leads to a slight improvement in both accuracies.
+
+LSTM_v0.26_def+1_lay+batch20+emb64+shared_embs+brnn+hid_100+adam & 260k    & 1.03   & 2023-05-14 14:56:35 & 0.94822286      & 0.85636364
+LSTM_v0.33_2_lay+batch20+emb64+brnn+hid_100                      & 260k    & 1.03   & 2023-05-19 03:02:47 & 0.94833914      & 0.85961364
+
+However, even in this case, training for more steps does not lead to almost any further improvement.
+
+LSTM_v0.33_2_lay+batch20+emb64+brnn+hid_100                      & 260k    & 1.03   & 2023-05-19 03:02:47 & 0.94833914      & 0.85961364     
+LSTM_v0.34_2_lay+batch20+emb64+brnn+hid_100                      & 1080k   & 4.29   & 2023-05-20 00:30:20 & 0.94834078      & 0.85961364
+
+Nevertheless, increasing the hidden size to 150 leads to improvement and we surpass the best model with 1 layer in the full paradigm accuracy.
+
+LSTM_v0.35_2_lay+batch20+emb64+brnn+hid_150                      & 260k    & 1.03   & 2023-05-20 22:43:08 & 0.95124767      & 0.86820455 
+
+We achieve more significant improvement by increasing the batch size up to 256 (and therefore increasing the number of epochs up to 13). Moreover we show that a model trained for more steps with smaller batch size (corresponding to approx. the same number of epochs) performs significantly worse, particularly in the \fullpar{} accuracy. This does not correspond to the general trend of using smaller batch size for RNN-based encoder-decoder architectures for morphological inflection.\todo{cite}
+
+LSTM_v0.36_2_lay+batch128+emb64+brnn+hid_150                     & 260k    & 6.60   & 2023-05-22 02:11:46 & 0.95670609      & 0.88406818     
+LSTM_v0.37_2_lay+batch256+emb64+brnn+hid_150                     & 260k    & 13.21  & 2023-05-22 20:39:36 & 0.95825534      & 0.89109091
+LSTM_v0.38_2_lay+batch32+emb64+brnn+hid_150                      & 2000k   & 12.70  & 2023-05-24 15:46:20 & 0.95310481      & 0.87388636
+
+
+
+Further increasing the batch size to 400 leads to a slight improvement\todo{how to say improvement differently?} in the form accuracy, yet the \fullpar{} accuracy decreases a bit.
+
+LSTM_v0.37_2_lay+batch256+emb64+brnn+hid_150                     & 260k    & 13.21  & 2023-05-22 20:39:36 & 0.95825534      & 0.89109091
+LSTM_v0.39_2_lay+batch400+emb64+brnn+hid_150                     & 260k    & 20.63  & 2023-05-23 05:44:11 & 0.95869260      & 0.89043182 
+
+
+
+We continue performing experiments with batch size 256 and 260k training steps (approx. 13 epochs). 
+
+Reducing the embedding size to 16 and the hidden size to 100 leads to a drop in both accuracies, yet not exceptional. 
+LSTM_v0.47_2_lay+batch256+emb16+brnn+hid_100                     & 260k    & 13.21  & 2023-07-10 01:57:42 & 0.95157030      & 0.86695455
+
+
+On the other hand, increasing the hidden layer size to 250 leads to our overall best result in \fullpar accuracy, 89.46\%.
+LSTM_v0.41_2_lay+batch256+emb64+brnn+hid_250                     & 260k    & 13.21  & 2023-06-08 14:20:10 & 0.95937388      & 0.89459091
+
+With hidden layer size 200 and embedding size 64 we achieve better result in the form accuracy, and after increasing the embedding size to 128 we obtain the overall best performing model: it achieves 95.98\% in the form accuracy and 89.46\% in the \fullpar{} accuracy.
+
+LSTM_v0.40_2_lay+batch256+emb64+brnn+hid_200                     & 260k    & 13.21  & 2023-05-23 10:48:19 & 0.95972107      & 0.89438636     
+LSTM_v0.44_2_lay+batch256+emb128+brnn+hid_200                    & 260k    & 13.21  & 2023-07-08 11:23:27 & 0.95978494      & 0.89456818
+
+The models with 3 hidden layers perfrom slightly worse:
+
+LSTM_v0.45_3_lay+batch256+emb128+brnn_enc+hid_200                & 260k    & 13.21  & 2023-07-10 00:40:26 & 0.95962445      & 0.89259091  
+LSTM_v0.46_3_lay+batch256+emb64+brnn_enc+hid_100                 & 260k    & 13.21  & 2023-07-10 01:42:28 & 0.95624590      & 0.88188636  
+
+
+We showed that our models perform better when trained with larger batch size (256) and with less training steps, compared to training the same number of epochs with smaller batch size and more training steps.
+
+We achieved the best results on the development set with 2 layers of size 200 both in the encoder and decoder, with with shared embeddings of size 128, with bi-directional LSTM in the encoder and training with batch size 256 for 260k steps (approx. 13 epochs) with 4k warmup steps. With this model we achieve almost 96\% in the form accuracy and almost 89.5\% in the \fullpar{} accuracy.
+
+
+=== Technical obstacles ===
+During our experimental work, we encountered several issues. We mention them so that other students can learn from our mistakes.
+
+- initially, we draw conclusions about some hyperparameters without knowing that we are not training at the whole dataset. An important reminder: with the batch size 20 and the size of the train set 5M, we need 250k training steps to perform one epoch. When training for less steps, we omit a random part of the train set.
+
+- initially, training took a lot of time because we did not set the validation batch size parameter, which is by default set to 32 only. With our large development set it led to the fact that during the training we spent more time by evaluating the model on the development set than by performing the training steps themselves.
+
+
+====== Transformers ======
+
+In addition to experiments with LSTM, we conducted several experiments with Transformers. We investigated three different settings. One is adapted from an \onmt{} tutorial, the other one is adapted from \b{CITE Wu Cotterell} \citet{} and the last one is a \tr{} with extremely low capacity.
+
+For all experiments with \tr{} we use the gradient accumulation with count of 4 batch steps, which means that the gradient is accumulated for 4 batches before performing one training step. It means that the effective batch size is 4 times larger than the batch size we set.
+
+=== \tr{} from tutorial ===
+
+Training the model as suggested by the \onmt{} tutorial\footnote{\url{https://github.com/ymoslem/OpenNMT-Tutorial/blob/main/2-NMT-Training.ipynb}} (focused on machine translation), changing only the number of training steps from 3k to 100k, the number of warmup steps from 1k to 4k, and omitting early-stopping, leads to suprisingly good results.
+
+Transformer_v0.2_tutorial_batch4096                         & 100k    & 16384 & x & 2023-05-05 01:38:28 & 0.94799432      & 0.85670000
+
+The model has extremely high capacity: embeddings of size 512, 6 layers of size 512,  8 heads and feed-forward of size 2048 and they train it with a very large batch size (4096).
+
+Nevertheless, the batches are built from tokens (not from the whole sequences) and therefore we cannot directly compare the batch size here and in other experiments, neither compute the number of epochs for this experiment.
+
+In the next experiment we build batches by sentences, not by tokens, increase dropout and attention dropout from 0.1 to 0.2, decrease the hidden size and word-vec (embedding) size from 512 to 256.
+
+% We reduce the model capacity by using embeddings and hidden layers of size 256. Moreover we increase model's dropout and attention dropout from 0.1 to 0.2.
+
+We perform two different experiments with the same number of epochs but changing the number of training steps and the batch size. We show that in this setting the model trained with larger batch for less training steps performs better than the other one.
+
+Transformer_v0.3_batch64_drops0.2_hid256_wv256              & 100k    & 256   & 5   & 2023-05-13 06:40:05 & 0.95547824      & 0.88410000     
+Transformer_v0.4_batch32_drops0.2_hid256_wv256              & 200k    & 128   & 5   & 2023-05-14 03:59:46 & 0.95394167      & 0.88054545     
+
+\TODO{rict, ze experimenty 2, 3, 4, 4 byly evaluovany pouze na dev_medium}
+
+=== Mini \tr{} ===
+We try a \tr{} model with extremely low capacity: only 1 layer of size 64, embedding of size 64, 1 attention head, feed-forward of size 128. We train it with dropout and attention dropout set to 0.2 and with batch size 32 (effective batch size 128 due to accumulation of gradient). We report results for training the model 51, 128 and 305 epochs. The model is steadily improving, yet the model trained for the longest time does not even get 70\% in the form accuracy, although being trained more than 3 days.
+
+Transformer_v0.4_batch32_drops0.2_hid64_wv64_1he_1lay_ff128 & 2000k   & 128   & 51  & 2023-05-15 00:22:44 & 0.31133536      & 0.00280000     
+Transformer_v0.5_batch32_drops0.2_hid64_wv64_1he_1lay_ff128 & 4000k   & 128   & 102 & 2023-05-16 09:39:52 & 0.50523651      & 0.00695455          
+Transformer_v0.6_batch32_drops0.2_hid64_wv64_1he_1lay_ff128 & 12000k  & 128   & 305 & 2023-05-23 08:15:44 & 0.67944882      & 0.35804545
+
+Due to the long training time we rather try increasing the batch size to 512 (effective batch size to 2048), yet it is trained for more epochs than the previous models, but achieves worse results.
+
+Transformer_v0.8_batch512_drops0.2_hid64_wv64_1he_1lay_ff128& 2000k   & 2048  & 813 & 2023-06-09 19:34:06 & 0.59707312      & 0.19763636
+
+We also try a model with 2 attention heads, but we achieve worse results than with 1 head.
+
+Transformer_v0.7_batch32_drops0.2_hid64_wv64_2he_1lay_ff128 & 2000k   & 128   & 51  & 2023-05-20 21:01:15 & 0.27974819      & 0.00250000     
+Transformer_v0.7_batch32_drops0.2_hid64_wv64_2he_1lay_ff128 & 4000k   & 128   & 102 & 2023-05-22 18:38:32 & 0.45317277      & 0.00393182
+
+Consequently we decide not to perform more experiments with the small-capacity \tr{}. Nonetheless we think that in future research it could be beneficial to experiment with the small-capacity \tr{}, gradually increasing the capacity and seeing when it starts to achieve acceptable results.
+
+=== Wu&Cotterell ===
+
+In the rest of experiments with the \tr{} architecture, we adapt the hyperparameters from \TODO{CITE Wu} \citet{}: The model has 4 layers of size 256 both in the encoder and in the decoder, 4 attention heads, the feed-forward network has size 1024. 
+We use Adam with inverse square root learning rate decay, starting at learning rate 0.001 with beta parameter 0.98. We use layer normalization and dropout 0.3, attention dropout 0.1 and label smoothing 0.1. We train it with batch size 400 (setting accumulation of gradient to one step, effectively having batch size 400) for 20k steps (1.6 epochs).
+
+Moreover we train the same model with batch size 800 for 10k steps and we obtain better results with the smaller batch size.
+
+Transformer_v0.12_Wu&Cotterell_bs400_accum1                       & 20k     & 1.6   & 2023-07-10 15:35:19 & 0.87580758      & 0.62875000     
+Transformer_v0.13_Wu&Cotterell_bs800_accum1                       & 10k     & 1.6   & 2023-07-10 15:42:37 & 0.86522648      & 0.61813636
+
+After increasing the number of training steps up to 300k the performance increases.
+
+Transformer_v0.13_Wu&Cotterell_bs400_accum1                       & 200k    & 15.9  & 2023-07-10 18:15:50 & 0.94015889      & 0.82661364
+Transformer_v0.15_Wu&Cotterell_bs400_accum1                       & 300k    & 23.8  & 2023-07-11 01:30:01 & 0.94311983      & 0.83734091
+
+
+Using larger effective batch size (1600 or 16384) and training for more steps (up to 500k) together lead to further improvement, however not surpassing the best performing \tr{} model we adapted from the \onmt{} tutorial.
+
+Transformer_v0.9_Wu&Cotterell_batch400                      & 20k     & 1600  & 6   & 2023-06-11 02:20:14 & 0.88963458      & 0.65254545     
+Transformer_v0.9_Wu&Cotterell                               & 200k    & 1600  & 63  & 2023-06-11 21:07:57 & 0.94102195      & 0.83220455     
+Transformer_v0.9_Wu&Cotterell                               & 400k    & 1600  & 127 & 2023-06-12 10:42:59 & 0.94527339      & 0.85172727
+
+Transformer_v0.10_Wu&Cotterell+batch_4096                   & 100k    & 16384 & 325 & 2023-06-11 15:21:45 & 0.93480365      & 0.80543182     
+Transformer_v0.10_Wu&Cotterell+batch_4096                   & 300k    & 16384 & 975 & 2023-06-12 02:05:18 & 0.94327377      & 0.84413636     
+Transformer_v0.10_Wu&Cotterell+batch_4096                   & 500k    & 16384 & 1625& 2023-06-12 17:12:56 & 0.94604474      & 0.85538636
+
+
+
+
+The best performing \tr{} model we trained was the one adapted from the \onmt{} tutorial.
+
+Transformer_v0.3_batch64_drops0.2_hid256_wv256              & 100k    & 256   & 5   & 2023-05-13 06:40:05 & 0.95547824      & 0.88410000

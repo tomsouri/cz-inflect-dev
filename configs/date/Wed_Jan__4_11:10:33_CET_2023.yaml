@@ -1,0 +1,92 @@
+accum_count:
+- 4
+accum_steps:
+- 0
+adam_beta2: '0.998'
+attention_dropout:
+- 0.1
+batch_size: '4096'
+batch_type: tokens
+bucket_size: '262144'
+config: example.yaml
+data: '{''corpus_1'': {''path_src'': ''data/cleaned/neural/train.src'', ''path_tgt'':
+  ''data/cleaned/neural/train.tgt'', ''transforms'': [''filtertoolong'']}, ''valid'':
+  {''path_src'': ''data/cleaned/neural/dev_large.src'', ''path_tgt'': ''data/cleaned/neural/dev_large.tgt'',
+  ''transforms'': [''filtertoolong'']}}'
+dec_layers: '6'
+decay_method: noam
+decoder_type: transformer
+dropout:
+- 0.1
+dropout_steps:
+- 0
+early_stopping: '4'
+enc_layers: '6'
+encoder_type: transformer
+gpu_ranks:
+- 0
+heads: '8'
+hidden_size: '512'
+insert_ratio: 0.0
+label_smoothing: '0.1'
+learning_rate: '2'
+log_file: train.log
+mask_length: subword
+mask_ratio: 0.0
+max_generator_batches: '2'
+max_grad_norm: '0'
+model_dtype: fp16
+n_sample: -1
+normalization: tokens
+num_threads: 1
+num_workers: '0'
+optim: adam
+param_init: '0'
+param_init_glorot: 'True'
+permute_sent_ratio: 0.0
+poisson_lambda: 3.0
+position_encoding: 'True'
+random_ratio: 0.0
+replace_length: -1
+report_every: '100'
+reversible_tokenization: joiner
+rotate_ratio: 0.0
+save_checkpoint_steps: '1000'
+save_data: data/inner/onmt/example
+save_model: data/inner/onmt/run/model
+seed: '3435'
+skip_empty_level: warning
+src_onmttok_kwargs: '{''mode'': ''none''}'
+src_prefix: ''
+src_seq_length: '150'
+src_subword_alpha: 0
+src_subword_model: source.model
+src_subword_nbest: 1
+src_subword_type: none
+src_subword_vocab: ''
+src_vocab: data/inner/onmt/run/example.vocab.src
+src_vocab_size: '50000'
+src_vocab_threshold: 0
+switchout_temperature: 1.0
+tgt_onmttok_kwargs: '{''mode'': ''none''}'
+tgt_prefix: ''
+tgt_seq_length: 200
+tgt_subword_alpha: 0
+tgt_subword_model: target.model
+tgt_subword_nbest: 1
+tgt_subword_type: none
+tgt_subword_vocab: ''
+tgt_vocab: data/inner/onmt/run/example.vocab.tgt
+tgt_vocab_size: '50000'
+tgt_vocab_threshold: 0
+tokendrop_temperature: 1.0
+tokenmask_temperature: 1.0
+train_steps: '100000'
+transformer_ff: '2048'
+transforms: []
+valid_batch_size: '2048'
+valid_steps: '10000'
+vocab_sample_queue_size: 20
+warmup_steps: '4000'
+word_vec_size: '512'
+world_size: '1'

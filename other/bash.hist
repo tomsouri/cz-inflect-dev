@@ -1,0 +1,160 @@
+    1  module add python/3.8.0-gcc-rab6t cuda/cuda-11.2.0-intel-19.0.4-tn4edsz cudnn/cudnn-8.1.0.77-11.2-linux-x64-intel-19.0.4-wx22b5t
+    2  ls
+    3  ls -al
+    4  mkdir deep_learning
+    5  cd deep_learning/
+    6  git clone git@gitlab.mff.cuni.cz:souradat/npfl114_deep_learning.git
+    7  cd ~/.ssh/
+    8  ls
+    9  ls -al
+   10  ls -al
+   11  ssh-keygen -t rsa -b 2048 -C "ssh-key_pair for metacentrum connection to gitlab"
+   12  ls
+   13  cat id_rsa.pub 
+   14  cd
+   15  cd deep_learning/
+   16  ls
+   17  git clone git@gitlab.mff.cuni.cz:souradat/npfl114_deep_learning.git
+   18  cd npfl114_deep_learning/labs/05/
+   19  ls
+   20  module add python/3.8.0-gcc-rab6t cuda/cuda-11.2.0-intel-19.0.4-tn4edsz cudnn/cudnn-8.1.0.77-11.2-linux-x64-intel-19.0.4-wx22b5t
+   21  cd ../../
+   22  mkdir .venv
+   23  python3.8 -m venv .venv/
+   24  source .venv/bin/activate
+   25  cd labs/05
+   26  which pip3.8
+   27  pip3.8 install tensorflow==2.8.0 tensorflow-addons==0.16.1 tensorflow-probability==0.16.0 tensorflow-hub==0.12.0 gym==0.20.0 scipy
+   28  ../../.venv//bin/pip install --no-cache-dir --upgrade pip setuptools
+   29  qsub -l select=1:ncpus=1:mem=8gb:scratch_local=16gb -I
+   30  qsub -q gpu -l select=1:ncpus=1:ngpus=1:mem=16gb:scratch_local=8gb -I
+   31  qsub -q gpu -l select=1:ncpus=1:ngpus=1:mem=16gb:scratch_local=8gb cags_classification.py 
+   32  ls
+   33  qsub -q gpu -l select=1:ncpus=1:ngpus=1:mem=16gb:scratch_local=8gb python3.8 cags_classification.py 
+   34  qsub -q gpu -l select=1:ncpus=1:ngpus=1:mem=16gb:scratch_local=8gb -I
+   35  export TMPDIR=$SCRATCHDIR
+   36  ls
+   37  cd rp-sourada/
+   38  ls
+   39  cr czech-automatic-inflection/
+   40  cd czech-automatic-inflection/
+   41  ls
+   42  module add python/3.8.0-gcc-rab6t cuda/cuda-11.2.0-intel-19.0.4-tn4edsz cudnn/cudnn-8.1.0.77-11.2-linux-x64-intel-19.0.4-wx22b5t
+   43  ls -al
+   44  rm -r .venv/
+   45  mkdir .venv
+   46  python3 -m venv .venv
+   47  ls
+   48  make build_data 
+   49  git pull
+   50  make build_data 
+   51  ls data/raw/
+   52  ls
+   53  git pull
+   54  ls
+   55  rm czech-morfflex-2.0.tsv.xz 
+   56  make build_data 
+   57  git pull
+   58  git pull
+   59  ls data/processed/
+   60  git pull
+   61  git pull
+   62  make build_data 
+   63  git pull
+   64  make build_data 
+   65  .venv/bin/python3 -m pip install -e .
+   66  make build_data 
+   67  ls .venv/bin/
+   68  git pull
+   69  make build_data 
+   70  git pull
+   71  make build_data 
+   72  git pull
+   73  make build_data 
+   74  git pull
+   75  make build_data 
+   76  git pull
+   77  make build_data 
+   78  make build_data 
+   79  ls -R data/
+   80  clear
+   81  git pull
+   82  make build_data 
+   83  git pull
+   84  make build_data 
+   85  git pull
+   86  make build_data 
+   87  ls src/czech_inflection/morfflex/
+   88  make build_data 
+   89  git pull
+   90  make build_data 
+   91  nano src/czech_inflection/morfflex/convert2neural.py 
+   92  make build_data 
+   93  git pull
+   94  nano src/czech_inflection/morfflex/convert2neural.py 
+   95  make build_data 
+   96  nano src/czech_inflection/morfflex/convert2neural.py 
+   97  make build_data 
+   98  git pull
+   99  git restore src/czech_inflection/morfflex/convert2neural.py
+  100  git pull
+  101  make build_data 
+  102  less data/cleaned/neural/train.src 
+  103  head -n10 data/cleaned/neural/train.src 
+  104  make build_data 
+  105  rm data/cleaned/neural/*.src
+  106  rm data/cleaned/neural/*.tgt
+  107  make build_data 
+  108  less data/cleaned/neural/train.src 
+  109  less data/cleaned/neural/train.tgt
+  110  ls -al data/cleaned/neural/
+  111  less src/czech_inflection/morfflex/convert2neural.py 
+  112  nano src/czech_inflection/morfflex/convert2neural.py 
+  113  make build_data 
+  114  .venv/bin/python3 src/czech_inflection/morfflex/convert2neural.py 
+  115  nano src/czech_inflection/morfflex/convert2neural.py 
+  116  git restore src/czech_inflection/morfflex/convert2neural.py
+  117  git pull
+  118  .venv/bin/python3 src/czech_inflection/morfflex/convert2neural.py 
+  119  git pull
+  120  git pull
+  121  .venv/bin/python3 src/czech_inflection/morfflex/convert2neural.py 
+  122  ls -aR data/cleaned/
+  123  ls -alR data/cleaned/
+  124  ls -alR data/processed/
+  125* cat $(nouns) | $(python) $(add_raw_lemma) | LC_ALL=C sort -k 1
+  126  cat data/processed/morfflex/morfflex-nouns.tsv | .venv/bin/python3 src/czech_inflection/morfflex/add_raw_lemma.py | less
+  127  cat data/processed/morfflex/morfflex-nouns.tsv | .venv/bin/python3 src/czech_inflection/morfflex/add_raw_lemma.py |  LC_ALL=C sort -k 1 | less
+  128  head -n1000 data/processed/morfflex/morfflex-nouns.tsv | .venv/bin/python3 src/czech_inflection/morfflex/add_raw_lemma.py |  LC_ALL=C sort -k 1 | less
+  129* head -n1000 data/processed/morfflex/morfflex-nouns.tsv | .venv/bin/python3 src/czech_inflection/morfflex/add_raw_lemma.py |  LC_ALL=C sort -k 1 
+  130  cat data/processed/morfflex/morfflex-nouns.tsv | .venv/bin/python3 src/czech_inflection/morfflex/add_raw_lemma.py |  LC_ALL=C sort -k 1 | less
+  131  cat data/processed/morfflex/morfflex-nouns.tsv | .venv/bin/python3 src/czech_inflection/morfflex/add_raw_lemma.py |  LC_ALL=C sort -k 1 | cut -f2,3,4 -d'\t'
+  132  cat data/processed/morfflex/morfflex-nouns.tsv | .venv/bin/python3 src/czech_inflection/morfflex/add_raw_lemma.py |  LC_ALL=C sort -k 1 | cut -f2,3,4 -d \t
+  133  head -n10000 data/processed/morfflex/morfflex-nouns.tsv | .venv/bin/python3 src/czech_inflection/morfflex/add_raw_lemma.py |  LC_ALL=C sort -k 1 | cut -f2,3,4 -d \t
+  134  head -n10000 data/processed/morfflex/morfflex-nouns.tsv | .venv/bin/python3 src/czech_inflection/morfflex/add_raw_lemma.py |  LC_ALL=C sort -k 1 | cut -f2,3,4
+  135* cat data/processed/morfflex/morfflex-nouns.tsv | .venv/bin/python3 src/czech_inflection/morfflex/add_raw_lemma.py |  LC_ALL=C sort -k 1 | cut -f2,3,4 | .venv/bin/python3 src/czech_inflection/morfflex/add_rand_col.py | 
+  136  nano Makefile 
+  137  make shuf 
+  138  rm data/processed/morfflex/morfflex-nouns-shuffled.tsv 
+  139  make shuf 
+  140  ls -al data/processed/morfflex/
+  141  rm data/processed/morfflex/morfflex-lemmata-only.txt 
+  142  rm data/cleaned/*.txt
+  143  rm data/cleaned/neural/*.*
+  144  ls
+  145  make build_data 
+  146  ls -alR data/cleaned/
+  147  less data/cleaned/neural/train.src 
+  148  rm data/cleaned/neural/*.*
+  149  nano src/czech_inflection/morfflex/convert2neural.py 
+  150  make build_data 
+  151  nano src/czech_inflection/morfflex/convert2neural.py 
+  152  rm data/cleaned/neural/*.*
+  153  make build_data 
+  154  rm data/cleaned/neural/*.*
+  155  git pull
+  156  git restore src/czech_inflection/morfflex/convert2neural.py
+  157  git pull
+  158  make build_data 
+  159  ls -alR data/cleaned/
+  160  history > bash.hist

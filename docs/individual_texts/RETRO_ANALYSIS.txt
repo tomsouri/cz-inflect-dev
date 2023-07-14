@@ -1,0 +1,86 @@
+We performed 319 experiments, changing values of maximal number of paradigms to combine when there is no single closest lemma (2^0, 2^1 up to 2^17), and the number of training paradigms used for prediction.
+
+In the following table, for each size of the train set, we present the result obtained when choosing the largest combination number available, and compare the performance with the copy-baseline.
+We report results on development data.
+
+
+% cat RETRO_EVAL_ALL.txt | sed 's=\[=\t\[=g' |  sort -s -r -k 4 | less
+% TODO: add sizes 1,2,4,5,up to 500.
+
+\TODO{Put the following to a nice table, round the accuracies somehow}
+Model           train size      combinations    form-acc        full-par-acc
+Copy-baseline   []              []              0.22530490      0.01529545
+Retrograde      [size=1]        [comb=1]    	0.22629078     	0.01611364
+Retrograde      [size=2]        [comb=2]    	0.29737299     	0.09831818
+Retrograde      [size=4]        [comb=4]    	0.30264143     	0.10368182
+Retrograde      [size=5]        [comb=4]    	0.34080610     	0.23577273
+Retrograde      [size=10]       [comb=8]    	0.42332428     	0.28786364
+Retrograde      [size=50]       [comb=32]   	0.78246266     	0.67286364
+Retrograde      [size=100]      [comb=64]   	0.83165388     	0.72950000
+Retrograde      [size=200]      [comb=128]  	0.86544921     	0.76256818
+Retrograde      [size=400]      [comb=256]  	0.89761831     	0.78888636
+Retrograde      [size=500]      [comb=256]  	0.90412484     	0.79325000
+Retrograde      [size=800]      [comb=512]	    0.90958162   	0.81345455
+Retrograde      [size=1K]       [comb=512]	    0.91121112   	0.81656818
+Retrograde      [size=2K]       [comb=1024]	    0.91915390  	0.83159091
+Retrograde      [size=5K]       [comb=4096]	    0.92314823  	0.83950000
+Retrograde      [size=10K]      [comb=8192]	    0.92910450     	0.84829545
+Retrograde      [size=20K]      [comb=16384]	0.93209655     	0.85397727
+Retrograde      [size=40K]      [comb=32768]	0.93652650     	0.86279545
+Retrograde      [size=80K]      [comb=65536]	0.94006063     	0.87002273
+Retrograde      [size=120K]     [comb=65536]	0.94261706     	0.87536364
+Retrograde      [size=150K]	    [comb=131072]	0.94370940	    0.87700000
+Retrograde	    [size=175K]	    [comb=131072]	0.94404840	    0.87781818
+Retrograde      [size=200K]	    [comb=131072]	0.94450859	    0.87902273
+Retrograde	    [size=225K]	    [comb=131072]	0.94485741      0.87952273
+Retrograde	    [size=250K]	    [comb=131072]	0.94522426      0.88077273
+Retrograde	    [size=280K]     [comb=131072]	0.94546991      0.88140909
+Retrograde	    [size=320K]	    [comb=131072]	0.94627893      0.88322727
+Retrograde	    [size=360K]	    [comb=131072]	0.94672438      0.88427273
+
+
+
+
+\TODO{Maybe plot this to graph, one for all train sizes, and one e.g. for train-sizes from 2k or 10k.}
+
+In general, if we allow enough number of paradigms to combine, the more training examples we have, the better. Mostly also holds that the more combinations we allow, the better, yet for some training set sizes there are exceptions, where a higher number of combinations leads to a slight drop in accuracy, which we guess is caused by the specific development dataset.
+
+It is interesting to note that while the best achieved form accuracy is 94.7\% and the best achieved full-paradigm accuracy is 88.4\%, even with 800 training paradigms we already surpass both 90\% in form accuracy and 80\% in full-paradigm accuracy.
+Moreover, already with 80k paradigms we achieve 94\% form accuracy and 87\% full-paradigm accuracy.
+In addition, even with train size 1 (that is, when randomly choosing one training example as the paradigm for all lemmata in development set) we surpassed the accuracy achieved by the copy baseline (yet this can be caused by having a bit of luck when choosing the one random example).
+
+By inspecting the results we can see that if there are no issues with used disk space nor with speed of prediction, the best setting is to allow as many training paradigms as possible and also make no restrictions about the maximal number of combinations.
+
+
+
+
+BAAAD ===================================================================
+
+#Copy-baseline   []              []              0.22494976      0.01540000
+#Retrograde      [size=1]        [comb=1]        0.22607343      0.01620000
+#Retrograde      [size=2]        [comb=1]        0.29738315      0.09870000
+#Retrograde      [size=4]        [comb=1]        0.30285743      0.10430000
+#Retrograde      [size=5]        [comb=1]        0.34073802      0.23560000
+#Retrograde      [size=10]       [comb=1]        0.42307554      0.28660000
+#Retrograde      [size=50]       [comb=1]        0.78352817      0.67190000
+#Retrograde      [size=100]      [comb=8]        0.83053497      0.72790000
+#Retrograde      [size=200]      [comb=32]       0.86479965      0.76080000
+#Retrograde      [size=400]      [comb=2]        0.90230568      0.80290000
+#Retrograde      [size=500]      [comb=2]        0.90637538      0.80620000
+#Retrograde      [size=800]      [comb=32]       0.90853628      0.81290000
+#Retrograde      [size=1K]       [comb=2]        0.90968876      0.81780000
+#Retrograde      [size=2K]       [comb=128]      0.92077418      0.83360000
+#Retrograde      [size=5K]       [comb=128]      0.92457736      0.84240000
+#Retrograde      [size=10K]      [comb=256]      0.93070712      0.85120000
+#Retrograde      [size=20K]      [comb=64]       0.93358832      0.85610000
+#Retrograde      [size=40K]      [comb=256]      0.93848636      0.86510000
+#Retrograde      [size=80K]      [comb=512]      0.94174212      0.87290000
+#Retrograde      [size=120K]     [comb=1024]     0.94411191      0.87830000
+#Retrograde      [size=150K]     [comb=32]       0.94483221      0.87930000
+#Retrograde      [size=175K]     [comb=64]       0.94475297      0.87970000
+#Retrograde      [size=200K]     [comb=2048]     0.94527159      0.88020000
+#Retrograde      [size=225K]     [comb=2048]     0.94555971      0.88060000
+#Retrograde      [size=250K]     [comb=64]       0.94593427      0.88190000
+#Retrograde      [size=280K]     [comb=64]       0.94589105      0.88220000
+#Retrograde      [size=320K]     [comb=64]       0.94644568      0.88400000
+#Retrograde      [size=360K]     [comb=64]       0.94729563      0.88580000

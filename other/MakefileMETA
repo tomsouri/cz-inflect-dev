@@ -1,0 +1,102 @@
+SHELL=/bin/bash
+
+morfflex-xz = data/raw/czech-morfflex-2.0.tsv.xz
+morfflex = data/raw/czech-morfflex-2.0.tsv
+nouns = data/processed/morfflex/morfflex-nouns.tsv
+nouns-shuffled = data/processed/morfflex/morfflex-nouns-shuffled.tsv
+lemmata = data/processed/morfflex/morfflex-lemmata-only.txt
+train = data/cleaned/train_data.txt
+dev = data/cleaned/dev_data.txt
+test = data/cleaned/test_data.txt
+test-oov = data/cleaned/test_oov_data.txt
+manually-checked = data/processed/dev_data_manual_check.txt
+
+DATA_NO = \
+		train \
+		dev \
+		test
+
+DATA_NOO = $(addprefix data/cleaned/, $(DATA_NO))
+DATA = $(addsuffix _data.txt, $(DATA_NOO))
+
+NEURAL_NO = \
+        dev.src \
+        dev.tgt \
+        train.src \
+        train.tgt \
+        test.src \
+        test.tgt
+
+NEURAL := $(addprefix data/cleaned/neural/, $(NEURAL_NO))
+
+python = .venv/bin/python3
+add_raw_lemma = src/czech_inflection/morfflex/add_raw_lemma.py
+add_rand_col = src/czech_inflection/morfflex/add_rand_col.py
+build_lemmata_only = src/czech_inflection/morfflex/build_lemmata_only.py
+train_dev_test_split = src/czech_inflection/morfflex/train_dev_test_split.py
+build_test_oov_data = src/czech_inflection/dev_testing/build_data/build_test_oov_data.py
+convert2neural = src/czech_inflection/morfflex/convert2neural.py
+
+# delete all data not tracked by git (except for logs)
+clear:
+	rm $(DATA) $(NEURAL) $(morfflex) $(morfflex-xz) $(nouns) $(nouns-shuffled) $(lemmata) $(test-oov)
+	rm -r .venv
+
+# export TMPDIR=$SCRATCHDIR
+# module add python/3.8.0-gcc-rab6t cuda/cuda-11.2.0-intel-19.0.4-tn4edsz cudnn/cudnn-8.1.0.77-11.2-linux-x64-intel-19.0.4-wx22b5t
+
+
+venv:
+#	module add python/3.8.0-gcc-rab6t cuda/cuda-11.2.0-intel-19.0.4-tn4edsz cudnn/cudnn-8.1.0.77-11.2-linux-x64-intel-19.0.4-wx22b5t
+#	mkdir -p .venv
+#	python3 -m venv .venv
+
+	.venv/bin/pip install --no-cache-dir --upgrade pip setuptools
+# install the project:
+	$(python) -m pip install -e .
+	.venv/bin/pip3 install --no-cache-dir -r requirements.txt
+
+# When running python, always run it directly as a venv-python
+
+$(morfflex-xz):
+	# Download morfflex 2.0 from the official repository
+	curl -o $(morfflex-xz) --remote-name-all https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-3186{/czech-morfflex-2.0.tsv.xz}
+
+# order-only-prerequisites: 
+$(morfflex): $(morfflex-xz)
+	unxz --keep $(morfflex-xz)
+
+$(nouns): | $(morfflex)
+	cat $(morfflex) | egrep "^(\S*)\sN" > $(nouns)
+
+$(nouns-shuffled): $(nouns) $(add_raw_lemma) $(add_rand_col)
+	cat $(nouns) | $(python) $(add_raw_lemma) | LC_ALL=C sort -k 1 | cut -f2,3,4 | $(python) $(add_rand_col) | sort -k 1 | cut -f2,3,4 > $(nouns-shuffled)
+
+$(lemmata): $(morfflex) $(build_lemmata_only)
+	$(python) $(build_lemmata_only)
+
+$(DATA): $(nouns-shuffled) $(train_dev_test_split)
+	$(python) $(train_dev_test_split)
+
+$(test-oov): $(manually-checked)
+	$(python) $(build_test_oov_data)
+
+$(NEURAL):  $(DATA)
+	$(python) $(convert2neural)
+
+build_data: $(DATA) $(test-oov) $(lemmata) $(NEURAL)
+
+build_vocab:
+	.venv/bin/onmt_build_vocab -config onmt.yaml 
+train:
+	.venv/bin/onmt_train -config onmt.yaml
+
+test:
+#	onmt_translate -model run/model_step_1000.pt -src data/test.src -output out/pred_1000.txt -gpu 0 -verbose
+	.venv/bin/onmt_translate -model run/model_step_1000.pt -src data/cleaned/neural/test.src -output data/log/evaluate_models/onmt/pred_1000.txt -verbose
+
+
+
+dev_test:
+# TODO test all models on dev data, ideally test only models that NEED TO be
+# tested again (that is, the )

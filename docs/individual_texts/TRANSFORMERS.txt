@@ -1,0 +1,55 @@
+# cat docs/hyperparams.txt | egrep "^Transformer" | egrep -v "0\.00000" > docs/individual_texts/TRANSFORMERS.txt
+
+Accum_count=[4] for all exps. Therefore the batchsize is effectively 4 times higher than reported
+Model_name                                              & train-steps & effective batchsize & epochs & date      & form-acc & full-par acc
+
+Also evaluated on the dev medium only.
+
+We omit early stopping, train for more steps (and use more warmup steps).
+
+6 layers, 8 heads
+Transformer_v0.2_tutorial_batch4096                         & 100k    & 16384 & 325 & 2023-05-05 01:38:28 & 0.94799432      & 0.85670000
+
+In the next experiment we build batches by sentences, not by tokens, increase dropout and attention dropout from 0.1 to 0.2, decrease the hidden size and word-vec size from 512 to 256.
+
+Here the only difference is batch size, trainig steps and warmup steps, otherwise it is equivalent.
+
+Both these models are evaluated on the dev_medium only.
+Transformer_v0.3_batch64_drops0.2_hid256_wv256              & 100k    & 256   & 5   & 2023-05-13 06:40:05 & 0.95547824      & 0.88410000     
+Transformer_v0.4_batch32_drops0.2_hid256_wv256              & 200k    & 128   & 5   & 2023-05-14 03:59:46 & 0.95394167      & 0.88054545     
+
+MINI
+Transformer_v0.4_batch32_drops0.2_hid64_wv64_1he_1lay_ff128 & 2000k   & 128   & 51  & 2023-05-15 00:22:44 & 0.31133536      & 0.00280000     
+Transformer_v0.5_batch32_drops0.2_hid64_wv64_1he_1lay_ff128 & 4000k   & 128   & 102 & 2023-05-16 09:39:52 & 0.50523651      & 0.00695455          
+Transformer_v0.6_batch32_drops0.2_hid64_wv64_1he_1lay_ff128 & 12000k  & 128   & 305 & 2023-05-23 08:15:44 & 0.67944882      & 0.35804545     
+Transformer_v0.6_batch32_drops0.2_hid64_wv64_1he_1lay_ff128 & 12080k  & 128   & 307 & 2023-05-24 13:02:06 & 0.68014811      & 0.35972727    
+
+Transformer_v0.7_batch32_drops0.2_hid64_wv64_2he_1lay_ff128 & 2000k   & 128   & 51  & 2023-05-20 21:01:15 & 0.27974819      & 0.00250000     
+Transformer_v0.7_batch32_drops0.2_hid64_wv64_2he_1lay_ff128 & 4000k   & 128   & 102 & 2023-05-22 18:38:32 & 0.45317277      & 0.00393182
+
+Transformer_v0.8_batch512_drops0.2_hid64_wv64_1he_1lay_ff128& 2000k   & 2048  & 813 & 2023-06-09 19:34:06 & 0.59707312      & 0.19763636
+
+===
+
+Default setting from Wu&Cotterell, comparison of batch size vs train steps
+Transformer_v0.12_Wu&Cotterell_bs400_accum1                       & 20k     & 2023-07-10 15:35:19 & 0.87580758      & 0.62875000     
+Transformer_v0.13_Wu&Cotterell_bs800_accum1                       & 10k     & 2023-07-10 15:42:37 & 0.86522648      & 0.61813636
+
+Transformer_v0.13_Wu&Cotterell_bs400_accum1                       & 200k    & 2023-07-10 18:15:50 & 0.94015889      & 0.82661364 
+Transformer_v0.15_Wu&Cotterell_bs400_accum1                       & 300k    & 2023-07-11 01:30:01 & 0.94311983      & 0.83734091
+
+The same, the only change is in training steps.
+Transformer_v0.9_Wu&Cotterell_batch400                      & 20k     & 1600  & 6   & 2023-06-11 02:20:14 & 0.88963458      & 0.65254545     
+Transformer_v0.9_Wu&Cotterell                               & 200k    & 1600  & 63  & 2023-06-11 21:07:57 & 0.94102195      & 0.83220455     
+Transformer_v0.9_Wu&Cotterell                               & 400k    & 1600  & 127 & 2023-06-12 10:42:59 & 0.94527339      & 0.85172727
+     
+The same, the only change is in training steps.
+Transformer_v0.10_Wu&Cotterell+batch_4096                   & 100k    & 16384 & 325 & 2023-06-11 15:21:45 & 0.93480365      & 0.80543182     
+Transformer_v0.10_Wu&Cotterell+batch_4096                   & 300k    & 16384 & 975 & 2023-06-12 02:05:18 & 0.94327377      & 0.84413636     
+Transformer_v0.10_Wu&Cotterell+batch_4096                   & 500k    & 16384 & 1625& 2023-06-12 17:12:56 & 0.94604474      & 0.85538636     
+
+
+
+Transformer_v0.12_tutorial_batch1024_accumcount4_LR001            & 40k & 4096  & 32.5  & 2023-07-10 21:34:16 & 0.70599901      & 0.44525000     
+     
+Transformer_v0.11_tutorial_batch1024_accumcount4_LR2              & 40k & 4096  & 32.5  & 2023-07-11 03:28:55 & 0.96080522      & 0.90200000

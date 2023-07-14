@@ -1,0 +1,34 @@
+SHELL=/bin/bash
+
+DATA_DIR="../../../data/"
+
+PROCESSED_DIR=$(DATA_DIR)"processed/morfflex/"
+MORFFLEX_RAW=$(DATA_DIR)"raw/czech-morfflex-2.0.tsv"
+#MORFFLEX_RAW=$(DATA_DIR)"raw/head.tsv"
+MORFFLEX_NOUNS=$(PROCESSED_DIR)"morfflex-nouns.tsv"
+MORFFLEX_SHUFFLED=$(PROCESSED_DIR)"morfflex-nouns-shuffled.tsv"
+#MORFFLEX_1d=$(PROCESSED_DIR)"morfflex-1d.tsv"
+#MORFFLEX_1c=$(PROCESSED_DIR)"morfflex-1c.tsv"
+#MORFFLEX_1m=$(PROCESSED_DIR)"morfflex-1m.tsv"
+
+ #./add_rand_col.py | sort -k 1 | cut -f2,3,4 -d$'\t' |less
+
+
+extract_nouns:
+	cat $(MORFFLEX_RAW) | egrep "^(\S*)\sN" > $(MORFFLEX_NOUNS)
+
+shuffle:					# add raw lemma		# sort by raw lemma	# remove raw lemma		# add rand number  # sort by it # remove the rand number
+	cat $(MORFFLEX_NOUNS) | ./add_raw_lemma.py | LC_ALL=C sort -k 1 | cut -f2,3,4 -d'	' | ./add_rand_col.py | sort -k 1 | cut -f2,3,4 -d'	' > $(MORFFLEX_SHUFFLED) 
+
+#extract_random_m:
+#	cat $(MORFFLEX_NOUNS) | ./add_rand_col.py | awk -F '\t' '$$1 < 0.001' | cut -f2,3,4 -d'	' > $(MORFFLEX_1m) 
+
+#extract_random_c:#
+#	cat $(MORFFLEX_NOUNS) | ./add_rand_col.py | awk -F '\t' '$$1 < 0.01' | cut -f2,3,4 -d'	' > $(MORFFLEX_1c) 
+
+#extract_random_d:
+#	cat $(MORFFLEX_NOUNS) | ./add_rand_col.py | awk -F '\t' '$$1 < 0.1' | cut -f2,3,4 -d'	' > $(MORFFLEX_1d) 
+
+
+#     cat ../../../data/processed/morfflex-head.tsv| egrep "^(\S*)\sN" | ./add_rand_col.py | awk -F '\t' '$1 < 0.1' | cut -f2,3,4 -d$'\t'
+  

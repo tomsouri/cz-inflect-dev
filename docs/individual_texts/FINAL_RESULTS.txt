@@ -1,0 +1,83 @@
+Simple baseline	dev	& & &0.22507745	&0.01500477
+Simple baseline	test	& & & 0.22594052	&0.01478012
+Simple baseline	test-oov	& & & 0.13125453&	0.00000000
+Sklonuj.cz	dev	& & & 0.88740885	&0.74214523
+Sklonuj.cz	test	& & & 0.88883665&	0.74430397
+Sklonuj.cz	test-oov	& & & 0.86221900&	0.55445545
+
+Nonneural
+NonneuralBaseline_dev                                             & x       & 2023-07-14 14:00:34 & 0.94605526      & 0.87946165     
+NonneuralBaseline_test                                            & x       & 2023-07-14 14:00:57 & 0.94782573      & 0.88150894     
+NonneuralBaseline_test-oov                                        & x       & 2023-07-14 14:01:15 & 0.89485134      & 0.71287129
+
+SIG vanilla neural
+
+default
+SIG_morfflex_transformer_large_ts20000_bs400_ds_dev               & 20k     & 2023-07-12 20:44:13 & 0.95228211      & 0.86843541     
+SIG_morfflex_transformer_large_ts20000_bs400_ds_test              & 20k     & 2023-07-12 20:44:19 & 0.95467822      & 0.87286825     
+SIG_morfflex_transformer_large_ts20000_bs400_ds_test-oov          & 20k     & 2023-07-12 20:44:21 & 0.87527194      & 0.63366337
+
+improved training params
+SIG_morfflex_transformer_large_ts150000_bs800_ds_dev              & 150k    & 2023-07-13 15:47:06 & 0.95997025      & 0.89946801     
+SIG_morfflex_transformer_large_ts150000_bs800_ds_test             & 150k    & 2023-07-13 15:47:16 & 0.96166832      & 0.90147346     
+SIG_morfflex_transformer_large_ts150000_bs800_ds_test-oov         & 150k    & 2023-07-13 15:47:18 & 0.86511965      & 0.55445545
+
+
+Retrograde[size=360K][comb=131072]	dev	& & & 0.94680229&	0.88430410
+Retrograde[size=360K][comb=131072]	test & & & 	0.94853342&	0.88639774
+Retrograde[size=360K][comb=131072]	test-oov	& & & 0.89340102&	0.71287129
+
+MY NEURAL MODELS
+
+LSTM_best_v0.44_2_lay+batch256+emb128+brnn_enc+hid_200_dev        & 260k    & 2023-07-13 00:44:03 & 0.95981790      & 0.89417087     
+LSTM_best_v0.44_2_lay+batch256+emb128+brnn_enc+hid_200_test       & 260k    & 2023-07-13 00:58:23 & 0.96163228      & 0.89801719     
+LSTM_best_v0.44_2_lay+batch256+emb128+brnn_enc+hid_200_test-oov   & 260k    & 2023-07-13 00:58:43 & 0.86947063      & 0.58415842     
+
+Transformer_best_v0.11_tutorial_batch1024_accumcount4_LR2_dev     & 40k     & 2023-07-13 04:43:50 & 0.95998663      & 0.90115037     
+Transformer_best_v0.11_tutorial_batch1024_accumcount4_LR2_test    & 40k     & 2023-07-13 05:04:00 & 0.96182722      & 0.90442949     
+Transformer_best_v0.11_tutorial_batch1024_accumcount4_LR2_test-oov & 40k     & 2023-07-13 05:04:21 & 0.87237128      & 0.61386139
+
+
+
+
+
+==============================
+SIG inp-inv neural
+
+improved training params
+SIG_morfflex_tagtransformer_large_ts150000_bs800_ds_dev           & 150k    & 2023-07-13 16:05:52 & 0.95982117      & 0.89846769     
+SIG_morfflex_tagtransformer_large_ts150000_bs800_ds_test          & 150k    & 2023-07-13 16:06:02 & 0.96170600      & 0.90147346     
+SIG_morfflex_tagtransformer_large_ts150000_bs800_ds_test-oov      & 150k    & 2023-07-13 16:06:04 & 0.87599710      & 0.61386139
+
+default
+SIG_morfflex_tagtransformer_large_ts20000_bs400_ds_dev            & 20k     & 2023-07-13 18:22:56 & 0.95253440      & 0.86868549     
+SIG_morfflex_tagtransformer_large_ts20000_bs400_ds_test           & 20k     & 2023-07-13 18:23:06 & 0.95480272      & 0.87243622     
+SIG_morfflex_tagtransformer_large_ts20000_bs400_ds_test-oov       & 20k     & 2023-07-13 18:23:08 & 0.87382161      & 0.57425743 
+=============================
+
++ copy
++ sklonuj
++ Retrograde
+- sig nonneural
++ sig vanilla
++ sig vanilla tuned
++ sig inp-inv
++ sig inp-inv tuned
++ lstm best
++ transformer best
+
+
+
+
+
+
+Just for check:
+From metacentrum:
+
+Tested model	dataset	Form accuracy	Full-paradigm accuracy
+Simple baseline	dev	0.22507745	0.01500477
+Simple baseline	test	0.22594052	0.01478012
+Simple baseline	test-oov	0.13125453	0.00000000
+Retrograde[size=360K][comb=131072]	dev	0.94678263	0.88428136
+Retrograde[size=360K][comb=131072]	test	0.94852687	0.88639774
+Retrograde[size=360K][comb=131072]	test-oov	0.89340102	0.71287129

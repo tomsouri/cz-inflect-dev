@@ -1,0 +1,2001 @@
+
+
+--DONE-
+
+júzr
+|Main dscr | uživatel výpočetní techniky, z anglického &#8220
+|Other dscr| user&#8221,  
+|Example   | Příklad: &#8220,Júzři jsou dnes splašení, od rána už 10 telefonátů&#8230,&#8221,
+
+|Lemma     | JÚZR
+
+	|1. (kdo/co) | júzr                	|1. (ti/ty/ta)| júzry
+	|2. (bez)    | júzru               	|2. (bez)     | júzrů
+	|3. (ke/k)   | júzru               	|3. (ke/k)    | júzrům
+	|4. (vidím)  | júzr                	|4. (vidím)   | júzry
+	|5. (volám)  | júzře               	|5. (volám)   | júzry
+	|6. (o)      | júzru               	|6. (o)       | júzrech
+	|7. (s)      | júzrem              	|7. (s)       | júzry
+
+
+---
+
+ekohujer
+|Main dscr | osoba, která svým zápalem pro záchranu planety obtěžuje blízké okolí, často bývá přesvědčena, že použití plastového brčka zabije velrybu a dvě želvy  <em>Příklad: A: „Včera jak ten Karel udělal scénu v kavárně kvůli plastovému brčku.” B: „Jojo, Karel je ekohujer.”</em>
+|Other dscr| 
+|Example   | 
+
+|Lemma     | EKOHUJER
+
+	|1. (kdo/co) | ekohujer            	|1. (ti/ty/ta)| ekohujery
+	|2. (bez)    | ekohujeru           	|2. (bez)     | ekohujerů
+	|3. (ke/k)   | ekohujeru           	|3. (ke/k)    | ekohujerům
+	|4. (vidím)  | ekohujer            	|4. (vidím)   | ekohujery
+	|5. (volám)  | ekohujere           	|5. (volám)   | ekohujery
+	|6. (o)      | ekohujeru           	|6. (o)       | ekohujerech
+	|7. (s)      | ekohujerem          	|7. (s)       | ekohujery
+
+
+---
+
+egoonanie
+|Main dscr | přehnaný obdiv k sobě samému, narcismus
+|Other dscr| 
+|Example   | 
+
+|Lemma     | EGOONANIE
+
+	|1. (kdo/co) | egoonanie           	|1. (ti/ty/ta)| egoonanie
+	|2. (bez)    | egoonanie           	|2. (bez)     | egoonanií
+	|3. (ke/k)   | egoonanii           	|3. (ke/k)    | egoonaniím
+	|4. (vidím)  | egoonanii           	|4. (vidím)   | egoonanie
+	|5. (volám)  | egoonanie           	|5. (volám)   | egoonanie
+	|6. (o)      | egoonanii           	|6. (o)       | egoonaniích
+	|7. (s)      | egoonanií           	|7. (s)       | egoonaniemi
+
+
+---
+
+esvéenka
+|Main dscr | verzovací systém Apache Subversion, zkráceně SVN
+|Other dscr|  programátorský slang, též ve variantě esvéenko  
+|Example   | Příklad: „Až to budeš mít otestovaný, hoď to do esvéenky.”
+
+|Lemma     | ESVÉENKA
+
+	|1. (kdo/co) | esvéenka            	|1. (ti/ty/ta)| esvéenky
+	|2. (bez)    | esvéenky            	|2. (bez)     | esvéenek
+	|3. (ke/k)   | esvéence            	|3. (ke/k)    | esvéenkám
+	|4. (vidím)  | esvéenku            	|4. (vidím)   | esvéenky
+	|5. (volám)  | esvéenko            	|5. (volám)   | esvéenky
+	|6. (o)      | esvéence            	|6. (o)       | esvéenkách
+	|7. (s)      | esvéenkou           	|7. (s)       | esvéenkami
+
+
+---
+
+esperantština
+|Main dscr | esperanto  
+|Other dscr| 
+|Example   | Příklad: „Moje kamarádka z Litvy mluví plynule esperantštinou.”
+
+|Lemma     | ESPERANTŠTINA
+
+	|1. (kdo/co) | esperantština       	|1. (ti/ty/ta)| esperantštiny
+	|2. (bez)    | esperantštiny       	|2. (bez)     | esperantštin
+	|3. (ke/k)   | esperantštině       	|3. (ke/k)    | esperantštinám
+	|4. (vidím)  | esperantštinu       	|4. (vidím)   | esperantštiny
+	|5. (volám)  | esperantštino       	|5. (volám)   | esperantštiny
+	|6. (o)      | esperantštině       	|6. (o)       | esperantštinách
+	|7. (s)      | esperantštinou      	|7. (s)       | esperantštinami
+
+
+---
+
+jelcinovat
+|Main dscr | nasekat dluhy
+|Other dscr|  podle bývalého prezidenta Borise Jelcina, za jehož vlády vzrostl dluh Ruska
+|Example   | 
+
+|Lemma     | JELCINOVAT
+
+	|1. (kdo/co) | jelcinovat          	|1. (ti/ty/ta)| jelcinovaty
+	|2. (bez)    | jelcinovatu         	|2. (bez)     | jelcinovatů
+	|3. (ke/k)   | jelcinovatu         	|3. (ke/k)    | jelcinovatům
+	|4. (vidím)  | jelcinovat          	|4. (vidím)   | jelcinovaty
+	|5. (volám)  | jelcinovate         	|5. (volám)   | jelcinovaty
+	|6. (o)      | jelcinovatu         	|6. (o)       | jelcinovatech
+	|7. (s)      | jelcinovatem        	|7. (s)       | jelcinovaty
+
+
+---
+
+e-vůz
+|Main dscr | elektromobil
+|Other dscr|  stejné je <a href="https://cestina20.cz/slovnik/e-auto/">e-auto</a>  
+|Example   | Příklad: „Za první půlku roku 2019 se prodalo pouhých 453 e-vozů, za první pololetí 2021 už to bylo přes 13 tisíc.”
+
+|Lemma     | E-VŮZ
+
+	|1. (kdo/co) | evůz                	|1. (ti/ty/ta)| evozy
+	|2. (bez)    | evozu               	|2. (bez)     | evozů
+	|3. (ke/k)   | evozu               	|3. (ke/k)    | evozům
+	|4. (vidím)  | evůz                	|4. (vidím)   | evozy
+	|5. (volám)  | evoze               	|5. (volám)   | evozy
+	|6. (o)      | evozu               	|6. (o)       | evozech
+	|7. (s)      | evozem              	|7. (s)       | evozy
+
+
+---
+
+energožebračenka
+|Main dscr | příspěvek na energie pro domácnost
+|Other dscr| 
+|Example   | 
+
+|Lemma     | ENERGOŽEBRAČENKA
+
+	|1. (kdo/co) | energožebračenka    	|1. (ti/ty/ta)| energožebračenky
+	|2. (bez)    | energožebračenky    	|2. (bez)     | energožebračenek
+	|3. (ke/k)   | energožebračence    	|3. (ke/k)    | energožebračenkám
+	|4. (vidím)  | energožebračenku    	|4. (vidím)   | energožebračenky
+	|5. (volám)  | energožebračenko    	|5. (volám)   | energožebračenky
+	|6. (o)      | energožebračence    	|6. (o)       | energožebračenkách
+	|7. (s)      | energožebračenkou   	|7. (s)       | energožebračenkami
+
+
+---
+
+europosranec
+|Main dscr | fanatický stoupenec Evropské unie, který doslovně, až <a href="https://cestina20.cz/slovnik/hujer/">hujersky</a> plní každý příkaz EU (může tak činit i ze strachu a z čistě kariérních důvodů)  
+|Other dscr| 
+|Example   | Příklad: „Mezi voliči TOP 09 převládají europosranci.”
+
+|Lemma     | EUROPOSRANEC
+
+	|1. (kdo/co) | europosranec        	|1. (ti/ty/ta)| europosrance
+	|2. (bez)    | europosrance        	|2. (bez)     | europosranců
+	|3. (ke/k)   | europosranci        	|3. (ke/k)    | europosrancům
+	|4. (vidím)  | europosranec        	|4. (vidím)   | europosrance
+	|5. (volám)  | europosranče        	|5. (volám)   | europosrance
+	|6. (o)      | europosranci        	|6. (o)       | europosrancích
+	|7. (s)      | europosrancem       	|7. (s)       | europosranci
+
+
+---
+
+jucharajda
+|Main dscr | večírek bez zábran, jen s udržováním potřebné vzdálenosti, aspoň ze začátku
+|Other dscr| 
+|Example   | 
+
+|Lemma     | JUCHARAJDA
+
+	|1. (kdo/co) | jucharajda          	|1. (ti/ty/ta)| jucharajdy
+	|2. (bez)    | jucharajdy          	|2. (bez)     | jucharajd
+	|3. (ke/k)   | jucharajdě          	|3. (ke/k)    | jucharajdám
+	|4. (vidím)  | jucharajdu          	|4. (vidím)   | jucharajdy
+	|5. (volám)  | jucharajdo          	|5. (volám)   | jucharajdy
+	|6. (o)      | jucharajdě          	|6. (o)       | jucharajdách
+	|7. (s)      | jucharajdou         	|7. (s)       | jucharajdami
+
+
+---
+
+ejakulajda
+|Main dscr | sperma  
+|Other dscr| 
+|Example   | Příklad: „Dneska jsem v posteli dělal ejakulajdu.”
+
+|Lemma     | EJAKULAJDA
+
+	|1. (kdo/co) | ejakulajda          	|1. (ti/ty/ta)| ejakulajdy
+	|2. (bez)    | ejakulajdy          	|2. (bez)     | ejakulajd
+	|3. (ke/k)   | ejakulajdě          	|3. (ke/k)    | ejakulajdám
+	|4. (vidím)  | ejakulajdu          	|4. (vidím)   | ejakulajdy
+	|5. (volám)  | ejakulajdo          	|5. (volám)   | ejakulajdy
+	|6. (o)      | ejakulajdě          	|6. (o)       | ejakulajdách
+	|7. (s)      | ejakulajdou         	|7. (s)       | ejakulajdami
+
+
+---
+
+jednonocka
+|Main dscr | milenka na jednu noc  <em>Příklad: A: „Tak jsem jí v noci pořádně naložil.” B: „A uvidíš se s ní ještě?” A: „Ne, je to jenom jednonocka.”</em>
+|Other dscr| 
+|Example   | 
+
+|Lemma     | JEDNONOCKA
+
+	|1. (kdo/co) | jednonocka          	|1. (ti/ty/ta)| jednonocky
+	|2. (bez)    | jednonocky          	|2. (bez)     | jednonocek
+	|3. (ke/k)   | jednonocce          	|3. (ke/k)    | jednonockám
+	|4. (vidím)  | jednonocku          	|4. (vidím)   | jednonocky
+	|5. (volám)  | jednonocko          	|5. (volám)   | jednonocky
+	|6. (o)      | jednonocce          	|6. (o)       | jednonockách
+	|7. (s)      | jednonockou         	|7. (s)       | jednonockami
+
+
+---
+
+jarky
+|Main dscr | jarní školní prázdniny
+|Other dscr|  viz také <a href="https://cestina20.cz/slovnik/jarnace/">jarňáče</a>
+|Example   | 
+
+|Lemma     | JARKY
+
+	|1. (kdo/co) | jarky               	|1. (ti/ty/ta)| jarky
+	|2. (bez)    | ?                   	|2. (bez)     | jarek
+	|3. (ke/k)   | ?                   	|3. (ke/k)    | jarkám
+	|4. (vidím)  | ?                   	|4. (vidím)   | jarky
+	|5. (volám)  | ?                   	|5. (volám)   | jarky
+	|6. (o)      | ?                   	|6. (o)       | jarkách
+	|7. (s)      | ?                   	|7. (s)       | jarkami
+
+
+---
+
+elektromustang
+|Main dscr | elektromobil Ford Mustang Mach-E  
+|Other dscr| 
+|Example   | Příklad: „Pamatuju doby, kdy byl mustang klasickej sporťák. Novej elektromustang je ale SUV, jak jinak.”
+
+|Lemma     | ELEKTROMUSTANG
+
+	|1. (kdo/co) | elektromustang      	|1. (ti/ty/ta)| elektromustangy
+	|2. (bez)    | elektromustangu     	|2. (bez)     | elektromustangů
+	|3. (ke/k)   | elektromustangu     	|3. (ke/k)    | elektromustangům
+	|4. (vidím)  | elektromustang      	|4. (vidím)   | elektromustangy
+	|5. (volám)  | elektromustange     	|5. (volám)   | elektromustangy
+	|6. (o)      | elektromustangu     	|6. (o)       | elektromustangech
+	|7. (s)      | elektromustangem    	|7. (s)       | elektromustangy
+
+
+---
+
+elanky
+|Main dscr | lyže značky Elan  
+|Other dscr| 
+|Example   | Příklad: „Vždycky jsem jezdil na elankách, ale ty poslední mi moc nesedly.”
+
+|Lemma     | ELANKY
+
+	|1. (kdo/co) | elanky              	|1. (ti/ty/ta)| elanky
+	|2. (bez)    | ?                   	|2. (bez)     | elanek
+	|3. (ke/k)   | ?                   	|3. (ke/k)    | elankám
+	|4. (vidím)  | ?                   	|4. (vidím)   | elanky
+	|5. (volám)  | ?                   	|5. (volám)   | elanky
+	|6. (o)      | ?                   	|6. (o)       | elankách
+	|7. (s)      | ?                   	|7. (s)       | elankami
+
+
+---
+
+jorkvava
+|Main dscr | dnes velmi rozšířené pseudo-plemeno maličkého psa, kříženec yorkshirského teriéra a čivavy  <em>Příklad: A: „To je hezký pejsek, to je jorkšír?” B: „Ne, jorkvava.”</em>
+|Other dscr| 
+|Example   | 
+
+|Lemma     | JORKVAVA
+
+	|1. (kdo/co) | jorkvava            	|1. (ti/ty/ta)| jorkvavy
+	|2. (bez)    | jorkvavy            	|2. (bez)     | jorkvav
+	|3. (ke/k)   | jorkvavě            	|3. (ke/k)    | jorkvavám
+	|4. (vidím)  | jorkvavu            	|4. (vidím)   | jorkvavy
+	|5. (volám)  | jorkvavo            	|5. (volám)   | jorkvavy
+	|6. (o)      | jorkvavě            	|6. (o)       | jorkvavách
+	|7. (s)      | jorkvavou           	|7. (s)       | jorkvavami
+
+
+---
+
+elpaso
+|Main dscr | loupežné přepadení, loupež
+|Other dscr|  stejné jako <a href="https://cestina20.cz/slovnik/elpicko">elpíčko</a>  
+|Example   | Příklad: &#8220,Dostal bůra za elpaso.&#8221,
+
+|Lemma     | ELPASO
+
+	|1. (kdo/co) | elpaso              	|1. (ti/ty/ta)| elpasa
+	|2. (bez)    | elpasa              	|2. (bez)     | elpas
+	|3. (ke/k)   | elpasu              	|3. (ke/k)    | elpasům
+	|4. (vidím)  | elpaso              	|4. (vidím)   | elpasa
+	|5. (volám)  | elpaso              	|5. (volám)   | elpasa
+	|6. (o)      | elpasu              	|6. (o)       | elpasech
+	|7. (s)      | elpasem             	|7. (s)       | elpasy
+
+
+---
+
+Jágrov
+|Main dscr | město Kladno  
+|Other dscr| 
+|Example   | Příklad: &#8220,Zítra hrajem s Jágrovem, to bude <a href="https://cestina20.cz/slovnik/brnkacka">brnkačka</a>.&#8221,
+
+|Lemma     | JÁGROV
+
+	|1. (kdo/co) | Jágrov              	|1. (ti/ty/ta)| Jágrovy
+	|2. (bez)    | Jágrovu             	|2. (bez)     | Jágrovů
+	|3. (ke/k)   | Jágrovu             	|3. (ke/k)    | Jágrovům
+	|4. (vidím)  | Jágrov              	|4. (vidím)   | Jágrovy
+	|5. (volám)  | Jágrove             	|5. (volám)   | Jágrovy
+	|6. (o)      | Jágrovu             	|6. (o)       | Jágrovech
+	|7. (s)      | Jágrovem            	|7. (s)       | Jágrovy
+
+
+---
+
+elektrořidič
+|Main dscr | řidič elektrického vozu  
+|Other dscr| 
+|Example   | Příklad: „Jako přesvědčenému elektrořidiči mi vadí, že elektromobily od Volkswagenu neumí vzdálený upgrade a třeba ani nemají kufr vpředu, jen vzadu.”
+
+|Lemma     | ELEKTROŘIDIČ
+
+	|1. (kdo/co) | elektrořidič        	|1. (ti/ty/ta)| elektrořidiče
+	|2. (bez)    | elektrořidiče       	|2. (bez)     | elektrořidičů
+	|3. (ke/k)   | elektrořidiči       	|3. (ke/k)    | elektrořidičům
+	|4. (vidím)  | elektrořidiče       	|4. (vidím)   | elektrořidiče
+	|5. (volám)  | elektrořidiči       	|5. (volám)   | elektrořidiče
+	|6. (o)      | elektrořidiči       	|6. (o)       | elektrořidičích
+	|7. (s)      | elektrořidičem      	|7. (s)       | elektrořidiči
+
+
+---
+
+eurobubák
+|Main dscr | politik donekonečna strašící Evropskou unií a Bruselem  
+|Other dscr| 
+|Example   | Příklad: "Eurobubáci teď zas vytáhli do boje s <a href="https://cestina20.cz/slovnik/tuzemak/">tuzemákem</a>."
+
+|Lemma     | EUROBUBÁK
+
+	|1. (kdo/co) | eurobubák           	|1. (ti/ty/ta)| eurobubáky
+	|2. (bez)    | eurobubáku          	|2. (bez)     | eurobubáků
+	|3. (ke/k)   | eurobubáku          	|3. (ke/k)    | eurobubákům
+	|4. (vidím)  | eurobubák           	|4. (vidím)   | eurobubáky
+	|5. (volám)  | eurobubáku          	|5. (volám)   | eurobubáky
+	|6. (o)      | eurobubáku          	|6. (o)       | eurobubácích
+	|7. (s)      | eurobubákem         	|7. (s)       | eurobubáky
+
+
+---
+
+jablečňák
+|Main dscr | víno vyrobené z jablečného moštu  
+|Other dscr| 
+|Example   | Příklad: „V sobotu zajedu do moštárny a založím na novej jablečňák.”
+
+|Lemma     | JABLEČŇÁK
+
+	|1. (kdo/co) | jablečňák           	|1. (ti/ty/ta)| jablečňáky
+	|2. (bez)    | jablečňáku          	|2. (bez)     | jablečňáků
+	|3. (ke/k)   | jablečňáku          	|3. (ke/k)    | jablečňákům
+	|4. (vidím)  | jablečňák           	|4. (vidím)   | jablečňáky
+	|5. (volám)  | jablečňáku          	|5. (volám)   | jablečňáky
+	|6. (o)      | jablečňáku          	|6. (o)       | jablečňácích
+	|7. (s)      | jablečňákem         	|7. (s)       | jablečňáky
+
+
+---
+
+jogomodelína
+|Main dscr | žena, která jogguje v parku, aby předvedla své značkové hadry a další sportovní vybavení (zejména během korony, protože jinde nemá možnost)  
+|Other dscr| 
+|Example   | Příklad: „Sleduj tu jogomodelínu a ty její doplňky.”
+
+|Lemma     | JOGOMODELÍNA
+
+	|1. (kdo/co) | jogomodelína        	|1. (ti/ty/ta)| jogomodelíny
+	|2. (bez)    | jogomodelíny        	|2. (bez)     | jogomodelín
+	|3. (ke/k)   | jogomodelíně        	|3. (ke/k)    | jogomodelínám
+	|4. (vidím)  | jogomodelínu        	|4. (vidím)   | jogomodelíny
+	|5. (volám)  | jogomodelíno        	|5. (volám)   | jogomodelíny
+	|6. (o)      | jogomodelíně        	|6. (o)       | jogomodelínách
+	|7. (s)      | jogomodelínou       	|7. (s)       | jogomodelínami
+
+
+---
+
+jxvd
+|Main dscr | zkr. jak se vede (v elektronické komunikaci)
+|Other dscr| 
+|Example   | 
+
+|Lemma     | JXVD
+
+	|1. (kdo/co) | jxvd                	|1. (ti/ty/ta)| jxvdy
+	|2. (bez)    | jxvdu               	|2. (bez)     | jxvdů
+	|3. (ke/k)   | jxvdu               	|3. (ke/k)    | jxvdům
+	|4. (vidím)  | jxvd                	|4. (vidím)   | jxvdy
+	|5. (volám)  | jxvde               	|5. (volám)   | jxvdy
+	|6. (o)      | jxvdu               	|6. (o)       | jxvdech
+	|7. (s)      | jxvdem              	|7. (s)       | jxvdy
+
+
+---
+
+japík
+|Main dscr | mladý muž, navenek úspěšný a bohatý
+|Other dscr|  z anglického &#8220,yuppie&#8221,
+|Example   | 
+
+|Lemma     | JAPÍK
+
+	|1. (kdo/co) | japík               	|1. (ti/ty/ta)| japíky
+	|2. (bez)    | japíku              	|2. (bez)     | japíků
+	|3. (ke/k)   | japíku              	|3. (ke/k)    | japíkům
+	|4. (vidím)  | japík               	|4. (vidím)   | japíky
+	|5. (volám)  | japíku              	|5. (volám)   | japíky
+	|6. (o)      | japíku              	|6. (o)       | japících
+	|7. (s)      | japíkem             	|7. (s)       | japíky
+
+
+---
+
+japončit
+|Main dscr | cestovat autem, u turisticky zajímavého místa jen zastavit, udělat krok z auta, vyfotit ho a jet dál, příp. ani nevystupovat, jen fotit ze staženého okénka  
+|Other dscr| 
+|Example   | Příklad: „Kolega s přítelkyní na dovolené vždycky jen japončí. Mají mraky fotek, ale žádný zážitky.”
+
+|Lemma     | JAPONČIT
+
+	|1. (kdo/co) | japončit            	|1. (ti/ty/ta)| japončity
+	|2. (bez)    | japončitu           	|2. (bez)     | japončitů
+	|3. (ke/k)   | japončitu           	|3. (ke/k)    | japončitům
+	|4. (vidím)  | japončit            	|4. (vidím)   | japončity
+	|5. (volám)  | japončite           	|5. (volám)   | japončity
+	|6. (o)      | japončitu           	|6. (o)       | japončitech
+	|7. (s)      | japončitem          	|7. (s)       | japončity
+
+
+---
+
+ezomedicína
+|Main dscr | většina alternativní medicíny, která spoléhá na působení kouzel, čar a magie, někdy ukrývaných za pavědecké bláboly  
+|Other dscr| 
+|Example   | Příklad: „Ezomedicína ti nepomůže, jenom spolehlivě vyléčí tvoji peněženku od nadýmání.”
+
+|Lemma     | EZOMEDICÍNA
+
+	|1. (kdo/co) | ezomedicína         	|1. (ti/ty/ta)| ezomedicíny
+	|2. (bez)    | ezomedicíny         	|2. (bez)     | ezomedicín
+	|3. (ke/k)   | ezomedicíně         	|3. (ke/k)    | ezomedicínám
+	|4. (vidím)  | ezomedicínu         	|4. (vidím)   | ezomedicíny
+	|5. (volám)  | ezomedicíno         	|5. (volám)   | ezomedicíny
+	|6. (o)      | ezomedicíně         	|6. (o)       | ezomedicínách
+	|7. (s)      | ezomedicínou        	|7. (s)       | ezomedicínami
+
+
+---
+
+eurosvět
+|Main dscr | země používající euro  
+|Other dscr| 
+|Example   | Příklad: „Už dávno jsme měli patřit do eurosvěta.”
+
+|Lemma     | EUROSVĚT
+
+	|1. (kdo/co) | eurosvět            	|1. (ti/ty/ta)| eurosvěty
+	|2. (bez)    | eurosvětu           	|2. (bez)     | eurosvětů
+	|3. (ke/k)   | eurosvětu           	|3. (ke/k)    | eurosvětům
+	|4. (vidím)  | eurosvět            	|4. (vidím)   | eurosvěty
+	|5. (volám)  | eurosvěte           	|5. (volám)   | eurosvěty
+	|6. (o)      | eurosvětu           	|6. (o)       | eurosvětech
+	|7. (s)      | eurosvětem          	|7. (s)       | eurosvěty
+
+
+---
+
+jebec
+|Main dscr | milenec, sexuální partner  
+|Other dscr| 
+|Example   | Příklad: &#8220,Máš teď ňákýho jebce?&#8221, &#8211, &#8220,Jo, <a href="https://cestina20.cz/slovnik/sexovat">sexujeme</a> s Milanem.&#8221,
+
+|Lemma     | JEBEC
+
+	|1. (kdo/co) | jebec               	|1. (ti/ty/ta)| jebce
+	|2. (bez)    | jebce               	|2. (bez)     | jebců
+	|3. (ke/k)   | jebci               	|3. (ke/k)    | jebcům
+	|4. (vidím)  | jebec               	|4. (vidím)   | jebce
+	|5. (volám)  | jebče               	|5. (volám)   | jebce
+	|6. (o)      | jebci               	|6. (o)       | jebcích
+	|7. (s)      | jebcem              	|7. (s)       | jebci
+
+
+---
+
+ježíšuk
+|Main dscr | štědrovečerní sex  
+|Other dscr| 
+|Example   | Příklad: „Nejlepší vánoční dáreček je divoký ježíšuk pod stromečkem.”
+
+|Lemma     | JEŽÍŠUK
+
+	|1. (kdo/co) | ježíšuk             	|1. (ti/ty/ta)| ježíšuky
+	|2. (bez)    | ježíšuku            	|2. (bez)     | ježíšuků
+	|3. (ke/k)   | ježíšuku            	|3. (ke/k)    | ježíšukům
+	|4. (vidím)  | ježíšuk             	|4. (vidím)   | ježíšuky
+	|5. (volám)  | ježíšuku            	|5. (volám)   | ježíšuky
+	|6. (o)      | ježíšuku            	|6. (o)       | ježíšucích
+	|7. (s)      | ježíšukem           	|7. (s)       | ježíšuky
+
+
+---
+
+ekoprase
+|Main dscr | člověk záměrně ničící přírodu a životní prostředí  
+|Other dscr| 
+|Example   | Příklad: „Můj soused jakožto známé ekoprase, místo toho, aby předpisově podle ekologické legislativy zneškodňoval nebezpečný odpad, tak ho záměrně lije do kanálu a zbytek vyhazuje do lesa.”
+
+|Lemma     | EKOPRASE
+
+	|1. (kdo/co) | ekoprase            	|1. (ti/ty/ta)| ekoprase
+	|2. (bez)    | ekoprase            	|2. (bez)     | ekoprasí
+	|3. (ke/k)   | ekoprasi            	|3. (ke/k)    | ekoprasím
+	|4. (vidím)  | ekoprasi            	|4. (vidím)   | ekoprase
+	|5. (volám)  | ekoprase            	|5. (volám)   | ekoprase
+	|6. (o)      | ekoprasi            	|6. (o)       | ekoprasích
+	|7. (s)      | ekoprasí            	|7. (s)       | ekoprasemi
+
+
+---
+
+jednokošilec
+|Main dscr | člověk, který nosí stále jen jednu košili, obvykle delší dobu bez praní, případně v ní i spí  
+|Other dscr| 
+|Example   | Příklad: „Dneska si vedle mě v busu sednul nějakej jednokošilec, to byl strašnej puch!”
+
+|Lemma     | JEDNOKOŠILEC
+
+	|1. (kdo/co) | jednokošilec        	|1. (ti/ty/ta)| jednokošilce
+	|2. (bez)    | jednokošilce        	|2. (bez)     | jednokošilců
+	|3. (ke/k)   | jednokošilci        	|3. (ke/k)    | jednokošilcům
+	|4. (vidím)  | jednokošilec        	|4. (vidím)   | jednokošilce
+	|5. (volám)  | jednokošilče        	|5. (volám)   | jednokošilce
+	|6. (o)      | jednokošilci        	|6. (o)       | jednokošilcích
+	|7. (s)      | jednokošilcem       	|7. (s)       | jednokošilci
+
+
+---
+
+jótenkrát
+|Main dscr | iritující nostalgik  
+|Other dscr| 
+|Example   | Příklad: „Na stránce starejch fotek Varů se zase sešli nějaký komoušský jótenkráti. To se fakt nedá.”
+
+|Lemma     | JÓTENKRÁT
+
+	|1. (kdo/co) | jótenkrát           	|1. (ti/ty/ta)| jótenkráty
+	|2. (bez)    | jótenkrátu          	|2. (bez)     | jótenkrátů
+	|3. (ke/k)   | jótenkrátu          	|3. (ke/k)    | jótenkrátům
+	|4. (vidím)  | jótenkrát           	|4. (vidím)   | jótenkráty
+	|5. (volám)  | jótenkráte          	|5. (volám)   | jótenkráty
+	|6. (o)      | jótenkrátu          	|6. (o)       | jótenkrátech
+	|7. (s)      | jótenkrátem         	|7. (s)       | jótenkráty
+
+
+---
+
+estébuk
+|Main dscr | gay, který rád <a href="https://cestina20.cz/slovnik/vyautovat/">vyautuje</a> jiné muže, co ještě nepřiznali svou sexuální orientaci
+|Other dscr|  viz také <a href="https://cestina20.cz/slovnik/buk/">buk</a>  
+|Example   | Příklad: „Jeden estébuk nám prozradil, že tenhle známý ženatý herec s ním jednou spal.”
+
+|Lemma     | ESTÉBUK
+
+	|1. (kdo/co) | estébuk             	|1. (ti/ty/ta)| estébuky
+	|2. (bez)    | estébuku            	|2. (bez)     | estébuků
+	|3. (ke/k)   | estébuku            	|3. (ke/k)    | estébukům
+	|4. (vidím)  | estébuk             	|4. (vidím)   | estébuky
+	|5. (volám)  | estébuku            	|5. (volám)   | estébuky
+	|6. (o)      | estébuku            	|6. (o)       | estébucích
+	|7. (s)      | estébukem           	|7. (s)       | estébuky
+
+
+---
+
+emerko
+|Main dscr | magnetická rezonance
+|Other dscr|  podle zkr. MR  
+|Example   | Příklad: „Musím ještě na emerko, abych měl jistotu.”
+
+|Lemma     | EMERKO
+
+	|1. (kdo/co) | emerko              	|1. (ti/ty/ta)| emerka
+	|2. (bez)    | emerka              	|2. (bez)     | emerk
+	|3. (ke/k)   | emerku              	|3. (ke/k)    | emerkům
+	|4. (vidím)  | emerko              	|4. (vidím)   | emerka
+	|5. (volám)  | emerko              	|5. (volám)   | emerka
+	|6. (o)      | emerku              	|6. (o)       | emerkech
+	|7. (s)      | emerkem             	|7. (s)       | emerky
+
+
+---
+
+jkjn
+|Main dscr | zkr. jako jo no (v elektronické komunikaci)
+|Other dscr| 
+|Example   | 
+
+|Lemma     | JKJN
+
+	|1. (kdo/co) | jkjn                	|1. (ti/ty/ta)| jkjny
+	|2. (bez)    | jkjnu               	|2. (bez)     | jkjnů
+	|3. (ke/k)   | jkjnu               	|3. (ke/k)    | jkjnům
+	|4. (vidím)  | jkjn                	|4. (vidím)   | jkjny
+	|5. (volám)  | jkjne               	|5. (volám)   | jkjny
+	|6. (o)      | jkjnu               	|6. (o)       | jkjnech
+	|7. (s)      | jkjnem              	|7. (s)       | jkjny
+
+
+---
+
+jabkanec
+|Main dscr | bramborová placka, pečená na sucho z vařených strouhaných brambor, poté se potírá tvarohem nebo povidly
+|Other dscr|  používá se v okolí Ústí nad Orlicí a České Třebové, kde se bramborám říkalo jabka nebo zemský jabka
+|Example   | 
+
+|Lemma     | JABKANEC
+
+	|1. (kdo/co) | jabkanec            	|1. (ti/ty/ta)| jabkance
+	|2. (bez)    | jabkance            	|2. (bez)     | jabkanců
+	|3. (ke/k)   | jabkanci            	|3. (ke/k)    | jabkancům
+	|4. (vidím)  | jabkanec            	|4. (vidím)   | jabkance
+	|5. (volám)  | jabkanče            	|5. (volám)   | jabkance
+	|6. (o)      | jabkanci            	|6. (o)       | jabkancích
+	|7. (s)      | jabkancem           	|7. (s)       | jabkanci
+
+
+---
+
+eustres
+|Main dscr | stres způsobený stále zvrhlejšími směrnicemi Evropské unie
+|Other dscr| 
+|Example   | 
+
+|Lemma     | EUSTRES
+
+	|1. (kdo/co) | eustres             	|1. (ti/ty/ta)| eustresy
+	|2. (bez)    | eustresu            	|2. (bez)     | eustresů
+	|3. (ke/k)   | eustresu            	|3. (ke/k)    | eustresům
+	|4. (vidím)  | eustres             	|4. (vidím)   | eustresy
+	|5. (volám)  | eustrese            	|5. (volám)   | eustresy
+	|6. (o)      | eustresu            	|6. (o)       | eustresech
+	|7. (s)      | eustresem           	|7. (s)       | eustresy
+
+
+---
+
+jeblington
+|Main dscr | divný, jebnutý člověk  
+|Other dscr| 
+|Example   | Příklad: „Ty jsi jeblington, Tome!”
+
+|Lemma     | JEBLINGTON
+
+	|1. (kdo/co) | jeblington          	|1. (ti/ty/ta)| jeblingtony
+	|2. (bez)    | jeblingtonu         	|2. (bez)     | jeblingtonů
+	|3. (ke/k)   | jeblingtonu         	|3. (ke/k)    | jeblingtonům
+	|4. (vidím)  | jeblington          	|4. (vidím)   | jeblingtony
+	|5. (volám)  | jeblingtone         	|5. (volám)   | jeblingtony
+	|6. (o)      | jeblingtonu         	|6. (o)       | jeblingtonech
+	|7. (s)      | jeblingtonem        	|7. (s)       | jeblingtony
+
+
+---
+
+euroblb
+|Main dscr | nekritický obhájce Evropské unie  
+|Other dscr| 
+|Example   | Příklad: „Tím, že označíš všechny, co nesouhlasí s <a href="https://cestina20.cz/slovnik/brexit/">brexitem</a>, za euroblby, žádný dialog nevyvoláš.”
+
+|Lemma     | EUROBLB
+
+	|1. (kdo/co) | euroblb             	|1. (ti/ty/ta)| euroblby
+	|2. (bez)    | euroblbu            	|2. (bez)     | euroblbů
+	|3. (ke/k)   | euroblbu            	|3. (ke/k)    | euroblbům
+	|4. (vidím)  | euroblb             	|4. (vidím)   | euroblby
+	|5. (volám)  | euroblbe            	|5. (volám)   | euroblby
+	|6. (o)      | euroblbu            	|6. (o)       | euroblbech
+	|7. (s)      | euroblbem           	|7. (s)       | euroblby
+
+
+---
+
+jolandština
+|Main dscr | lámaná čeština
+|Other dscr|  podle mluveného projevu televizní věštkyně Jolandy, viz také <a href="https://cestina20.cz/slovnik/jolandovat/">jolandovat</a>  
+|Example   | Příklad: „Jurij bydlí v Česku už dlouho, ale pořád mluví jolandštinou.”
+
+|Lemma     | JOLANDŠTINA
+
+	|1. (kdo/co) | jolandština         	|1. (ti/ty/ta)| jolandštiny
+	|2. (bez)    | jolandštiny         	|2. (bez)     | jolandštin
+	|3. (ke/k)   | jolandštině         	|3. (ke/k)    | jolandštinám
+	|4. (vidím)  | jolandštinu         	|4. (vidím)   | jolandštiny
+	|5. (volám)  | jolandštino         	|5. (volám)   | jolandštiny
+	|6. (o)      | jolandštině         	|6. (o)       | jolandštinách
+	|7. (s)      | jolandštinou        	|7. (s)       | jolandštinami
+
+
+---
+
+empík
+|Main dscr | 1. městský strážník, městský policista, člen městské policie (MP)    2. neodbytný marketingový poradce    
+|Other dscr| 
+|Example   | Příklad: &#8220,Bacha, jsou tam revizoři i s empíkama!&#8221,
+
+|Lemma     | EMPÍK
+
+	|1. (kdo/co) | empík               	|1. (ti/ty/ta)| empíky
+	|2. (bez)    | empíku              	|2. (bez)     | empíků
+	|3. (ke/k)   | empíku              	|3. (ke/k)    | empíkům
+	|4. (vidím)  | empík               	|4. (vidím)   | empíky
+	|5. (volám)  | empíku              	|5. (volám)   | empíky
+	|6. (o)      | empíku              	|6. (o)       | empících
+	|7. (s)      | empíkem             	|7. (s)       | empíky
+
+
+---
+
+e-mařka
+|Main dscr | dívka, která se snaží všemožnými způsoby zviditelnit v on-line světě
+|Other dscr| 
+|Example   | 
+
+|Lemma     | E-MAŘKA
+
+	|1. (kdo/co) | emařka              	|1. (ti/ty/ta)| emařky
+	|2. (bez)    | emařky              	|2. (bez)     | emařek
+	|3. (ke/k)   | emařce              	|3. (ke/k)    | emařkám
+	|4. (vidím)  | emařku              	|4. (vidím)   | emařky
+	|5. (volám)  | emařko              	|5. (volám)   | emařky
+	|6. (o)      | emařce              	|6. (o)       | emařkách
+	|7. (s)      | emařkou             	|7. (s)       | emařkami
+
+
+---
+
+elektrobrnda
+|Main dscr | elektrická koloběžka
+|Other dscr|  viz také <a href="https://cestina20.cz/slovnik/brnda/">brnda</a>  
+|Example   | Příklad: „Elektrobrndy jsou jen pro srágory.”
+
+|Lemma     | ELEKTROBRNDA
+
+	|1. (kdo/co) | elektrobrnda        	|1. (ti/ty/ta)| elektrobrndy
+	|2. (bez)    | elektrobrndy        	|2. (bez)     | elektrobrnd
+	|3. (ke/k)   | elektrobrndě        	|3. (ke/k)    | elektrobrndám
+	|4. (vidím)  | elektrobrndu        	|4. (vidím)   | elektrobrndy
+	|5. (volám)  | elektrobrndo        	|5. (volám)   | elektrobrndy
+	|6. (o)      | elektrobrndě        	|6. (o)       | elektrobrndách
+	|7. (s)      | elektrobrndou       	|7. (s)       | elektrobrndami
+
+
+---
+
+jážíšek
+|Main dscr | situace, kdy si své vánoční dárky kupujete sami  
+|Other dscr| 
+|Example   | Příklad: „Tak tuhle knihu si dávám na seznam jážíškovi.”
+
+|Lemma     | JÁŽÍŠEK
+
+	|1. (kdo/co) | jážíšek             	|1. (ti/ty/ta)| jážíšky
+	|2. (bez)    | jážíšku             	|2. (bez)     | jážíšků
+	|3. (ke/k)   | jážíšku             	|3. (ke/k)    | jážíškům
+	|4. (vidím)  | jážíšek             	|4. (vidím)   | jážíšky
+	|5. (volám)  | jážíšku             	|5. (volám)   | jážíšky
+	|6. (o)      | jážíšku             	|6. (o)       | jážíšcích
+	|7. (s)      | jážíškem            	|7. (s)       | jážíšky
+
+
+---
+
+espeďák
+|Main dscr | člen hnutí Svoboda a přímá demokracie (SPD)
+|Other dscr| 
+|Example   | 
+
+|Lemma     | ESPEĎÁK
+
+	|1. (kdo/co) | espeďák             	|1. (ti/ty/ta)| espeďáky
+	|2. (bez)    | espeďáku            	|2. (bez)     | espeďáků
+	|3. (ke/k)   | espeďáku            	|3. (ke/k)    | espeďákům
+	|4. (vidím)  | espeďák             	|4. (vidím)   | espeďáky
+	|5. (volám)  | espeďáku            	|5. (volám)   | espeďáky
+	|6. (o)      | espeďáku            	|6. (o)       | espeďácích
+	|7. (s)      | espeďákem           	|7. (s)       | espeďáky
+
+
+---
+
+exznose
+|Main dscr | nekrytý pšík, kdy z nosu dotyčného vyletí i smrtonosná dávka nudlí
+|Other dscr|  vyslovuje se [eksnose]  
+|Example   | Příklad: "Viděls tu bábu, jak si nezakryla rypák? To byla exznose jako svině. Úplně těma nudlema <a href="https://cestina20.cz/slovnik/zasyflit/">zasyflila</a> zbytek autobusu."
+
+|Lemma     | EXZNOSE
+
+	|1. (kdo/co) | exznose             	|1. (ti/ty/ta)| exznose
+	|2. (bez)    | exznose             	|2. (bez)     | exznosí
+	|3. (ke/k)   | exznosi             	|3. (ke/k)    | exznosím
+	|4. (vidím)  | exznosi             	|4. (vidím)   | exznose
+	|5. (volám)  | exznose             	|5. (volám)   | exznose
+	|6. (o)      | exznosi             	|6. (o)       | exznosích
+	|7. (s)      | exznosí             	|7. (s)       | exznosemi
+
+
+---
+
+exnout
+|Main dscr | zemřít, umřít, skonat
+|Other dscr|  vychází ze slova exitus  
+|Example   | Příklad: &#8220,Krmil jsem ty rybky podle návodu, ale stejně exnuly.&#8221,
+
+|Lemma     | EXNOUT
+
+	|1. (kdo/co) | exnout              	|1. (ti/ty/ta)| exnouty
+	|2. (bez)    | exnoutu             	|2. (bez)     | exnoutů
+	|3. (ke/k)   | exnoutu             	|3. (ke/k)    | exnoutům
+	|4. (vidím)  | exnout              	|4. (vidím)   | exnouty
+	|5. (volám)  | exnoute             	|5. (volám)   | exnouty
+	|6. (o)      | exnoutu             	|6. (o)       | exnoutech
+	|7. (s)      | exnoutem            	|7. (s)       | exnouty
+
+
+---
+
+jakočech
+|Main dscr | slovenský herec, který ve filmu nebo seriálu mluví česky  
+|Other dscr| 
+|Example   | Příklad: „Uhádneš, kdo z nich je ve skutečnosti jakočech?”
+
+|Lemma     | JAKOČECH
+
+	|1. (kdo/co) | jakočech            	|1. (ti/ty/ta)| jakočechy
+	|2. (bez)    | jakočechu           	|2. (bez)     | jakočechů
+	|3. (ke/k)   | jakočechu           	|3. (ke/k)    | jakočechům
+	|4. (vidím)  | jakočech            	|4. (vidím)   | jakočechy
+	|5. (volám)  | jakočechu           	|5. (volám)   | jakočechy
+	|6. (o)      | jakočechu           	|6. (o)       | jakočeších
+	|7. (s)      | jakočechem          	|7. (s)       | jakočechy
+
+
+---
+
+jásalky
+|Main dscr | peníze, <a href="https://cestina20.cz/slovnik/prachy">prachy</a>  
+|Other dscr| 
+|Example   | Příklad: &#8220,Nezbyly ti ještě nějaký jásalky. Nemám na <a href="https://cestina20.cz/slovnik/cigo">cíga</a>.&#8221,
+
+|Lemma     | JÁSALKY
+
+	|1. (kdo/co) | jásalky             	|1. (ti/ty/ta)| jásalky
+	|2. (bez)    | ?                   	|2. (bez)     | jásalek
+	|3. (ke/k)   | ?                   	|3. (ke/k)    | jásalkám
+	|4. (vidím)  | ?                   	|4. (vidím)   | jásalky
+	|5. (volám)  | ?                   	|5. (volám)   | jásalky
+	|6. (o)      | ?                   	|6. (o)       | jásalkách
+	|7. (s)      | ?                   	|7. (s)       | jásalkami
+
+
+---
+
+judrc
+|Main dscr | zkušený právnický matador  
+|Other dscr| 
+|Example   | Příklad: „Zeptáme se judrců a uvidíme, co se s tím dá dělat.”
+
+|Lemma     | JUDRC
+
+	|1. (kdo/co) | judrc               	|1. (ti/ty/ta)| judrce
+	|2. (bez)    | judrce              	|2. (bez)     | judrců
+	|3. (ke/k)   | judrci              	|3. (ke/k)    | judrcům
+	|4. (vidím)  | judrce              	|4. (vidím)   | judrce
+	|5. (volám)  | judrci              	|5. (volám)   | judrce
+	|6. (o)      | judrci              	|6. (o)       | judrcích
+	|7. (s)      | judrcem             	|7. (s)       | judrci
+
+
+---
+
+jemňoch
+|Main dscr | český výraz pro smoothie (mixovaný nápoj, jehož hlavní složku tvoří syrové ovoce nebo zelenina, příp. jejich kombinace, dalšími složkami bývá voda, led, mléko, jogurt, sladidla)  
+|Other dscr| 
+|Example   | Příklad: „Začínám žít zdravě, každé ráno piju banánového jemňocha.”
+
+|Lemma     | JEMŇOCH
+
+	|1. (kdo/co) | jemňoch             	|1. (ti/ty/ta)| jemňochy
+	|2. (bez)    | jemňochu            	|2. (bez)     | jemňochů
+	|3. (ke/k)   | jemňochu            	|3. (ke/k)    | jemňochům
+	|4. (vidím)  | jemňoch             	|4. (vidím)   | jemňochy
+	|5. (volám)  | jemňochu            	|5. (volám)   | jemňochy
+	|6. (o)      | jemňochu            	|6. (o)       | jemňoších
+	|7. (s)      | jemňochem           	|7. (s)       | jemňochy
+
+
+---
+
+egosurfovat
+|Main dscr | googlovat vlastní jmeno  
+|Other dscr| 
+|Example   | Příklad: „Eda včera poprvé egosurfoval a našel své nahé fotky a <a href="https://cestina20.cz/slovnik/dikobraz/">dikobrazy</a> na Pornhubu.”
+
+|Lemma     | EGOSURFOVAT
+
+	|1. (kdo/co) | egosurfovat         	|1. (ti/ty/ta)| egosurfovaty
+	|2. (bez)    | egosurfovatu        	|2. (bez)     | egosurfovatů
+	|3. (ke/k)   | egosurfovatu        	|3. (ke/k)    | egosurfovatům
+	|4. (vidím)  | egosurfovat         	|4. (vidím)   | egosurfovaty
+	|5. (volám)  | egosurfovate        	|5. (volám)   | egosurfovaty
+	|6. (o)      | egosurfovatu        	|6. (o)       | egosurfovatech
+	|7. (s)      | egosurfovatem       	|7. (s)       | egosurfovaty
+
+
+---
+
+ejaklace
+|Main dscr | demagogie a manipulace z úst Ladislava Jakla
+|Other dscr|  viz také <a href="https://cestina20.cz/slovnik/vyjakleni/">vyjaklení</a>  
+|Example   | Příklad: „Prosím tě, neposlouchej to. Taková příšerná ejaklace!”
+
+|Lemma     | EJAKLACE
+
+	|1. (kdo/co) | ejaklace            	|1. (ti/ty/ta)| ejaklace
+	|2. (bez)    | ejaklace            	|2. (bez)     | ejaklací
+	|3. (ke/k)   | ejaklaci            	|3. (ke/k)    | ejaklacím
+	|4. (vidím)  | ejaklaci            	|4. (vidím)   | ejaklace
+	|5. (volám)  | ejaklace            	|5. (volám)   | ejaklace
+	|6. (o)      | ejaklaci            	|6. (o)       | ejaklacích
+	|7. (s)      | ejaklací            	|7. (s)       | ejaklacemi
+
+
+---
+
+jednočubka
+|Main dscr | šukna na jednu noc
+|Other dscr|  srov. s <a href="https://cestina20.cz/slovnik/jednohupka/">jednohupka</a>  
+|Example   | Příklad: „Možná jsem jednočubka, ale jsem taková jednočubka, která s tebou nikdy nebude spát!”
+
+|Lemma     | JEDNOČUBKA
+
+	|1. (kdo/co) | jednočubka          	|1. (ti/ty/ta)| jednočubky
+	|2. (bez)    | jednočubky          	|2. (bez)     | jednočubek
+	|3. (ke/k)   | jednočubce          	|3. (ke/k)    | jednočubkám
+	|4. (vidím)  | jednočubku          	|4. (vidím)   | jednočubky
+	|5. (volám)  | jednočubko          	|5. (volám)   | jednočubky
+	|6. (o)      | jednočubce          	|6. (o)       | jednočubkách
+	|7. (s)      | jednočubkou         	|7. (s)       | jednočubkami
+
+
+---
+
+echcpert
+|Main dscr | diskuzní odborník na všechno
+|Other dscr| 
+|Example   | 
+
+|Lemma     | ECHCPERT
+
+	|1. (kdo/co) | echcpert            	|1. (ti/ty/ta)| echcperty
+	|2. (bez)    | echcpertu           	|2. (bez)     | echcpertů
+	|3. (ke/k)   | echcpertu           	|3. (ke/k)    | echcpertům
+	|4. (vidím)  | echcpert            	|4. (vidím)   | echcperty
+	|5. (volám)  | echcperte           	|5. (volám)   | echcperty
+	|6. (o)      | echcpertu           	|6. (o)       | echcpertech
+	|7. (s)      | echcpertem          	|7. (s)       | echcperty
+
+
+---
+
+erbienbyt
+|Main dscr | byt určený ke krátkodobému pronájmu turistům
+|Other dscr|  podle AirBnB [érbíenbí]  
+|Example   | Příklad: „V centru Prahy jsou to dnes už jenom samé erbienbyty.”
+
+|Lemma     | ERBIENBYT
+
+	|1. (kdo/co) | erbienbyt           	|1. (ti/ty/ta)| erbienbyty
+	|2. (bez)    | erbienbytu          	|2. (bez)     | erbienbytů
+	|3. (ke/k)   | erbienbytu          	|3. (ke/k)    | erbienbytům
+	|4. (vidím)  | erbienbyt           	|4. (vidím)   | erbienbyty
+	|5. (volám)  | erbienbyte          	|5. (volám)   | erbienbyty
+	|6. (o)      | erbienbytu          	|6. (o)       | erbienbytech
+	|7. (s)      | erbienbytem         	|7. (s)       | erbienbyty
+
+
+---
+
+jablíčka
+|Main dscr | peníze, prachy
+|Other dscr|  z mluvy fotbalových bafuňářů
+|Example   | 
+
+|Lemma     | JABLÍČKA
+
+	|1. (kdo/co) | jablíčka            	|1. (ti/ty/ta)| jablíčky
+	|2. (bez)    | jablíčky            	|2. (bez)     | jablíček
+	|3. (ke/k)   | jablíčce            	|3. (ke/k)    | jablíčkám
+	|4. (vidím)  | jablíčku            	|4. (vidím)   | jablíčky
+	|5. (volám)  | jablíčko            	|5. (volám)   | jablíčky
+	|6. (o)      | jablíčce            	|6. (o)       | jablíčkách
+	|7. (s)      | jablíčkou           	|7. (s)       | jablíčkami
+
+
+---
+
+jebačisko
+|Main dscr | slovenský armádní důstojník
+|Other dscr|  vojenský slang
+|Example   | 
+
+|Lemma     | JEBAČISKO
+
+	|1. (kdo/co) | jebačisko           	|1. (ti/ty/ta)| jebačiska
+	|2. (bez)    | jebačiska           	|2. (bez)     | jebačisek
+	|3. (ke/k)   | jebačisku           	|3. (ke/k)    | jebačiskům
+	|4. (vidím)  | jebačisko           	|4. (vidím)   | jebačiska
+	|5. (volám)  | jebačisko           	|5. (volám)   | jebačiska
+	|6. (o)      | jebačisku           	|6. (o)       | jebačiscích
+	|7. (s)      | jebačiskem          	|7. (s)       | jebačisky
+
+
+---
+
+érotika
+|Main dscr | 1. letectví, aviatika
+|Other dscr|  odvozeno od <a href="https://cestina20.cz/slovnik/ero/">éra</a> (letoun)    2. cestování letadlem  <em>Příklad: „Nerad cestuji pozemní dopravou, jednoznačně dávám přednost érotice.” „Díky érotice jsem procestoval téměř celý svět.” </em>
+|Example   | Příklad: „Kupujeme letenky velmi levně, protože manželka pracuje v érotice.”
+
+|Lemma     | ÉROTIKA
+
+	|1. (kdo/co) | érotika             	|1. (ti/ty/ta)| érotiky
+	|2. (bez)    | érotiky             	|2. (bez)     | érotik
+	|3. (ke/k)   | érotice             	|3. (ke/k)    | érotikám
+	|4. (vidím)  | érotiku             	|4. (vidím)   | érotiky
+	|5. (volám)  | érotiko             	|5. (volám)   | érotiky
+	|6. (o)      | érotice             	|6. (o)       | érotikách
+	|7. (s)      | érotikou            	|7. (s)       | érotikami
+
+
+---
+
+ekopat
+|Main dscr | ekoterorista  
+|Other dscr| 
+|Example   | Příklad: „Neřekl bych, že hnutí Extinction Rebellion je banda ekopatů, ale jejich taktika často obtěžuje i lidi, kteří s nimi sympatizují.”
+
+|Lemma     | EKOPAT
+
+	|1. (kdo/co) | ekopat              	|1. (ti/ty/ta)| ekopaty
+	|2. (bez)    | ekopatu             	|2. (bez)     | ekopatů
+	|3. (ke/k)   | ekopatu             	|3. (ke/k)    | ekopatům
+	|4. (vidím)  | ekopat              	|4. (vidím)   | ekopaty
+	|5. (volám)  | ekopate             	|5. (volám)   | ekopaty
+	|6. (o)      | ekopatu             	|6. (o)       | ekopatech
+	|7. (s)      | ekopatem            	|7. (s)       | ekopaty
+
+
+---
+
+ententýr
+|Main dscr | internet  
+|Other dscr| 
+|Example   | Příklad: "Co nevíš, najdeš na ententýru."
+
+|Lemma     | ENTENTÝR
+
+	|1. (kdo/co) | ententýr            	|1. (ti/ty/ta)| ententýry
+	|2. (bez)    | ententýru           	|2. (bez)     | ententýrů
+	|3. (ke/k)   | ententýru           	|3. (ke/k)    | ententýrům
+	|4. (vidím)  | ententýr            	|4. (vidím)   | ententýry
+	|5. (volám)  | ententýre           	|5. (volám)   | ententýry
+	|6. (o)      | ententýru           	|6. (o)       | ententýrech
+	|7. (s)      | ententýrem          	|7. (s)       | ententýry
+
+
+---
+
+europitomeček
+|Main dscr | poslanec Evropského parlamentu  
+|Other dscr| 
+|Example   | Příklad: „Ti europitomečci si vůbec neuvědomují dopady svého hlasování.”
+
+|Lemma     | EUROPITOMEČEK
+
+	|1. (kdo/co) | europitomeček       	|1. (ti/ty/ta)| europitomečky
+	|2. (bez)    | europitomečku       	|2. (bez)     | europitomečků
+	|3. (ke/k)   | europitomečku       	|3. (ke/k)    | europitomečkům
+	|4. (vidím)  | europitomeček       	|4. (vidím)   | europitomečky
+	|5. (volám)  | europitomečku       	|5. (volám)   | europitomečky
+	|6. (o)      | europitomečku       	|6. (o)       | europitomečcích
+	|7. (s)      | europitomečkem      	|7. (s)       | europitomečky
+
+
+---
+
+jolandit
+|Main dscr | věštit, předvídat něco
+|Other dscr|  podle televizní věštkyně Jolandy  
+|Example   | Příklad: „Tak ty už zase jdeš jolandit?”
+
+|Lemma     | JOLANDIT
+
+	|1. (kdo/co) | jolandit            	|1. (ti/ty/ta)| jolandity
+	|2. (bez)    | jolanditu           	|2. (bez)     | jolanditů
+	|3. (ke/k)   | jolanditu           	|3. (ke/k)    | jolanditům
+	|4. (vidím)  | jolandit            	|4. (vidím)   | jolandity
+	|5. (volám)  | jolandite           	|5. (volám)   | jolandity
+	|6. (o)      | jolanditu           	|6. (o)       | jolanditech
+	|7. (s)      | jolanditem          	|7. (s)       | jolandity
+
+
+---
+
+Esterreich
+|Main dscr | oblast s nepříliš dobrými podmínkami pro lyžování v severozápadní oblasti bývalého Rakousko-Uherska, rodiště dvojnásobné olympijské vítězky Ester Ledecké  
+|Other dscr| 
+|Example   | Příklad: „Závodnice super-G Ester Ledecká z Esterreichu před sebe tentokrát překvapivě nepustila soupeřky z Österreichu ani dalších alpských zemí a dojela si pro zlato!”
+
+|Lemma     | ESTERREICH
+
+	|1. (kdo/co) | Esterreich          	|1. (ti/ty/ta)| Esterreichy
+	|2. (bez)    | Esterreichu         	|2. (bez)     | Esterreichů
+	|3. (ke/k)   | Esterreichu         	|3. (ke/k)    | Esterreichům
+	|4. (vidím)  | Esterreich          	|4. (vidím)   | Esterreichy
+	|5. (volám)  | Esterreichu         	|5. (volám)   | Esterreichy
+	|6. (o)      | Esterreichu         	|6. (o)       | Esterreiších
+	|7. (s)      | Esterreichem        	|7. (s)       | Esterreichy
+
+
+---
+
+etniketa
+|Main dscr | soubor pravidel chování vůči etnické skupině  
+|Other dscr| 
+|Example   | Příklad: „Nemůžeš přijít do této čtvrti s holou hlavou a v těžkých botách. Je to proti etniketě a můžeš dostat i po tlamě.”
+
+|Lemma     | ETNIKETA
+
+	|1. (kdo/co) | etniketa            	|1. (ti/ty/ta)| etnikety
+	|2. (bez)    | etnikety            	|2. (bez)     | etniket
+	|3. (ke/k)   | etniketě            	|3. (ke/k)    | etniketám
+	|4. (vidím)  | etniketu            	|4. (vidím)   | etnikety
+	|5. (volám)  | etniketo            	|5. (volám)   | etnikety
+	|6. (o)      | etniketě            	|6. (o)       | etniketách
+	|7. (s)      | etniketou           	|7. (s)       | etniketami
+
+
+---
+
+ergasmus
+|Main dscr | studentský program Erasmus
+|Other dscr|  podle toho, že <a href="https://cestina20.cz/slovnik/sexkapada/">sexkapády</a> mezi studenty na Erasmu jsou prý docela běžné  
+|Example   | Příklad: „Erik byl ve Španělsku na ergasmu a byla to nejlepší doba jeho života!”
+
+|Lemma     | ERGASMUS
+
+	|1. (kdo/co) | ergasmus            	|1. (ti/ty/ta)| ergasmy
+	|2. (bez)    | ergasmu             	|2. (bez)     | ergasmů
+	|3. (ke/k)   | ergasmu             	|3. (ke/k)    | ergasmům
+	|4. (vidím)  | ergasmus            	|4. (vidím)   | ergasmy
+	|5. (volám)  | ergasme             	|5. (volám)   | ergasmy
+	|6. (o)      | ergasmu             	|6. (o)       | ergasmech
+	|7. (s)      | ergasmem            	|7. (s)       | ergasmy
+
+
+---
+
+jednochlamstka
+|Main dscr | jednohubka  
+|Other dscr| 
+|Example   | Příklad: &#8220,Přijdou hosti, tak udělej nějaký jednochlamstky&#8230, Moc toho nemáme, ale rohlíky a nějakou pomazánku jo.&#8221,
+
+|Lemma     | JEDNOCHLAMSTKA
+
+	|1. (kdo/co) | jednochlamstka      	|1. (ti/ty/ta)| jednochlamstky
+	|2. (bez)    | jednochlamstky      	|2. (bez)     | jednochlamstek
+	|3. (ke/k)   | jednochlamstce      	|3. (ke/k)    | jednochlamstkám
+	|4. (vidím)  | jednochlamstku      	|4. (vidím)   | jednochlamstky
+	|5. (volám)  | jednochlamstko      	|5. (volám)   | jednochlamstky
+	|6. (o)      | jednochlamstce      	|6. (o)       | jednochlamstkách
+	|7. (s)      | jednochlamstkou     	|7. (s)       | jednochlamstkami
+
+
+---
+
+ejakulomet
+|Main dscr | macatý, velký mužský pohlavní úd  
+|Other dscr| 
+|Example   | Příklad: „Když mi dozadu strčil ten svůj ejakulomet, tak jsem ho měla skoro až v žaludku. To bylo super!"
+
+|Lemma     | EJAKULOMET
+
+	|1. (kdo/co) | ejakulomet          	|1. (ti/ty/ta)| ejakulomety
+	|2. (bez)    | ejakulometu         	|2. (bez)     | ejakulometů
+	|3. (ke/k)   | ejakulometu         	|3. (ke/k)    | ejakulometům
+	|4. (vidím)  | ejakulomet          	|4. (vidím)   | ejakulomety
+	|5. (volám)  | ejakulomete         	|5. (volám)   | ejakulomety
+	|6. (o)      | ejakulometu         	|6. (o)       | ejakulometech
+	|7. (s)      | ejakulometem        	|7. (s)       | ejakulomety
+
+
+---
+
+jakobýn
+|Main dscr | člověk, který neustále vše relativizuje a ve svých projevech k jakékoliv záležitosti používá slovo “jakoby”, kvůli čemuž má posluchač problém poznat, co si vlastně myslí doopravdy či zda mluví vážně
+|Other dscr|  může být také ve verzi "jakobín"  <em>Příklad: "Tak hrálo se mi jakoby dobře, soupeř byl jakoby unavený." "Chtěli jsme postavit jakoby moderní stavbu." "Chceme udělat jakoby reformy, které by mohly rozpočtu jakoby pomoct."</em>
+|Example   | 
+
+|Lemma     | JAKOBÝN
+
+	|1. (kdo/co) | jakobýn             	|1. (ti/ty/ta)| jakobýny
+	|2. (bez)    | jakobýnu            	|2. (bez)     | jakobýnů
+	|3. (ke/k)   | jakobýnu            	|3. (ke/k)    | jakobýnům
+	|4. (vidím)  | jakobýn             	|4. (vidím)   | jakobýny
+	|5. (volám)  | jakobýne            	|5. (volám)   | jakobýny
+	|6. (o)      | jakobýnu            	|6. (o)       | jakobýnech
+	|7. (s)      | jakobýnem           	|7. (s)       | jakobýny
+
+
+---
+
+eudel
+|Main dscr | místo, kam míříme za přispění Evropská unie  
+|Other dscr| 
+|Example   | Příklad: „Ta nově zaváděná omezení šifrování a zbraní, zrušení fyzických peněz a zvyšující se inflaci si můžou strčit do eudele."
+
+|Lemma     | EUDEL
+
+	|1. (kdo/co) | eudel               	|1. (ti/ty/ta)| eudely
+	|2. (bez)    | eudelu              	|2. (bez)     | eudelů
+	|3. (ke/k)   | eudelu              	|3. (ke/k)    | eudelům
+	|4. (vidím)  | eudel               	|4. (vidím)   | eudely
+	|5. (volám)  | eudele              	|5. (volám)   | eudely
+	|6. (o)      | eudelu              	|6. (o)       | eudelech
+	|7. (s)      | eudelem             	|7. (s)       | eudely
+
+
+---
+
+euševismus
+|Main dscr | evropský politický směr, propagující levicovou politiku regulací, přerozdělování a centralizace moci
+|Other dscr|  viz také <a href="https://cestina20.cz/slovnik/eusevik/">euševik</a>
+|Example   | 
+
+|Lemma     | EUŠEVISMUS
+
+	|1. (kdo/co) | euševismus          	|1. (ti/ty/ta)| euševismy
+	|2. (bez)    | euševismu           	|2. (bez)     | euševismů
+	|3. (ke/k)   | euševismu           	|3. (ke/k)    | euševismům
+	|4. (vidím)  | euševismus          	|4. (vidím)   | euševismy
+	|5. (volám)  | euševisme           	|5. (volám)   | euševismy
+	|6. (o)      | euševismu           	|6. (o)       | euševismech
+	|7. (s)      | euševismem          	|7. (s)       | euševismy
+
+
+---
+
+ezař
+|Main dscr | vyznavač ezoteriky  
+|Other dscr| 
+|Example   | Příklad: "Ségra byla ezařka, ale už ji to přešlo."
+
+|Lemma     | EZAŘ
+
+	|1. (kdo/co) | ezař                	|1. (ti/ty/ta)| ezaře
+	|2. (bez)    | ezaře               	|2. (bez)     | ezařů
+	|3. (ke/k)   | ezaři               	|3. (ke/k)    | ezařům
+	|4. (vidím)  | ezaře               	|4. (vidím)   | ezaře
+	|5. (volám)  | ezaři               	|5. (volám)   | ezaře
+	|6. (o)      | ezaři               	|6. (o)       | ezařích
+	|7. (s)      | ezařem              	|7. (s)       | ezaři
+
+
+---
+
+juiciér
+|Main dscr | odborník na párování nealkoholických nápojů a jídel
+|Other dscr| 
+|Example   | 
+
+|Lemma     | JUICIÉR
+
+	|1. (kdo/co) | juiciér             	|1. (ti/ty/ta)| juiciéry
+	|2. (bez)    | juiciéru            	|2. (bez)     | juiciérů
+	|3. (ke/k)   | juiciéru            	|3. (ke/k)    | juiciérům
+	|4. (vidím)  | juiciér             	|4. (vidím)   | juiciéry
+	|5. (volám)  | juiciére            	|5. (volám)   | juiciéry
+	|6. (o)      | juiciéru            	|6. (o)       | juiciérech
+	|7. (s)      | juiciérem           	|7. (s)       | juiciéry
+
+
+---
+
+ezofrnda
+|Main dscr | přehnaně ezoterická žena/dívka, <a href="https://cestina20.cz/slovnik/prepiceny/">přepíčená</a> ezoterička
+|Other dscr|  viz také <a href="https://cestina20.cz/slovnik/ezopica/">ezopíča</a>, <a href="https://cestina20.cz/slovnik/ezomagor/">ezomagor</a>  
+|Example   | Příklad: "Dostal jsem se do diskuse s nějakou ezofrndou a ty její fantasmagorie se nedaly poslouchat."
+
+|Lemma     | EZOFRNDA
+
+	|1. (kdo/co) | ezofrnda            	|1. (ti/ty/ta)| ezofrndy
+	|2. (bez)    | ezofrndy            	|2. (bez)     | ezofrnd
+	|3. (ke/k)   | ezofrndě            	|3. (ke/k)    | ezofrndám
+	|4. (vidím)  | ezofrndu            	|4. (vidím)   | ezofrndy
+	|5. (volám)  | ezofrndo            	|5. (volám)   | ezofrndy
+	|6. (o)      | ezofrndě            	|6. (o)       | ezofrndách
+	|7. (s)      | ezofrndou           	|7. (s)       | ezofrndami
+
+
+---
+
+jednoroušec
+|Main dscr | člověk, který používá pořád dokola stejnou jednorázovou roušku  
+|Other dscr| 
+|Example   | Příklad: „Do školy choděj s děckama samý jednoroušci.”
+
+|Lemma     | JEDNOROUŠEC
+
+	|1. (kdo/co) | jednoroušec         	|1. (ti/ty/ta)| jednoroušce
+	|2. (bez)    | jednoroušce         	|2. (bez)     | jednoroušců
+	|3. (ke/k)   | jednoroušci         	|3. (ke/k)    | jednoroušcům
+	|4. (vidím)  | jednoroušec         	|4. (vidím)   | jednoroušce
+	|5. (volám)  | jednoroušče         	|5. (volám)   | jednoroušce
+	|6. (o)      | jednoroušci         	|6. (o)       | jednoroušcích
+	|7. (s)      | jednoroušcem        	|7. (s)       | jednoroušci
+
+
+---
+
+jednolitída
+|Main dscr | posměšně monogamie, věrnost jednomu partnerovi  
+|Other dscr| 
+|Example   | Příklad: &#8220,Je to dobrej kluk, ale má jednolitídu.&#8221,
+
+|Lemma     | JEDNOLITÍDA
+
+	|1. (kdo/co) | jednolitída         	|1. (ti/ty/ta)| jednolitídy
+	|2. (bez)    | jednolitídy         	|2. (bez)     | jednolitíd
+	|3. (ke/k)   | jednolitídě         	|3. (ke/k)    | jednolitídám
+	|4. (vidím)  | jednolitídu         	|4. (vidím)   | jednolitídy
+	|5. (volám)  | jednolitído         	|5. (volám)   | jednolitídy
+	|6. (o)      | jednolitídě         	|6. (o)       | jednolitídách
+	|7. (s)      | jednolitídou        	|7. (s)       | jednolitídami
+
+
+---
+
+ešák
+|Main dscr | ešus
+|Other dscr| 
+|Example   | 
+
+|Lemma     | EŠÁK
+
+	|1. (kdo/co) | ešák                	|1. (ti/ty/ta)| ešáky
+	|2. (bez)    | ešáku               	|2. (bez)     | ešáků
+	|3. (ke/k)   | ešáku               	|3. (ke/k)    | ešákům
+	|4. (vidím)  | ešák                	|4. (vidím)   | ešáky
+	|5. (volám)  | ešáku               	|5. (volám)   | ešáky
+	|6. (o)      | ešáku               	|6. (o)       | ešácích
+	|7. (s)      | ešákem              	|7. (s)       | ešáky
+
+
+---
+
+europumpa
+|Main dscr | osoba, jejíž víceméně zbytečné pracovní místo bylo zřízeno a financováno některým projektem z fondu EU, typicky ve státních institucích (např. školství), která po ukončení jednoho projektu odchází do projektu nového  <em>Příklad: A: „Neviděli jste dnes někdo tu naši europumpu?” B: „Ne. Ani šéf neví, kde je a co právě dělá.”</em>
+|Other dscr| 
+|Example   | 
+
+|Lemma     | EUROPUMPA
+
+	|1. (kdo/co) | europumpa           	|1. (ti/ty/ta)| europumpy
+	|2. (bez)    | europumpy           	|2. (bez)     | europump
+	|3. (ke/k)   | europumpě           	|3. (ke/k)    | europumpám
+	|4. (vidím)  | europumpu           	|4. (vidím)   | europumpy
+	|5. (volám)  | europumpo           	|5. (volám)   | europumpy
+	|6. (o)      | europumpě           	|6. (o)       | europumpách
+	|7. (s)      | europumpou          	|7. (s)       | europumpami
+
+
+---
+
+jebaterka
+|Main dscr | pánský masturbátor
+|Other dscr| 
+|Example   | 
+
+|Lemma     | JEBATERKA
+
+	|1. (kdo/co) | jebaterka           	|1. (ti/ty/ta)| jebaterky
+	|2. (bez)    | jebaterky           	|2. (bez)     | jebaterek
+	|3. (ke/k)   | jebaterce           	|3. (ke/k)    | jebaterkám
+	|4. (vidím)  | jebaterku           	|4. (vidím)   | jebaterky
+	|5. (volám)  | jebaterko           	|5. (volám)   | jebaterky
+	|6. (o)      | jebaterce           	|6. (o)       | jebaterkách
+	|7. (s)      | jebaterkou          	|7. (s)       | jebaterkami
+
+
+---
+
+europština
+|Main dscr | strojený jazyk evropských institucí
+|Other dscr| 
+|Example   | 
+
+|Lemma     | EUROPŠTINA
+
+	|1. (kdo/co) | europština          	|1. (ti/ty/ta)| europštiny
+	|2. (bez)    | europštiny          	|2. (bez)     | europštin
+	|3. (ke/k)   | europštině          	|3. (ke/k)    | europštinám
+	|4. (vidím)  | europštinu          	|4. (vidím)   | europštiny
+	|5. (volám)  | europštino          	|5. (volám)   | europštiny
+	|6. (o)      | europštině          	|6. (o)       | europštinách
+	|7. (s)      | europštinou         	|7. (s)       | europštinami
+
+
+---
+
+ježíšpek
+|Main dscr | tělesný tuk vypěstovaný během vánočních svátků  
+|Other dscr| 
+|Example   | Příklad: „Milý Ježíšku, <a href="https://cestina20.cz/slovnik/pivni-mozol/">pivní mozol</a> mám, takže víc ježíšpeku fakt nepotřebuju. Dej mi radši peníze.”
+
+|Lemma     | JEŽÍŠPEK
+
+	|1. (kdo/co) | ježíšpek            	|1. (ti/ty/ta)| ježíšpky
+	|2. (bez)    | ježíšpku            	|2. (bez)     | ježíšpků
+	|3. (ke/k)   | ježíšpku            	|3. (ke/k)    | ježíšpkům
+	|4. (vidím)  | ježíšpek            	|4. (vidím)   | ježíšpky
+	|5. (volám)  | ježíšpku            	|5. (volám)   | ježíšpky
+	|6. (o)      | ježíšpku            	|6. (o)       | ježíšpcích
+	|7. (s)      | ježíšpkem           	|7. (s)       | ježíšpky
+
+
+---
+
+eurokolchoz
+|Main dscr | Evropská unie
+|Other dscr|  posměšně, viz také <a href="https://cestina20.cz/slovnik/eurosajuz">eurosajuz</a>
+|Example   | 
+
+|Lemma     | EUROKOLCHOZ
+
+	|1. (kdo/co) | eurokolchoz         	|1. (ti/ty/ta)| eurokolchozy
+	|2. (bez)    | eurokolchozu        	|2. (bez)     | eurokolchozů
+	|3. (ke/k)   | eurokolchozu        	|3. (ke/k)    | eurokolchozům
+	|4. (vidím)  | eurokolchoz         	|4. (vidím)   | eurokolchozy
+	|5. (volám)  | eurokolchoze        	|5. (volám)   | eurokolchozy
+	|6. (o)      | eurokolchozu        	|6. (o)       | eurokolchozech
+	|7. (s)      | eurokolchozem       	|7. (s)       | eurokolchozy
+
+
+---
+
+euroblouznění
+|Main dscr | nekritický obdiv k Evropské unii a všemu, co se &#8220
+|Other dscr| upeče&#8221, v Bruselu  
+|Example   | Příklad: &#8220,Prosím tě, aspoň v hospodě nám dej s tím svým euroblouzněním svatý pokoj.&#8221,
+
+|Lemma     | EUROBLOUZNĚNÍ
+
+	|1. (kdo/co) | euroblouznění       	|1. (ti/ty/ta)| euroblouznění
+	|2. (bez)    | euroblouznění       	|2. (bez)     | euroblouznění
+	|3. (ke/k)   | euroblouznění       	|3. (ke/k)    | euroblouzněním
+	|4. (vidím)  | euroblouznění       	|4. (vidím)   | euroblouznění
+	|5. (volám)  | euroblouznění       	|5. (volám)   | euroblouznění
+	|6. (o)      | euroblouznění       	|6. (o)       | euroblouzněních
+	|7. (s)      | euroblouzněním      	|7. (s)       | euroblouzněními
+
+
+---
+
+etnopíča
+|Main dscr | člověk přehnaně vyznávající mystiku a jakýsi bohostyl zahrnující rozdávání pozitivní energie a zaměřený na duševní zdraví  
+|Other dscr| 
+|Example   | Příklad: „Na jógu sem chodí samá etnopíča, vonné tyčinky cítím až do druhého patra.”
+
+|Lemma     | ETNOPÍČA
+
+	|1. (kdo/co) | etnopíča            	|1. (ti/ty/ta)| etnopíče
+	|2. (bez)    | etnopíči            	|2. (bez)     | etnopíč
+	|3. (ke/k)   | etnopíče            	|3. (ke/k)    | etnopíčám
+	|4. (vidím)  | etnopíču            	|4. (vidím)   | etnopíče
+	|5. (volám)  | etnopíčo            	|5. (volám)   | etnopíče
+	|6. (o)      | etnopíče            	|6. (o)       | etnopíčách
+	|7. (s)      | etnopíčou           	|7. (s)       | etnopíčami
+
+
+---
+
+erektomobil
+|Main dscr | velmi pohledné auto, vyvolávající velmi libé pocity  
+|Other dscr| 
+|Example   | Příklad: „Viděl jsi to Karlovo nové auto? To je úplný erektomobil!”
+
+|Lemma     | EREKTOMOBIL
+
+	|1. (kdo/co) | erektomobil         	|1. (ti/ty/ta)| erektomobily
+	|2. (bez)    | erektomobilu        	|2. (bez)     | erektomobilů
+	|3. (ke/k)   | erektomobilu        	|3. (ke/k)    | erektomobilům
+	|4. (vidím)  | erektomobil         	|4. (vidím)   | erektomobily
+	|5. (volám)  | erektomobile        	|5. (volám)   | erektomobily
+	|6. (o)      | erektomobilu        	|6. (o)       | erektomobilech
+	|7. (s)      | erektomobilem       	|7. (s)       | erektomobily
+
+
+---
+
+elektrozmrd
+|Main dscr | řidič slabého elektroauta záměrně brzdící řidiče za sebou najížděním do levého pruhu  
+|Other dscr| 
+|Example   | Příklad: „Půl hodiny jsem jel přes město za elektrozmrdem.”
+
+|Lemma     | ELEKTROZMRD
+
+	|1. (kdo/co) | elektrozmrd         	|1. (ti/ty/ta)| elektrozmrdy
+	|2. (bez)    | elektrozmrdu        	|2. (bez)     | elektrozmrdů
+	|3. (ke/k)   | elektrozmrdu        	|3. (ke/k)    | elektrozmrdům
+	|4. (vidím)  | elektrozmrd         	|4. (vidím)   | elektrozmrdy
+	|5. (volám)  | elektrozmrde        	|5. (volám)   | elektrozmrdy
+	|6. (o)      | elektrozmrdu        	|6. (o)       | elektrozmrdech
+	|7. (s)      | elektrozmrdem       	|7. (s)       | elektrozmrdy
+
+
+---
+
+ekolo
+|Main dscr | elektrické kolo, elektrický bicykl  
+|Other dscr| 
+|Example   | Příklad: „Jdu s dobou, koupil jsem si ekolo."
+
+|Lemma     | EKOLO
+
+	|1. (kdo/co) | ekolo               	|1. (ti/ty/ta)| ekola
+	|2. (bez)    | ekola               	|2. (bez)     | ekol
+	|3. (ke/k)   | ekolu               	|3. (ke/k)    | ekolům
+	|4. (vidím)  | ekolo               	|4. (vidím)   | ekola
+	|5. (volám)  | ekolo               	|5. (volám)   | ekola
+	|6. (o)      | ekolu               	|6. (o)       | ekolech
+	|7. (s)      | ekolem              	|7. (s)       | ekoly
+
+
+---
+
+ejakolaps
+|Main dscr | opadnutí erekce po ejakulaci  
+|Other dscr| 
+|Example   | Příklad: „Jak dlouho bude trvat ten ejakolaps, broučku? Chci víc!”
+
+|Lemma     | EJAKOLAPS
+
+	|1. (kdo/co) | ejakolaps           	|1. (ti/ty/ta)| ejakolapsy
+	|2. (bez)    | ejakolapsu          	|2. (bez)     | ejakolapsů
+	|3. (ke/k)   | ejakolapsu          	|3. (ke/k)    | ejakolapsům
+	|4. (vidím)  | ejakolaps           	|4. (vidím)   | ejakolapsy
+	|5. (volám)  | ejakolapse          	|5. (volám)   | ejakolapsy
+	|6. (o)      | ejakolapsu          	|6. (o)       | ejakolapsech
+	|7. (s)      | ejakolapsem         	|7. (s)       | ejakolapsy
+
+
+---
+
+japština
+|Main dscr | japonština  
+|Other dscr| 
+|Example   | Příklad: „Z japštiny umím akorát dobrý den, prosím a děkuji.”
+
+|Lemma     | JAPŠTINA
+
+	|1. (kdo/co) | japština            	|1. (ti/ty/ta)| japštiny
+	|2. (bez)    | japštiny            	|2. (bez)     | japštin
+	|3. (ke/k)   | japštině            	|3. (ke/k)    | japštinám
+	|4. (vidím)  | japštinu            	|4. (vidím)   | japštiny
+	|5. (volám)  | japštino            	|5. (volám)   | japštiny
+	|6. (o)      | japštině            	|6. (o)       | japštinách
+	|7. (s)      | japštinou           	|7. (s)       | japštinami
+
+
+---
+
+enemák
+|Main dscr | nepřítel (obv. v počítačové hře)
+|Other dscr|  z angl. enemy  
+|Example   | Příklad: „Lidi, ten enemák se mi dostal přes hradby, můžete mi poslat něco na pomoc?”
+
+|Lemma     | ENEMÁK
+
+	|1. (kdo/co) | enemák              	|1. (ti/ty/ta)| enemáky
+	|2. (bez)    | enemáku             	|2. (bez)     | enemáků
+	|3. (ke/k)   | enemáku             	|3. (ke/k)    | enemákům
+	|4. (vidím)  | enemák              	|4. (vidím)   | enemáky
+	|5. (volám)  | enemáku             	|5. (volám)   | enemáky
+	|6. (o)      | enemáku             	|6. (o)       | enemácích
+	|7. (s)      | enemákem            	|7. (s)       | enemáky
+
+
+---
+
+jobsese
+|Main dscr | [džobsese] posedlost hledáním nové práce
+|Other dscr|  z angl. job (práce)  
+|Example   | Příklad: „Z toho jeho hledání práce se stala úplná jobsese.”
+
+|Lemma     | JOBSESE
+
+	|1. (kdo/co) | jobsese             	|1. (ti/ty/ta)| jobsese
+	|2. (bez)    | jobsese             	|2. (bez)     | jobsesí
+	|3. (ke/k)   | jobsesi             	|3. (ke/k)    | jobsesím
+	|4. (vidím)  | jobsesi             	|4. (vidím)   | jobsese
+	|5. (volám)  | jobsese             	|5. (volám)   | jobsese
+	|6. (o)      | jobsesi             	|6. (o)       | jobsesích
+	|7. (s)      | jobsesí             	|7. (s)       | jobsesemi
+
+
+---
+
+ekofrnda
+|Main dscr | dívka vehementně bojující za ekologii
+|Other dscr|  rozpoznávající znaky: vegetariánka, malá prsa, odpor k Temelínu, často miluje více zvířata než lidi  <em>Příklad: „Objednal jsem si steak a ty dvě ekofrndy od vedlejšího stolu mě málem zavraždily pohledem.” „Chtěl jsem ji vzít autem na výlet, ale prý pojedeme vlakem. Prostě se z ní stává normální ekofrnda.”</em>
+|Example   | 
+
+|Lemma     | EKOFRNDA
+
+	|1. (kdo/co) | ekofrnda            	|1. (ti/ty/ta)| ekofrndy
+	|2. (bez)    | ekofrndy            	|2. (bez)     | ekofrnd
+	|3. (ke/k)   | ekofrndě            	|3. (ke/k)    | ekofrndám
+	|4. (vidím)  | ekofrndu            	|4. (vidím)   | ekofrndy
+	|5. (volám)  | ekofrndo            	|5. (volám)   | ekofrndy
+	|6. (o)      | ekofrndě            	|6. (o)       | ekofrndách
+	|7. (s)      | ekofrndou           	|7. (s)       | ekofrndami
+
+
+---
+
+jateráky
+|Main dscr | jaterní testy, soubor laboratorních vyšetření ke stavu jater  
+|Other dscr| 
+|Example   | Příklad: &#8220,Bejt tebou, řídil bych se reakcemi těla a jateráky. Když se ti nebudou zhoršovat, tak normálně pokračuj v tom, co jíš a bereš při cvičení.&#8221,
+
+|Lemma     | JATERÁKY
+
+	|1. (kdo/co) | jateráky            	|1. (ti/ty/ta)| jateráky
+	|2. (bez)    | ?                   	|2. (bez)     | jateráek
+	|3. (ke/k)   | ?                   	|3. (ke/k)    | jaterákám
+	|4. (vidím)  | ?                   	|4. (vidím)   | jateráky
+	|5. (volám)  | ?                   	|5. (volám)   | jateráky
+	|6. (o)      | ?                   	|6. (o)       | jaterákách
+	|7. (s)      | ?                   	|7. (s)       | jaterákami
+
+
+---
+
+jj
+|Main dscr | zkr. jo jo (souhlas v elektronické komunikaci)
+|Other dscr|  viz také <a href="https://cestina20.cz/slovnik/nn/">nn</a>  <em>Příklad: A: „udelas to teda?” B: „jj, zejtra”</em>
+|Example   | 
+
+|Lemma     | JJ
+
+	|1. (kdo/co) | jj                  	|1. (ti/ty/ta)| jje
+	|2. (bez)    | jje                 	|2. (bez)     | jjí
+	|3. (ke/k)   | jji                 	|3. (ke/k)    | jjím
+	|4. (vidím)  | jj                  	|4. (vidím)   | jje
+	|5. (volám)  | jji                 	|5. (volám)   | jje
+	|6. (o)      | jji                 	|6. (o)       | jjích
+	|7. (s)      | jjí                 	|7. (s)       | jjemi
+
+
+---
+
+ekokot
+|Main dscr | člověk, který samou láskou k přírodě přehlíží lidské potřeby
+|Other dscr| 
+|Example   | 
+
+|Lemma     | EKOKOT
+
+	|1. (kdo/co) | ekokot              	|1. (ti/ty/ta)| ekokoty
+	|2. (bez)    | ekokotu             	|2. (bez)     | ekokotů
+	|3. (ke/k)   | ekokotu             	|3. (ke/k)    | ekokotům
+	|4. (vidím)  | ekokot              	|4. (vidím)   | ekokoty
+	|5. (volám)  | ekokote             	|5. (volám)   | ekokoty
+	|6. (o)      | ekokotu             	|6. (o)       | ekokotech
+	|7. (s)      | ekokotem            	|7. (s)       | ekokoty
+
+
+---
+
+jedňour
+|Main dscr | jednička (rychlostní stupeň)  
+|Other dscr| 
+|Example   | Příklad: „Kopni tam jedňoura a pojeď!”
+
+|Lemma     | JEDŇOUR
+
+	|1. (kdo/co) | jedňour             	|1. (ti/ty/ta)| jedňoury
+	|2. (bez)    | jedňouru            	|2. (bez)     | jedňourů
+	|3. (ke/k)   | jedňouru            	|3. (ke/k)    | jedňourům
+	|4. (vidím)  | jedňour             	|4. (vidím)   | jedňoury
+	|5. (volám)  | jedňoure            	|5. (volám)   | jedňoury
+	|6. (o)      | jedňouru            	|6. (o)       | jedňourech
+	|7. (s)      | jedňourem           	|7. (s)       | jedňoury
+
+
+---
+
+ementálismus
+|Main dscr | neukojitelná potřeba vrtat stále nové a nové díry do zdí v panelákovém bytě, nejlépe v nočních hodinách a o víkendu  
+|Other dscr| 
+|Example   | Příklad: „On už zase něco vrtá! Kdy už ho ten ementálismus přejde?”
+
+|Lemma     | EMENTÁLISMUS
+
+	|1. (kdo/co) | ementálismus        	|1. (ti/ty/ta)| ementálismy
+	|2. (bez)    | ementálismu         	|2. (bez)     | ementálismů
+	|3. (ke/k)   | ementálismu         	|3. (ke/k)    | ementálismům
+	|4. (vidím)  | ementálismus        	|4. (vidím)   | ementálismy
+	|5. (volám)  | ementálisme         	|5. (volám)   | ementálismy
+	|6. (o)      | ementálismu         	|6. (o)       | ementálismech
+	|7. (s)      | ementálismem        	|7. (s)       | ementálismy
+
+
+---
+
+jedňáček
+|Main dscr | jedno pivo, po kterém (většinou) nenásleduje žádné další  <em>Příklad: </em><em>A: „Zajdeme po práci na pivko?” B: „Jasně, ale jen na jedňáčka.”</em>
+|Other dscr| 
+|Example   | 
+
+|Lemma     | JEDŇÁČEK
+
+	|1. (kdo/co) | jedňáček            	|1. (ti/ty/ta)| jedňáčky
+	|2. (bez)    | jedňáčku            	|2. (bez)     | jedňáčků
+	|3. (ke/k)   | jedňáčku            	|3. (ke/k)    | jedňáčkům
+	|4. (vidím)  | jedňáček            	|4. (vidím)   | jedňáčky
+	|5. (volám)  | jedňáčku            	|5. (volám)   | jedňáčky
+	|6. (o)      | jedňáčku            	|6. (o)       | jedňáčcích
+	|7. (s)      | jedňáčkem           	|7. (s)       | jedňáčky
+
+
+---
+
+jandakonda
+|Main dscr | enormně velký penis
+|Other dscr|  podle zpěváka Dalibora Jandy  
+|Example   | Příklad: „Poslal mi <a href="https://cestina20.cz/slovnik/dikobraz/">dikobraz</a> – bože můj, ten frajer má jandakondu!”
+
+|Lemma     | JANDAKONDA
+
+	|1. (kdo/co) | jandakonda          	|1. (ti/ty/ta)| jandakondy
+	|2. (bez)    | jandakondy          	|2. (bez)     | jandakond
+	|3. (ke/k)   | jandakondě          	|3. (ke/k)    | jandakondám
+	|4. (vidím)  | jandakondu          	|4. (vidím)   | jandakondy
+	|5. (volám)  | jandakondo          	|5. (volám)   | jandakondy
+	|6. (o)      | jandakondě          	|6. (o)       | jandakondách
+	|7. (s)      | jandakondou         	|7. (s)       | jandakondami
+
+
+---
+
+edvenčurák
+|Main dscr | milovník dobrodružných (adventure) sportů
+|Other dscr| 
+|Example   | 
+
+|Lemma     | EDVENČURÁK
+
+	|1. (kdo/co) | edvenčurák          	|1. (ti/ty/ta)| edvenčuráky
+	|2. (bez)    | edvenčuráku         	|2. (bez)     | edvenčuráků
+	|3. (ke/k)   | edvenčuráku         	|3. (ke/k)    | edvenčurákům
+	|4. (vidím)  | edvenčurák          	|4. (vidím)   | edvenčuráky
+	|5. (volám)  | edvenčuráku         	|5. (volám)   | edvenčuráky
+	|6. (o)      | edvenčuráku         	|6. (o)       | edvenčurácích
+	|7. (s)      | edvenčurákem        	|7. (s)       | edvenčuráky
+
+
+---
+
+jezinkovat
+|Main dscr | postupně vršit menší požadavky, které v důsledku vedou ke značné změně
+|Other dscr|  podle pohádkových jezinek, které se snažily oklamat Smolíčka  
+|Example   | Příklad: „Homosexuálům nejdřív stačilo registrované partnerství, teď už chtějí svatby. Vypadá to, že slušně jezinkují.”
+
+|Lemma     | JEZINKOVAT
+
+	|1. (kdo/co) | jezinkovat          	|1. (ti/ty/ta)| jezinkovaty
+	|2. (bez)    | jezinkovatu         	|2. (bez)     | jezinkovatů
+	|3. (ke/k)   | jezinkovatu         	|3. (ke/k)    | jezinkovatům
+	|4. (vidím)  | jezinkovat          	|4. (vidím)   | jezinkovaty
+	|5. (volám)  | jezinkovate         	|5. (volám)   | jezinkovaty
+	|6. (o)      | jezinkovatu         	|6. (o)       | jezinkovatech
+	|7. (s)      | jezinkovatem        	|7. (s)       | jezinkovaty
+
+
+---
+
+jebarák
+|Main dscr | nevěstinec
+|Other dscr| 
+|Example   | 
+
+|Lemma     | JEBARÁK
+
+	|1. (kdo/co) | jebarák             	|1. (ti/ty/ta)| jebaráky
+	|2. (bez)    | jebaráku            	|2. (bez)     | jebaráků
+	|3. (ke/k)   | jebaráku            	|3. (ke/k)    | jebarákům
+	|4. (vidím)  | jebarák             	|4. (vidím)   | jebaráky
+	|5. (volám)  | jebaráku            	|5. (volám)   | jebaráky
+	|6. (o)      | jebaráku            	|6. (o)       | jebarácích
+	|7. (s)      | jebarákem           	|7. (s)       | jebaráky
+
+
+---
+
+ekolmo
+|Main dscr | na elektrickém kole
+|Other dscr|  srov. s <a href="https://cestina20.cz/slovnik/kolmo/">kolmo</a>  
+|Example   | Příklad: „Dneska tu jsem ekolmo, takže odjezdy busů nemusím řešit.”
+
+|Lemma     | EKOLMO
+
+	|1. (kdo/co) | ekolmo              	|1. (ti/ty/ta)| ekolma
+	|2. (bez)    | ekolma              	|2. (bez)     | ekolm
+	|3. (ke/k)   | ekolmu              	|3. (ke/k)    | ekolmům
+	|4. (vidím)  | ekolmo              	|4. (vidím)   | ekolma
+	|5. (volám)  | ekolmo              	|5. (volám)   | ekolma
+	|6. (o)      | ekolmu              	|6. (o)       | ekolmech
+	|7. (s)      | ekolmem             	|7. (s)       | ekolmy
+
+
+---
+
+ekobio
+|Main dscr | jedinec z ideových důvodů systematicky využívající produkty s nálepkami eko, případně bio
+|Other dscr|  mírně pejorativní, použitelné i jako adjektivum  
+|Example   | Příklad: „Neuvěříš, kámo, moje nová ekobio holka... Jsem jí dal k Valentýnu krásnou drahou kosmetickou sadu, sprcháč, šampon a tak, a hodila ji hned do koše, že prej nemá osvědčení o netestování na zvířatech.”
+
+|Lemma     | EKOBIO
+
+	|1. (kdo/co) | ekobio              	|1. (ti/ty/ta)| ekobia
+	|2. (bez)    | ekobia              	|2. (bez)     | ekobi
+	|3. (ke/k)   | ekobiu              	|3. (ke/k)    | ekobiům
+	|4. (vidím)  | ekobio              	|4. (vidím)   | ekobia
+	|5. (volám)  | ekobio              	|5. (volám)   | ekobia
+	|6. (o)      | ekobiu              	|6. (o)       | ekobiech
+	|7. (s)      | ekobiem             	|7. (s)       | ekobiy
+
+
+---
+
+egosystém
+|Main dscr | společenský systém založený na egoismu
+|Other dscr|  volně odvozeno z ekosystému  
+|Example   | Příklad: „V egosystému každý myslí jen na sebe a naše planeta se mezitím řítí do sraček.”
+
+|Lemma     | EGOSYSTÉM
+
+	|1. (kdo/co) | egosystém           	|1. (ti/ty/ta)| egosystémy
+	|2. (bez)    | egosystému          	|2. (bez)     | egosystémů
+	|3. (ke/k)   | egosystému          	|3. (ke/k)    | egosystémům
+	|4. (vidím)  | egosystém           	|4. (vidím)   | egosystémy
+	|5. (volám)  | egosystéme          	|5. (volám)   | egosystémy
+	|6. (o)      | egosystému          	|6. (o)       | egosystémech
+	|7. (s)      | egosystémem         	|7. (s)       | egosystémy
+
+
+---
+
+jávka
+|Main dscr | motorka, motocykl zn. Jawa  
+|Other dscr| 
+|Example   | Příklad: &#8220,Nakopnu jávku a hned jsem u vás.&#8221,
+
+|Lemma     | JÁVKA
+
+	|1. (kdo/co) | jávka               	|1. (ti/ty/ta)| jávky
+	|2. (bez)    | jávky               	|2. (bez)     | jávek
+	|3. (ke/k)   | jávce               	|3. (ke/k)    | jávkám
+	|4. (vidím)  | jávku               	|4. (vidím)   | jávky
+	|5. (volám)  | jávko               	|5. (volám)   | jávky
+	|6. (o)      | jávce               	|6. (o)       | jávkách
+	|7. (s)      | jávkou              	|7. (s)       | jávkami
+
+
+---
+
+ejka
+|Main dscr | ejakulace  
+|Other dscr| 
+|Example   | Příklad: „Ráda se dívám na manželovu ejku.”
+
+|Lemma     | EJKA
+
+	|1. (kdo/co) | ejka                	|1. (ti/ty/ta)| ejky
+	|2. (bez)    | ejky                	|2. (bez)     | ejek
+	|3. (ke/k)   | ejce                	|3. (ke/k)    | ejkám
+	|4. (vidím)  | ejku                	|4. (vidím)   | ejky
+	|5. (volám)  | ejko                	|5. (volám)   | ejky
+	|6. (o)      | ejce                	|6. (o)       | ejkách
+	|7. (s)      | ejkou               	|7. (s)       | ejkami
+
+
+---
+
+eurosvaz
+|Main dscr | Evropská unie
+|Other dscr|  pohrdavě podle Sovětského svazu  
+|Example   | Příklad: &#8220,Bez nařízení, restrikcí, daní a byrokracie ten eurosvaz nevybudujeme.&#8221,
+
+|Lemma     | EUROSVAZ
+
+	|1. (kdo/co) | eurosvaz            	|1. (ti/ty/ta)| eurosvazy
+	|2. (bez)    | eurosvazu           	|2. (bez)     | eurosvazů
+	|3. (ke/k)   | eurosvazu           	|3. (ke/k)    | eurosvazům
+	|4. (vidím)  | eurosvaz            	|4. (vidím)   | eurosvazy
+	|5. (volám)  | eurosvaze           	|5. (volám)   | eurosvazy
+	|6. (o)      | eurosvazu           	|6. (o)       | eurosvazech
+	|7. (s)      | eurosvazem          	|7. (s)       | eurosvazy
+
+
+---
+
+emoporno
+|Main dscr | pořad pro diváky, co mají potřebu se vybrečet  
+|Other dscr| 
+|Example   | Příklad: „Dnes dávají Poštu pro tebe, moje oblíbené emoporno.”
+
+|Lemma     | EMOPORNO
+
+	|1. (kdo/co) | emoporno            	|1. (ti/ty/ta)| emoporna
+	|2. (bez)    | emoporna            	|2. (bez)     | emoporn
+	|3. (ke/k)   | emopornu            	|3. (ke/k)    | emopornům
+	|4. (vidím)  | emoporno            	|4. (vidím)   | emoporna
+	|5. (volám)  | emoporno            	|5. (volám)   | emoporna
+	|6. (o)      | emopornu            	|6. (o)       | emopornech
+	|7. (s)      | emopornem           	|7. (s)       | emoporny
+
+
+---
+
+exemafie
+|Main dscr | exekutorská mafie  
+|Other dscr| 
+|Example   | Příklad: „A ti, co jsou v exekuci, nedosáhnou na nic, protože jim stejně všechno sebere exemafie.“
+
+|Lemma     | EXEMAFIE
+
+	|1. (kdo/co) | exemafie            	|1. (ti/ty/ta)| exemafie
+	|2. (bez)    | exemafie            	|2. (bez)     | exemafií
+	|3. (ke/k)   | exemafii            	|3. (ke/k)    | exemafiím
+	|4. (vidím)  | exemafii            	|4. (vidím)   | exemafie
+	|5. (volám)  | exemafie            	|5. (volám)   | exemafie
+	|6. (o)      | exemafii            	|6. (o)       | exemafiích
+	|7. (s)      | exemafií            	|7. (s)       | exemafiemi
+
+
+---
+
+jebka
+|Main dscr | nekvalitní věc, zmetek  
+|Other dscr| 
+|Example   | Příklad: &#8220,To je teda pěkná jebka, když to nefunguje.&#8221,
+
+|Lemma     | JEBKA
+
+	|1. (kdo/co) | jebka               	|1. (ti/ty/ta)| jebky
+	|2. (bez)    | jebky               	|2. (bez)     | jebek
+	|3. (ke/k)   | jebce               	|3. (ke/k)    | jebkám
+	|4. (vidím)  | jebku               	|4. (vidím)   | jebky
+	|5. (volám)  | jebko               	|5. (volám)   | jebky
+	|6. (o)      | jebce               	|6. (o)       | jebkách
+	|7. (s)      | jebkou              	|7. (s)       | jebkami
+
+
+---

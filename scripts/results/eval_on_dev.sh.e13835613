@@ -1,0 +1,32 @@
+/auto/brno2/home/souradat/rp-sourada/czech-automatic-inflection/.venv/lib/python3.8/site-packages/torch/cuda/__init__.py:146: UserWarning: 
+NVIDIA A100-SXM4-40GB with CUDA capability sm_80 is not compatible with the current PyTorch installation.
+The current PyTorch install supports CUDA capabilities sm_37 sm_50 sm_60 sm_70.
+If you want to use the NVIDIA A100-SXM4-40GB GPU with PyTorch, please check the instructions at https://pytorch.org/get-started/locally/
+
+  warnings.warn(incompatible_device_warn.format(device_name, capability, " ".join(arch_list), device_name))
+Traceback (most recent call last):
+  File ".venv/bin/onmt_translate", line 8, in <module>
+    sys.exit(main())
+  File "/auto/brno2/home/souradat/rp-sourada/czech-automatic-inflection/.venv/lib/python3.8/site-packages/onmt/bin/translate.py", line 60, in main
+    translate(opt)
+  File "/auto/brno2/home/souradat/rp-sourada/czech-automatic-inflection/.venv/lib/python3.8/site-packages/onmt/bin/translate.py", line 23, in translate
+    translator = build_translator(opt, logger=logger,
+  File "/auto/brno2/home/souradat/rp-sourada/czech-automatic-inflection/.venv/lib/python3.8/site-packages/onmt/translate/translator.py", line 31, in build_translator
+    vocabs, model, model_opt = load_test_model(opt)
+  File "/auto/brno2/home/souradat/rp-sourada/czech-automatic-inflection/.venv/lib/python3.8/site-packages/onmt/model_builder.py", line 105, in load_test_model
+    model = build_base_model(model_opt, vocabs, use_gpu(opt), checkpoint,
+  File "/auto/brno2/home/souradat/rp-sourada/czech-automatic-inflection/.venv/lib/python3.8/site-packages/onmt/model_builder.py", line 319, in build_base_model
+    model.to(device)
+  File "/auto/brno2/home/souradat/rp-sourada/czech-automatic-inflection/.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 927, in to
+    return self._apply(convert)
+  File "/auto/brno2/home/souradat/rp-sourada/czech-automatic-inflection/.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/auto/brno2/home/souradat/rp-sourada/czech-automatic-inflection/.venv/lib/python3.8/site-packages/torch/nn/modules/module.py", line 579, in _apply
+    module._apply(fn)
+  File "/auto/brno2/home/souradat/rp-sourada/czech-automatic-inflection/.venv/lib/python3.8/site-packages/torch/nn/modules/rnn.py", line 189, in _apply
+    self.flatten_parameters()
+  File "/auto/brno2/home/souradat/rp-sourada/czech-automatic-inflection/.venv/lib/python3.8/site-packages/torch/nn/modules/rnn.py", line 175, in flatten_parameters
+    torch._cudnn_rnn_flatten_weight(
+RuntimeError: CUDA error: no kernel image is available for execution on the device
+CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect.
+For debugging consider passing CUDA_LAUNCH_BLOCKING=1.

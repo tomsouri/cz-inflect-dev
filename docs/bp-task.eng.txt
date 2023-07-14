@@ -1,0 +1,45 @@
+Topic: Automatic inflection in Czech
+
+Keywords: automatic inflection, morphology, natural language generation, czech language
+
+Task: The goal of this work is to implement a library for automatic inflection of czech nouns, focusing on out-of-vocabulary (OOV) words.
+
+The input is a czech noun in its base form (lemma) and optionally the morphological tag.
+
+The output contains all possible forms of the given lemma (or the form corresponding to the given tag).
+
+One of the sub-goals is creating reasonably large set of development and test data (at least 100 lemmata with inflected and manually checked inflected forms) for continuous evaluation during the process of creating and improving the models and testing the final models. Other sub-goal is implementing this testing and comparing the accuracy with some basic baselines and existing models.
+
+The inflection model itself should be implemented in at least two ways, using different methods based on the data-driven approach.
+
+Possible approaches for implementation of the model:
+- simple retrograde approach (find the most similar word in the dictionary and inflect the given lemma according to its pattern)
+- generate transcription rules
+- generate the inflected form by characters
+
+Possible algorithms of machine learning:
+- SVM (Support Vector Machines)
+- k-nearest neighbours
+- feedforward NN (constant-length input, constant-length output, padded with empty characters)
+- recurrent NN
+- convolutional NN
+- encoder-decoder architecture (using LSTM/GRU, Transformer, BERT)
+- other deep-learning-based methods
+
+Possible extensions:
+- not only OOV, but all nouns
+- not only nouns, but also other inflectable parts of speech
+
+
+Literature:
+
+Ondřej Dušek and Filip Jurčíček. 2013. Robust multilingual statistical morphological generation models. In 51st Annual Meeting of the Association for Computational Linguistics Proceedings of the Student Research Workshop, pages 158–164, Sofia, Bulgaria. Association for Computational Linguistics. URL https://aclanthology.org/P13-3023
+
+ÚFAL TR-2020-64 Marie Mikulová, Jan Hajič, Jíří Hana, Hana Hanová, Jaroslava Hlaváčová, Emil Jeřábek, Barbora Štěpánková, Barbora Vidová Hladká, Daniel Zeman: Manual for Morphological Annotation. Revision for Prague Dependency Treebank – Consolidated 2020 release. URL https://ufal.mff.cuni.cz/techrep/tr64.pdf
+
+Hajič, Jan; Hlaváčová, Jaroslava; Mikulová, Marie; Straka, Milan and Štěpánková, Barbora, 2020, MorfFlex CZ 2.0, LINDAT/CLARIAH-CZ digital library at the Institute of Formal and Applied Linguistics (ÚFAL), Faculty of Mathematics and Physics, Charles University, URL http://hdl.handle.net/11234/1-3186
+
+Jana Straková, Milan Straka, and Jan Hajič. 2014. Open-Source Tools for Morphology, Lemmatization, POS Tagging and Named Entity Recognition. In Proceedings of 52nd Annual Meeting of the Association for Computational Linguistics: System Demonstrations, pages 13–18, Baltimore, Maryland. Association for Computational Linguistics. URL https://aclanthology.org/P14-5003/
+
+Chunting Zhou and Graham Neubig. 2017. Morphological Inflection Generation with Multi-space Variational Encoder-Decoders. In Proceedings of the CoNLL SIGMORPHON 2017 Shared Task: Universal Morphological Reinflection, pages 58–65, Vancouver. Association for Computational Linguistics. URL https://aclanthology.org/K17-2005/
+

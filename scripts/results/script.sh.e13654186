@@ -1,0 +1,86 @@
+[2022-12-15 09:39:50,343 INFO] Missing transforms field for corpus_1 data, set to default: [].
+[2022-12-15 09:39:50,344 WARNING] Corpus corpus_1's weight should be given. We default it to 1 for you.
+[2022-12-15 09:39:50,344 INFO] Missing transforms field for valid data, set to default: [].
+[2022-12-15 09:39:50,345 INFO] Parsed 2 corpora from -data.
+[2022-12-15 09:39:50,346 INFO] Get special vocabs from Transforms: {'src': [], 'tgt': []}.
+[2022-12-15 09:39:50,349 INFO] Building model...
+[2022-12-15 09:39:50,600 INFO] NMTModel(
+  (encoder): RNNEncoder(
+    (embeddings): Embeddings(
+      (make_embedding): Sequential(
+        (emb_luts): Elementwise(
+          (0): Embedding(80, 500, padding_idx=1)
+        )
+      )
+    )
+    (rnn): LSTM(500, 500, num_layers=2, batch_first=True, dropout=0.3)
+  )
+  (decoder): InputFeedRNNDecoder(
+    (embeddings): Embeddings(
+      (make_embedding): Sequential(
+        (emb_luts): Elementwise(
+          (0): Embedding(72, 500, padding_idx=1)
+        )
+      )
+    )
+    (dropout): Dropout(p=0.3, inplace=False)
+    (rnn): StackedLSTM(
+      (dropout): Dropout(p=0.3, inplace=False)
+      (layers): ModuleList(
+        (0): LSTMCell(1000, 500)
+        (1): LSTMCell(500, 500)
+      )
+    )
+    (attn): GlobalAttention(
+      (linear_in): Linear(in_features=500, out_features=500, bias=False)
+      (linear_out): Linear(in_features=1000, out_features=500, bias=False)
+    )
+  )
+  (generator): Sequential(
+    (0): Linear(in_features=500, out_features=72, bias=True)
+    (1): Cast()
+    (2): LogSoftmax(dim=-1)
+  )
+)
+[2022-12-15 09:39:50,601 INFO] encoder: 4048000
+[2022-12-15 09:39:50,601 INFO] decoder: 5830072
+[2022-12-15 09:39:50,601 INFO] * number of parameters: 9878072
+[2022-12-15 09:39:50,601 INFO]  * src vocab size = 80
+[2022-12-15 09:39:50,601 INFO]  * tgt vocab size = 72
+/auto/brno2/home/souradat/rp-sourada/czech-automatic-inflection/.venv/lib/python3.8/site-packages/torch/utils/data/dataloader.py:563: UserWarning: This DataLoader will create 2 worker processes in total. Our suggested max number of worker in current system is 1, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(_create_warning_msg(
+[2022-12-15 09:39:50,631 INFO] Starting training on CPU, could be very slow
+[2022-12-15 09:39:50,631 INFO] Start training loop and validate every 500 steps...
+/auto/brno2/home/souradat/rp-sourada/czech-automatic-inflection/.venv/lib/python3.8/site-packages/torch/amp/autocast_mode.py:198: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
+[2022-12-15 09:41:35,109 INFO] Step 50/ 1000; acc: 7.3; ppl: 961.8; xent: 6.9; lr: 1.00000; sents:    3200; bsz:  899/ 806/64; 430/386 tok/s;    104 sec;
+[2022-12-15 09:42:59,550 INFO] Step 100/ 1000; acc: 12.1; ppl:  74.9; xent: 4.3; lr: 1.00000; sents:    3200; bsz:  891/ 802/64; 528/475 tok/s;    189 sec;
+[2022-12-15 09:44:18,610 INFO] Step 150/ 1000; acc: 16.5; ppl:  40.0; xent: 3.7; lr: 1.00000; sents:    3200; bsz:  835/ 740/64; 528/468 tok/s;    268 sec;
+[2022-12-15 09:45:45,766 INFO] Step 200/ 1000; acc: 22.6; ppl:  21.7; xent: 3.1; lr: 1.00000; sents:    3200; bsz:  901/ 831/64; 517/477 tok/s;    355 sec;
+[2022-12-15 09:47:08,935 INFO] Step 250/ 1000; acc: 26.0; ppl:  16.8; xent: 2.8; lr: 1.00000; sents:    3200; bsz:  856/ 783/64; 515/471 tok/s;    438 sec;
+[2022-12-15 09:48:44,783 INFO] Step 300/ 1000; acc: 34.7; ppl:  11.7; xent: 2.5; lr: 1.00000; sents:    3200; bsz:  977/ 901/64; 510/470 tok/s;    534 sec;
+[2022-12-15 09:50:10,321 INFO] Step 350/ 1000; acc: 34.5; ppl:  12.1; xent: 2.5; lr: 1.00000; sents:    3200; bsz:  893/ 812/64; 522/474 tok/s;    620 sec;
+[2022-12-15 09:51:33,382 INFO] Step 400/ 1000; acc: 37.2; ppl:  10.2; xent: 2.3; lr: 1.00000; sents:    3200; bsz:  863/ 800/64; 519/481 tok/s;    703 sec;
+[2022-12-15 09:52:57,913 INFO] Step 450/ 1000; acc: 39.6; ppl:   9.1; xent: 2.2; lr: 1.00000; sents:    3200; bsz:  887/ 794/64; 525/470 tok/s;    787 sec;
+[2022-12-15 09:54:24,087 INFO] Step 500/ 1000; acc: 45.4; ppl:   7.3; xent: 2.0; lr: 1.00000; sents:    3200; bsz:  892/ 818/64; 518/475 tok/s;    873 sec;
+[2022-12-15 12:12:22,726 INFO] valid stats calculation and batchs detokenization
+                           took: 8278.637775421143 s.
+[2022-12-15 12:12:22,726 INFO] Train perplexity: 24.7992
+[2022-12-15 12:12:22,726 INFO] Train accuracy: 27.7664
+[2022-12-15 12:12:22,726 INFO] Sentences processed: 32000
+[2022-12-15 12:12:22,726 INFO] Average bsz:  889/ 809/64
+[2022-12-15 12:12:22,726 INFO] Validation perplexity: 7.30685
+[2022-12-15 12:12:22,726 INFO] Validation accuracy: 44.7909
+[2022-12-15 12:12:22,727 INFO] Saving checkpoint /storage/brno2/home/souradat/rp-sourada/czech-automatic-inflection/data/inner/onmt/run/model_step_500.pt
+[2022-12-15 12:13:58,579 INFO] Step 550/ 1000; acc: 52.8; ppl:   5.5; xent: 1.7; lr: 1.00000; sents:    3200; bsz:  950/ 875/64;   6/  5 tok/s;   9248 sec;
+[2022-12-15 12:15:14,807 INFO] Step 600/ 1000; acc: 60.2; ppl:   4.5; xent: 1.5; lr: 1.00000; sents:    3200; bsz:  756/ 702/64; 496/461 tok/s;   9324 sec;
+[2022-12-15 12:16:46,022 INFO] Step 650/ 1000; acc: 73.0; ppl:   2.8; xent: 1.0; lr: 1.00000; sents:    3200; bsz:  906/ 829/64; 497/455 tok/s;   9415 sec;
+[2022-12-15 12:18:12,352 INFO] Step 700/ 1000; acc: 82.1; ppl:   2.0; xent: 0.7; lr: 1.00000; sents:    3200; bsz:  851/ 792/64; 493/459 tok/s;   9502 sec;
+[2022-12-15 12:19:41,575 INFO] Step 750/ 1000; acc: 85.5; ppl:   1.7; xent: 0.5; lr: 1.00000; sents:    3200; bsz:  882/ 817/64; 494/458 tok/s;   9591 sec;
+[2022-12-15 12:21:11,736 INFO] Step 800/ 1000; acc: 85.6; ppl:   1.8; xent: 0.6; lr: 1.00000; sents:    3200; bsz:  901/ 806/64; 499/447 tok/s;   9681 sec;
+[2022-12-15 12:22:35,174 INFO] Step 850/ 1000; acc: 89.4; ppl:   1.5; xent: 0.4; lr: 1.00000; sents:    3200; bsz:  849/ 759/64; 509/455 tok/s;   9765 sec;
+[2022-12-15 12:24:08,983 INFO] Step 900/ 1000; acc: 90.2; ppl:   1.4; xent: 0.4; lr: 1.00000; sents:    3200; bsz:  936/ 863/64; 499/460 tok/s;   9858 sec;
+[2022-12-15 12:25:31,988 INFO] Step 950/ 1000; acc: 89.5; ppl:   1.5; xent: 0.4; lr: 1.00000; sents:    3200; bsz:  824/ 766/64; 496/461 tok/s;   9941 sec;
+[2022-12-15 12:26:57,136 INFO] Step 1000/ 1000; acc: 89.9; ppl:   1.4; xent: 0.3; lr: 1.00000; sents:    3200; bsz:  846/ 787/64; 497/462 tok/s;  10027 sec;
+/cvmfs/software.metacentrum.cz/software/python/linux-debian9-x86_64/3.8.0-gcc-rab6t/lib/python3.8/multiprocessing/resource_tracker.py:203: UserWarning: resource_tracker: There appear to be 28 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

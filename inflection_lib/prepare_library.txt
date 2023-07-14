@@ -1,0 +1,26 @@
+#Ensemble Decoding: During translation, instead of adding one model/checkpoint to the -model argument, add multiple checkpoints. For example, try the two last checkpoints. Does it improve quality of translation? Does it affect translation seepd?
+#Averaging Models: Try to average multiple models into one model using the average_models.py script, and see how this affects translation quality.
+#python3 average_models.py -models model_step_xxx.pt model_step_yyy.pt -output model_avg.pt
+
+Release the model: Try this command and see how it reduce the model size.
+onmt_release_model --model "model.pt" --output "model_released.pt
+
+
+
+qsub -l select=1:ncpus=1:mem=8gb:scratch_local=16gb -I
+export TMPDIR=$SCRATCHDIR
+
+module add python/3.8.0-gcc-rab6t cuda/cuda-11.2.0-intel-19.0.4-tn4edsz cudnn/cudnn-8.1.0.77-11.2-linux-x64-intel-19.0.4-wx22b5t
+mkdir .venv
+python3 -m venv .venv
+.venv/bin/pip3 install --upgrade pip
+.venv/bin/pip3 install ctranslate2 torch
+
+
+### ct2 does not support RNN models.
+#.venv/bin/ct2-opennmt-py-converter --model_path LSTM_v0.40_2_lay+batch256+emb64+brnn_enc+hid_200_step_260000.pt --output_dir models --quantization int8
+
+.venv/bin/ct2-opennmt-py-converter --model_path Transformer_v0.3_batchTypeSents_batch64_droupouts0.2_hidden256_wordvec256_step_100000.pt --output_dir models --quantization int8
+
+.venv/bin/python3 script.py models/
+

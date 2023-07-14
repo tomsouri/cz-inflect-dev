@@ -1,0 +1,98 @@
+
+## Where the samples will be written
+# Not used
+save_data: data/inner/onmt/example
+
+# Training files
+data:
+    corpus_1:
+        path_src: data/cleaned/neural/train.src
+        path_tgt: data/cleaned/neural/train.tgt
+        transforms: [filtertoolong]
+    valid:
+        path_src: data/cleaned/neural/dev_small.src
+        path_tgt: data/cleaned/neural/dev_small.tgt
+        transforms: [filtertoolong]
+
+
+
+# Vocabulary size - should be the same as in sentence piece
+src_vocab_size: 50000
+tgt_vocab_size: 50000
+
+# Filter out source/target longer than n if [filtertoolong] enabled
+src_seq_length: 150
+src_seq_length: 150
+
+# Tokenization options
+src_subword_model: source.model
+tgt_subword_model: target.model
+
+# Where to save the log file and the output models/checkpoints
+#log_file: train.log
+#save_model: models/model.fren
+
+# Stop training if it does not imporve after n validations
+#early_stopping: 4
+
+# Default: 5000 - Save a model checkpoint for each n
+save_checkpoint_steps: 20000
+
+# To save space, limit checkpoints to last n
+# keep_checkpoint: 3
+
+seed: 3435
+
+# Default: 100000 - Train the model to max n steps 
+# Increase to 200000 or more for large datasets
+# For fine-tuning, add up the required steps to the original steps
+
+train_steps: 260000
+
+# Default: 10000 - Run validation after n steps
+valid_steps: 20000
+
+# Default: 4000 - for large datasets, try up to 8000
+warmup_steps: 4000
+report_every: 1000
+
+# Number of GPUs, and IDs of GPUs
+world_size: 1
+gpu_ranks: [0]
+
+# Batching
+bucket_size: 262144 # 262144
+num_workers: 0  # Default: 2, set to 0 when RAM out of memory
+batch_type: "sents" # "tokens"
+batch_size: 4096 # 2048  # Tokens per batch, change when CUDA out of memory
+valid_batch_size: 16384
+max_generator_batches: 2
+accum_count: [4]
+accum_steps: [0]
+
+# Optimization
+model_dtype: "fp16"
+optim: "adam"
+learning_rate: 0.001 #2
+# warmup_steps: 8000
+decay_method: "noam"
+adam_beta2: 0.998
+max_grad_norm: 0
+#label_smoothing: 0.1 # TO BE TURNED OFF
+param_init: 0
+param_init_glorot: true
+normalization: "tokens"
+
+# Model
+encoder_type: transformer
+decoder_type: transformer
+position_encoding: true
+enc_layers: 2 # TO BE DECREASED
+dec_layers: 2 # TO BE DECREASED
+heads: 2
+hidden_size: 128 # 512 # TO BE DECREASED
+word_vec_size: 128 # 512 # TO BE DECREASED
+transformer_ff: 256 # TO BE DECREASED
+dropout_steps: [0]
+dropout: [0.2] #[0.1] # TO BE INCREASED UP TO 0.5
+attention_dropout: [0.2] # [0.1] # TO BE INCREASED UP TO 0.5

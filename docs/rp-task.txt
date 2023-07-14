@@ -1,0 +1,31 @@
+Obsahuje:
+- krátký popis dohodnutého programu:
+- Název, cca 5-15 řádků popisu tématu, OS, jazyk, knihovny nebo jiné externí komponenty, vývojové prostředí, ... 
+
+
+Název: Automatické skloňování v češtině
+Popis: Práce se zameří na automatické skloňování OOV (out-of-vocabulary) podstatných a přídavných jmen, případně časování sloves v českém jazyce. Cílem je vytvořit funkční doplněk k systému MorphoDita, který má generátor tvarů pro slovníková slova, ale neobsahuje guesser pro OOV slova. Očekávaný vstup je dvojice lemma-tag, výstup je příslušný tvar zadaného slova. 
+
+Možné přístupy plánované k vyzkoušení:
+    1) skloňování podle retrográdně nejbližšího slova ze stejných morfologických kategorií
+    2) jednoduché NN (obecné slovo fixní délky n)
+        - a) MorfFlex jako trénovací data
+        - b) další trénovací data z ČNK (i OOV slova, nebo pouze OOV slova)
+    3) rekurentní NN
+    4) generování pouze editů, nikoliv celých tvarů (inspirace ve Flectu)
+    
+Možné cíle:
+    1) fungování na OOV slovech - primární cíl.
+    2) fungování na všech českých slovech, slovníkových i OOV - sekundární cíl.
+    
+OS: Linux
+Jazyk: Python3
+Vývojové prostředí: VS Code
+Externí komponenty:
+    - data: 
+        - ČNK
+        - MorfFlex
+        - databáze projektu Čeština2.0
+    - knihovny: 
+        - TensorFlow - pro práci s neuronovými sítěmi
+        - další dle potřeby

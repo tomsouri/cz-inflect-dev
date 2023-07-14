@@ -1,0 +1,21 @@
+Lang		lemma
+ang_large	60.284	76.619
+ara_large	74.286	79.866
+asm_large	66.784	83.333
+evn_large	47.676	0
+got_large	66.8	91.716
+heb_large	47.9	0
+hun_large	67.45	94.509
+kat_large	80.15	96.739
+khk_large	48.939	94.118
+kor_large	47.403	39.759
+krl_large	61.022	87.5
+lud_large	83.806	83.491
+non_large	77.097	83.607
+pol_large	87.25	96.699
+poma_large	64.732	74.699
+slk_large	86.05	95.233
+tur_large	92.6	95.238
+vep_large	58.555	69.125
+_LARGE		42.232
+TOTAL		61.578

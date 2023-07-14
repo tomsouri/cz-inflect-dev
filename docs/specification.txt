@@ -1,0 +1,73 @@
+Bude obsahovat:
+- Obsah rozpracované verze a stupeň rozpracovanosti (pro RP)
+
+Podrobná specifikace 
+    - detailní popis problematiky, podle něhož by jiný programátor napsal "tentýž" program:
+    - Stručná analýza existujících programů, popis všech podstatných zamýšlených funkcí a vlastností programu + zdůraznit čím se bude lišit od existujících (v čem bude lepší, co bude mít jiného, apod.)
+    - Popis hlavních funkcí
+    - Návrh struktury programu (moduly, knihovny, příp. framework, vzájemná provázanost)
+    - OS, jazyk, vývojové prostředí, další využívané zdroje (knihovny, moduly, apod.) 
+    
+=====================================================================================================================
+=========== SPECIFIKACE =============================================================================================
+=====================================================================================================================
+
+Stručná analýza existujících programů:
+    - MorphoDita - skloňuje slovníková slova, neobsahuje morpho-guesser
+    - UDPipe - pokročilý nástroj pro analýzu, v budoucích verzích by měl obsahovat i morpho-guesser pro generování
+    - Flect - generování přepisovacích pravidel, trénování Logistické regrese
+    - dclua - PyPI package, declensor library, primarily for Ukrainian language, but trainable probably for any other language
+            - pip install dclua
+            - https://pypi.org/project/dclua/#description
+    - https://sklonuj.cz/, skloňování na základě hardcoděných pravidel
+    - další online nástroje, skloňování na základě hardcoděných pravidel
+        - aztekium.pl http://aztekium.pl/sklonovani.py?szukaj=sklonovaneslovo
+        - ucitel.net https://www.ucitel.net/online-nastroje/sklonovani?slovo=slvoo&rod=0
+
+Zamýšlené funkce:
+    - celý projekt je zamýšlen primárně jako knihovna (není zaměřen na interakci s uživatelem)
+    - pro vstup (lemma, tag) vrátí (word_form), tedy slovo dané lemmatem v příslušém slovním tvaru (případně více různých word forms, které připadají v úvahu, a k nim pravděpodobnostní rozložení (případně alespoň jednotlivé word forms seřazené podle pravděpodobnosti).
+        - významná odlišnost od existujících toolů: cílí na OOV slova (MorphoDita nemá morpho-guesser pro generování, jiné nástroje fungují na základě hard-coděných pravidel).
+        - díky funcionalitě na základě obecných modelů (neural networks, automaticky generovaná přepisovací pravidla) bude program snadno přizpůsobitelný při vývoji jazyka i při potenciálním přechodu na jiný jazyk.
+        
+Popis hlavních funkcí:
+    - pro jeden vstup (lemma, tag) vrátí (word_form), případně tuple (word_form, word_form, ...), pokud nedokáže jednoznačně rozhodnout, který tvar je ten správný
+    - pro vektor vstupů vrátí vektor výstupů
+    
+TODO: návrh struktury programu (moduly, knihovny, vzájemná provázanost) - zatím viz papír
+
+Obsah rozpracované verze a stupeň rozpracovanosti pro RP:
+    - Vše se zatím zaměřuje na OOV slova, podstatná jména, skloňování bez kontextu. Zatím se neřeší ambiguita lemmat.
+    - Návrh obecného interface pro Model.
+    - Implementování Modelu alespoň jedním způsobem (naivní retrográdní přístup, naivní NN, rekurentní NN, ML s generováním přepisovacích pravidel, cNN, n-gram model).
+    - Vytvoření development testovacích dat, co největší automatizace tohoto procesu (+ navíc ruční kontrola dat, abychom netestovali modely na špatných datech).
+    - Implementování development testování - použití modelu a vyhodnocení na development datech.
+    - Porovnání úspěšnosti implementovaného modelu s úspěšností přístupných modelů založených na hard-codovaných pravidlech.
+    - Zpracování MorfFlexu do využitelného formátu (využití v hledání OOV slov, v retrográdním přístupu aj.).
+    
+Co bude navíc v BP:
+    - Implementace Modelu dalšími způsoby.
+    - Vylepšení přechozích implementací Modelu. (Regularizace, model ensembling, dropout, label smoothing (obecný, nebo label smoothing pomocí ensemblu více modelů) na NN, potenciální vylepšení přístupu v retrográdním přístupu, ...) 
+    - Vytvoření rozumných baseline - úplně nejhloupější model (vrací samé neznámé tvary), velmi hloupý model (předpokládá, že všechna slova jsou nesklonná), nějaký hodně triviální (skloňování podle nejčastějšího "vzoru"), actual state-of-the-art (asi skloňuj.cz?), nejlepší možný model (existuje? spíš ne!).
+    - Porovnání úspěšnosti jednotlivých modelů na development datech a nakonec na testovacích datech
+    - vytvoření testovacích dat
+    - Potenciálně rozšíření modelu: 
+        a) skloňování i slovníkových slov (v tomto případě vytvoření testovacích dat z morfflexu, které nejsou v trénovacích datech)
+        b) skloňování přídavných jmen, časování sloves, příp. skloňování zájmen a číslovek
+        c) skloňování v kontextu (celá věta) - jako cesta k desambiguaci lemmat (touto cestou spíše nepůjdeme)
+        d) možnost zadat vstup v jakémkoliv tvaru, nejprve guess lemmatu pomocí MorphoDity/UDPipe, pak skloňování
+            - možnost specifikace konkrétní části tagu (generovaného tvaru), zbylé kategorie se zdědí od zadaného tvaru
+            - vyšší ambiguita, výstupem pravděpodobnostní rozložení
+        e) snaha vyřešit ambiguitu lemmat (model vrací word forms a pravděpodobnostní rozložení na nich)
+        
+        
+OS: Linux
+
+Jazyk: Python3, bash (Makefiles)
+
+Vývojové prostředí: VS Code
+
+Další využívané zdroje: 
+    data (MorfFlex, ČNK, Čeština 2.0), 
+    moduly (TensorFlow, příp. Scikit-learn a další),
+    jazyky: PHP (pro automatické skloňování modelem skloňuj.cz) a jeho externí metoda `mb_strlen`.

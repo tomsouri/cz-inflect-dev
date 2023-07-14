@@ -1,0 +1,83 @@
+cat docs/hyperparams.txt | egrep "^LSTM" | sed 's/batchsize/batch/g' | sed 's/layers/lay/g' | sed 's/hidden/hid/g'| sed 's/wordEmb/emb/g' | sed 's/+2048_validBatch//g' | sed 's/+0.001_learnRate//g' | sed 's/brnn_enc/brnn/g' | egrep -v "0\.00000" > /svolume/LSTM.txt 
+
+
+
+===SGD===
+
+MENE NEZ 1 epocha
+LSTM_v0.1_bs_64                                        & 10k & 0.13 &                      & 0.91006474 & 0.74368182
+LSTM_v0.2_bs_20_1nebo2_layers                          & 20k & 0.08 &                      & 0.74399828 & 0.48340909
+LSTM_v0.3_default_bs_64                                & 20k & 0.25 &                      & 0.94004589 & 0.80279545
+LSTM_v0.4_default+brnnoder_bs_64           	           & 20k & 0.25 & 2023-04-24           & 0.93963647      & 0.80847727
+LSTM_v0.4_default+copy_attn_bs_64           	       & 20k & 0.25 &  2023-04-24          & 0.84200080      & 0.30209091     
+LSTM_v0.6_def+3_enc_dec_lay_bs_64           	       & 20k & 0.25 &  2023-04-24 19:22:54 & 0.94110711      & 0.80118182     
+LSTM_v0.7_def+4_enc_dec_lay_bs_64           	       & 20k & 0.25 &  2023-04-25 02:08:51 & 0.94161316      & 0.82088636     
+LSTM_v0.8_def+5_enc_dec_lay_bs_64           	       & 20k & 0.25 &  2023-04-25 14:02:38 & 0.90880699      & 0.77365909     
+LSTM_v0.10_def+4_lay_size_400_bs_64         	       & 20k & 0.25 &  2023-04-25 19:36:50 & 0.91163037      & 0.77761364     
+LSTM_v0.11_def+4_lay_size_600_bs_64         	       & 20k & 0.25 &  2023-04-26 03:22:56 & 0.94084508      & 0.80454545     
+LSTM_v0.11_def+4_lay_size_530_bs_64    	               & 20k & 0.25 &  2023-04-26 13:47:41 & 0.94236485      & 0.81363636
+LSTM_v0.12_def+4_lay_batch128      		               & 20k & 0.51 &  2023-04-26 20:50:39 & 0.94779379      & 0.84695455     
+
+ASPON JEDNA EPOCHA: vsechny maji hid_500(def), 4 layers.
+LSTM_v0.13_def+4_lay_batch256                          & 20k & 1.02 &  2023-04-27 01:39:05 & 0.95127224      & 0.85620455     
+LSTM_v0.14_def+4_lay_batch512                          & 20k & 2.03 &  2023-04-27 15:43:07 & 0.94915635      & 0.84981818     
+LSTM_v0.15_def+4_lay_batch256+emb256 		           & 20k & 1.02 & 2023-04-29 16:54:58 & 0.95130050      & 0.85550000
+LSTM_v0.16_def+4_lay_batch256+emb128 		           & 20k & 1.02 & 2023-04-30 05:13:31 & 0.94776383      & 0.85900000
+LSTM_v0.17_def+4_lay_batch256+emb128     	           & 40k & 2.03 & 2023-04-30 20:18:00 & 0.95160141      & 0.86577273
+LSTM_v0.18_def+4_lay_batch256+emb256	               & 40k & 2.03 & 2023-05-01 05:27:17 & 0.95042064      & 0.85315909
+LSTM_v0.18_def+4_lay_batch256+emb256                   & 32k & 1.63 & 2023-05-01 10:23:03 & 0.95401700      & 0.87020455
+LSTM_v0.17_def+4_lay_batch256+emb128                   & 38k & 1.93 & 2023-05-01 12:02:40 & 0.95055657      & 0.87043182
+LSTM_v0.19_def+4_lay+batch256+emb64                    & 40k & 2.03 & 2023-05-01 17:26:31 & 0.95260040      & 0.86543182
+LSTM_v0.20_def+4_lay+batch256+emb128                   & 60k & 3.05 & 2023-05-01 23:13:45 & 0.95622133      & 0.88711364
+LSTM_v0.21_def+4_lay+batch256+emb128+shared_embs       & 60k & 3.05 & 2023-05-02 20:26:09 & 0.95673884      & 0.88627273
+LSTM_v0.21_def+4_lay+batch256+emb128+shared_embs       & 53k & 2.69 & 2023-05-03 13:04:00 & 0.95431179      & 0.88195455     
+LSTM_v0.22_def+4_lay+batch256+emb96+shared_embs        & 60k & 3.05 & 2023-05-04 00:40:42 & 0.95680762      & 0.88700000     
+LSTM_v0.23_def+4_lay+batch256+emb128+shared_embs       & 120k & 6.06 & 2023-05-04 02:11:45 & 0.95936242      & 0.89659091     
+LSTM_v0.23_def+4_lay+batch256+emb128+shared_embs       & 240k & 12.19 & 2023-05-05 08:53:58 & 0.95945085      & 0.89700000     
+
+LSTM_v0.24_def+4_lay+batch20+emb96+shared_embs         & 200k & 0.79  & 2023-05-11 00:31:23 & 0.92301721      & 0.82461364 
+
+===ADAM===
+All: adam with 0.001_learnRate, brnn encoder, warmup 4k 
+     
+LSTM_v0.25_def+1_lay+batch20+emb64+shared_embs+brnn+hid_100+sgd  & 260k    & 1.03   & 2023-05-14 17:08:07 & 0.57923870      & 0.38197727
+LSTM_v0.26_def+1_lay+batch20+emb64+shared_embs+brnn+hid_100+adam & 260k    & 1.03   & 2023-05-14 14:56:35 & 0.94822286      & 0.85636364
+LSTM_v0.27_def+1_lay+batch20+emb64+shared_embs+brnn+hid_100+adam & 1040k   & 4.13   & 2023-05-13 19:55:09 & 0.94822286      & 0.85636364     
+LSTM_v0.28_1_lay+batch20+emb64+brnn+hid_150                      & 260k    & 1.03   & 2023-05-15 03:24:08 & 0.94936106      & 0.86050000     
+LSTM_v0.29_1_lay+batch20+emb64+brnn+hid_150+mlp_attn             & 260k    & 1.03   & 2023-05-15 19:27:45 & 0.94930210      & 0.85950000     
+LSTM_v0.30_1_lay+batch20+emb64+brnn+hid_200                      & 260k    & 1.03   & 2023-05-16 03:59:02 & 0.95141144      & 0.86761364     
+LSTM_v0.31_1_lay+batch20+emb64+brnn+hid_250                      & 260k    & 1.03   & 2023-05-18 03:31:41 & 0.95134593      & 0.86727273     
+LSTM_v0.32_1_lay+batch10+emb64+brnn+hid_250                      & 520k    & 1.03   & 2023-05-18 23:07:16 & 0.94978849      & 0.86261364     
+
+LSTM_v0.33_2_lay+batch20+emb64+brnn+hid_100                      & 260k    & 1.03   & 2023-05-19 03:02:47 & 0.94833914      & 0.85961364     
+LSTM_v0.34_2_lay+batch20+emb64+brnn+hid_100                      & 1080k   & 4.29   & 2023-05-20 00:30:20 & 0.94834078      & 0.85961364     
+LSTM_v0.35_2_lay+batch20+emb64+brnn+hid_150                      & 260k    & 1.03   & 2023-05-20 22:43:08 & 0.95124767      & 0.86820455     
+LSTM_v0.36_2_lay+batch128+emb64+brnn+hid_150                     & 260k    & 6.60   & 2023-05-22 02:11:46 & 0.95670609      & 0.88406818     
+LSTM_v0.37_2_lay+batch256+emb64+brnn+hid_150                     & 260k    & 13.21  & 2023-05-22 20:39:36 & 0.95825534      & 0.89109091     
+LSTM_v0.38_2_lay+batch32+emb64+brnn+hid_150                      & 2000k   & 12.70  & 2023-05-24 15:46:20 & 0.95310481      & 0.87388636     
+LSTM_v0.39_2_lay+batch400+emb64+brnn+hid_150                     & 260k    & 20.63  & 2023-05-23 05:44:11 & 0.95869260      & 0.89043182     
+
+LSTM_v0.40_2_lay+batch256+emb64+brnn+hid_200                     & 260k    & 13.21  & 2023-05-23 10:48:19 & 0.95972107      & 0.89438636     
+LSTM_v0.41_2_lay+batch256+emb64+brnn+hid_250                     & 260k    & 13.21  & 2023-06-08 14:20:10 & 0.95937388      & 0.89459091     
+
+     
+LSTM_v0.44_2_lay+batch256+emb128+brnn+hid_200                    & 260k    & 13.21  & 2023-07-08 11:23:27 & 0.95978494      & 0.89456818
+LSTM_v0.45_3_lay+batch256+emb128+brnn_enc+hid_200                & 260k    & 13.21  & 2023-07-10 00:40:26 & 0.95962445      & 0.89259091     
+LSTM_v0.46_3_lay+batch256+emb64+brnn_enc+hid_100                 & 260k    & 13.21  & 2023-07-10 01:42:28 & 0.95624590      & 0.88188636
+
+LSTM_v0.47_2_lay+batch256+emb16+brnn+hid_100                     & 260k    & 13.21  & 2023-07-10 01:57:42 & 0.95157030      & 0.86695455
+
+==========================
+
+LSTM_v0.27_def+1_lay+batch20+emb64+shared_embs+brnn+hid_100+adam & 260k    & 1.03   & 2023-05-13 09:56:01 & 0.94822286      & 0.85636364 
+LSTM_v0.26_def+1_lay+batch20+emb64+shared_embs+brnn+hid_100+adam & 260k    & 1.03   & 2023-05-14 15:47:21 & 0.94822286      & 0.85636364
+LSTM_v0.27_def+1_lay+batch20+emb64+shared_embs+brnn+hid_100+adam & 260k    & 1.03   & 2023-05-14 16:16:20 & 0.94822286      & 0.85636364
+
+LSTM_v0.41_2_lay+batch256+emb64+brnn+hid_250_wrong_negations     & 260k    & 13.21  & 2023-06-08 12:03:15 & 0.95028571      & 0.88047727     
+LSTM_v0.41_2_lay+batch256+emb64+brnn+hid_250_data+negations      & 260k    & 13.21  & 2023-06-08 13:04:01 & 0.95866312      & 0.89313636     
+
+neodpovida popisu, ve skutecnosti to bylo jako v0.41.
+# LSTM_v0.42_3_lay+batch256+emb64+brnn+hid_100                     & 260k    & 13.21  & 2023-06-08 16:28:02 & 0.95937388      & 0.89459091     
+
+neodpovida popisu, taky bylo jako v0.41
+# LSTM_v0.43_2_lay+batch256+emb16+brnn+hid_100                     & 260k    & 13.21  & 2023-05-24 22:20:47 & 0.95962445      & 0.89259091

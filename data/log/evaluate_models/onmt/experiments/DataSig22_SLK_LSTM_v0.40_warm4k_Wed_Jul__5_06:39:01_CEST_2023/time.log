@@ -1,0 +1,5 @@
+BUILD_VOCAB	 took 66 seconds	 = 1 minutes	 = 0 hours
+TRAINING	 took 21038 seconds	 = 350 minutes	 = 5 hours
+TRANSLATION	 took 14 seconds	 = 0 minutes	 = 0 hours
+EVALUATION	 took 0 seconds	 = 0 minutes	 = 0 hours
+TRAIN-DEV ACCS	 took 5303 seconds	 = 88 minutes	 = 1 hours

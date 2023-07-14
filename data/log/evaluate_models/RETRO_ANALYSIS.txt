@@ -1,0 +1,50 @@
+We performed 288 experiments, changing values of maximal number of paradigms to combine when there no single closest lemma (2^0, 2^1 up to 2^17), and the number of training paradigms used for prediction.
+
+In the following table we present the best obtained result for each size of train set.
+
+
+% cat RETRO_EVAL_ALL.txt | sed 's=\[=\t\[=g' |  sort -s -r -k 4 | less
+% TODO: add sizes 1,2,4,5,up to 500.
+
+VYSLEDKY JSOU BLBE!!! Pocitalo se to jen na 10k dev datech. SHIT, prepocitat!!
+
+\TODO{Put the following to a nice table, round the accuracies somehow}
+Model           train size
+Copy-baseline   []              []              0.22494976      0.01540000
+Retrograde      [size=1]        [comb=1]        0.22607343      0.01620000
+Retrograde      [size=2]        [comb=1]        0.29738315      0.09870000
+Retrograde      [size=4]        [comb=1]        0.30285743      0.10430000
+Retrograde      [size=5]        [comb=1]        0.34073802      0.23560000
+Retrograde      [size=10]       [comb=1]        0.42307554      0.28660000
+Retrograde      [size=50]       [comb=1]        0.78352817      0.67190000
+Retrograde      [size=100]      [comb=8]        0.83053497      0.72790000
+Retrograde      [size=200]      [comb=32]       0.86479965      0.76080000
+Retrograde      [size=400]      [comb=2]        0.90230568      0.80290000
+Retrograde      [size=500]      [comb=2]        0.90637538      0.80620000
+Retrograde      [size=800]      [comb=32]       0.90853628      0.81290000
+Retrograde      [size=1K]       [comb=2]        0.90968876      0.81780000
+Retrograde      [size=2K]       [comb=128]      0.92077418      0.83360000
+Retrograde      [size=5K]       [comb=128]      0.92457736      0.84240000
+Retrograde      [size=10K]      [comb=256]      0.93070712      0.85120000
+Retrograde      [size=20K]      [comb=64]       0.93358832      0.85610000
+Retrograde      [size=40K]      [comb=256]      0.93848636      0.86510000
+Retrograde      [size=80K]      [comb=512]      0.94174212      0.87290000
+Retrograde      [size=120K]     [comb=1024]     0.94411191      0.87830000
+Retrograde      [size=150K]     [comb=32]       0.94483221      0.87930000
+Retrograde      [size=175K]     [comb=64]       0.94475297      0.87970000
+Retrograde      [size=200K]     [comb=2048]     0.94527159      0.88020000
+Retrograde      [size=225K]     [comb=2048]     0.94555971      0.88060000
+Retrograde      [size=250K]     [comb=64]       0.94593427      0.88190000
+Retrograde      [size=280K]     [comb=64]       0.94589105      0.88220000
+Retrograde      [size=320K]     [comb=64]       0.94644568      0.88400000
+Retrograde      [size=360K]     [comb=64]       0.94729563      0.88580000
+
+\TODO{Maybe plot this to graph, one for all train sizes, and one e.g. for train-sizes from 2k or 10k.}
+
+In general, if we allow enough number of paradigms to combine, the more training examples we have, the better. Mostly also holds that the more combinations we allow, the better, yet for some training set sizes there are exceptions, where a higher number of combinations leads to a slight drop in accuracy.
+
+It is interesting to note that while the best achieved form accuracy is 94.7\% and the best achieved full-paradigm accuracy is 88.6\%, even with 400 training paradigms we already surpass  90\% in form accuracy and 80\% in full-paradigm accuracy.
+Moreover, already with 80k paradigms we achieve more than 94\% form accuracy and more than 87\% full-paradigm accuracy.
+In addition, even with train size 1 (that is, when randomly choosing one paradigm as the pattern for all lemmata) we surpassed the accuracy achieved by the copy baseline (yet this can be caused by having a bit of luck when choosing the one random example).
+
+By inspecting the results we can see that if there are no issues with used disk space nor with speed of prediction, the best setting is to allow as many training paradigms as possible and also make no restrictions about the maximal number of combinations.
