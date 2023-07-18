@@ -12,7 +12,7 @@ def lemma_per_form_acc(
     pred_forms: list[str], gold_forms: list[str]
 ) -> tuple[float, float]:
     """Form accuracy
-    Acc. by all inflected forms."""
+    Computes form accuracy for """
     checked = [
         check_form_prediction(pred, gold)
         for (pred, gold) in zip(pred_forms, gold_forms)
@@ -37,6 +37,9 @@ def lemma_per_lemma_acc(
 
 
 def all_lemmata_accuracy(pred_lemmata, gold_lemmata, lemma_acc):
+    """
+    Compute a specific accuracy for list of predicted lemmata.
+    """
     values, weights = [], []
     for pred, gold in zip(pred_lemmata, gold_lemmata):
         value, weight = lemma_acc(pred.inflected_forms, gold.inflected_forms)
