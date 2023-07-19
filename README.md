@@ -1,94 +1,59 @@
 # cz-inflect-dev
 
 ## Development directory of cz-inflect project
+https://github.com/tomsouri/cz-inflect
+
+The project was developed on Linux Mint system. Most of the scripts are
+written in python3 or in bash (simple processing scripts and running cluster
+jobs). The main python library used in the project is OpenNMT-py.
+
+To prepare the whole development directory on a Linux system, you should
+perform the following steps:
+
+1. Create a python3 virtual environment in the root directory of the development repository (cz-inflect-dev/.venv) , e.g. by running mkdir -p .venv && python3 -m venv .venv.
+
+2. Run make .venv to install the project and the requirements.
+3. Run make build_data, if you want to build the data from scratch (not
+needed to run the retrograde model).
+
+The Makefile, present in the root directory, controls the installation of
+dependencies (to be able to do it automatically it is needed that the name of
+the virtual environment folder is specifically .venv) and data downloading
+and processing.
+
+After running make build_data it first installs all the dependencies.
+Then it downloads MorfFlex, extracts nouns only, shuffles the data, performs
+filtering and other processing of the data, removes duplicates, builds the
+datasets and converts them to the format for neural network models. The
+individual scripts providing the processing lie in src/morfflex.
+To be able to run the skloňuj.cz baseline, you need to have installed PHP
+7.3 and additionally package php7.3-mbstring.
 
 
-# RP Sourada
-TODO
-git@gitlab.mff.cuni.cz:teaching/nprg045/rosa/rp-sourada.git
+## Run the models
+In this section we briefly describe how to run the retrograde model and the
+Transformer model TRM-11.
+
+### Retrograde model 
+To run the retrograde model, you also need to have
+installed the requirements and the project. Then you can simply run the inter-
+active script retrograde_model.py, which lies in src/czech_inflection/
+/models/retrograde_model/. It will take some time to load the model, but
+then it performs inflection relatively quickly. The script itself shows how to
+use the retrograde model as a library.
+
+### TRM-11 
+The Transformer model lies in the development directory of the
+inflection library: inflection_lib/cz-inflect/. To run the library script
+with the TRM-11 instead of LSTM-44, you need to change the path to
+the model in the script inflect.py (self-descriptive). If you have already
+installed the requirements and the project by running make .venv, then you
+can run it from the root development directory (cz-inflect-dev) by running
+.venv/bin/python3 inflection_lib/cz-inflect/inflect.py.
+
+### Run on GPU 
+To run the inflection model from the inflection library on
+GPU instead of CPU, you need to modify the script inflect.py, specifically
+the definition of variable opt in method _inflect_file() (parameter gpu).
 
 
-# To start on a new server:
-1) generate the ssh-keypair on the remote machine, based on the page
-https://gitlab.mff.cuni.cz/help/user/ssh.md
-
-Generate an SSH key pair
-If you do not have an existing SSH key pair, generate a new one:
-
-
-Open a terminal.
-
-
-Run ssh-keygen -t followed by the key type and an optional comment.
-This comment is included in the .pub file that's created.
-You may want to use an email address for the comment.
-For example, for ED25519:
-
-ssh-keygen -t ed25519 -C "<comment>"
-
-From github, run it with your github email in comment:
-ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
-
-For 2048-bit RSA:
-
-ssh-keygen -t rsa -b 2048 -C "<comment>"
-
-Press Enter. Output similar to the following is displayed:
-
-Generating public/private ed25519 key pair.
-Enter file in which to save the key (/home/user/.ssh/id_ed25519):
-
-Accept the suggested filename and directory, unless you are generating a deploy key
-or want to save in a specific directory where you store other keys.
-You can also dedicate the SSH key pair to a specific host.
-
-
-Specify a passphrase:
-
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-A confirmation is displayed, including information about where your files are stored.
-
-
-A public and private key are generated. Add the public SSH key to your GitLab account
-and keep the private key secure.
-
-2) git clone git@gitlab.mff.cuni.cz:teaching/nprg045/rosa/rp-sourada.git
-
-If you are receiving error:
-Cloning into...
-git@github.com: Permission denied (publickey).
-fatal: Could not read from remote repository.
-Please make sure you have the correct access rights
-and the repository exists.
-
-... try running the ssh agent: 
-> eval $(ssh-agent)
-and possibly adding the ssh key:
-> ssh-add ~/.ssh/id_rsa_specific_private_key_path
-
-
-3) run new interactive job
-qsub -l select=1:ncpus=1:mem=8gb:scratch_local=16gb -I
-export TMPDIR=$SCRATCHDIR && \
-module add python/3.8.0-gcc-rab6t cuda/cuda-11.2.0-intel-19.0.4-tn4edsz cudnn/cudnn-8.1.0.77-11.2-linux-x64-intel-19.0.4-wx22b5t && \
-cd /storage/praha1/home/souradat
-
-change dir to /.../rp-sourada/czech-automatic-inflection/
-
-#4) run make build_data (creates the venv, downloads and builds the data)
-
-
-
-
-4a) create the venv manually
-mkdir -p .venv && \
-python3 -m venv .venv && \
-.venv/bin/pip install --no-cache-dir --upgrade pip setuptools && \
-.venv/bin/python3 -m pip install -e .
-
-4b) install requirements
-.venv/bin/pip3 install --no-cache-dir -r requirements.txt
-
-4c) build the data
-run `make build_data`
