@@ -9,6 +9,8 @@ These files are publicly available and licensed under the same license.
 
 The files were extracted from MorfFlex, the changes were done by Tomáš Sourada, 2023.
 
+The file test_oov_data.txt was manually built from data from project cestina2.0 https://cestina20.cz/
+The file is released and publicly available under the same license as the other files, yet the appropriate credit needs to be given to the project cestina2.0.
 
 
 
