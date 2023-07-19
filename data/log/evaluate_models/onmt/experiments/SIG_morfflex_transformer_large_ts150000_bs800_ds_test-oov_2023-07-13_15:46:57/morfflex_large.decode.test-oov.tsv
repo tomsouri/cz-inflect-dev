@@ -1,0 +1,1415 @@
+prediction	target	loss	dist
+j ú z r	j ú z r	0.06637408584356308	0
+j ú z r u	j ú z r a	0.5417974591255188	1
+j ú z r u	j ú z r o v i <UNK> j ú z r u	2.306256055831909	8
+j ú z r	j ú z r a	0.5668911337852478	1
+j ú z r e	j ú z r e	0.0639859065413475	0
+j ú z r u	j ú z r o v i <UNK> j ú z r u	2.2981245517730713	8
+j ú z r e m	j ú z r e m	0.06424359232187271	0
+j ú z r y	j ú z r o v é <UNK> j ú z ř i	2.6962335109710693	9
+j ú z r ů	j ú z r ů	0.06254332512617111	0
+j ú z r ů m	j ú z r ů m	0.06287971884012222	0
+j ú z r y	j ú z r y	0.06474635750055313	0
+j ú z r y	j ú z r o v é <UNK> j ú z ř i	2.69757080078125	9
+j ú z r e c h	j ú z r e c h	0.06480060517787933	0
+j ú z r y	j ú z r y	0.06454955786466599	0
+e k o h u j e r	e k o h u j e r	0.07554357498884201	0
+e k o h u j e r a	e k o h u j e r a	0.12307951599359512	0
+e k o h u j e r o v i	e k o h u j e r o v i <UNK> e k o h u j e r u	3.0196149349212646	10
+e k o h u j e r a	e k o h u j e r a	0.1305631399154663	0
+e k o h u j e r e	e k o h u j e r e	0.07236619293689728	0
+e k o h u j e r o v i	e k o h u j e r o v i <UNK> e k o h u j e r u	3.0052225589752197	10
+e k o h u j e r e m	e k o h u j e r e m	0.07184316962957382	0
+e k o h u j e ř i	e k o h u j e r o v é <UNK> e k o h u j e ř i	2.8867201805114746	12
+e k o h u j e r ů	e k o h u j e r ů	0.071608766913414	0
+e k o h u j e r ů m	e k o h u j e r ů m	0.07118641585111618	0
+e k o h u j e r y	e k o h u j e r y	0.07282666116952896	0
+e k o h u j e ř i	e k o h u j e r o v é <UNK> e k o h u j e ř i	2.8888931274414062	12
+e k o h u j e r e c h	e k o h u j e r e c h	0.07205959409475327	0
+e k o h u j e r y	e k o h u j e r y	0.07232401520013809	0
+e g o o n a n i e	e g o o n a n i e	0.07985808700323105	0
+e g o o n a n i e	e g o o n a n i e	0.07732836157083511	0
+e g o o n a n i i	e g o o n a n i i	0.07698161900043488	0
+e g o o n a n i i	e g o o n a n i i	0.07641055434942245	0
+e g o o n a n i e	e g o o n a n i e	0.07762569189071655	0
+e g o o n a n i i	e g o o n a n i i	0.07682838290929794	0
+e g o o n a n i í	e g o o n a n i í	0.07680109143257141	0
+e g o o n a n i e	e g o o n a n i e	0.07715705782175064	0
+e g o o n a n i í	e g o o n a n i í	0.07640878856182098	0
+e g o o n a n i í m	e g o o n a n i í m	0.07518252730369568	0
+e g o o n a n i e	e g o o n a n i e	0.0772799402475357	0
+e g o o n a n i e	e g o o n a n i e	0.07716426998376846	0
+e g o o n a n i í c h	e g o o n a n i í c h	0.07509211450815201	0
+e g o o n a n i e m i	e g o o n a n i e m i	0.076148621737957	0
+e s v é e n k a	e s v é e n k a	0.07481726258993149	0
+e s v é e n k y	e s v é e n k y	0.07151474803686142	0
+e s v é e n c e	e s v é e n c e	0.06705504655838013	0
+e s v é e n k u	e s v é e n k u	0.07055845856666565	0
+e s v é e n k o	e s v é e n k o	0.07034144550561905	0
+e s v é e n c e	e s v é e n c e	0.06700707972049713	0
+e s v é e n k o u	e s v é e n k o u	0.07008419930934906	0
+e s v é e n k y	e s v é e n k y	0.07146412879228592	0
+e s v é e n e k	e s v é e n e k	0.0684848204255104	0
+e s v é e n k á m	e s v é e n k á m	0.0699462741613388	0
+e s v é e n k y	e s v é e n k y	0.07169324904680252	0
+e s v é e n k y	e s v é e n k y	0.07145434617996216	0
+e s v é e n k á c h	e s v é e n k á c h	0.06912512332201004	0
+e s v é e n k a m i	e s v é e n k a m i	0.06987322121858597	0
+e s p e r a n t š t i n a	e s p e r a n t š t i n a	0.07853791862726212	0
+e s p e r a n t š t i n y	e s p e r a n t š t i n y	0.07697389274835587	0
+e s p e r a n t š t i n ě	e s p e r a n t š t i n ě	0.07531435787677765	0
+e s p e r a n t š t i n u	e s p e r a n t š t i n u	0.07631294429302216	0
+e s p e r a n t š t i n o	e s p e r a n t š t i n o	0.0760299488902092	0
+e s p e r a n t š t i n ě	e s p e r a n t š t i n ě	0.07531251758337021	0
+e s p e r a n t š t i n o u	e s p e r a n t š t i n o u	0.07554516941308975	0
+e s p e r a n t š t i n y	e s p e r a n t š t i n y	0.07692146301269531	0
+e s p e r a n t š t i n	e s p e r a n t š t i n	0.07617799937725067	0
+e s p e r a n t š t i n á m	e s p e r a n t š t i n á m	0.07541064918041229	0
+e s p e r a n t š t i n y	e s p e r a n t š t i n y	0.07707955688238144	0
+e s p e r a n t š t i n y	e s p e r a n t š t i n y	0.07691513001918793	0
+e s p e r a n t š t i n á c h	e s p e r a n t š t i n á c h	0.07477731257677078	0
+e s p e r a n t š t i n a m i	e s p e r a n t š t i n a m i	0.07519131898880005	0
+e s v ů z	e <UNK> v ů z	0.9490135312080383	1
+e s v o z u	e <UNK> v o z u	0.835022509098053	1
+e s v o z u	e <UNK> v o z u	0.8345921635627747	1
+e s v ů z	e <UNK> v ů z	0.9617915153503418	1
+e s v o z e	e <UNK> v o z e	0.8254871964454651	1
+e s v o z u	e <UNK> v o z u <UNK> e <UNK> v o z e	2.071631669998169	8
+e s v o z e m	e <UNK> v o z e m	0.7320963740348816	1
+e s v o z y	e <UNK> v o z y	0.8288850784301758	1
+e s v o z ů	e <UNK> v o z ů	0.8278428912162781	1
+e s v o z ů m	e <UNK> v o z ů m	0.7326533198356628	1
+e s v o z y	e <UNK> v o z y	0.8270250558853149	1
+e s v o z y	e <UNK> v o z y	0.8291700482368469	1
+e s v o z e c h	e <UNK> v o z e c h <UNK> e <UNK> v o z í c h	2.6093153953552246	10
+e s v o z y	e <UNK> v o z y	0.8261403441429138	1
+e n e r g o ž e b r a č e n k a	e n e r g o ž e b r a č e n k a	0.07637657970190048	0
+e n e r g o ž e b r a č e n k y	e n e r g o ž e b r a č e n k y	0.0749751403927803	0
+e n e r g o ž e b r a č e n c e	e n e r g o ž e b r a č e n c e	0.07253625243902206	0
+e n e r g o ž e b r a č e n k u	e n e r g o ž e b r a č e n k u	0.07442419975996017	0
+e n e r g o ž e b r a č e n k o	e n e r g o ž e b r a č e n k o	0.07435300946235657	0
+e n e r g o ž e b r a č e n c e	e n e r g o ž e b r a č e n c e	0.07251099497079849	0
+e n e r g o ž e b r a č e n k o u	e n e r g o ž e b r a č e n k o u	0.07403460144996643	0
+e n e r g o ž e b r a č e n k y	e n e r g o ž e b r a č e n k y	0.07489082217216492	0
+e n e r g o ž e b r a č e n e k	e n e r g o ž e b r a č e n e k	0.07292981445789337	0
+e n e r g o ž e b r a č e n k á m	e n e r g o ž e b r a č e n k á m	0.07384461164474487	0
+e n e r g o ž e b r a č e n k y	e n e r g o ž e b r a č e n k y	0.07504060864448547	0
+e n e r g o ž e b r a č e n k y	e n e r g o ž e b r a č e n k y	0.0748879462480545	0
+e n e r g o ž e b r a č e n k á c h	e n e r g o ž e b r a č e n k á c h	0.07324525713920593	0
+e n e r g o ž e b r a č e n k a m i	e n e r g o ž e b r a č e n k a m i	0.0736752599477768	0
+e u r o p o s r a n e c	e u r o p o s r a n e c	0.07806967198848724	0
+e u r o p o s r a n c e	e u r o p o s r a n c e	0.07414828985929489	0
+e u r o p o s r a n c i	e u r o p o s r a n c i <UNK> e u r o p o s r a n c o v i	2.881282091140747	15
+e u r o p o s r a n c e	e u r o p o s r a n c e	0.07394497096538544	0
+e u r o p o s r a n č e	e u r o p o s r a n č e	0.07506600022315979	0
+e u r o p o s r a n c i	e u r o p o s r a n c i <UNK> e u r o p o s r a n c o v i	2.9699947834014893	15
+e u r o p o s r a n c e m	e u r o p o s r a n c e m	0.07389754056930542	0
+e u r o p o s r a n c i	e u r o p o s r a n c i <UNK> e u r o p o s r a n c o v é	3.0332226753234863	15
+e u r o p o s r a n c ů	e u r o p o s r a n c ů	0.07428891211748123	0
+e u r o p o s r a n c ů m	e u r o p o s r a n c ů m	0.07362791150808334	0
+e u r o p o s r a n c e	e u r o p o s r a n c e	0.07408967614173889	0
+e u r o p o s r a n c i	e u r o p o s r a n c i <UNK> e u r o p o s r a n c o v é	3.0287234783172607	15
+e u r o p o s r a n c í c h	e u r o p o s r a n c í c h	0.0738217830657959	0
+e u r o p o s r a n c i	e u r o p o s r a n c i	0.07513054460287094	0
+j u c h a r a j d a	j u c h a r a j d a	0.07393486797809601	0
+j u c h a r a j d y	j u c h a r a j d y	0.07189664244651794	0
+j u c h a r a j d ě	j u c h a r a j d ě	0.07246928662061691	0
+j u c h a r a j d u	j u c h a r a j d u	0.07111573219299316	0
+j u c h a r a j d o	j u c h a r a j d o	0.07103598862886429	0
+j u c h a r a j d ě	j u c h a r a j d ě	0.07264824211597443	0
+j u c h a r a j d o u	j u c h a r a j d o u	0.07061530649662018	0
+j u c h a r a j d y	j u c h a r a j d y	0.07394186407327652	0
+j u c h a r a j d	j u c h a r a j d	0.07658042758703232	0
+j u c h a r a j d á m	j u c h a r a j d á m	0.07230197638273239	0
+j u c h a r a j d y	j u c h a r a j d y	0.07205528765916824	0
+j u c h a r a j d y	j u c h a r a j d y	0.07389330118894577	0
+j u c h a r a j d á c h	j u c h a r a j d á c h	0.07107488811016083	0
+j u c h a r a j d a m i	j u c h a r a j d a m i	0.07201728969812393	0
+e j a k u l a j d a	e j a k u l a j d a	0.07578042149543762	0
+e j a k u l a j d y	e j a k u l a j d y	0.07364258170127869	0
+e j a k u l a j d ě	e j a k u l a j d ě	0.07242002338171005	0
+e j a k u l a j d u	e j a k u l a j d u	0.0727701410651207	0
+e j a k u l a j d o	e j a k u l a j d o	0.07256726920604706	0
+e j a k u l a j d ě	e j a k u l a j d ě	0.07248342037200928	0
+e j a k u l a j d o u	e j a k u l a j d o u	0.07203180342912674	0
+e j a k u l a j d y	e j a k u l a j d y	0.07403566688299179	0
+e j a k u l a j d	e j a k u l a j d	0.072723887860775	0
+e j a k u l a j d á m	e j a k u l a j d á m	0.07227083295583725	0
+e j a k u l a j d y	e j a k u l a j d y	0.07382960617542267	0
+e j a k u l a j d y	e j a k u l a j d y	0.07401133328676224	0
+e j a k u l a j d á c h	e j a k u l a j d á c h	0.07181162387132645	0
+e j a k u l a j d a m i	e j a k u l a j d a m i	0.07234453409910202	0
+j e d n o n o c k a	j e d n o n o c k a	0.07762374728918076	0
+j e d n o n o c k y	j e d n o n o c k y	0.07482173293828964	0
+j e d n o n o c c e	j e d n o n o c c e	0.07038118690252304	0
+j e d n o n o c k u	j e d n o n o c k u	0.07425075024366379	0
+j e d n o n o c k o	j e d n o n o c k o	0.07425188273191452	0
+j e d n o n o c c e	j e d n o n o c c e	0.07039202004671097	0
+j e d n o n o c k o u	j e d n o n o c k o u	0.07386081665754318	0
+j e d n o n o c k y	j e d n o n o c k y	0.07479503750801086	0
+j e d n o n o c e k	j e d n o n o c e k	0.07250154763460159	0
+j e d n o n o c k á m	j e d n o n o c k á m	0.07321280241012573	0
+j e d n o n o c k y	j e d n o n o c k y	0.07499213516712189	0
+j e d n o n o c k y	j e d n o n o c k y	0.07479368895292282	0
+j e d n o n o c k á c h	j e d n o n o c k á c h	0.07221634685993195	0
+j e d n o n o c k a m i	j e d n o n o c k a m i	0.07339756935834885	0
+?	?	0.07220591604709625	0
+?	?	0.07297737151384354	0
+?	?	0.07597903907299042	0
+?	?	0.08180879056453705	0
+?	?	0.07447420805692673	0
+?	?	0.08109185099601746	0
+?	?	0.0781746655702591	0
+j a r k y	j a r k y	0.07020480185747147	0
+j a r e k	j a r e k	0.11725351959466934	0
+j a r k á m	j a r k á m	0.10652245581150055	0
+j a r k y	j a r k y	0.07226390391588211	0
+j a r k y	j a r k y	0.07028260827064514	0
+j a r k á c h	j a r k á c h	0.10393383353948593	0
+j a r k a m i	j a r k a m i	0.08867183327674866	0
+e l e k t r o m u s t a n g	e l e k t r o m u s t a n g	0.078131303191185	0
+e l e k t r o m u s t a n g u	e l e k t r o m u s t a n g u	0.07623377442359924	0
+e l e k t r o m u s t a n g u	e l e k t r o m u s t a n g u	0.07624675333499908	0
+e l e k t r o m u s t a n g	e l e k t r o m u s t a n g	0.07616313546895981	0
+e l e k t r o m u s t a n g u	e l e k t r o m u s t a n g u	0.07601207494735718	0
+e l e k t r o m u s t a n g u	e l e k t r o m u s t a n g u	0.0762423723936081	0
+e l e k t r o m u s t a n g e m	e l e k t r o m u s t a n g e m	0.0754634439945221	0
+e l e k t r o m u s t a n g y	e l e k t r o m u s t a n g y	0.07615881413221359	0
+e l e k t r o m u s t a n g ů	e l e k t r o m u s t a n g ů	0.07584651559591293	0
+e l e k t r o m u s t a n g ů m	e l e k t r o m u s t a n g ů m	0.07522691041231155	0
+e l e k t r o m u s t a n g y	e l e k t r o m u s t a n g y	0.0766170546412468	0
+e l e k t r o m u s t a n g y	e l e k t r o m u s t a n g y	0.07614818960428238	0
+e l e k t r o m u s t a n z í c h	e l e k t r o m u s t a n z í c h	0.07407362014055252	0
+e l e k t r o m u s t a n g y	e l e k t r o m u s t a n g y	0.07639864832162857	0
+e l a n k a	e l a n k a	0.0792725533246994	0
+e l a n k y	e l a n k y	0.07531114667654037	0
+e l a n c e	e l a n c e	0.06887231022119522	0
+e l a n k u	e l a n k u	0.07416471093893051	0
+e l a n k o	e l a n k o	0.07349271327257156	0
+e l a n c e	e l a n c e	0.06875279545783997	0
+e l a n k o u	e l a n k o u	0.07283847033977509	0
+e l a n k y	e l a n k y	0.07483812421560287	0
+e l a n e k	e l a n e k	0.07122287899255753	0
+e l a n k á m	e l a n k á m	0.0724797397851944	0
+e l a n k y	e l a n k y	0.07530435174703598	0
+e l a n k y	e l a n k y	0.07482773810625076	0
+e l a n k á c h	e l a n k á c h	0.07056102156639099	0
+e l a n k a m i	e l a n k a m i	0.07202599942684174	0
+j o r k v a v a	j o r k v a v a	0.07881098240613937	0
+j o r k v a v y	j o r k v a v y	0.07609110325574875	0
+j o r k v a v ě	j o r k v a v ě	0.0730423778295517	0
+j o r k v a v u	j o r k v a v u	0.07515230029821396	0
+j o r k v a v o	j o r k v a v o	0.0746321976184845	0
+j o r k v a v ě	j o r k v a v ě	0.07309532165527344	0
+j o r k v a v o u	j o r k v a v o u	0.0739813819527626	0
+j o r k v a v y	j o r k v a v y	0.07606801390647888	0
+j o r k v a v	j o r k v a v	0.07393455505371094	0
+j o r k v a v á m	j o r k v a v á m	0.07356581091880798	0
+j o r k v a v y	j o r k v a v y	0.07613962143659592	0
+j o r k v a v y	j o r k v a v y	0.0760568231344223	0
+j o r k v a v á c h	j o r k v a v á c h	0.07277572154998779	0
+j o r k v a v a m i	j o r k v a v a m i	0.07384677976369858	0
+e l p a s o	e l p a s o	0.08002132922410965	0
+e l p a s a	e l p a s a	0.07155721634626389	0
+e l p a s u	e l p a s u	0.07428846508264542	0
+e l p a s o	e l p a s o	0.07237415015697479	0
+e l p a s o	e l p a s o	0.07680124789476395	0
+e l p a s e	e l p a s u	0.229996919631958	1
+e l p a s e m	e l p a s e m	0.07303375750780106	0
+e l p a s a	e l p a s a	0.07505766302347183	0
+e l p a s	e l p a s	0.07639790326356888	0
+e l p a s ů m	e l p a s ů m	0.07417158782482147	0
+e l p a s a	e l p a s a	0.07441771775484085	0
+e l p a s a	e l p a s a	0.07512599229812622	0
+e l p a s e c h	e l p a s e c h	0.07414466142654419	0
+e l p a s y	e l p a s y	0.07497917115688324	0
+J á g r o v	J á g r o v	0.0739203616976738	0
+J á g r o v a	J á g r o v a	0.06973346322774887	0
+J á g r o v u	J á g r o v u	0.08976206183433533	0
+J á g r o v	J á g r o v	0.0811438336968422	0
+J á g r o v e	J á g r o v e	0.07183078676462173	0
+J á g r o v ě	J á g r o v u	0.7486281394958496	1
+J á g r o v e m	J á g r o v e m	0.07089608162641525	0
+J á g r o v y	?	3.850788116455078	7
+J á g r o v ů	?	3.8563709259033203	7
+J á g r o v ů m	?	3.853623867034912	8
+J á g r o v y	?	3.8525938987731934	7
+J á g r o v y	?	3.850586414337158	7
+J á g r o v e c h	?	3.853097915649414	9
+J á g r o v y	?	3.8490707874298096	7
+e l e k t r o ř i d i č	e l e k t r o ř i d i č	0.07809220254421234	0
+e l e k t r o ř i d i č e	e l e k t r o ř i d i č e	0.07541533559560776	0
+e l e k t r o ř i d i č i	e l e k t r o ř i d i č i <UNK> e l e k t r o ř i d i č o v i	2.0924534797668457	16
+e l e k t r o ř i d i č	e l e k t r o ř i d i č e	0.15965613722801208	1
+e l e k t r o ř i d i č i	e l e k t r o ř i d i č i	0.07650977373123169	0
+e l e k t r o ř i d i č i	e l e k t r o ř i d i č i <UNK> e l e k t r o ř i d i č o v i	2.2050211429595947	16
+e l e k t r o ř i d i č e m	e l e k t r o ř i d i č e m	0.07527604699134827	0
+e l e k t r o ř i d i č e	e l e k t r o ř i d i č i <UNK> e l e k t r o ř i d i č o v é	2.634766101837158	16
+e l e k t r o ř i d i č ů	e l e k t r o ř i d i č ů	0.0756145715713501	0
+e l e k t r o ř i d i č ů m	e l e k t r o ř i d i č ů m	0.07507125288248062	0
+e l e k t r o ř i d i č e	e l e k t r o ř i d i č e	0.0755016878247261	0
+e l e k t r o ř i d i č e	e l e k t r o ř i d i č i <UNK> e l e k t r o ř i d i č o v é	2.6253156661987305	16
+e l e k t r o ř i d i č í c h	e l e k t r o ř i d i č í c h	0.07489294558763504	0
+e l e k t r o ř i d i č i	e l e k t r o ř i d i č i	0.07619772851467133	0
+e u r o b u b á k	e u r o b u b á k	0.07558844238519669	0
+e u r o b u b á k u	e u r o b u b á k a	0.1396762728691101	1
+e u r o b u b á k o v i	e u r o b u b á k o v i <UNK> e u r o b u b á k u	2.6919052600860596	11
+e u r o b u b á k a	e u r o b u b á k a	0.13551531732082367	0
+e u r o b u b á k u	e u r o b u b á k u	0.07190470397472382	0
+e u r o b u b á k o v i	e u r o b u b á k o v i <UNK> e u r o b u b á k u	2.7712624073028564	11
+e u r o b u b á k e m	e u r o b u b á k e m	0.07224821299314499	0
+e u r o b u b á k y	e u r o b u b á c i <UNK> e u r o b u b á k o v é	3.2866287231445312	14
+e u r o b u b á k ů	e u r o b u b á k ů	0.07254219055175781	0
+e u r o b u b á k ů m	e u r o b u b á k ů m	0.07198401540517807	0
+e u r o b u b á k y	e u r o b u b á k y	0.07329373806715012	0
+e u r o b u b á k y	e u r o b u b á c i <UNK> e u r o b u b á k o v é	3.277498245239258	14
+e u r o b u b á c í c h	e u r o b u b á c í c h	0.07058744132518768	0
+e u r o b u b á k y	e u r o b u b á k y	0.07309593260288239	0
+j a b l e č ň á k	j a b l e č ň á k	0.07308066636323929	0
+j a b l e č ň á k u	j a b l e č ň á k u	0.12283945083618164	0
+j a b l e č ň á k o v i	j a b l e č ň á k u	0.14196981489658356	3
+j a b l e č ň á k a	j a b l e č ň á k	0.14055950939655304	1
+j a b l e č ň á k u	j a b l e č ň á k u	0.06970740109682083	0
+j a b l e č ň á k o v i	j a b l e č ň á k u	0.14250095188617706	3
+j a b l e č ň á k e m	j a b l e č ň á k e m	0.07011789828538895	0
+j a b l e č ň á c i	j a b l e č ň á k y	0.13832281529903412	2
+j a b l e č ň á k ů	j a b l e č ň á k ů	0.07028424739837646	0
+j a b l e č ň á k ů m	j a b l e č ň á k ů m	0.06994930654764175	0
+j a b l e č ň á k y	j a b l e č ň á k y	0.07101884484291077	0
+j a b l e č ň á c i	j a b l e č ň á k y	0.13801692426204681	2
+j a b l e č ň á c í c h	j a b l e č ň á c í c h	0.06864563375711441	0
+j a b l e č ň á k y	j a b l e č ň á k y	0.0708380937576294	0
+j o g o m o d e l í n a	j o g o m o d e l í n a	0.07747344672679901	0
+j o g o m o d e l í n y	j o g o m o d e l í n y	0.07579866051673889	0
+j o g o m o d e l í n ě	j o g o m o d e l í n ě	0.07393977046012878	0
+j o g o m o d e l í n u	j o g o m o d e l í n u	0.07499994337558746	0
+j o g o m o d e l í n o	j o g o m o d e l í n o	0.07468359172344208	0
+j o g o m o d e l í n ě	j o g o m o d e l í n ě	0.07393652945756912	0
+j o g o m o d e l í n o u	j o g o m o d e l í n o u	0.07429974526166916	0
+j o g o m o d e l í n y	j o g o m o d e l í n y	0.07564038783311844	0
+j o g o m o d e l í n	j o g o m o d e l í n	0.07455668598413467	0
+j o g o m o d e l í n á m	j o g o m o d e l í n á m	0.07416335493326187	0
+j o g o m o d e l í n y	j o g o m o d e l í n y	0.07588070631027222	0
+j o g o m o d e l í n y	j o g o m o d e l í n y	0.07563137263059616	0
+j o g o m o d e l í n á c h	j o g o m o d e l í n á c h	0.0735185444355011	0
+j o g o m o d e l í n a m i	j o g o m o d e l í n a m i	0.07398924976587296	0
+j a p í k	j a p í k	0.07406463474035263	0
+j a p í k u	j a p í k a	0.18000973761081696	1
+j a p í k o v i	j a p í k o v i <UNK> j a p í k u	1.9470865726470947	7
+j a p í k	j a p í k a	0.169012650847435	1
+j a p í k u	j a p í k u	0.06847433745861053	0
+j a p í k o v i	j a p í k o v i <UNK> j a p í k u	2.1706035137176514	7
+j a p í k e m	j a p í k e m	0.06918829679489136	0
+j a p í c i	j a p í c i <UNK> j a p í k o v é	2.233158588409424	9
+j a p í k ů	j a p í k ů	0.06920633465051651	0
+j a p í k ů m	j a p í k ů m	0.06868087500333786	0
+j a p í k y	j a p í k y	0.07080817967653275	0
+j a p í c i	j a p í c i <UNK> j a p í k o v é	2.2385542392730713	9
+j a p í c í c h	j a p í c í c h	0.0669480413198471	0
+j a p í k y	j a p í k y	0.07055418193340302	0
+e z o m e d i c í n a	e z o m e d i c í n a	0.07694617658853531	0
+e z o m e d i c í n y	e z o m e d i c í n y	0.0749792754650116	0
+e z o m e d i c í n ě	e z o m e d i c í n ě	0.07284926623106003	0
+e z o m e d i c í n u	e z o m e d i c í n u	0.07429545372724533	0
+e z o m e d i c í n o	e z o m e d i c í n o	0.073857381939888	0
+e z o m e d i c í n ě	e z o m e d i c í n ě	0.0728396400809288	0
+e z o m e d i c í n o u	e z o m e d i c í n o u	0.07348327338695526	0
+e z o m e d i c í n y	e z o m e d i c í n y	0.07475707679986954	0
+e z o m e d i c í n	e z o m e d i c í n	0.07381324470043182	0
+e z o m e d i c í n á m	e z o m e d i c í n á m	0.07333140820264816	0
+e z o m e d i c í n y	e z o m e d i c í n y	0.07507774233818054	0
+e z o m e d i c í n y	e z o m e d i c í n y	0.07474738359451294	0
+e z o m e d i c í n á c h	e z o m e d i c í n á c h	0.07264770567417145	0
+e z o m e d i c í n a m i	e z o m e d i c í n a m i	0.07335914671421051	0
+e u r o s v ě t	e u r o s v ě t	0.07692654430866241	0
+e u r o s v ě t u	e u r o s v ě t a	0.30330005288124084	1
+e u r o s v ě t u	e u r o s v ě t u	0.0796159878373146	0
+e u r o s v ě t	e u r o s v ě t	0.0782080814242363	0
+e u r o s v ě t e	e u r o s v ě t e	0.07446658611297607	0
+e u r o s v ě t u	e u r o s v ě t u <UNK> e u r o s v ě t ě	3.190960168838501	10
+e u r o s v ě t e m	e u r o s v ě t e m	0.07365642488002777	0
+e u r o s v ě t y	e u r o s v ě t y	0.07658390700817108	0
+e u r o s v ě t ů	e u r o s v ě t ů	0.07358337938785553	0
+e u r o s v ě t ů m	e u r o s v ě t ů m	0.07290554791688919	0
+e u r o s v ě t y	e u r o s v ě t y	0.07495556771755219	0
+e u r o s v ě t y	e u r o s v ě t y	0.07656700909137726	0
+e u r o s v ě t e c h	e u r o s v ě t e c h	0.073944590985775	0
+e u r o s v ě t y	e u r o s v ě t y	0.07495106011629105	0
+j e b e c	j e b e c	0.07313575595617294	0
+j e b c e	j e b c e	0.06308997422456741	0
+j e b c i	j e b c i <UNK> j e b c o v i	2.6354212760925293	8
+j e b c e	j e b c e	0.13115966320037842	0
+j e b č e	j e b č e	0.07987271994352341	0
+j e b c i	j e b c i <UNK> j e b c o v i	2.6649200916290283	8
+j e b c e m	j e b c e m	0.0642460510134697	0
+j e b c e	j e b c i <UNK> j e b c o v é	2.159529209136963	8
+j e b c ů	j e b c ů	0.0632982924580574	0
+j e b c ů m	j e b c ů m	0.06303996592760086	0
+j e b c e	j e b c e	0.06305718421936035	0
+j e b c e	j e b c i <UNK> j e b c o v é	2.1564018726348877	8
+j e b c í c h	j e b c í c h	0.06476780772209167	0
+j e b c i	j e b c i	0.06478352099657059	0
+j e ž í š u k	j e ž í š u k	0.07056554406881332	0
+j e ž í š u k u	j e ž í š u k u	0.12678061425685883	0
+j e ž í š u k u	j e ž í š u k u	0.14415785670280457	0
+j e ž í š u k	j e ž í š u k	0.13610443472862244	0
+j e ž í š u k u	j e ž í š u k u	0.06699220836162567	0
+j e ž í š u k o v i	j e ž í š u k u	0.1519133746623993	3
+j e ž í š u k e m	j e ž í š u k e m	0.06753500550985336	0
+j e ž í š u k y	j e ž í š u k y	0.13179197907447815	0
+j e ž í š u k ů	j e ž í š u k ů	0.06734850257635117	0
+j e ž í š u k ů m	j e ž í š u k ů m	0.0673341453075409	0
+j e ž í š u k y	j e ž í š u k y	0.06859885156154633	0
+j e ž í š u k y	j e ž í š u k y	0.13160201907157898	0
+j e ž í š u c í c h	j e ž í š u c í c h	0.06623972952365875	0
+j e ž í š u k y	j e ž í š u k y	0.06810618937015533	0
+e k o p r a s e	e k o p r a s e	0.07923132926225662	0
+e k o p r a s e	e k o p r a s e t e	0.59079509973526	2
+e k o p r a s i	e k o p r a s e t i	0.6452111005783081	2
+e k o p r a s i	e k o p r a s e	0.7086393237113953	1
+e k o p r a s e	e k o p r a s e	0.07700415700674057	0
+e k o p r a s i	e k o p r a s e t i	0.6302637457847595	2
+e k o p r a s í	e k o p r a s e t e m	0.594252347946167	4
+e k o p r a s e	e k o p r a s a t a	0.6570570468902588	3
+e k o p r a s í	e k o p r a s a t	0.7009490132331848	2
+e k o p r a s í m	e k o p r a s a t ů m	0.6170923709869385	3
+e k o p r a s e	e k o p r a s a t a	0.6832454204559326	3
+e k o p r a s e	e k o p r a s a t a	0.6574001908302307	3
+e k o p r a s í c h	e k o p r a s a t e c h	0.5770558714866638	3
+e k o p r a s e m i	e k o p r a s a t y	0.6609582304954529	3
+j e d n o k o š i l e c	j e d n o k o š i l e c	0.07670624554157257	0
+j e d n o k o š i l c e	j e d n o k o š i l c e	0.07269387692213058	0
+j e d n o k o š i l c i	j e d n o k o š i l c i <UNK> j e d n o k o š i l c o v i	2.366157293319702	15
+j e d n o k o š i l c e	j e d n o k o š i l c e	0.07824718207120895	0
+j e d n o k o š i l č e	j e d n o k o š i l č e	0.07406838238239288	0
+j e d n o k o š i l c i	j e d n o k o š i l c i <UNK> j e d n o k o š i l c o v i	2.3929386138916016	15
+j e d n o k o š i l c e m	j e d n o k o š i l c e m	0.0725778117775917	0
+j e d n o k o š i l c i	j e d n o k o š i l c i <UNK> j e d n o k o š i l c o v é	2.297534227371216	15
+j e d n o k o š i l c ů	j e d n o k o š i l c ů	0.07278794795274734	0
+j e d n o k o š i l c ů m	j e d n o k o š i l c ů m	0.0722634345293045	0
+j e d n o k o š i l c e	j e d n o k o š i l c e	0.07255354523658752	0
+j e d n o k o š i l c i	j e d n o k o š i l c i <UNK> j e d n o k o š i l c o v é	2.299776077270508	15
+j e d n o k o š i l c í c h	j e d n o k o š i l c í c h	0.07269983738660812	0
+j e d n o k o š i l c i	j e d n o k o š i l c i	0.07363937795162201	0
+j ó t e n k r á t	j ó t e n k r á t	0.07325589656829834	0
+j ó t e n k r á t u	j ó t e n k r á t a	0.3151608407497406	1
+j ó t e n k r á t u	j ó t e n k r á t o v i <UNK> j ó t e n k r á t u	2.436960458755493	13
+j ó t e n k r á t	j ó t e n k r á t a	0.40325820446014404	1
+j ó t e n k r á t e	j ó t e n k r á t e	0.07181248813867569	0
+j ó t e n k r á t ě	j ó t e n k r á t o v i <UNK> j ó t e n k r á t u	2.3219146728515625	14
+j ó t e n k r á t e m	j ó t e n k r á t e m	0.07109493017196655	0
+j ó t e n k r á t y	j ó t e n k r á t i <UNK> j ó t e n k r á t o v é	3.2216737270355225	14
+j ó t e n k r á t ů	j ó t e n k r á t ů	0.07074946910142899	0
+j ó t e n k r á t ů m	j ó t e n k r á t ů m	0.07015977799892426	0
+j ó t e n k r á t y	j ó t e n k r á t y	0.07167795300483704	0
+j ó t e n k r á t y	j ó t e n k r á t i <UNK> j ó t e n k r á t o v é	3.213804244995117	14
+j ó t e n k r á t e c h	j ó t e n k r á t e c h	0.07179724425077438	0
+j ó t e n k r á t y	j ó t e n k r á t y	0.07174498587846756	0
+e s t é b u k	e s t é b u k	0.0719854012131691	0
+e s t é b u k u	e s t é b u k a	0.17295119166374207	1
+e s t é b u k u	e s t é b u k o v i <UNK> e s t é b u k u	2.5925800800323486	11
+e s t é b u k	e s t é b u k a	0.19471041858196259	1
+e s t é b u k u	e s t é b u k u	0.06784939020872116	0
+e s t é b u k u	e s t é b u k o v i <UNK> e s t é b u k u	2.8660311698913574	11
+e s t é b u k e m	e s t é b u k e m	0.06832471489906311	0
+e s t é b u k y	e s t é b u c i <UNK> e s t é b u k o v é	3.1678078174591064	12
+e s t é b u k ů	e s t é b u k ů	0.06827008724212646	0
+e s t é b u k ů m	e s t é b u k ů m	0.06813694536685944	0
+e s t é b u k y	e s t é b u k y	0.06960722804069519	0
+e s t é b u k y	e s t é b u c i <UNK> e s t é b u k o v é	3.159593343734741	12
+e s t é b u c í c h	e s t é b u c í c h	0.06717432290315628	0
+e s t é b u k y	e s t é b u k y	0.06931832432746887	0
+e m e r k o	e m e r k o	0.0784277468919754	0
+e m e r k a	e m e r k a	0.06970632821321487	0
+e m e r k u	e m e r k u	0.07167410850524902	0
+e m e r k o	e m e r k o	0.07148493081331253	0
+e m e r k o	e m e r k o	0.07527787983417511	0
+e m e r k u	e m e r k u	0.07138903439044952	0
+e m e r k e m	e m e r k e m	0.07130620628595352	0
+e m e r k a	e m e r k a	0.07117468863725662	0
+e m e r e k	e m e r e k	0.0717351883649826	0
+e m e r k ů m	e m e r k ů m	0.07201263308525085	0
+e m e r k a	e m e r k a	0.07141781598329544	0
+e m e r k a	e m e r k a	0.07118789851665497	0
+e m e r k á c h	e m e r k á c h	0.06965955346822739	0
+e m e r k y	e m e r k y	0.07283584773540497	0
+j a b k a n e c	j a b k a n e c	0.0750294029712677	0
+j a b k a n c e	j a b k a n c e	0.06950464844703674	0
+j a b k a n c i	j a b k a n c i	0.07067438960075378	0
+j a b k a n c e	j a b k a n e c	0.16863782703876495	2
+j a b k a n č e	j a b k a n c i	0.2538301646709442	2
+j a b k a n c i	j a b k a n c i	0.07066672295331955	0
+j a b k a n c e m	j a b k a n c e m	0.06956873834133148	0
+j a b k a n c e	j a b k a n c e	0.12820373475551605	0
+j a b k a n c ů	j a b k a n c ů	0.06954512000083923	0
+j a b k a n c ů m	j a b k a n c ů m	0.06896564364433289	0
+j a b k a n c e	j a b k a n c e	0.06949976831674576	0
+j a b k a n c e	j a b k a n c e	0.12898820638656616	0
+j a b k a n c í c h	j a b k a n c í c h	0.06997119635343552	0
+j a b k a n c i	j a b k a n c i	0.07055792212486267	0
+e u s t r e s	e u s t r e s	0.07780575007200241	0
+e u s t r e s u	e u s t r e s u	0.11143241822719574	0
+e u s t r e s	e u s t r e s u	0.15858802199363708	1
+e u s t r e s	e u s t r e s	0.07256206125020981	0
+e u s t r e s e	e u s t r e s e	0.1524205207824707	0
+e u s t r e s	e u s t r e s u	0.23761118948459625	1
+e u s t r e s e m	e u s t r e s e m	0.10426068305969238	0
+e u s t r e s y	e u s t r e s y	0.12490586191415787	0
+e u s t r e s ů	e u s t r e s ů	0.09811361879110336	0
+e u s t r e s ů m	e u s t r e s ů m	0.11047899723052979	0
+e u s t r e s y	e u s t r e s y	0.11023720353841782	0
+e u s t r e s y	e u s t r e s y	0.12666328251361847	0
+e u s t r e s	e u s t r e s e c h	0.14470840990543365	3
+e u s t r e s y	e u s t r e s y	0.13384555280208588	0
+j e b l i n g t o n	j e b l i n g t o n	0.07685279101133347	0
+j e b l i n g t o n u	j e b l i n g t o n a	0.3186699450016022	1
+j e b l i n g t o n u	j e b l i n g t o n o v i <UNK> j e b l i n g t o n u	2.9612677097320557	14
+j e b l i n g t o n	j e b l i n g t o n a	0.36077144742012024	1
+j e b l i n g t o n e	j e b l i n g t o n e	0.07495030760765076	0
+j e b l i n g t o n u	j e b l i n g t o n o v i <UNK> j e b l i n g t o n u	2.9785563945770264	14
+j e b l i n g t o n e m	j e b l i n g t o n e m	0.07423238456249237	0
+j e b l i n g t o n y	j e b l i n g t o n i <UNK> j e b l i n g t o n o v é	3.1760013103485107	15
+j e b l i n g t o n ů	j e b l i n g t o n ů	0.07437103986740112	0
+j e b l i n g t o n ů m	j e b l i n g t o n ů m	0.07355375587940216	0
+j e b l i n g t o n y	j e b l i n g t o n y	0.07538451254367828	0
+j e b l i n g t o n y	j e b l i n g t o n i <UNK> j e b l i n g t o n o v é	3.178325653076172	15
+j e b l i n g t o n e c h	j e b l i n g t o n e c h	0.07445313036441803	0
+j e b l i n g t o n y	j e b l i n g t o n y	0.07534714788198471	0
+e u r o b l b	e u r o b l b	0.07656823843717575	0
+e u r o b l b u	e u r o b l b a	0.28056463599205017	1
+e u r o b l b u	e u r o b l b o v i <UNK> e u r o b l b u	3.0996785163879395	11
+e u r o b l b	e u r o b l b a	0.26994097232818604	1
+e u r o b l b e	e u r o b l b e	0.07417324185371399	0
+e u r o b l b u	e u r o b l b o v i <UNK> e u r o b l b u	3.163522243499756	11
+e u r o b l b e m	e u r o b l b e m	0.07325968146324158	0
+e u r o b l b y	e u r o b l b o v é <UNK> e u r o b l b i	3.281454086303711	12
+e u r o b l b ů	e u r o b l b ů	0.07339098304510117	0
+e u r o b l b ů m	e u r o b l b ů m	0.07258962839841843	0
+e u r o b l b y	e u r o b l b y	0.07458129525184631	0
+e u r o b l b y	e u r o b l b o v é <UNK> e u r o b l b i	3.284163236618042	12
+e u r o b l b e c h	e u r o b l b e c h	0.07355804741382599	0
+e u r o b l b y	e u r o b l b y	0.07424391061067581	0
+j o l a n d š t i n a	j o l a n d š t i n a	0.07795841246843338	0
+j o l a n d š t i n y	j o l a n d š t i n y	0.07599883526563644	0
+j o l a n d š t i n ě	j o l a n d š t i n ě	0.07390943169593811	0
+j o l a n d š t i n u	j o l a n d š t i n u	0.07521463185548782	0
+j o l a n d š t i n o	j o l a n d š t i n o	0.07497623562812805	0
+j o l a n d š t i n ě	j o l a n d š t i n ě	0.07390756160020828	0
+j o l a n d š t i n o u	j o l a n d š t i n o u	0.07446213066577911	0
+j o l a n d š t i n y	j o l a n d š t i n y	0.07586745917797089	0
+j o l a n d š t i n	j o l a n d š t i n	0.07497390359640121	0
+j o l a n d š t i n á m	j o l a n d š t i n á m	0.07423081994056702	0
+j o l a n d š t i n y	j o l a n d š t i n y	0.07609332352876663	0
+j o l a n d š t i n y	j o l a n d š t i n y	0.07586241513490677	0
+j o l a n d š t i n á c h	j o l a n d š t i n á c h	0.07362346351146698	0
+j o l a n d š t i n a m i	j o l a n d š t i n a m i	0.07414095848798752	0
+e m p í k	e m p í k	0.07442787289619446	0
+e m p í k u	e m p í k a	0.19956578314304352	1
+e m p í k u	e m p í k o v i <UNK> e m p í k u	2.825944185256958	9
+e m p í k	e m p í k a	0.1947849690914154	1
+e m p í k u	e m p í k u	0.06875195354223251	0
+e m p í k u	e m p í k o v i <UNK> e m p í k u	2.749490261077881	9
+e m p í k e m	e m p í k e m	0.06951890885829926	0
+e m p í k y	e m p í c i <UNK> e m p í k o v é	2.873642921447754	10
+e m p í k ů	e m p í k ů	0.06945708394050598	0
+e m p í k ů m	e m p í k ů m	0.06886908411979675	0
+e m p í k y	e m p í k y	0.07106279581785202	0
+e m p í k y	e m p í c i <UNK> e m p í k o v é	2.883582592010498	10
+e m p í c í c h	e m p í c í c h	0.06710053980350494	0
+e m p í k y	e m p í k y	0.0708758607506752	0
+e s m a ř k a	e <UNK> m a ř k a	0.7317522168159485	1
+e s m a ř k y	e <UNK> m a ř k y	0.7291491031646729	1
+e s m a ř c e	e <UNK> m a ř c e	0.7237721085548401	1
+e s m a ř k u	e <UNK> m a ř k u	0.7297778129577637	1
+e s m a ř k o	e <UNK> m a ř k o	0.7272043824195862	1
+e s m a ř c e	e <UNK> m a ř c e	0.7235287427902222	1
+e s m a ř k o u	e <UNK> m a ř k o u	0.6543280482292175	1
+e s m a ř k y	e <UNK> m a ř k y	0.7289264798164368	1
+e s m a ř e k	e <UNK> m a ř e k	0.7261863350868225	1
+e s m a ř k á m	e <UNK> m a ř k á m	0.6541843414306641	1
+e s m a ř k y	e <UNK> m a ř k y	0.7285689115524292	1
+e s m a ř k y	e <UNK> m a ř k y	0.7288466095924377	1
+e s m a ř k á c h	e <UNK> m a ř k á c h	0.5941547751426697	1
+e s m a ř k a m i	e <UNK> m a ř k a m i	0.5950347185134888	1
+e l e k t r o b r n d a	e l e k t r o b r n d a	0.07867023348808289	0
+e l e k t r o b r n d y	e l e k t r o b r n d y	0.07700707018375397	0
+e l e k t r o b r n d ě	e l e k t r o b r n d ě	0.07821694016456604	0
+e l e k t r o b r n d u	e l e k t r o b r n d u	0.07631486654281616	0
+e l e k t r o b r n d o	e l e k t r o b r n d o	0.0763513520359993	0
+e l e k t r o b r n d ě	e l e k t r o b r n d ě	0.07834788411855698	0
+e l e k t r o b r n d o u	e l e k t r o b r n d o u	0.07572544366121292	0
+e l e k t r o b r n d y	e l e k t r o b r n d y	0.0787786915898323	0
+e l e k t r o b r n d	e l e k t r o b r n d	0.07978148013353348	0
+e l e k t r o b r n d á m	e l e k t r o b r n d á m	0.0801551342010498	0
+e l e k t r o b r n d y	e l e k t r o b r n d y	0.0771825835108757	0
+e l e k t r o b r n d y	e l e k t r o b r n d y	0.07879311591386795	0
+e l e k t r o b r n d á c h	e l e k t r o b r n d á c h	0.07853298634290695	0
+e l e k t r o b r n d a m i	e l e k t r o b r n d a m i	0.07761450111865997	0
+j á ž í š e k	j á ž í š e k	0.07032458484172821	0
+j á ž í š k u	j á ž í š k a	0.20900151133537292	1
+j á ž í š k u	j á ž í š k o v i <UNK> j á ž í š k u	2.42617130279541	10
+j á ž í š e k	j á ž í š k a	0.15993019938468933	2
+j á ž í š k u	j á ž í š k u	0.0631537139415741	0
+j á ž í š k u	j á ž í š k o v i <UNK> j á ž í š k u	2.4224088191986084	10
+j á ž í š k e m	j á ž í š k e m	0.0644502341747284	0
+j á ž í š k y	j á ž í š k o v é <UNK> j á ž í š c i	2.9657883644104004	11
+j á ž í š k ů	j á ž í š k ů	0.06406033039093018	0
+j á ž í š k ů m	j á ž í š k ů m	0.06410840153694153	0
+j á ž í š k y	j á ž í š k y	0.06508251279592514	0
+j á ž í š k y	j á ž í š k o v é <UNK> j á ž í š c i	2.9704411029815674	11
+j á ž í š c í c h	j á ž í š c í c h	0.06432481110095978	0
+j á ž í š k y	j á ž í š k y	0.06482334434986115	0
+e s p e ď á k	e s p e ď á k	0.07208140939474106	0
+e s p e ď á k u	e s p e ď á k a	0.16950535774230957	1
+e s p e ď á k o v i	e s p e ď á k o v i <UNK> e s p e ď á k u	2.5164833068847656	9
+e s p e ď á k	e s p e ď á k a	0.15854719281196594	1
+e s p e ď á k u	e s p e ď á k u	0.0679435133934021	0
+e s p e ď á k o v i	e s p e ď á k o v i <UNK> e s p e ď á k u	2.4277851581573486	9
+e s p e ď á k e m	e s p e ď á k e m	0.06864859908819199	0
+e s p e ď á k y	e s p e ď á c i <UNK> e s p e ď á k o v é	2.572934865951538	12
+e s p e ď á k ů	e s p e ď á k ů	0.06871990114450455	0
+e s p e ď á k ů m	e s p e ď á k ů m	0.06845951080322266	0
+e s p e ď á k y	e s p e ď á k y	0.06974685192108154	0
+e s p e ď á k y	e s p e ď á c i <UNK> e s p e ď á k o v é	2.5198707580566406	12
+e s p e ď á c í c h	e s p e ď á c í c h	0.06690476089715958	0
+e s p e ď á k y	e s p e ď á k y	0.06933262199163437	0
+e x z n o s e	e x z n o s e	0.07548873126506805	0
+e x z n o s e	e x z n o s e	0.07151307910680771	0
+e x z n o s i	e x z n o s i	0.07119125127792358	0
+e x z n o s i	e x z n o s i	0.07076725363731384	0
+e x z n o s e	e x z n o s e	0.07198647409677505	0
+e x z n o s i	e x z n o s i	0.07109561562538147	0
+e x z n o s í	e x z n o s í	0.07117282599210739	0
+e x z n o s e	e x z n o s e	0.07170774787664413	0
+e x z n o s í	e x z n o s í	0.0712554007768631	0
+e x z n o s í m	e x z n o s í m	0.07025688141584396	0
+e x z n o s e	e x z n o s e	0.07217523455619812	0
+e x z n o s e	e x z n o s e	0.07170898467302322	0
+e x z n o s í c h	e x z n o s í c h	0.0703185647726059	0
+e x z n o s e m i	e x z n o s e m i	0.0712573379278183	0
+j a k o č e c h	j a k o č e c h	0.07485555112361908	0
+j a k o č e c h u	j a k o č e c h a	0.23084621131420135	1
+j a k o č e c h u	j a k o č e c h o v i <UNK> j a k o č e c h u	2.6840333938598633	12
+j a k o č e c h	j a k o č e c h a	0.2233380526304245	1
+j a k o č e c h u	j a k o č e c h u	0.07111144065856934	0
+j a k o č e c h u	j a k o č e c h o v i <UNK> j a k o č e c h u	2.668834686279297	12
+j a k o č e c h e m	j a k o č e c h e m	0.07086415588855743	0
+j a k o č e c h y	j a k o č e š i <UNK> j a k o č e c h o v é	2.990565299987793	12
+j a k o č e c h ů	j a k o č e c h ů	0.07104066014289856	0
+j a k o č e c h ů m	j a k o č e c h ů m	0.0706622526049614	0
+j a k o č e c h y	j a k o č e c h y	0.07225938141345978	0
+j a k o č e c h y	j a k o č e š i <UNK> j a k o č e c h o v é	2.9957549571990967	12
+j a k o č e š í c h	j a k o č e š í c h	0.07025866955518723	0
+j a k o č e c h y	j a k o č e c h y	0.07215926796197891	0
+?	?	0.06817108392715454	0
+?	?	0.0726945549249649	0
+?	?	0.07372443377971649	0
+?	?	0.07220327109098434	0
+?	?	0.07231719046831131	0
+?	?	0.07486885786056519	0
+?	?	0.07153012603521347	0
+j á s a l k y	j á s a l k y	0.07346458733081818	0
+j á s a l e k	j á s a l e k	0.08589564263820648	0
+j á s a l k á m	j á s a l k á m	0.08561985194683075	0
+j á s a l k y	j á s a l k y	0.07371014356613159	0
+j á s a l k y	j á s a l k y	0.07348033785820007	0
+j á s a l k á c h	j á s a l k á c h	0.07991364598274231	0
+j á s a l k a m i	j á s a l k a m i	0.07877582311630249	0
+j u d r c	j u d r c	0.07183795422315598	0
+j u d r c e	j u d r c e	0.07985056936740875	0
+j u d r c i	j u d r c i <UNK> j u d r c o v i	1.7588406801223755	9
+j u d r c	j u d r c e	0.3347679674625397	1
+j u d r c i	j u d r c i	0.0661204606294632	0
+j u d r c i	j u d r c i <UNK> j u d r c o v i	2.159027099609375	9
+j u d r c e m	j u d r c e m	0.06841804832220078	0
+j u d r c e	j u d r c i <UNK> j u d r c o v é	2.370922803878784	10
+j u d r c ů	j u d r c ů	0.0679870992898941	0
+j u d r c ů m	j u d r c ů m	0.06695660203695297	0
+j u d r c e	j u d r c e	0.07639122009277344	0
+j u d r c e	j u d r c i <UNK> j u d r c o v é	2.3693490028381348	10
+j u d r c í c h	j u d r c í c h	0.06575518101453781	0
+j u d r c i	j u d r c i	0.08550549298524857	0
+j e m ň o c h	j e m ň o c h	0.07174292951822281	0
+j e m ň o c h a	j e m ň o c h u	0.16076737642288208	1
+j e m ň o c h o v i	j e m ň o c h u	0.17410093545913696	3
+j e m ň o c h a	j e m ň o c h	0.167499840259552	1
+j e m ň o c h u	j e m ň o c h u	0.06801598519086838	0
+j e m ň o c h o v i	j e m ň o c h u	0.18789035081863403	3
+j e m ň o c h e m	j e m ň o c h e m	0.06840242445468903	0
+j e m ň o š i	j e m ň o c h y	0.17329154908657074	3
+j e m ň o c h ů	j e m ň o c h ů	0.06833497434854507	0
+j e m ň o c h ů m	j e m ň o c h ů m	0.06803635507822037	0
+j e m ň o c h y	j e m ň o c h y	0.0695653036236763	0
+j e m ň o š i	j e m ň o c h y	0.1702243685722351	3
+j e m ň o š í c h	j e m ň o š í c h	0.06591542810201645	0
+j e m ň o c h y	j e m ň o c h y	0.06930264830589294	0
+e j a k l a c e	e j a k l a c e	0.0759025514125824	0
+e j a k l a c e	e j a k l a c e	0.07300632447004318	0
+e j a k l a c i	e j a k l a c i	0.07338269054889679	0
+e j a k l a c i	e j a k l a c i	0.07229482382535934	0
+e j a k l a c e	e j a k l a c e	0.07383260130882263	0
+e j a k l a c i	e j a k l a c i	0.07329507917165756	0
+e j a k l a c í	e j a k l a c í	0.0726010799407959	0
+e j a k l a c e	e j a k l a c e	0.07349780946969986	0
+e j a k l a c í	e j a k l a c í	0.07215149700641632	0
+e j a k l a c í m	e j a k l a c í m	0.07136216014623642	0
+e j a k l a c e	e j a k l a c e	0.07347496598958969	0
+e j a k l a c e	e j a k l a c e	0.07349170744419098	0
+e j a k l a c í c h	e j a k l a c í c h	0.07173431664705276	0
+e j a k l a c e m i	e j a k l a c e m i	0.07298880070447922	0
+j e d n o č u b k a	j e d n o č u b k a	0.07522859424352646	0
+j e d n o č u b k y	j e d n o č u b k y	0.07246464490890503	0
+j e d n o č u b c e	j e d n o č u b c e	0.06850302219390869	0
+j e d n o č u b k u	j e d n o č u b k u	0.07180017977952957	0
+j e d n o č u b k o	j e d n o č u b k o	0.0718427523970604	0
+j e d n o č u b c e	j e d n o č u b c e	0.0684996172785759	0
+j e d n o č u b k o u	j e d n o č u b k o u	0.07163301110267639	0
+j e d n o č u b k y	j e d n o č u b k y	0.0724007785320282	0
+j e d n o č u b e k	j e d n o č u b e k	0.07016533613204956	0
+j e d n o č u b k á m	j e d n o č u b k á m	0.07110793143510818	0
+j e d n o č u b k y	j e d n o č u b k y	0.07262604683637619	0
+j e d n o č u b k y	j e d n o č u b k y	0.07240267097949982	0
+j e d n o č u b k á c h	j e d n o č u b k á c h	0.07023794203996658	0
+j e d n o č u b k a m i	j e d n o č u b k a m i	0.07101146876811981	0
+e c h c p e r t	e c h c p e r t	0.07479856163263321	0
+e c h c p e r t a	e c h c p e r t a	0.1420617401599884	0
+e c h c p e r t o v i	e c h c p e r t o v i <UNK> e c h c p e r t u	2.610692262649536	10
+e c h c p e r t a	e c h c p e r t a	0.13799752295017242	0
+e c h c p e r t e	e c h c p e r t e	0.073086678981781	0
+e c h c p e r t o v i	e c h c p e r t o v i <UNK> e c h c p e r t u	2.8162643909454346	10
+e c h c p e r t e m	e c h c p e r t e m	0.07232750207185745	0
+e c h c p e r t y	e c h c p e r t i <UNK> e c h c p e r t o v é	2.666658639907837	13
+e c h c p e r t ů	e c h c p e r t ů	0.07232950627803802	0
+e c h c p e r t ů m	e c h c p e r t ů m	0.07164449244737625	0
+e c h c p e r t y	e c h c p e r t y	0.07345117628574371	0
+e c h c p e r t y	e c h c p e r t i <UNK> e c h c p e r t o v é	2.6538801193237305	13
+e c h c p e r t e c h	e c h c p e r t e c h	0.07283005863428116	0
+e c h c p e r t y	e c h c p e r t y	0.07310891896486282	0
+e r b i e n b y t	e r b i e n b y t	0.07621203362941742	0
+e r b i e n b y t u	e r b i e n b y t u	0.07635439932346344	0
+e r b i e n b y t u	e r b i e n b y t u	0.0768040344119072	0
+e r b i e n b y t	e r b i e n b y t	0.07435151189565659	0
+e r b i e n b y t e	e r b i e n b y t e	0.07414403557777405	0
+e r b i e n b y t u	e r b i e n b y t u	0.083561472594738	0
+e r b i e n b y t e m	e r b i e n b y t e m	0.07336036115884781	0
+e r b i e n b y t y	e r b i e n b y t y	0.0745377168059349	0
+e r b i e n b y t ů	e r b i e n b y t ů	0.07352472096681595	0
+e r b i e n b y t ů m	e r b i e n b y t ů m	0.07280734181404114	0
+e r b i e n b y t y	e r b i e n b y t y	0.07467082142829895	0
+e r b i e n b y t y	e r b i e n b y t y	0.074521504342556	0
+e r b i e n b y t e c h	e r b i e n b y t e c h	0.07382995635271072	0
+e r b i e n b y t y	e r b i e n b y t y	0.07441568374633789	0
+j a b l í č k a	?	3.430972099304199	8
+j a b l í č k y	?	3.456150770187378	8
+j a b l í č c e	?	3.4594035148620605	8
+j a b l í č k u	?	3.352903366088867	8
+j a b l í č k o	?	3.4502456188201904	8
+j a b l í č c e	?	3.4554152488708496	8
+j a b l í č k o u	?	3.4449145793914795	9
+j a b l í č k y	j a b l í č k a	0.8557552099227905	1
+j a b l í č e k	j a b l í č e k	0.06809034943580627	0
+j a b l í č k á m	j a b l í č k á m	0.06913050264120102	0
+j a b l í č k y	j a b l í č k a	0.8706800937652588	1
+j a b l í č k y	j a b l í č k a	0.8557596206665039	1
+j a b l í č k á c h	j a b l í č k á c h	0.06810399889945984	0
+j a b l í č k a m i	j a b l í č k y	0.7316224575042725	3
+j e b a č i s k o	j e b a č i s k o	0.07684542238712311	0
+j e b a č i s k a	j e b a č i s k a	0.07096334546804428	0
+j e b a č i s k u	j e b a č i s k u	0.07204441726207733	0
+j e b a č i s k o	j e b a č i s k o	0.07287296652793884	0
+j e b a č i s k o	j e b a č i s k o	0.07520808279514313	0
+j e b a č i s k u	j e b a č i s k u	0.07200225442647934	0
+j e b a č i s k e m	j e b a č i s k e m	0.07145782560110092	0
+j e b a č i s k a	j e b a č i s k a	0.07088463008403778	0
+j e b a č i s e k	j e b a č i s e k	0.07105579227209091	0
+j e b a č i s k ů m	j e b a č i s k ů m	0.07212338596582413	0
+j e b a č i s k a	j e b a č i s k a	0.07131776958703995	0
+j e b a č i s k a	j e b a č i s k a	0.07090606540441513	0
+j e b a č i s k á c h	j e b a č i s k á c h	0.07024241238832474	0
+j e b a č i s k y	j e b a č i s k y	0.07226116955280304	0
+é r o t i k a	é r o t i k a	0.07445291429758072	0
+é r o t i k y	é r o t i k y	0.07021686434745789	0
+é r o t i c e	é r o t i c e	0.06518905609846115	0
+é r o t i k u	é r o t i k u	0.06904785335063934	0
+é r o t i k o	é r o t i k o	0.0688277930021286	0
+é r o t i c e	é r o t i c e	0.06510394811630249	0
+é r o t i k o u	é r o t i k o u	0.06872036308050156	0
+é r o t i k y	é r o t i k y	0.06972521543502808	0
+é r o t i k	é r o t i k	0.06670475751161575	0
+é r o t i k á m	é r o t i k á m	0.0679858922958374	0
+é r o t i k y	é r o t i k y	0.07027890533208847	0
+é r o t i k y	é r o t i k y	0.06973052024841309	0
+é r o t i k á c h	é r o t i k á c h	0.06721458584070206	0
+é r o t i k a m i	é r o t i k a m i	0.06859810650348663	0
+e k o p a t	e k o p a t	0.08019600063562393	0
+e k o p a t u	e k o p a t a	0.37204474210739136	1
+e k o p a t u	e k o p a t o v i <UNK> e k o p a t u	3.00972318649292	10
+e k o p a t	e k o p a t a	0.31395667791366577	1
+e k o p a t e	e k o p a t e	0.07692857831716537	0
+e k o p a t u	e k o p a t o v i <UNK> e k o p a t u	3.205986499786377	10
+e k o p a t e m	e k o p a t e m	0.07519438862800598	0
+e k o p a t y	e k o p a t i <UNK> e k o p a t o v é	2.751556396484375	11
+e k o p a t ů	e k o p a t ů	0.07528165727853775	0
+e k o p a t ů m	e k o p a t ů m	0.07414116710424423	0
+e k o p a t y	e k o p a t y	0.07681766897439957	0
+e k o p a t y	e k o p a t i <UNK> e k o p a t o v é	2.759002685546875	11
+e k o p a t e c h	e k o p a t e c h	0.0754518136382103	0
+e k o p a t y	e k o p a t y	0.07660862803459167	0
+e n t e n t ý r	e n t e n t ý r	0.07599754631519318	0
+e n t e n t ý r a	e n t e n t ý r u	0.25905752182006836	1
+e n t e n t ý r o v i	e n t e n t ý r u	0.29827889800071716	3
+e n t e n t ý r a	e n t e n t ý r	0.31675153970718384	1
+e n t e n t ý r e	e n t e n t ý r e	0.07336361706256866	0
+e n t e n t ý r o v i	e n t e n t ý r u	0.29124540090560913	3
+e n t e n t ý r e m	e n t e n t ý r e m	0.07289166003465652	0
+e n t e n t ý ř i	e n t e n t ý r y	0.25573357939720154	2
+e n t e n t ý r ů	e n t e n t ý r ů	0.07294680178165436	0
+e n t e n t ý r ů m	e n t e n t ý r ů m	0.0723007395863533	0
+e n t e n t ý r y	e n t e n t ý r y	0.07391643524169922	0
+e n t e n t ý ř i	e n t e n t ý r y	0.25460538268089294	2
+e n t e n t ý r e c h	e n t e n t ý r e c h	0.07274358719587326	0
+e n t e n t ý r y	e n t e n t ý r y	0.07358423620462418	0
+e u r o p i t o m e č e k	e u r o p i t o m e č e k	0.07747219502925873	0
+e u r o p i t o m e č k u	e u r o p i t o m e č k a	0.2652694582939148	1
+e u r o p i t o m e č k u	e u r o p i t o m e č k o v i <UNK> e u r o p i t o m e č k u	2.679377794265747	16
+e u r o p i t o m e č e k	e u r o p i t o m e č k a	0.22793559730052948	2
+e u r o p i t o m e č k u	e u r o p i t o m e č k u	0.07348137348890305	0
+e u r o p i t o m e č k u	e u r o p i t o m e č k o v i <UNK> e u r o p i t o m e č k u	2.594336986541748	16
+e u r o p i t o m e č k e m	e u r o p i t o m e č k e m	0.07364719361066818	0
+e u r o p i t o m e č k y	e u r o p i t o m e č c i <UNK> e u r o p i t o m e č k o v é	2.8323843479156494	17
+e u r o p i t o m e č k ů	e u r o p i t o m e č k ů	0.07386505603790283	0
+e u r o p i t o m e č k ů m	e u r o p i t o m e č k ů m	0.07352795451879501	0
+e u r o p i t o m e č k y	e u r o p i t o m e č k y	0.07454605400562286	0
+e u r o p i t o m e č k y	e u r o p i t o m e č c i <UNK> e u r o p i t o m e č k o v é	2.8268847465515137	17
+e u r o p i t o m e č c í c h	e u r o p i t o m e č c í c h	0.073070228099823	0
+e u r o p i t o m e č k y	e u r o p i t o m e č k y	0.07426571846008301	0
+E s t e r r e i c h	E s t e r r e i c h	0.07450149953365326	0
+E s t e r r e i c h a	E s t e r r e i c h u	0.37260255217552185	1
+E s t e r r e i c h o v i	E s t e r r e i c h u	0.4121481478214264	3
+E s t e r r e i c h a	E s t e r r e i c h	0.4342994689941406	1
+E s t e r r e i c h u	E s t e r r e i c h u	0.071250319480896	0
+E s t e r r e i c h o v i	E s t e r r e i c h u	0.41186878085136414	3
+E s t e r r e i c h e m	E s t e r r e i c h e m	0.07192698866128922	0
+E s t e r r e i š i	?	3.8126604557037354	10
+E s t e r r e i c h ů	?	3.8272504806518555	11
+E s t e r r e i c h ů m	?	3.822531223297119	12
+E s t e r r e i c h y	?	3.8273308277130127	11
+E s t e r r e i š i	?	3.8136274814605713	10
+E s t e r r e i š í c h	?	3.8100550174713135	12
+E s t e r r e i c h y	?	3.8161094188690186	11
+e t n i k e t a	e t n i k e t a	0.0793166309595108	0
+e t n i k e t y	e t n i k e t y	0.07691431045532227	0
+e t n i k e t ě	e t n i k e t ě	0.07403215020895004	0
+e t n i k e t u	e t n i k e t u	0.07592655718326569	0
+e t n i k e t o	e t n i k e t o	0.07454677671194077	0
+e t n i k e t ě	e t n i k e t ě	0.07400809228420258	0
+e t n i k e t o u	e t n i k e t o u	0.07402850687503815	0
+e t n i k e t y	e t n i k e t y	0.07683927565813065	0
+e t n i k e t	e t n i k e t	0.0754101574420929	0
+e t n i k e t á m	e t n i k e t á m	0.07416235655546188	0
+e t n i k e t y	e t n i k e t y	0.07707475125789642	0
+e t n i k e t y	e t n i k e t y	0.07683087885379791	0
+e t n i k e t á c h	e t n i k e t á c h	0.07358482480049133	0
+e t n i k e t a m i	e t n i k e t a m i	0.07413966953754425	0
+e r g a s m u s	e r g a s m u s	0.07504763454198837	0
+e r g a s m u	e r g a s m u	0.06918857991695404	0
+e r g a s m u	e r g a s m u	0.06974746286869049	0
+e r g a s m u s	e r g a s m u s	0.07065017521381378	0
+e r g a s m e	e r g a s m e	0.07292848825454712	0
+e r g a s m u	e r g a s m u	0.06979935616254807	0
+e r g a s m e m	e r g a s m e m	0.07195840775966644	0
+e r g a s m y	e r g a s m y	0.07217740267515182	0
+e r g a s m ů	e r g a s m ů	0.07141619920730591	0
+e r g a s m ů m	e r g a s m ů m	0.07072406262159348	0
+e r g a s m y	e r g a s m y	0.07306957244873047	0
+e r g a s m y	e r g a s m y	0.07215167582035065	0
+e r g a s m e c h	e r g a s m e c h	0.07185311615467072	0
+e r g a s m y	e r g a s m y	0.07241024821996689	0
+j e d n o c h l a m s t k a	j e d n o c h l a m s t k a	0.07640022784471512	0
+j e d n o c h l a m s t k y	j e d n o c h l a m s t k y	0.07472576200962067	0
+j e d n o c h l a m s t c e	j e d n o c h l a m s t c e	0.0716589018702507	0
+j e d n o c h l a m s t k u	j e d n o c h l a m s t k u	0.07411937415599823	0
+j e d n o c h l a m s t k o	j e d n o c h l a m s t k o	0.07411381602287292	0
+j e d n o c h l a m s t c e	j e d n o c h l a m s t c e	0.071630097925663	0
+j e d n o c h l a m s t k o u	j e d n o c h l a m s t k o u	0.07378020882606506	0
+j e d n o c h l a m s t k y	j e d n o c h l a m s t k y	0.07473672181367874	0
+j e d n o c h l a m s t e k	j e d n o c h l a m s t e k	0.07274571806192398	0
+j e d n o c h l a m s t k á m	j e d n o c h l a m s t k á m	0.07348363101482391	0
+j e d n o c h l a m s t k y	j e d n o c h l a m s t k y	0.07482969760894775	0
+j e d n o c h l a m s t k y	j e d n o c h l a m s t k y	0.07474136352539062	0
+j e d n o c h l a m s t k á c h	j e d n o c h l a m s t k á c h	0.07275217771530151	0
+j e d n o c h l a m s t k a m i	j e d n o c h l a m s t k a m i	0.07346585392951965	0
+e j a k u l o m e t	e j a k u l o m e t	0.07711515575647354	0
+e j a k u l o m e t u	e j a k u l o m e t u	0.07455498725175858	0
+e j a k u l o m e t u	e j a k u l o m e t u	0.07517043501138687	0
+e j a k u l o m e t	e j a k u l o m e t	0.07382968813180923	0
+e j a k u l o m e t e	e j a k u l o m e t e	0.07436463236808777	0
+e j a k u l o m e t u	e j a k u l o m e t u	0.08176273852586746	0
+e j a k u l o m e t e m	e j a k u l o m e t e m	0.07390808314085007	0
+e j a k u l o m e t y	e j a k u l o m e t y	0.07403121143579483	0
+e j a k u l o m e t ů	e j a k u l o m e t ů	0.07382989674806595	0
+e j a k u l o m e t ů m	e j a k u l o m e t ů m	0.07309739291667938	0
+e j a k u l o m e t y	e j a k u l o m e t y	0.07484584301710129	0
+e j a k u l o m e t y	e j a k u l o m e t y	0.07400728762149811	0
+e j a k u l o m e t e c h	e j a k u l o m e t e c h	0.07408056408166885	0
+e j a k u l o m e t y	e j a k u l o m e t y	0.07486674189567566	0
+j a k o b ý n	j a k o b ý n	0.07346614450216293	0
+j a k o b ý n a	j a k o b ý n a	0.14622101187705994	0
+j a k o b ý n o v i	j a k o b ý n o v i <UNK> j a k o b ý n u	2.4897983074188232	9
+j a k o b ý n a	j a k o b ý n a	0.14468935132026672	0
+j a k o b ý n e	j a k o b ý n e	0.07146056741476059	0
+j a k o b ý n o v i	j a k o b ý n o v i <UNK> j a k o b ý n u	2.5723347663879395	9
+j a k o b ý n e m	j a k o b ý n e m	0.07093735784292221	0
+j a k o b ý n y	j a k o b ý n i <UNK> j a k o b ý n o v é	2.0096490383148193	12
+j a k o b ý n ů	j a k o b ý n ů	0.0705716460943222	0
+j a k o b ý n ů m	j a k o b ý n ů m	0.07009980082511902	0
+j a k o b ý n y	j a k o b ý n y	0.071440689265728	0
+j a k o b ý n y	j a k o b ý n i <UNK> j a k o b ý n o v é	1.984794020652771	12
+j a k o b ý n e c h	j a k o b ý n e c h	0.07110753655433655	0
+j a k o b ý n y	j a k o b ý n y	0.07135477662086487	0
+e u d e l	e u d e l	0.07710961252450943	0
+e u d e l u	e u d e l e	0.47091761231422424	1
+e u d e l u	e u d e l i	0.4322005808353424	1
+e u d e l	e u d e l	0.07811517268419266	0
+e u d e l e	e u d e l i	0.4889458119869232	1
+e u d e l u	e u d e l i	0.4219872057437897	1
+e u d e l e m	e u d e l í	0.6876824498176575	2
+e u d e l y	e u d e l e	0.5532786250114441	1
+e u d e l ů	e u d e l í	0.7792215943336487	1
+e u d e l ů m	e u d e l í m	0.6878851056098938	1
+e u d e l y	e u d e l e	0.45572981238365173	1
+e u d e l y	e u d e l e	0.549228847026825	1
+e u d e l e c h	e u d e l í c h	0.3429994583129883	1
+e u d e l y	e u d e l e m i	0.6210572719573975	3
+e u š e v i s m u s	e u š e v i s m u s	0.07543691992759705	0
+e u š e v i s m u	e u š e v i s m u	0.07093129307031631	0
+e u š e v i s m u	e u š e v i s m u	0.07145273685455322	0
+e u š e v i s m u s	e u š e v i s m u s	0.07241032272577286	0
+e u š e v i s m e	e u š e v i s m e	0.07335781306028366	0
+e u š e v i s m u	e u š e v i s m u	0.07160447537899017	0
+e u š e v i s m e m	e u š e v i s m e m	0.07263854891061783	0
+e u š e v i s m y	e u š e v i s m y	0.07331659644842148	0
+e u š e v i s m ů	e u š e v i s m ů	0.07250107824802399	0
+e u š e v i s m ů m	e u š e v i s m ů m	0.07186765223741531	0
+e u š e v i s m y	e u š e v i s m y	0.07387574762105942	0
+e u š e v i s m y	e u š e v i s m y	0.07329551130533218	0
+e u š e v i s m e c h	e u š e v i s m e c h	0.07260807603597641	0
+e u š e v i s m y	e u š e v i s m y	0.07336155325174332	0
+e z a ř	e z a ř	0.07733171433210373	0
+e z a ř e	e z a ř e	0.07164508104324341	0
+e z a ř i	e z a ř i <UNK> e z a ř o v i	3.039874792098999	8
+e z a ř e	e z a ř e	0.0801863968372345	0
+e z a ř i	e z a ř i	0.07358210533857346	0
+e z a ř i	e z a ř i <UNK> e z a ř o v i	3.028761625289917	8
+e z a ř e m	e z a ř e m	0.07214780151844025	0
+e z a ř i	e z a ř i <UNK> e z a ř o v é	3.052276134490967	8
+e z a ř ů	e z a ř ů	0.07199741154909134	0
+e z a ř ů m	e z a ř ů m	0.07104408740997314	0
+e z a ř e	e z a ř e	0.07162204384803772	0
+e z a ř i	e z a ř i <UNK> e z a ř o v é	3.0488486289978027	8
+e z a ř í c h	e z a ř í c h	0.07073669135570526	0
+e z a ř i	e z a ř i	0.0741114392876625	0
+j u i c i é r	j u i c i é r	0.06907244771718979	0
+j u i c i é r a	j u i c i é r a	0.07489503920078278	0
+j u i c i é r o v i	j u i c i é r o v i <UNK> j u i c i é r u	2.7729344367980957	9
+j u i c i é r a	j u i c i é r a	0.07192625105381012	0
+j u i c i é r e	j u i c i é r e	0.06652813404798508	0
+j u i c i é r o v i	j u i c i é r o v i <UNK> j u i c i é r u	2.808659315109253	9
+j u i c i é r e m	j u i c i é r e m	0.06679655611515045	0
+j u i c i é ř i	j u i c i é ř i <UNK> j u i c i é r o v é	2.7935543060302734	11
+j u i c i é r ů	j u i c i é r ů	0.06650863587856293	0
+j u i c i é r ů m	j u i c i é r ů m	0.06649184972047806	0
+j u i c i é r y	j u i c i é r y	0.0671154260635376	0
+j u i c i é ř i	j u i c i é ř i <UNK> j u i c i é r o v é	2.796335220336914	11
+j u i c i é r e c h	j u i c i é r e c h	0.06723641604185104	0
+j u i c i é r y	j u i c i é r y	0.06698977947235107	0
+e z o f r n d a	e z o f r n d a	0.0770307257771492	0
+e z o f r n d y	e z o f r n d y	0.07447412610054016	0
+e z o f r n d ě	e z o f r n d ě	0.08415071666240692	0
+e z o f r n d u	e z o f r n d u	0.0737244039773941	0
+e z o f r n d o	e z o f r n d o	0.07382938265800476	0
+e z o f r n d ě	e z o f r n d ě	0.08440958708524704	0
+e z o f r n d o u	e z o f r n d o u	0.07321643829345703	0
+e z o f r n d y	e z o f r n d y	0.07927005738019943	0
+e z o f r n d	e z o f r n d	0.08175930380821228	0
+e z o f r n d á m	e z o f r n d á m	0.08724828064441681	0
+e z o f r n d y	e z o f r n d y	0.07468373328447342	0
+e z o f r n d y	e z o f r n d y	0.07915700972080231	0
+e z o f r n d á c h	e z o f r n d á c h	0.07960478961467743	0
+e z o f r n d a m i	e z o f r n d a m i	0.07785529643297195	0
+j e d n o r o u š e c	j e d n o r o u š e c	0.07557749003171921	0
+j e d n o r o u š c e	j e d n o r o u š c e	0.07125159353017807	0
+j e d n o r o u š c i	j e d n o r o u š c i <UNK> j e d n o r o u š c o v i	2.595637798309326	14
+j e d n o r o u š c e	j e d n o r o u š c e	0.07304105907678604	0
+j e d n o r o u š č e	j e d n o r o u š č e	0.07305943965911865	0
+j e d n o r o u š c i	j e d n o r o u š c i <UNK> j e d n o r o u š c o v i	2.5972583293914795	14
+j e d n o r o u š c e m	j e d n o r o u š c e m	0.07119035720825195	0
+j e d n o r o u š c i	j e d n o r o u š c i <UNK> j e d n o r o u š c o v é	2.593170404434204	14
+j e d n o r o u š c ů	j e d n o r o u š c ů	0.0715373083949089	0
+j e d n o r o u š c ů m	j e d n o r o u š c ů m	0.07102575153112411	0
+j e d n o r o u š c e	j e d n o r o u š c e	0.07113215327262878	0
+j e d n o r o u š c i	j e d n o r o u š c i <UNK> j e d n o r o u š c o v é	2.596339225769043	14
+j e d n o r o u š c í c h	j e d n o r o u š c í c h	0.07144827395677567	0
+j e d n o r o u š c i	j e d n o r o u š c i	0.07237864285707474	0
+j e d n o l i t í d a	j e d n o l i t í d a	0.07758189737796783	0
+j e d n o l i t í d y	j e d n o l i t í d y	0.07579394429922104	0
+j e d n o l i t í d ě	j e d n o l i t í d ě	0.0737074688076973	0
+j e d n o l i t í d u	j e d n o l i t í d u	0.07504326850175858	0
+j e d n o l i t í d o	j e d n o l i t í d o	0.07477673143148422	0
+j e d n o l i t í d ě	j e d n o l i t í d ě	0.07371390610933304	0
+j e d n o l i t í d o u	j e d n o l i t í d o u	0.07424600422382355	0
+j e d n o l i t í d y	j e d n o l i t í d y	0.07551863044500351	0
+j e d n o l i t í d	j e d n o l i t í d	0.07425388693809509	0
+j e d n o l i t í d á m	j e d n o l i t í d á m	0.07381533086299896	0
+j e d n o l i t í d y	j e d n o l i t í d y	0.07584719359874725	0
+j e d n o l i t í d y	j e d n o l i t í d y	0.07551848143339157	0
+j e d n o l i t í d á c h	j e d n o l i t í d á c h	0.07318706065416336	0
+j e d n o l i t í d a m i	j e d n o l i t í d a m i	0.07369375228881836	0
+e š á k	e š á k	0.07428786158561707	0
+e š á k u	e š á k u	0.15100248157978058	0
+e š á k u	e š á k u	0.1860724240541458	0
+e š á k	e š á k	0.16450998187065125	0
+e š á k u	e š á k u	0.0670933872461319	0
+e š á k o v i	e š á k u	0.19105112552642822	3
+e š á k e m	e š á k e m	0.06829135119915009	0
+e š á k y	e š á k y	0.1783403605222702	0
+e š á k ů	e š á k ů	0.06833869963884354	0
+e š á k ů m	e š á k ů m	0.06791564077138901	0
+e š á k y	e š á k y	0.07024494558572769	0
+e š á k y	e š á k y	0.1778508424758911	0
+e š á c í c h	e š á c í c h	0.06559475511312485	0
+e š á k y	e š á k y	0.06985541433095932	0
+e u r o p u m p a	e u r o p u m p a	0.07649952173233032	0
+e u r o p u m p y	e u r o p u m p y	0.07415588200092316	0
+e u r o p u m p ě	e u r o p u m p ě	0.07223575562238693	0
+e u r o p u m p u	e u r o p u m p u	0.0733179822564125	0
+e u r o p u m p o	e u r o p u m p o	0.07258347421884537	0
+e u r o p u m p ě	e u r o p u m p ě	0.07226315885782242	0
+e u r o p u m p o u	e u r o p u m p o u	0.0723922923207283	0
+e u r o p u m p y	e u r o p u m p y	0.07423491775989532	0
+e u r o p u m p	e u r o p u m p	0.07174288481473923	0
+e u r o p u m p á m	e u r o p u m p á m	0.0723763182759285	0
+e u r o p u m p y	e u r o p u m p y	0.07433325052261353	0
+e u r o p u m p y	e u r o p u m p y	0.07422284781932831	0
+e u r o p u m p á c h	e u r o p u m p á c h	0.07183314114809036	0
+e u r o p u m p a m i	e u r o p u m p a m i	0.07226759940385818	0
+j e b a t e r k a	j e b a t e r k a	0.07718057930469513	0
+j e b a t e r k y	j e b a t e r k y	0.07425367832183838	0
+j e b a t e r c e	j e b a t e r c e	0.07003326714038849	0
+j e b a t e r k u	j e b a t e r k u	0.0734681710600853	0
+j e b a t e r k o	j e b a t e r k o	0.07317394018173218	0
+j e b a t e r c e	j e b a t e r c e	0.07002927362918854	0
+j e b a t e r k o u	j e b a t e r k o u	0.07274934649467468	0
+j e b a t e r k y	j e b a t e r k y	0.0741630345582962	0
+j e b a t e r e k	j e b a t e r e k	0.07123760133981705	0
+j e b a t e r k á m	j e b a t e r k á m	0.07262483984231949	0
+j e b a t e r k y	j e b a t e r k y	0.07437531650066376	0
+j e b a t e r k y	j e b a t e r k y	0.07416371256113052	0
+j e b a t e r k á c h	j e b a t e r k á c h	0.07149262726306915	0
+j e b a t e r k a m i	j e b a t e r k a m i	0.07230903953313828	0
+e u r o p š t i n a	e u r o p š t i n a	0.07750675082206726	0
+e u r o p š t i n y	e u r o p š t i n y	0.07537910342216492	0
+e u r o p š t i n ě	e u r o p š t i n ě	0.07320171594619751	0
+e u r o p š t i n u	e u r o p š t i n u	0.07454156875610352	0
+e u r o p š t i n o	e u r o p š t i n o	0.0740860179066658	0
+e u r o p š t i n ě	e u r o p š t i n ě	0.07317964732646942	0
+e u r o p š t i n o u	e u r o p š t i n o u	0.073773093521595	0
+e u r o p š t i n y	e u r o p š t i n y	0.07528921961784363	0
+e u r o p š t i n	e u r o p š t i n	0.07420895248651505	0
+e u r o p š t i n á m	e u r o p š t i n á m	0.07376689463853836	0
+e u r o p š t i n y	e u r o p š t i n y	0.07549354434013367	0
+e u r o p š t i n y	e u r o p š t i n y	0.07527972012758255	0
+e u r o p š t i n á c h	e u r o p š t i n á c h	0.07307669520378113	0
+e u r o p š t i n a m i	e u r o p š t i n a m i	0.07346666604280472	0
+j e ž í š p e k	j e ž í š p e k	0.07209818810224533	0
+j e ž í š p k u	j e ž í š p e k u	0.7155740261077881	1
+j e ž í š p k u	j e ž í š p e k u	0.6909173130989075	1
+j e ž í š p e k	j e ž í š p e k	0.07429759949445724	0
+j e ž í š p k u	j e ž í š p e k u	0.6999255418777466	1
+j e ž í š p k u	j e ž í š p e k u	0.6846067905426025	1
+j e ž í š p k e m	j e ž í š p e k e m	0.6397511959075928	1
+j e ž í š p k y	j e ž í š p e k y	0.6503623723983765	1
+j e ž í š p k ů	j e ž í š p e k ů	0.7109720706939697	1
+j e ž í š p k ů m	j e ž í š p e k ů m	0.641700267791748	1
+j e ž í š p k y	j e ž í š p e k y	0.7202600240707397	1
+j e ž í š p k y	j e ž í š p e k y	0.652748703956604	1
+j e ž í š p c í c h	j e ž í š p e c í c h	0.5230250358581543	1
+j e ž í š p k y	j e ž í š p e k y	0.7112783193588257	1
+e u r o k o l c h o z	e u r o k o l c h o z	0.07786652445793152	0
+e u r o k o l c h o z u	e u r o k o l c h o z u	0.0768309161067009	0
+e u r o k o l c h o z u	e u r o k o l c h o z u	0.07667947560548782	0
+e u r o k o l c h o z	e u r o k o l c h o z	0.07507390528917313	0
+e u r o k o l c h o z e	e u r o k o l c h o z e	0.07521818578243256	0
+e u r o k o l c h o z u	e u r o k o l c h o z u	0.1011689081788063	0
+e u r o k o l c h o z e m	e u r o k o l c h o z e m	0.07492576539516449	0
+e u r o k o l c h o z y	e u r o k o l c h o z y	0.07577591389417648	0
+e u r o k o l c h o z ů	e u r o k o l c h o z ů	0.07513148337602615	0
+e u r o k o l c h o z ů m	e u r o k o l c h o z ů m	0.07432634383440018	0
+e u r o k o l c h o z y	e u r o k o l c h o z y	0.07601907849311829	0
+e u r o k o l c h o z y	e u r o k o l c h o z y	0.07577560842037201	0
+e u r o k o l c h o z e c h	e u r o k o l c h o z e c h	0.07439924776554108	0
+e u r o k o l c h o z y	e u r o k o l c h o z y	0.07549789547920227	0
+e u r o b l o u z n ě n í	e u r o b l o u z n ě n í	0.07623733580112457	0
+e u r o b l o u z n ě n í	e u r o b l o u z n ě n í	0.07632952183485031	0
+e u r o b l o u z n ě n í	e u r o b l o u z n ě n í	0.07634668797254562	0
+e u r o b l o u z n ě n í	e u r o b l o u z n ě n í	0.07628639787435532	0
+e u r o b l o u z n ě n í	e u r o b l o u z n ě n í	0.07629698514938354	0
+e u r o b l o u z n ě n í	e u r o b l o u z n ě n í	0.07633233070373535	0
+e u r o b l o u z n ě n í m	e u r o b l o u z n ě n í m	0.07584163546562195	0
+e u r o b l o u z n ě n í	e u r o b l o u z n ě n í	0.07642011344432831	0
+e u r o b l o u z n ě n í	e u r o b l o u z n ě n í	0.07639609277248383	0
+e u r o b l o u z n ě n í m	e u r o b l o u z n ě n í m	0.07578101009130478	0
+e u r o b l o u z n ě n í	e u r o b l o u z n ě n í	0.07643341273069382	0
+e u r o b l o u z n ě n í	e u r o b l o u z n ě n í	0.07641567289829254	0
+e u r o b l o u z n ě n í c h	e u r o b l o u z n ě n í c h	0.07524316012859344	0
+e u r o b l o u z n ě n í m i	e u r o b l o u z n ě n í m i	0.0758100301027298	0
+e t n o p í č a	e t n o p í č a	0.07816523313522339	0
+e t n o p í č i	e t n o p í č i	0.09815672785043716	0
+e t n o p í č e	e t n o p í č i <UNK> e t n o p í č e	3.4327075481414795	9
+e t n o p í č u	e t n o p í č u	0.0739012062549591	0
+e t n o p í č o	e t n o p í č o	0.0734565407037735	0
+e t n o p í č e	e t n o p í č e <UNK> e t n o p í č i	3.2774407863616943	9
+e t n o p í č o u	e t n o p í č o u	0.07302021235227585	0
+e t n o p í č i	e t n o p í č i	0.09563492983579636	0
+e t n o p í č	e t n o p í č	0.07156012952327728	0
+e t n o p í č á m	e t n o p í č á m	0.07348901033401489	0
+e t n o p í č i	e t n o p í č i	0.09630992263555527	0
+e t n o p í č i	e t n o p í č i	0.09477652609348297	0
+e t n o p í č á c h	e t n o p í č á c h	0.07246875762939453	0
+e t n o p í č a m i	e t n o p í č a m i	0.07323786616325378	0
+e r e k t o m o b i l	e r e k t o m o b i l	0.07847876101732254	0
+e r e k t o m o b i l u	e r e k t o m o b i l u	0.07746811956167221	0
+e r e k t o m o b i l u	e r e k t o m o b i l u	0.07933144271373749	0
+e r e k t o m o b i l	e r e k t o m o b i l	0.07682476192712784	0
+e r e k t o m o b i l e	e r e k t o m o b i l e	0.07635503262281418	0
+e r e k t o m o b i l u	e r e k t o m o b i l u	0.08640433102846146	0
+e r e k t o m o b i l e m	e r e k t o m o b i l e m	0.07581869512796402	0
+e r e k t o m o b i l y	e r e k t o m o b i l y	0.07747900485992432	0
+e r e k t o m o b i l ů	e r e k t o m o b i l ů	0.07602386921644211	0
+e r e k t o m o b i l ů m	e r e k t o m o b i l ů m	0.07529664784669876	0
+e r e k t o m o b i l y	e r e k t o m o b i l y	0.07682449370622635	0
+e r e k t o m o b i l y	e r e k t o m o b i l y	0.07743345946073532	0
+e r e k t o m o b i l e c h	e r e k t o m o b i l e c h	0.07552016526460648	0
+e r e k t o m o b i l y	e r e k t o m o b i l y	0.07655216008424759	0
+e l e k t r o z m r d	e l e k t r o z m r d	0.07813595980405807	0
+e l e k t r o z m r d u	e l e k t r o z m r d a	0.3728776276111603	1
+e l e k t r o z m r d u	e l e k t r o z m r d o v i <UNK> e l e k t r o z m r d u	2.7946743965148926	15
+e l e k t r o z m r d	e l e k t r o z m r d a	0.4182629883289337	1
+e l e k t r o z m r d e	e l e k t r o z m r d e	0.07645062357187271	0
+e l e k t r o z m r d u	e l e k t r o z m r d o v i <UNK> e l e k t r o z m r d u	2.904693841934204	15
+e l e k t r o z m r d e m	e l e k t r o z m r d e m	0.07574200630187988	0
+e l e k t r o z m r d y	e l e k t r o z m r d i <UNK> e l e k t r o z m r d o v é	3.06795334815979	16
+e l e k t r o z m r d ů	e l e k t r o z m r d ů	0.07578112185001373	0
+e l e k t r o z m r d ů m	e l e k t r o z m r d ů m	0.07499396055936813	0
+e l e k t r o z m r d y	e l e k t r o z m r d y	0.07681159675121307	0
+e l e k t r o z m r d y	e l e k t r o z m r d i <UNK> e l e k t r o z m r d o v é	3.0677056312561035	16
+e l e k t r o z m r d e c h	e l e k t r o z m r d e c h	0.07561361789703369	0
+e l e k t r o z m r d y	e l e k t r o z m r d y	0.07666029036045074	0
+e k o l o	e k o l o	0.0810428187251091	0
+e k o l a	e k o l a	0.0713457465171814	0
+e k o l u	e k o l u	0.0733492448925972	0
+e k o l o	e k o l o	0.07386556267738342	0
+e k o l o	e k o l o	0.07780009508132935	0
+e k o l e	e k o l u	0.7542600035667419	1
+e k o l e m	e k o l e m	0.07282758504152298	0
+e k o l a	e k o l a	0.10525590181350708	0
+e k o l	e k o l	0.12167920917272568	0
+e k o l ů m	e k o l ů m	0.1003139466047287	0
+e k o l a	e k o l a	0.09402129054069519	0
+e k o l a	e k o l a	0.10632523149251938	0
+e k o l e c h	e k o l e c h	0.08788271248340607	0
+e k o l y	e k o l y	0.09961694478988647	0
+e j a k o l a p s	e j a k o l a p s	0.07812045514583588	0
+e j a k o l a p s u	e j a k o l a p s u	0.07636573910713196	0
+e j a k o l a p s u	e j a k o l a p s u	0.07664806395769119	0
+e j a k o l a p s	e j a k o l a p s	0.07478803396224976	0
+e j a k o l a p s e	e j a k o l a p s e	0.07525572180747986	0
+e j a k o l a p s u	e j a k o l a p s u	0.1217455342411995	0
+e j a k o l a p s e m	e j a k o l a p s e m	0.07462888211011887	0
+e j a k o l a p s y	e j a k o l a p s y	0.07563081383705139	0
+e j a k o l a p s ů	e j a k o l a p s ů	0.07439010590314865	0
+e j a k o l a p s ů m	e j a k o l a p s ů m	0.07357565313577652	0
+e j a k o l a p s y	e j a k o l a p s y	0.07618916779756546	0
+e j a k o l a p s y	e j a k o l a p s y	0.07561718672513962	0
+e j a k o l a p s e c h	e j a k o l a p s e c h	0.0739983394742012	0
+e j a k o l a p s y	e j a k o l a p s y	0.07527031004428864	0
+j a p š t i n a	j a p š t i n a	0.07641731202602386	0
+j a p š t i n y	j a p š t i n y	0.07355961948633194	0
+j a p š t i n ě	j a p š t i n ě	0.07080965489149094	0
+j a p š t i n u	j a p š t i n u	0.07267981767654419	0
+j a p š t i n o	j a p š t i n o	0.07220631837844849	0
+j a p š t i n ě	j a p š t i n ě	0.0708329975605011	0
+j a p š t i n o u	j a p š t i n o u	0.07187609374523163	0
+j a p š t i n y	j a p š t i n y	0.07341954112052917	0
+j a p š t i n	j a p š t i n	0.07153371721506119	0
+j a p š t i n á m	j a p š t i n á m	0.07154369354248047	0
+j a p š t i n y	j a p š t i n y	0.07370146363973618	0
+j a p š t i n y	j a p š t i n y	0.0734112560749054	0
+j a p š t i n á c h	j a p š t i n á c h	0.07102756202220917	0
+j a p š t i n a m i	j a p š t i n a m i	0.07191678881645203	0
+e n e m á k	e n e m á k	0.07726369798183441	0
+e n e m á k u	e n e m á k a	0.1702791452407837	1
+e n e m á k o v i	e n e m á k o v i <UNK> e n e m á k u	2.5827507972717285	8
+e n e m á k	e n e m á k a	0.16528251767158508	1
+e n e m á k u	e n e m á k u	0.07180707901716232	0
+e n e m á k o v i	e n e m á k o v i <UNK> e n e m á k u	2.6815004348754883	8
+e n e m á k e m	e n e m á k e m	0.07230643928050995	0
+e n e m á c i	e n e m á c i <UNK> e n e m á k o v é	2.096402883529663	10
+e n e m á k ů	e n e m á k ů	0.07277704030275345	0
+e n e m á k ů m	e n e m á k ů m	0.07201414555311203	0
+e n e m á k y	e n e m á k y	0.0740174725651741	0
+e n e m á c i	e n e m á c i <UNK> e n e m á k o v é	2.1006736755371094	10
+e n e m á c í c h	e n e m á c í c h	0.0697207897901535	0
+e n e m á k y	e n e m á k y	0.07373680174350739	0
+j o b s e s e	j o b s e s e	0.07678282260894775	0
+j o b s e s e	j o b s e s e	0.07293890416622162	0
+j o b s e s i	j o b s e s i	0.07272160053253174	0
+j o b s e s i	j o b s e s i	0.07264421880245209	0
+j o b s e s e	j o b s e s e	0.07299642264842987	0
+j o b s e s i	j o b s e s i	0.07264634221792221	0
+j o b s e s í	j o b s e s í	0.07224833220243454	0
+j o b s e s e	j o b s e s e	0.07359349727630615	0
+j o b s e s í	j o b s e s í	0.07187646627426147	0
+j o b s e s í m	j o b s e s í m	0.07108785212039948	0
+j o b s e s e	j o b s e s e	0.07363211363554001	0
+j o b s e s e	j o b s e s e	0.07358093559741974	0
+j o b s e s í c h	j o b s e s í c h	0.07109083235263824	0
+j o b s e s e m i	j o b s e s e m i	0.07151641696691513	0
+e k o f r n d a	e k o f r n d a	0.07691525667905807	0
+e k o f r n d y	e k o f r n d y	0.07434595376253128	0
+e k o f r n d ě	e k o f r n d ě	0.07557845860719681	0
+e k o f r n d u	e k o f r n d u	0.07359263300895691	0
+e k o f r n d o	e k o f r n d o	0.07362061738967896	0
+e k o f r n d ě	e k o f r n d ě	0.0758504793047905	0
+e k o f r n d o u	e k o f r n d o u	0.07302437722682953	0
+e k o f r n d y	e k o f r n d y	0.07604139298200607	0
+e k o f r n d	e k o f r n d	0.0749494880437851	0
+e k o f r n d á m	e k o f r n d á m	0.07659044861793518	0
+e k o f r n d y	e k o f r n d y	0.07455018162727356	0
+e k o f r n d y	e k o f r n d y	0.07598619163036346	0
+e k o f r n d á c h	e k o f r n d á c h	0.07433807849884033	0
+e k o f r n d a m i	e k o f r n d a m i	0.07462938874959946	0
+j a t e r á k	j a t e r á k	0.07694383710622787	0
+j a t e r á k u	j a t e r á k u	0.14296992123126984	0
+j a t e r á k o v i	j a t e r á k u	0.15872780978679657	3
+j a t e r á k a	j a t e r á k	0.15987762808799744	1
+j a t e r á k u	j a t e r á k u	0.07244051992893219	0
+j a t e r á k o v i	j a t e r á k u	0.16022340953350067	3
+j a t e r á k e m	j a t e r á k e m	0.0724811926484108	0
+j a t e r á k y	j a t e r á k y	0.14225228130817413	0
+j a t e r á k ů	j a t e r á k ů	0.07303520292043686	0
+j a t e r á k ů m	j a t e r á k ů m	0.07232742756605148	0
+j a t e r á k y	j a t e r á k y	0.0741133987903595	0
+j a t e r á k y	j a t e r á k y	0.14146165549755096	0
+j a t e r á c í c h	j a t e r á c í c h	0.0705600306391716	0
+j a t e r á k y	j a t e r á k y	0.07380333542823792	0
+e k o k o t	e k o k o t	0.08065634965896606	0
+e k o k o t u	e k o k o t a	0.33236852288246155	1
+e k o k o t u	e k o k o t o v i <UNK> e k o k o t u	2.96344256401062	10
+e k o k o t	e k o k o t a	0.41530779004096985	1
+e k o k o t e	e k o k o t e	0.07705153524875641	0
+e k o k o t u	e k o k o t o v i <UNK> e k o k o t u	3.0755510330200195	10
+e k o k o t e m	e k o k o t e m	0.07558249682188034	0
+e k o k o t y	e k o k o t i <UNK> e k o k o t o v é	2.757462739944458	11
+e k o k o t ů	e k o k o t ů	0.07606012374162674	0
+e k o k o t ů m	e k o k o t ů m	0.07463240623474121	0
+e k o k o t y	e k o k o t y	0.07798140496015549	0
+e k o k o t y	e k o k o t i <UNK> e k o k o t o v é	2.758913278579712	11
+e k o k o t e c h	e k o k o t e c h	0.07582192867994308	0
+e k o k o t y	e k o k o t y	0.0775718241930008	0
+j e d ň o u r	j e d ň o u r	0.07264743745326996	0
+j e d ň o u r u	j e d ň o u r a	0.16054092347621918	1
+j e d ň o u r u	j e d ň o u r o v i <UNK> j e d ň o u r u	2.7752721309661865	11
+j e d ň o u r	j e d ň o u r a	0.1561247706413269	1
+j e d ň o u r e	j e d ň o u r e	0.07018487900495529	0
+j e d ň o u r o v i	j e d ň o u r o v i <UNK> j e d ň o u r u	2.741398811340332	9
+j e d ň o u r e m	j e d ň o u r e m	0.06976281106472015	0
+j e d ň o u ř i	j e d ň o u r y	0.15110468864440918	2
+j e d ň o u r ů	j e d ň o u r ů	0.06953117996454239	0
+j e d ň o u r ů m	j e d ň o u r ů m	0.06924130022525787	0
+j e d ň o u r y	j e d ň o u r y	0.07061945647001266	0
+j e d ň o u ř i	j e d ň o u r y	0.1507548987865448	2
+j e d ň o u r e c h	j e d ň o u r e c h	0.06983184069395065	0
+j e d ň o u r y	j e d ň o u r y	0.07045716792345047	0
+e m e n t á l i s m u s	e m e n t á l i s m u s	0.07702862471342087	0
+e m e n t á l i s m u	e m e n t á l i s m u	0.07331129163503647	0
+e m e n t á l i s m u	e m e n t á l i s m u	0.07375992089509964	0
+e m e n t á l i s m u s	e m e n t á l i s m u s	0.07449515908956528	0
+e m e n t á l i s m e	e m e n t á l i s m e	0.07539298385381699	0
+e m e n t á l i s m u	e m e n t á l i s m u	0.07378392666578293	0
+e m e n t á l i s m e m	e m e n t á l i s m e m	0.0746438056230545	0
+e m e n t á l i s m y	e m e n t á l i s m y	0.07522129267454147	0
+e m e n t á l i s m ů	e m e n t á l i s m ů	0.07464039325714111	0
+e m e n t á l i s m ů m	e m e n t á l i s m ů m	0.07382237911224365	0
+e m e n t á l i s m y	e m e n t á l i s m y	0.07580380886793137	0
+e m e n t á l i s m y	e m e n t á l i s m y	0.07521456480026245	0
+e m e n t á l i s m e c h	e m e n t á l i s m e c h	0.07445206493139267	0
+e m e n t á l i s m y	e m e n t á l i s m y	0.07538367062807083	0
+j e d ň á č e k	j e d ň á č e k	0.072427898645401	0
+j e d ň á č k u	j e d ň á č k a <UNK> j e d ň á č k u	2.22356915473938	9
+j e d ň á č k u	j e d ň á č k o v i <UNK> j e d ň á č k u	2.6352732181549072	11
+j e d ň á č e k	j e d ň á č k a	0.14579398930072784	2
+j e d ň á č k u	j e d ň á č k u	0.0658412054181099	0
+j e d ň á č k u	j e d ň á č k o v i <UNK> j e d ň á č k u	2.648946523666382	11
+j e d ň á č k e m	j e d ň á č k e m	0.06663663685321808	0
+j e d ň á č k y	j e d ň á č k y <UNK> j e d ň á č c i	1.7497496604919434	9
+j e d ň á č k ů	j e d ň á č k ů	0.06648910045623779	0
+j e d ň á č k ů m	j e d ň á č k ů m	0.06649190187454224	0
+j e d ň á č k y	j e d ň á č k y	0.06752527505159378	0
+j e d ň á č k y	j e d ň á č k y <UNK> j e d ň á č c i	1.7506376504898071	9
+j e d ň á č c í c h	j e d ň á č c í c h	0.06664811819791794	0
+j e d ň á č k y	j e d ň á č k y	0.06729796528816223	0
+j a n d a k o n d a	j a n d a k o n d a	0.0778595507144928	0
+j a n d a k o n d y	j a n d a k o n d y	0.07601474970579147	0
+j a n d a k o n d ě	j a n d a k o n d ě	0.07374942302703857	0
+j a n d a k o n d u	j a n d a k o n d u	0.07502026855945587	0
+j a n d a k o n d o	j a n d a k o n d o	0.07483088970184326	0
+j a n d a k o n d ě	j a n d a k o n d ě	0.07379168272018433	0
+j a n d a k o n d o u	j a n d a k o n d o u	0.07411651313304901	0
+j a n d a k o n d y	j a n d a k o n d y	0.07651016116142273	0
+j a n d a k o n d	j a n d a k o n d	0.07448741048574448	0
+j a n d a k o n d á m	j a n d a k o n d á m	0.07386307418346405	0
+j a n d a k o n d y	j a n d a k o n d y	0.0761905387043953	0
+j a n d a k o n d y	j a n d a k o n d y	0.07650542259216309	0
+j a n d a k o n d á c h	j a n d a k o n d á c h	0.07345755398273468	0
+j a n d a k o n d a m i	j a n d a k o n d a m i	0.07386517524719238	0
+e d v e n č u r á k	e d v e n č u r á k	0.07664412260055542	0
+e d v e n č u r á k a	e d v e n č u r á k a	0.1033720150589943	0
+e d v e n č u r á k o v i	e d v e n č u r á k o v i <UNK> e d v e n č u r á k u	2.7991538047790527	12
+e d v e n č u r á k a	e d v e n č u r á k a	0.09986155480146408	0
+e d v e n č u r á k u	e d v e n č u r á k u	0.07304387539625168	0
+e d v e n č u r á k o v i	e d v e n č u r á k o v i <UNK> e d v e n č u r á k u	2.7786569595336914	12
+e d v e n č u r á k e m	e d v e n č u r á k e m	0.0733465701341629	0
+e d v e n č u r á c i	e d v e n č u r á c i <UNK> e d v e n č u r á k o v é	3.2700083255767822	14
+e d v e n č u r á k ů	e d v e n č u r á k ů	0.07362416386604309	0
+e d v e n č u r á k ů m	e d v e n č u r á k ů m	0.07305866479873657	0
+e d v e n č u r á k y	e d v e n č u r á k y	0.0743618905544281	0
+e d v e n č u r á c i	e d v e n č u r á c i <UNK> e d v e n č u r á k o v é	3.2691731452941895	14
+e d v e n č u r á c í c h	e d v e n č u r á c í c h	0.0717785507440567	0
+e d v e n č u r á k y	e d v e n č u r á k y	0.07414805889129639	0
+j e b a r á k	j e b a r á k	0.07573787868022919	0
+j e b a r á k u	j e b a r á k u	0.13370710611343384	0
+j e b a r á k o v i	j e b a r á k u	0.1519642472267151	3
+j e b a r á k	j e b a r á k	0.15134793519973755	0
+j e b a r á k u	j e b a r á k u	0.07148025184869766	0
+j e b a r á k o v i	j e b a r á k u	0.15271088480949402	3
+j e b a r á k e m	j e b a r á k e m	0.07164716720581055	0
+j e b a r á k y	j e b a r á k y	0.14073410630226135	0
+j e b a r á k ů	j e b a r á k ů	0.07208318263292313	0
+j e b a r á k ů m	j e b a r á k ů m	0.07147256284952164	0
+j e b a r á k y	j e b a r á k y	0.07313935458660126	0
+j e b a r á k y	j e b a r á k y	0.14008931815624237	0
+j e b a r á c í c h	j e b a r á c í c h	0.06973057240247726	0
+j e b a r á k y	j e b a r á k y	0.07281427830457687	0
+e k o b i o	e k o b i o	0.07997768372297287	0
+e k o b i a	e k o b i a	0.0723894014954567	0
+e k o b i u	e k o b i u <UNK> e k o b i o v i	2.703213930130005	9
+e k o b i o	e k o b i o	0.0731055960059166	0
+e k o b i o	e k o b i o	0.07693243026733398	0
+e k o b i u	e k o b i u <UNK> e k o b i o v i	2.7231829166412354	9
+e k o b i e m	e k o b i e m	0.07282217592000961	0
+e k o b i a	e k o b i o v é <UNK> e k o b i a	3.3271613121032715	9
+e k o b i í	e k o b i ů	0.7950553894042969	1
+e k o b i í m	e k o b i ů m	0.38091352581977844	1
+e k o b i a	e k o b i e	0.5244894623756409	1
+e k o b i a	e k o b i o v é <UNK> e k o b i a	3.3187124729156494	9
+e k o b i í c h	e k o b i í c h	0.09839512407779694	0
+e k o b i i	e k o b i i	0.12140613794326782	0
+e g o s y s t é m	e g o s y s t é m	0.07314920425415039	0
+e g o s y s t é m u	e g o s y s t é m u	0.07576406747102737	0
+e g o s y s t é m u	e g o s y s t é m u	0.07099642604589462	0
+e g o s y s t é m	e g o s y s t é m	0.06909164041280746	0
+e g o s y s t é m e	e g o s y s t é m e	0.07066918164491653	0
+e g o s y s t é m u	e g o s y s t é m u	0.07562427967786789	0
+e g o s y s t é m e m	e g o s y s t é m e m	0.07060167193412781	0
+e g o s y s t é m y	e g o s y s t é m y	0.07038449496030807	0
+e g o s y s t é m ů	e g o s y s t é m ů	0.06990055739879608	0
+e g o s y s t é m ů m	e g o s y s t é m ů m	0.06967473775148392	0
+e g o s y s t é m y	e g o s y s t é m y	0.0711396262049675	0
+e g o s y s t é m y	e g o s y s t é m y	0.07037956267595291	0
+e g o s y s t é m e c h	e g o s y s t é m e c h	0.07079385966062546	0
+e g o s y s t é m y	e g o s y s t é m y	0.07112091034650803	0
+j á v k a	j á v k a	0.07535804808139801	0
+j á v k y	j á v k y	0.07046627998352051	0
+j á v c e	j á v c e	0.06267521530389786	0
+j á v k u	j á v k u	0.0691847875714302	0
+j á v k o	j á v k o	0.06848794221878052	0
+j á v c e	j á v c e	0.06269951164722443	0
+j á v k o u	j á v k o u	0.06848622858524323	0
+j á v k y	j á v k y	0.07030889391899109	0
+j á v e k	j á v e k	0.06531735509634018	0
+j á v k á m	j á v k á m	0.06873472034931183	0
+j á v k y	j á v k y	0.07063055038452148	0
+j á v k y	j á v k y	0.0703200027346611	0
+j á v k á c h	j á v k á c h	0.0657276064157486	0
+j á v k a m i	j á v k a m i	0.06847774237394333	0
+e j k a	e j k a	0.07540030032396317	0
+e j k y	e j k y	0.06956110149621964	0
+e j c e	e j c e	0.05986444279551506	0
+e j k u	e j k u	0.0681038498878479	0
+e j k o	e j k o	0.06739248335361481	0
+e j c e	e j c e	0.059781886637210846	0
+e j k o u	e j k o u	0.06737100332975388	0
+e j k y	e j k y	0.06944745779037476	0
+e j e k	e j e k	0.06473992019891739	0
+e j k á m	e j k á m	0.0664578378200531	0
+e j k y	e j k y	0.0696466714143753	0
+e j k y	e j k y	0.06943554431200027	0
+e j k á c h	e j k á c h	0.06452210247516632	0
+e j k a m i	e j k a m i	0.06702075898647308	0
+e u r o s v a z	e u r o s v a z	0.07882966846227646	0
+e u r o s v a z u	e u r o s v a z u	0.08115097135305405	0
+e u r o s v a z u	e u r o s v a z u	0.08096252381801605	0
+e u r o s v a z	e u r o s v a z	0.0786193460226059	0
+e u r o s v a z e	e u r o s v a z e	0.07560137659311295	0
+e u r o s v a z u	e u r o s v a z u	0.12141440808773041	0
+e u r o s v a z e m	e u r o s v a z e m	0.07502175122499466	0
+e u r o s v a z y	e u r o s v a z y	0.07775907963514328	0
+e u r o s v a z ů	e u r o s v a z ů	0.07484982907772064	0
+e u r o s v a z ů m	e u r o s v a z ů m	0.07389487326145172	0
+e u r o s v a z y	e u r o s v a z y	0.0758913904428482	0
+e u r o s v a z y	e u r o s v a z y	0.07774379104375839	0
+e u r o s v a z e c h	e u r o s v a z e c h	0.0742826834321022	0
+e u r o s v a z y	e u r o s v a z y	0.07533140480518341	0
+e m o p o r n o	e m o p o r n o	0.08026531338691711	0
+e m o p o r n a	e m o p o r n a	0.07404647767543793	0
+e m o p o r n u	e m o p o r n u	0.07529657334089279	0
+e m o p o r n o	e m o p o r n o	0.07551455497741699	0
+e m o p o r n o	e m o p o r n o	0.07874345034360886	0
+e m o p o r n ě	e m o p o r n u	0.30174505710601807	1
+e m o p o r n e m	e m o p o r n e m	0.07453550398349762	0
+e m o p o r n a	e m o p o r n a	0.0875576063990593	0
+e m o p o r e n	e m o p o r e n	0.08854808658361435	0
+e m o p o r n ů m	e m o p o r n ů m	0.08580102771520615	0
+e m o p o r n a	e m o p o r n a	0.08348241448402405	0
+e m o p o r n a	e m o p o r n a	0.08742716908454895	0
+e m o p o r n e c h	e m o p o r n e c h	0.0826311782002449	0
+e m o p o r n y	e m o p o r n y	0.08515579998493195	0
+e x e m a f i e	e x e m a f i e	0.07304010540246964	0
+e x e m a f i e	e x e m a f i e	0.06989281624555588	0
+e x e m a f i i	e x e m a f i i	0.06955823302268982	0
+e x e m a f i i	e x e m a f i i	0.06873472779989243	0
+e x e m a f i e	e x e m a f i e	0.07010599970817566	0
+e x e m a f i i	e x e m a f i i	0.06946832686662674	0
+e x e m a f i í	e x e m a f i í	0.0690755844116211	0
+e x e m a f i e	e x e m a f i e	0.06991925835609436	0
+e x e m a f i í	e x e m a f i í	0.06902983784675598	0
+e x e m a f i í m	e x e m a f i í m	0.06853353977203369	0
+e x e m a f i e	e x e m a f i e	0.07012374699115753	0
+e x e m a f i e	e x e m a f i e	0.06992480158805847	0
+e x e m a f i í c h	e x e m a f i í c h	0.06887156516313553	0
+e x e m a f i e m i	e x e m a f i e m i	0.07020276039838791	0
+j e b k a	j e b k a	0.0750466138124466	0
+j e b k y	j e b k y	0.06998864561319351	0
+j e b c e	j e b c e	0.062354762107133865	0
+j e b k u	j e b k u	0.06877776980400085	0
+j e b k o	j e b k o	0.06814686208963394	0
+j e b c e	j e b c e	0.062372658401727676	0
+j e b k o u	j e b k o u	0.0679934173822403	0
+j e b k y	j e b k y	0.06956762820482254	0
+j e b e k	j e b e k	0.06429202109575272	0
+j e b k á m	j e b k á m	0.0676707848906517	0
+j e b k y	j e b k y	0.06977447122335434	0
+j e b k y	j e b k y	0.06958203762769699	0
+j e b k á c h	j e b k á c h	0.06487062573432922	0
+j e b k a m i	j e b k a m i	0.06770659983158112	0

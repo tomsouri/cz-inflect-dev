@@ -1,0 +1,377 @@
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: seed - 0
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: train - ['../../../part1/development_languages/morfflex_large.train']
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: dev - ['../../../part1/development_languages/morfflex.dev']
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: test - ['../../../part1/development_languages/morfflex.test']
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: model - 'checkpoints/sig22/transformer/morfflex_large'
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: load - ''
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: bs - 400
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: epochs - 20
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: max_steps - 4000
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: warmup_steps - 4000
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: total_eval - 50
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: optimizer - <Optimizer.adam: 'adam'>
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: scheduler - <Scheduler.warmupinvsqr: 'warmupinvsqr'>
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: lr - 0.001
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: min_lr - 1e-05
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: momentum - 0.9
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: beta1 - 0.9
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: beta2 - 0.98
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: estop - 1e-08
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: cooldown - 0
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: patience - 0
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: discount_factor - 0.5
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: max_norm - 1.0
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: gpuid - [0]
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: loglevel - 'info'
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: saveall - False
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: shuffle - True
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: cleanup_anyway - True
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: dataset - <Data.sigmorphon17task1: 'sigmorphon17task1'>
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: max_seq_len - 128
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: max_decode_len - 32
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: decode_beam_size - 5
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: init - ''
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: dropout - 0.3
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: embed_dim - 256
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: nb_heads - 4
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: src_layer - 4
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: trg_layer - 4
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: src_hs - 1024
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: trg_hs - 1024
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: label_smooth - 0.1
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: tie_trg_embed - False
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: arch - <Arch.transformer: 'transformer'>
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: nb_sample - 2
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: wid_siz - 11
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: indtag - False
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: decode - <Decode.greedy: 'greedy'>
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: mono - False
+INFO - 07/12/23 12:30:21 - 0:00:00 - command line argument: bestacc - True
+INFO - 07/12/23 12:30:35 - 0:00:15 - src vocab size 121
+INFO - 07/12/23 12:30:35 - 0:00:15 - trg vocab size 112
+INFO - 07/12/23 12:30:35 - 0:00:15 - src vocab ['<PAD>', '<BOS>', '<EOS>', '<UNK>', '1', '2', '3', '?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '´', 'Á', 'É', 'Í', 'Ó', 'Ö', 'Ú', 'á', 'â', 'ä', 'ç', 'é', 'ë', 'í', 'î', 'ó', 'ô', 'ö', 'ú', 'ü', 'ý', 'ă', 'ą', 'ć', 'Č', 'č', 'Ď', 'ď', 'ę', 'ě', 'Ĺ', 'ĺ', 'Ľ', 'ľ', 'ł', 'ń', 'Ň', 'ň', 'ő', 'Ř', 'ř', 'ś', 'ş', 'Š', 'š', 'Ť', 'ť', 'ů', 'ű', 'ż', 'Ž', 'ž', '1', '2', '3', '4', '5', '6', '7', 'P', 'S']
+INFO - 07/12/23 12:30:35 - 0:00:15 - trg vocab ['<PAD>', '<BOS>', '<EOS>', '<UNK>', '1', '2', '3', '?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '´', 'Á', 'É', 'Í', 'Ó', 'Ö', 'Ú', 'á', 'â', 'ä', 'ç', 'é', 'ë', 'í', 'î', 'ó', 'ô', 'ö', 'ú', 'ü', 'ý', 'ă', 'ą', 'ć', 'Č', 'č', 'Ď', 'ď', 'ę', 'ě', 'Ĺ', 'ĺ', 'Ľ', 'ľ', 'ł', 'ń', 'Ň', 'ň', 'ő', 'Ř', 'ř', 'ś', 'ş', 'Š', 'š', 'Ť', 'ť', 'ů', 'ű', 'ż', 'Ž', 'ž']
+INFO - 07/12/23 12:30:37 - 0:00:16 - model: Transformer(
+                                       (src_embed): Embedding(121, 256, padding_idx=0)
+                                       (trg_embed): Embedding(112, 256, padding_idx=0)
+                                       (position_embed): SinusoidalPositionalEmbedding()
+                                       (encoder): TransformerEncoder(
+                                         (layers): ModuleList(
+                                           (0): TransformerEncoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (1): TransformerEncoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (2): TransformerEncoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (3): TransformerEncoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                         )
+                                         (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                       )
+                                       (decoder): TransformerDecoder(
+                                         (layers): ModuleList(
+                                           (0): TransformerDecoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (multihead_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm3): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (1): TransformerDecoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (multihead_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm3): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (2): TransformerDecoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (multihead_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm3): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (3): TransformerDecoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (multihead_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm3): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                         )
+                                         (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                       )
+                                       (final_out): Linear(in_features=256, out_features=112, bias=True)
+                                       (dropout): Dropout(p=0.3, inplace=False)
+                                     )
+INFO - 07/12/23 12:30:37 - 0:00:16 - number of parameter 7462256
+INFO - 07/12/23 12:31:15 - 0:00:54 - maximum training 12595 steps (1 epochs)
+INFO - 07/12/23 12:31:15 - 0:00:54 - evaluate every 1 epochs
+INFO - 07/12/23 12:31:15 - 0:00:54 - At 0-th epoch with lr 0.000000.
+INFO - 07/12/23 13:09:32 - 0:39:11 - Running average train loss is 0.9015627451764539 at epoch 0
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: seed - 0
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: train - ['../../../part1/development_languages/morfflex_large.train']
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: dev - ['../../../part1/development_languages/morfflex.dev']
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: test - ['../../../part1/development_languages/morfflex.test']
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: model - 'checkpoints/sig22/transformer/morfflex_large'
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: load - ''
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: bs - 400
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: epochs - 20
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: max_steps - 20000
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: warmup_steps - 4000
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: total_eval - 50
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: optimizer - <Optimizer.adam: 'adam'>
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: scheduler - <Scheduler.warmupinvsqr: 'warmupinvsqr'>
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: lr - 0.001
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: min_lr - 1e-05
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: momentum - 0.9
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: beta1 - 0.9
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: beta2 - 0.98
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: estop - 1e-08
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: cooldown - 0
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: patience - 0
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: discount_factor - 0.5
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: max_norm - 1.0
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: gpuid - [0]
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: loglevel - 'info'
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: saveall - False
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: shuffle - True
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: cleanup_anyway - True
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: dataset - <Data.sigmorphon17task1: 'sigmorphon17task1'>
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: max_seq_len - 128
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: max_decode_len - 32
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: decode_beam_size - 5
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: init - ''
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: dropout - 0.3
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: embed_dim - 256
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: nb_heads - 4
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: src_layer - 4
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: trg_layer - 4
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: src_hs - 1024
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: trg_hs - 1024
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: label_smooth - 0.1
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: tie_trg_embed - False
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: arch - <Arch.transformer: 'transformer'>
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: nb_sample - 2
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: wid_siz - 11
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: indtag - False
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: decode - <Decode.greedy: 'greedy'>
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: mono - False
+INFO - 07/12/23 14:41:31 - 0:00:00 - command line argument: bestacc - True
+INFO - 07/12/23 14:41:47 - 0:00:16 - src vocab size 121
+INFO - 07/12/23 14:41:47 - 0:00:16 - trg vocab size 112
+INFO - 07/12/23 14:41:47 - 0:00:16 - src vocab ['<PAD>', '<BOS>', '<EOS>', '<UNK>', '1', '2', '3', '?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '´', 'Á', 'É', 'Í', 'Ó', 'Ö', 'Ú', 'á', 'â', 'ä', 'ç', 'é', 'ë', 'í', 'î', 'ó', 'ô', 'ö', 'ú', 'ü', 'ý', 'ă', 'ą', 'ć', 'Č', 'č', 'Ď', 'ď', 'ę', 'ě', 'Ĺ', 'ĺ', 'Ľ', 'ľ', 'ł', 'ń', 'Ň', 'ň', 'ő', 'Ř', 'ř', 'ś', 'ş', 'Š', 'š', 'Ť', 'ť', 'ů', 'ű', 'ż', 'Ž', 'ž', '1', '2', '3', '4', '5', '6', '7', 'P', 'S']
+INFO - 07/12/23 14:41:47 - 0:00:16 - trg vocab ['<PAD>', '<BOS>', '<EOS>', '<UNK>', '1', '2', '3', '?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '´', 'Á', 'É', 'Í', 'Ó', 'Ö', 'Ú', 'á', 'â', 'ä', 'ç', 'é', 'ë', 'í', 'î', 'ó', 'ô', 'ö', 'ú', 'ü', 'ý', 'ă', 'ą', 'ć', 'Č', 'č', 'Ď', 'ď', 'ę', 'ě', 'Ĺ', 'ĺ', 'Ľ', 'ľ', 'ł', 'ń', 'Ň', 'ň', 'ő', 'Ř', 'ř', 'ś', 'ş', 'Š', 'š', 'Ť', 'ť', 'ů', 'ű', 'ż', 'Ž', 'ž']
+INFO - 07/12/23 14:41:48 - 0:00:17 - model: Transformer(
+                                       (src_embed): Embedding(121, 256, padding_idx=0)
+                                       (trg_embed): Embedding(112, 256, padding_idx=0)
+                                       (position_embed): SinusoidalPositionalEmbedding()
+                                       (encoder): TransformerEncoder(
+                                         (layers): ModuleList(
+                                           (0): TransformerEncoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (1): TransformerEncoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (2): TransformerEncoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (3): TransformerEncoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                         )
+                                         (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                       )
+                                       (decoder): TransformerDecoder(
+                                         (layers): ModuleList(
+                                           (0): TransformerDecoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (multihead_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm3): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (1): TransformerDecoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (multihead_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm3): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (2): TransformerDecoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (multihead_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm3): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (3): TransformerDecoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (multihead_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm3): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                         )
+                                         (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                       )
+                                       (final_out): Linear(in_features=256, out_features=112, bias=True)
+                                       (dropout): Dropout(p=0.3, inplace=False)
+                                     )
+INFO - 07/12/23 14:41:48 - 0:00:17 - number of parameter 7462256
+INFO - 07/12/23 14:42:17 - 0:00:47 - maximum training 25190 steps (2 epochs)
+INFO - 07/12/23 14:42:17 - 0:00:47 - evaluate every 1 epochs
+INFO - 07/12/23 14:42:17 - 0:00:47 - At 0-th epoch with lr 0.000000.
+INFO - 07/12/23 15:19:35 - 0:38:04 - Running average train loss is 0.9015627451764539 at epoch 0
+INFO - 07/12/23 15:19:35 - 0:38:04 - At 1-th epoch with lr 0.000564.
+INFO - 07/12/23 15:54:04 - 1:12:33 - Running average train loss is 0.805026607822927 at epoch 1
+INFO - 07/12/23 15:55:27 - 1:13:56 - Average dev loss is 0.812910767422094 at epoch 1
+INFO - 07/12/23 16:08:25 - 1:26:54 - dev accuracy is 94.9159 at epoch 1
+INFO - 07/12/23 16:08:25 - 1:26:54 - dev average edit distance is 0.1258 at epoch 1
+INFO - 07/12/23 16:08:26 - 1:26:55 - loading checkpoints/sig22/transformer/morfflex_large.nll_0.8129.acc_94.9159.dist_0.1258.epoch_1 for testing
+INFO - 07/12/23 16:08:26 - 1:26:55 - load model in checkpoints/sig22/transformer/morfflex_large.nll_0.8129.acc_94.9159.dist_0.1258.epoch_1
+INFO - 07/12/23 16:09:30 - 1:27:59 - Average dev loss is 0.812910767422094 at epoch -1
+INFO - 07/12/23 16:09:30 - 1:27:59 - decoding dev set
+INFO - 07/12/23 16:27:15 - 1:45:44 - finished decoding 615804 dev instance
+INFO - 07/12/23 16:27:15 - 1:45:44 - DEV accuracy is 94.9159 at epoch -1
+INFO - 07/12/23 16:27:15 - 1:45:44 - DEV average edit distance is 0.1258 at epoch -1
+INFO - 07/12/23 16:27:15 - 1:45:44 - DEV morfflex_large acc 94.9159 dist 0.1258
+INFO - 07/12/23 16:28:37 - 1:47:06 - Average test loss is 0.8133578192314697 at epoch -1
+INFO - 07/12/23 16:28:37 - 1:47:06 - decoding test set
+INFO - 07/12/23 16:46:32 - 2:05:01 - finished decoding 617106 test instance
+INFO - 07/12/23 16:46:32 - 2:05:01 - TEST accuracy is 95.1101 at epoch -1
+INFO - 07/12/23 16:46:32 - 2:05:01 - TEST average edit distance is 0.1251 at epoch -1
+INFO - 07/12/23 16:46:32 - 2:05:01 - TEST morfflex_large acc 95.1101 dist 0.1251

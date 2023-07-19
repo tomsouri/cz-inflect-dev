@@ -1,0 +1,308 @@
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: seed - 0
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: train - ['../../../part1/development_languages/morfflex_large.train']
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: dev - ['../../../part1/development_languages/morfflex.dev']
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: test - ['../../../part1/development_languages/morfflex.test']
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: model - 'checkpoints/sig22/transformer/morfflex_large'
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: load - ''
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: bs - 800
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: epochs - 20
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: max_steps - 150000
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: warmup_steps - 4000
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: total_eval - 50
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: optimizer - <Optimizer.adam: 'adam'>
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: scheduler - <Scheduler.warmupinvsqr: 'warmupinvsqr'>
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: lr - 0.001
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: min_lr - 1e-05
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: momentum - 0.9
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: beta1 - 0.9
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: beta2 - 0.98
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: estop - 1e-08
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: cooldown - 0
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: patience - 0
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: discount_factor - 0.5
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: max_norm - 1.0
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: gpuid - [0]
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: loglevel - 'info'
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: saveall - False
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: shuffle - True
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: cleanup_anyway - True
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: dataset - <Data.sigmorphon17task1: 'sigmorphon17task1'>
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: max_seq_len - 128
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: max_decode_len - 32
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: decode_beam_size - 5
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: init - ''
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: dropout - 0.3
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: embed_dim - 256
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: nb_heads - 4
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: src_layer - 4
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: trg_layer - 4
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: src_hs - 1024
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: trg_hs - 1024
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: label_smooth - 0.1
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: tie_trg_embed - False
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: arch - <Arch.transformer: 'transformer'>
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: nb_sample - 2
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: wid_siz - 11
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: indtag - False
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: decode - <Decode.greedy: 'greedy'>
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: mono - False
+INFO - 07/12/23 20:51:26 - 0:00:00 - command line argument: bestacc - True
+INFO - 07/12/23 20:51:38 - 0:00:12 - src vocab size 121
+INFO - 07/12/23 20:51:38 - 0:00:12 - trg vocab size 112
+INFO - 07/12/23 20:51:38 - 0:00:12 - src vocab ['<PAD>', '<BOS>', '<EOS>', '<UNK>', '1', '2', '3', '?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '´', 'Á', 'É', 'Í', 'Ó', 'Ö', 'Ú', 'á', 'â', 'ä', 'ç', 'é', 'ë', 'í', 'î', 'ó', 'ô', 'ö', 'ú', 'ü', 'ý', 'ă', 'ą', 'ć', 'Č', 'č', 'Ď', 'ď', 'ę', 'ě', 'Ĺ', 'ĺ', 'Ľ', 'ľ', 'ł', 'ń', 'Ň', 'ň', 'ő', 'Ř', 'ř', 'ś', 'ş', 'Š', 'š', 'Ť', 'ť', 'ů', 'ű', 'ż', 'Ž', 'ž', '1', '2', '3', '4', '5', '6', '7', 'P', 'S']
+INFO - 07/12/23 20:51:38 - 0:00:12 - trg vocab ['<PAD>', '<BOS>', '<EOS>', '<UNK>', '1', '2', '3', '?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '´', 'Á', 'É', 'Í', 'Ó', 'Ö', 'Ú', 'á', 'â', 'ä', 'ç', 'é', 'ë', 'í', 'î', 'ó', 'ô', 'ö', 'ú', 'ü', 'ý', 'ă', 'ą', 'ć', 'Č', 'č', 'Ď', 'ď', 'ę', 'ě', 'Ĺ', 'ĺ', 'Ľ', 'ľ', 'ł', 'ń', 'Ň', 'ň', 'ő', 'Ř', 'ř', 'ś', 'ş', 'Š', 'š', 'Ť', 'ť', 'ů', 'ű', 'ż', 'Ž', 'ž']
+INFO - 07/12/23 20:51:38 - 0:00:12 - model: Transformer(
+                                       (src_embed): Embedding(121, 256, padding_idx=0)
+                                       (trg_embed): Embedding(112, 256, padding_idx=0)
+                                       (position_embed): SinusoidalPositionalEmbedding()
+                                       (encoder): TransformerEncoder(
+                                         (layers): ModuleList(
+                                           (0): TransformerEncoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (1): TransformerEncoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (2): TransformerEncoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (3): TransformerEncoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                         )
+                                         (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                       )
+                                       (decoder): TransformerDecoder(
+                                         (layers): ModuleList(
+                                           (0): TransformerDecoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (multihead_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm3): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (1): TransformerDecoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (multihead_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm3): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (2): TransformerDecoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (multihead_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm3): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                           (3): TransformerDecoderLayer(
+                                             (self_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (multihead_attn): MultiheadAttention(
+                                               (out_proj): _LinearWithBias(in_features=256, out_features=256, bias=True)
+                                             )
+                                             (linear1): Linear(in_features=256, out_features=1024, bias=True)
+                                             (dropout): Dropout(p=0.3, inplace=False)
+                                             (linear2): Linear(in_features=1024, out_features=256, bias=True)
+                                             (norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm2): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (norm3): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                             (activation_dropout): Dropout(p=0.3, inplace=False)
+                                           )
+                                         )
+                                         (norm): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+                                       )
+                                       (final_out): Linear(in_features=256, out_features=112, bias=True)
+                                       (dropout): Dropout(p=0.3, inplace=False)
+                                     )
+INFO - 07/12/23 20:51:38 - 0:00:12 - number of parameter 7462256
+INFO - 07/12/23 20:51:40 - 0:00:14 - maximum training 151152 steps (24 epochs)
+INFO - 07/12/23 20:51:40 - 0:00:14 - evaluate every 1 epochs
+INFO - 07/12/23 20:51:40 - 0:00:14 - At 0-th epoch with lr 0.000000.
+INFO - 07/12/23 21:26:22 - 0:34:56 - Running average train loss is 0.9718787359619716 at epoch 0
+INFO - 07/12/23 21:26:22 - 0:34:56 - At 1-th epoch with lr 0.000797.
+INFO - 07/12/23 21:57:59 - 1:06:32 - Running average train loss is 0.8060362432146118 at epoch 1
+INFO - 07/12/23 21:59:20 - 1:07:54 - Average dev loss is 0.8127812075924564 at epoch 1
+INFO - 07/12/23 22:12:19 - 1:20:52 - dev accuracy is 94.8302 at epoch 1
+INFO - 07/12/23 22:12:19 - 1:20:52 - dev average edit distance is 0.1282 at epoch 1
+INFO - 07/12/23 22:12:20 - 1:20:53 - At 2-th epoch with lr 0.000564.
+INFO - 07/12/23 22:43:58 - 1:52:32 - Running average train loss is 0.8031683197453803 at epoch 2
+INFO - 07/12/23 22:45:05 - 1:53:39 - Average dev loss is 0.8101128932717558 at epoch 2
+INFO - 07/12/23 22:58:01 - 2:06:34 - dev accuracy is 95.1122 at epoch 2
+INFO - 07/12/23 22:58:01 - 2:06:34 - dev average edit distance is 0.1225 at epoch 2
+INFO - 07/12/23 22:58:02 - 2:06:35 - At 3-th epoch with lr 0.000460.
+INFO - 07/12/23 23:29:40 - 2:38:14 - Running average train loss is 0.8019568126195573 at epoch 3
+INFO - 07/12/23 23:30:47 - 2:39:21 - Average dev loss is 0.8086338188741115 at epoch 3
+INFO - 07/12/23 23:43:44 - 2:52:18 - dev accuracy is 95.304 at epoch 3
+INFO - 07/12/23 23:43:44 - 2:52:18 - dev average edit distance is 0.1183 at epoch 3
+INFO - 07/12/23 23:43:45 - 2:52:19 - At 4-th epoch with lr 0.000398.
+INFO - 07/13/23 00:15:26 - 3:24:00 - Running average train loss is 0.8012693100938648 at epoch 4
+INFO - 07/13/23 00:16:32 - 3:25:06 - Average dev loss is 0.8080641681497748 at epoch 4
+INFO - 07/13/23 00:29:28 - 3:38:02 - dev accuracy is 95.3297 at epoch 4
+INFO - 07/13/23 00:29:28 - 3:38:02 - dev average edit distance is 0.1167 at epoch 4
+INFO - 07/13/23 00:29:29 - 3:38:03 - At 5-th epoch with lr 0.000356.
+INFO - 07/13/23 01:01:19 - 4:09:53 - Running average train loss is 0.8007954266401426 at epoch 5
+INFO - 07/13/23 01:02:26 - 4:11:00 - Average dev loss is 0.8072277826922281 at epoch 5
+INFO - 07/13/23 01:15:31 - 4:24:05 - dev accuracy is 95.3898 at epoch 5
+INFO - 07/13/23 01:15:31 - 4:24:05 - dev average edit distance is 0.1164 at epoch 5
+INFO - 07/13/23 01:15:32 - 4:24:06 - At 6-th epoch with lr 0.000325.
+INFO - 07/13/23 01:47:26 - 4:56:00 - Running average train loss is 0.8004630760243295 at epoch 6
+INFO - 07/13/23 01:48:33 - 4:57:07 - Average dev loss is 0.8066962448807505 at epoch 6
+INFO - 07/13/23 02:01:33 - 5:10:07 - dev accuracy is 95.5133 at epoch 6
+INFO - 07/13/23 02:01:33 - 5:10:07 - dev average edit distance is 0.113 at epoch 6
+INFO - 07/13/23 02:01:34 - 5:10:08 - At 7-th epoch with lr 0.000301.
+INFO - 07/13/23 02:33:25 - 5:41:58 - Running average train loss is 0.8001867927097449 at epoch 7
+INFO - 07/13/23 02:34:31 - 5:43:05 - Average dev loss is 0.8065208747015371 at epoch 7
+INFO - 07/13/23 02:47:30 - 5:56:03 - dev accuracy is 95.4557 at epoch 7
+INFO - 07/13/23 02:47:30 - 5:56:03 - dev average edit distance is 0.1146 at epoch 7
+INFO - 07/13/23 02:47:31 - 5:56:04 - At 8-th epoch with lr 0.000282.
+INFO - 07/13/23 03:19:14 - 6:27:48 - Running average train loss is 0.7999786414601152 at epoch 8
+INFO - 07/13/23 03:20:20 - 6:28:54 - Average dev loss is 0.8060725156362955 at epoch 8
+INFO - 07/13/23 03:33:18 - 6:41:51 - dev accuracy is 95.5413 at epoch 8
+INFO - 07/13/23 03:33:18 - 6:41:51 - dev average edit distance is 0.1127 at epoch 8
+INFO - 07/13/23 03:33:19 - 6:41:52 - At 9-th epoch with lr 0.000266.
+INFO - 07/13/23 04:04:58 - 7:13:32 - Running average train loss is 0.7997862037759843 at epoch 9
+INFO - 07/13/23 04:06:04 - 7:14:38 - Average dev loss is 0.8057330784859595 at epoch 9
+INFO - 07/13/23 04:19:00 - 7:27:33 - dev accuracy is 95.4879 at epoch 9
+INFO - 07/13/23 04:19:00 - 7:27:33 - dev average edit distance is 0.1138 at epoch 9
+INFO - 07/13/23 04:19:01 - 7:27:34 - At 10-th epoch with lr 0.000252.
+INFO - 07/13/23 04:50:40 - 7:59:14 - Running average train loss is 0.7996235849290244 at epoch 10
+INFO - 07/13/23 04:51:47 - 8:00:20 - Average dev loss is 0.8054915776500454 at epoch 10
+INFO - 07/13/23 05:04:44 - 8:13:17 - dev accuracy is 95.5979 at epoch 10
+INFO - 07/13/23 05:04:44 - 8:13:17 - dev average edit distance is 0.1111 at epoch 10
+INFO - 07/13/23 05:04:45 - 8:13:18 - At 11-th epoch with lr 0.000240.
+INFO - 07/13/23 05:36:31 - 8:45:05 - Running average train loss is 0.7994951970636296 at epoch 11
+INFO - 07/13/23 05:37:38 - 8:46:12 - Average dev loss is 0.805317822834114 at epoch 11
+INFO - 07/13/23 05:50:34 - 8:59:08 - dev accuracy is 95.5614 at epoch 11
+INFO - 07/13/23 05:50:34 - 8:59:08 - dev average edit distance is 0.1113 at epoch 11
+INFO - 07/13/23 05:50:35 - 8:59:09 - At 12-th epoch with lr 0.000230.
+INFO - 07/13/23 06:22:16 - 9:30:50 - Running average train loss is 0.799365762246151 at epoch 12
+INFO - 07/13/23 06:23:22 - 9:31:56 - Average dev loss is 0.8053239769749827 at epoch 12
+INFO - 07/13/23 06:36:20 - 9:44:54 - dev accuracy is 95.6083 at epoch 12
+INFO - 07/13/23 06:36:20 - 9:44:54 - dev average edit distance is 0.1108 at epoch 12
+INFO - 07/13/23 06:36:21 - 9:44:55 - At 13-th epoch with lr 0.000221.
+INFO - 07/13/23 07:07:59 - 10:16:33 - Running average train loss is 0.7992644953364302 at epoch 13
+INFO - 07/13/23 07:09:06 - 10:17:39 - Average dev loss is 0.8050748342043393 at epoch 13
+INFO - 07/13/23 07:21:59 - 10:30:33 - dev accuracy is 95.6153 at epoch 13
+INFO - 07/13/23 07:21:59 - 10:30:33 - dev average edit distance is 0.1096 at epoch 13
+INFO - 07/13/23 07:22:00 - 10:30:34 - At 14-th epoch with lr 0.000213.
+INFO - 07/13/23 07:53:45 - 11:02:18 - Running average train loss is 0.7991494242162241 at epoch 14
+INFO - 07/13/23 07:54:50 - 11:03:24 - Average dev loss is 0.804961020141453 at epoch 14
+INFO - 07/13/23 08:08:07 - 11:16:41 - dev accuracy is 95.6035 at epoch 14
+INFO - 07/13/23 08:08:08 - 11:16:41 - dev average edit distance is 0.1097 at epoch 14
+INFO - 07/13/23 08:08:09 - 11:16:42 - At 15-th epoch with lr 0.000206.
+INFO - 07/13/23 08:40:19 - 11:48:53 - Running average train loss is 0.7990698988530779 at epoch 15
+INFO - 07/13/23 08:41:26 - 11:50:00 - Average dev loss is 0.8049099485595504 at epoch 15
+INFO - 07/13/23 08:54:58 - 12:03:32 - dev accuracy is 95.615 at epoch 15
+INFO - 07/13/23 08:54:58 - 12:03:32 - dev average edit distance is 0.1092 at epoch 15
+INFO - 07/13/23 08:54:59 - 12:03:33 - At 16-th epoch with lr 0.000199.
+INFO - 07/13/23 09:27:08 - 12:35:42 - Running average train loss is 0.7989744470588137 at epoch 16
+INFO - 07/13/23 09:28:15 - 12:36:49 - Average dev loss is 0.8047893295040378 at epoch 16
+INFO - 07/13/23 09:41:47 - 12:50:21 - dev accuracy is 95.659 at epoch 16
+INFO - 07/13/23 09:41:47 - 12:50:21 - dev average edit distance is 0.1095 at epoch 16
+INFO - 07/13/23 09:41:48 - 12:50:22 - At 17-th epoch with lr 0.000193.
+INFO - 07/13/23 10:13:55 - 13:22:29 - Running average train loss is 0.7988936263593502 at epoch 17
+INFO - 07/13/23 10:15:01 - 13:23:35 - Average dev loss is 0.8045953290803092 at epoch 17
+INFO - 07/13/23 10:28:29 - 13:37:03 - dev accuracy is 95.6723 at epoch 17
+INFO - 07/13/23 10:28:29 - 13:37:03 - dev average edit distance is 0.1089 at epoch 17
+INFO - 07/13/23 10:28:30 - 13:37:04 - At 18-th epoch with lr 0.000188.
+INFO - 07/13/23 11:00:36 - 14:09:10 - Running average train loss is 0.7988182283102728 at epoch 18
+INFO - 07/13/23 11:01:43 - 14:10:17 - Average dev loss is 0.8047420603114289 at epoch 18
+INFO - 07/13/23 11:15:14 - 14:23:48 - dev accuracy is 95.6613 at epoch 18
+INFO - 07/13/23 11:15:14 - 14:23:48 - dev average edit distance is 0.1092 at epoch 18
+INFO - 07/13/23 11:15:15 - 14:23:49 - At 19-th epoch with lr 0.000183.
+INFO - 07/13/23 11:47:19 - 14:55:53 - Running average train loss is 0.7987572426415883 at epoch 19
+INFO - 07/13/23 11:48:26 - 14:57:00 - Average dev loss is 0.8046346987996783 at epoch 19
+INFO - 07/13/23 12:01:52 - 15:10:26 - dev accuracy is 95.6468 at epoch 19
+INFO - 07/13/23 12:01:52 - 15:10:26 - dev average edit distance is 0.1097 at epoch 19
+INFO - 07/13/23 12:01:53 - 15:10:27 - At 20-th epoch with lr 0.000178.
+INFO - 07/13/23 12:33:59 - 15:42:33 - Running average train loss is 0.7986843176079614 at epoch 20
+INFO - 07/13/23 12:35:06 - 15:43:40 - Average dev loss is 0.8045946090252368 at epoch 20
+INFO - 07/13/23 12:48:31 - 15:57:05 - dev accuracy is 95.6751 at epoch 20
+INFO - 07/13/23 12:48:31 - 15:57:05 - dev average edit distance is 0.1086 at epoch 20
+INFO - 07/13/23 12:48:32 - 15:57:06 - At 21-th epoch with lr 0.000174.
+INFO - 07/13/23 13:20:39 - 16:29:13 - Running average train loss is 0.7986247751893751 at epoch 21
+INFO - 07/13/23 13:21:46 - 16:30:20 - Average dev loss is 0.8043854823360196 at epoch 21
+INFO - 07/13/23 13:35:07 - 16:43:41 - dev accuracy is 95.7131 at epoch 21
+INFO - 07/13/23 13:35:07 - 16:43:41 - dev average edit distance is 0.1078 at epoch 21
+INFO - 07/13/23 13:35:08 - 16:43:42 - At 22-th epoch with lr 0.000170.
+INFO - 07/13/23 14:07:19 - 17:15:52 - Running average train loss is 0.7985597518217984 at epoch 22
+INFO - 07/13/23 14:08:26 - 17:17:00 - Average dev loss is 0.80434957688505 at epoch 22
+INFO - 07/13/23 14:21:52 - 17:30:25 - dev accuracy is 95.697 at epoch 22
+INFO - 07/13/23 14:21:52 - 17:30:25 - dev average edit distance is 0.1077 at epoch 22
+INFO - 07/13/23 14:21:53 - 17:30:26 - At 23-th epoch with lr 0.000166.
+INFO - 07/13/23 14:54:03 - 18:02:37 - Running average train loss is 0.7985027303446585 at epoch 23
+INFO - 07/13/23 14:55:10 - 18:03:44 - Average dev loss is 0.8044501780689537 at epoch 23
+INFO - 07/13/23 15:08:40 - 18:17:13 - dev accuracy is 95.6895 at epoch 23
+INFO - 07/13/23 15:08:40 - 18:17:13 - dev average edit distance is 0.1077 at epoch 23
+INFO - 07/13/23 15:08:41 - 18:17:14 - loading checkpoints/sig22/transformer/morfflex_large.nll_0.8044.acc_95.7131.dist_0.1078.epoch_21 for testing
+INFO - 07/13/23 15:08:41 - 18:17:14 - load model in checkpoints/sig22/transformer/morfflex_large.nll_0.8044.acc_95.7131.dist_0.1078.epoch_21
+INFO - 07/13/23 15:09:50 - 18:18:24 - Average dev loss is 0.8043854823360196 at epoch -1
+INFO - 07/13/23 15:09:50 - 18:18:24 - decoding dev set
+INFO - 07/13/23 15:27:34 - 18:36:07 - finished decoding 615804 dev instance
+INFO - 07/13/23 15:27:34 - 18:36:07 - DEV accuracy is 95.7131 at epoch -1
+INFO - 07/13/23 15:27:34 - 18:36:07 - DEV average edit distance is 0.1078 at epoch -1
+INFO - 07/13/23 15:27:34 - 18:36:07 - DEV morfflex_large acc 95.7131 dist 0.1078
+INFO - 07/13/23 15:28:58 - 18:37:32 - Average test loss is 0.8051297897810763 at epoch -1
+INFO - 07/13/23 15:28:58 - 18:37:32 - decoding test set
+INFO - 07/13/23 15:46:56 - 18:55:30 - finished decoding 617106 test instance
+INFO - 07/13/23 15:46:56 - 18:55:30 - TEST accuracy is 95.8198 at epoch -1
+INFO - 07/13/23 15:46:56 - 18:55:30 - TEST average edit distance is 0.1107 at epoch -1
+INFO - 07/13/23 15:46:56 - 18:55:30 - TEST morfflex_large acc 95.8198 dist 0.1107
