@@ -33,8 +33,8 @@ import random
 #|   |- tmp_datetime.tgt
 
 
-model_path = "models/lstm_v0.44.pt"
-inp=["jablko", "bagr", "altruista", "internetíř", "lingebra"]
+model_path = "models/lstm-44.pt"
+#inp=["jablko", "bagr", "altruista", "internetíř", "lingebra"]
 
 def __get_true_path_to_base():
     def removesuffix(x, suf):
