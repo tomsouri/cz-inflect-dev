@@ -23,6 +23,12 @@ import datetime
 import random
 
 
+model = "lstm_v0.44.pt"
+
+# Uncomment to use the TRM-11 model instead of LSTM-44.
+# model = "trm_v0.11.pt"
+
+
 #| Directory structure
 #|
 #|- requirements.txt
@@ -32,9 +38,6 @@ import random
 #|- tmp 
 #|   |- tmp_datetime.src
 #|   |- tmp_datetime.tgt
-
-model = "lstm_v0.44.pt"
-
 
 #inp=["jablko", "bagr", "altruista", "internetíř", "lingebra"]
 
